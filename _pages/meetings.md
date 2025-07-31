@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: singlegit
 title: "Meetings"
 permalink: /meetings/
 nav_order: 2
