@@ -11,39 +11,52 @@
   padding-right: 2rem;
 }
 
-/* Zen Button Container — Remove outer box */
+/* Zen-style button container */
 .zen-buttons {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   max-width: 400px;
   margin: 2rem auto;
-  padding: 0; /* Remove padding */
-  background: none; /* Remove background */
-  border-radius: 0; /* Remove rounding */
-  box-shadow: none; /* Remove outer box shadow */
 }
 
-/* Zen Button Style */
+/* Individual button styles */
 .zen-button {
   display: block;
   text-align: center;
   padding: 0.75rem 1rem;
-  font-size: 1.1rem;
-  background: #fff;
+  font-size: clamp(0.95rem, 2.5vw, 1.1rem);
+  background: #ffffff;
   color: #333;
   border-radius: 16px;
   text-decoration: none;
   border: 1px solid #ddd;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* subtle base shadow */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.25s ease-in-out;
 }
 
-/* Zen Button Hover with soft glow */
+/* Hover state with glow */
 .zen-button:hover {
-  background: #f0fff4;
-  border-color: #b2fab4;
+  background: #e8f5e9;
+  border-color: #c5e1a5;
   color: #2e7d32;
-  box-shadow: 0 0 12px rgba(46, 125, 50, 0.2); /* green-tinted soft glow */
-  transform: translateY(-2px); /* slight lift effect */
+  box-shadow: 0 0 12px rgba(46, 125, 50, 0.2);
+}
+
+/* Responsive tweaks for mobile */
+@media (max-width: 480px) {
+  .zen-buttons {
+    max-width: 90%;
+    margin: 1rem auto;
+    gap: 0.75rem;
+  }
+
+  .zen-button {
+    padding: 0.6rem 0.8rem;
+    border-radius: 12px;
+  }
+
+  .zen-button:hover {
+    box-shadow: 0 0 8px rgba(46, 125, 50, 0.15);
+  }
 }
