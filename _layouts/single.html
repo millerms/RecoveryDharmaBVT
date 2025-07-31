@@ -83,7 +83,7 @@ layout: default
                   {% when "Contact Us" %}
                     {% assign icon = "✉️" %}
                 {% endcase %}
-                <a class="zen-nav-button uniform-width" href="{{ p.url | relative_url }}">
+                <a class="zen-nav-button" href="{{ p.url | relative_url }}">
                   <span class="emoji">{{ icon }}</span> {{ p.title }}
                 </a>
               {% endfor %}
