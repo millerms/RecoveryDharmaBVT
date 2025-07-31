@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Meetings"
+title: "Burlington Meetings & Groups"
 permalink: /meetings/
 nav_order: 2
 ---
