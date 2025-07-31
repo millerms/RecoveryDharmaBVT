@@ -59,6 +59,10 @@
   .zen-button:hover {
     box-shadow: 0 0 8px rgba(46, 125, 50, 0.15);
   }
+
+  .zen-nav-button {
+    min-width: 100%;
+  }
 }
 
 .zen-divider {
@@ -68,6 +72,7 @@
   width: 80%;
 }
 
+/* Horizontal nav buttons under single pages */
 .zen-page-nav {
   display: flex;
   justify-content: center;
@@ -76,21 +81,28 @@
   margin-top: 1.5rem;
 }
 
+/* Nav button styling */
 .zen-nav-button {
-  background: #fff;
+  background: #ffffff;
   color: #333;
   padding: 0.75rem 1.25rem;
-  border-radius: 12px;
+  border-radius: 16px;
   border: 1px solid #ccc;
   text-decoration: none;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   transition: all 0.2s ease;
   font-weight: 500;
   min-width: 180px;
   text-align: center;
 }
 
+/* Icon spacing inside nav buttons */
+.zen-nav-button .emoji {
+  margin-right: 0.5rem;
+}
+
+/* Hover state for nav buttons */
 .zen-nav-button:hover {
-  background-color: #f4f4f4;
+  background-color: #fdf6e3;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }

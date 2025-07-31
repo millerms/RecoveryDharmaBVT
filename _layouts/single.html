@@ -57,16 +57,30 @@ layout: default
 
         <hr class="zen-divider">
 
-        <div class="zen-page-nav">
-          {% assign current = page.url %}
-          {% assign all_nav_pages = site.pages | where: "nav_order", true %}
-          {% assign nav_pages = all_nav_pages | reject: "url", current | sort: "nav_order" %}
-          {% for p in nav_pages %}
-            <a class="zen-nav-button" href="{{ p.url | relative_url }}">
-              {{ p.title }}
-            </a>
-          {% endfor %}
-        </div>
+        {% assign current = page.url %}
+        {% assign all_nav_pages = site.pages | where: "nav_order", true %}
+        {% assign nav_pages = all_nav_pages | reject: "url", current | sort: "nav_order" %}
+
+        {% if nav_pages.size > 0 %}
+          <div class="zen-page-nav">
+            {% for p in nav_pages %}
+              {% assign icon = "📎" %}
+              {% case p.title %}
+                {% when "Burlington Meetings & Groups" %}
+                  {% assign icon = "🪷" %}
+                {% when "Meditation Events" %}
+                  {% assign icon = "🧘" %}
+                {% when "Resources" %}
+                  {% assign icon = "📚" %}
+                {% when "Contact Us" %}
+                  {% assign icon = "✉️" %}
+              {% endcase %}
+              <a class="zen-nav-button" href="{{ p.url | relative_url }}">
+                <span class="emoji">{{ icon }}</span> {{ p.title }}
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
 
         {% if page.link %}
           <div>
