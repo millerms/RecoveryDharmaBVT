@@ -3,9 +3,9 @@ main:
 main:
   - title: "Burlington Meetings & Groups"
     url: /meetings/
-  - title: "Meditation Events"
+  - title: "Events"
     url: /meditation-events/
   - title: "Resources"
     url: /resources/
-  - title: "Contact / Submit Event"
+  - title: "Contact Us"
     url: /contact/
