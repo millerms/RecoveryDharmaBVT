@@ -1,0 +1,16 @@
+/* Force full-width layout across site */
+.page__inner-wrap,
+.archive,
+.layout--single,
+.layout--home {
+  max-width: 100% !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.site-footer,
+.page__footer {
+  max-width: 100% !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
