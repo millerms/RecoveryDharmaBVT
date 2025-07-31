@@ -3,6 +3,7 @@ layout: single
 title: "Contact / Submit Event"
 permalink: /contact/
 nav_order: 5
+classes: wide
 ---
 ## Contact / Submit an Event
 
