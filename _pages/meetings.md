@@ -4,7 +4,7 @@ title: "Meetings"
 permalink: /meetings/
 nav_order: 2
 ---
-## Recovery Dharma Meetings and Meditation Groups in Vermont
+## Recovery Dharma Meetings and Meditation Groups in Burlington, VT
 
 {% for meeting in site.data.meetings %}
 ### {{ meeting.name }}
