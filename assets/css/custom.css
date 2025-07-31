@@ -1,22 +1,12 @@
-/* Expand content width to fill screen with padding on both sides */
-.page__inner-wrap,
-.archive,
-.layout--single,
-.layout--home,
-.page {
-  max-width: none !important;
-  width: 100% !important;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  box-sizing: border-box;
+/* Expand page content width */
+.page__content {
+  max-width: 90% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-/* Optional: Make footer match full width */
-.site-footer,
-.page__footer {
-  max-width: none !important;
-  width: 100% !important;
+/* Optional: Adjust inner sections (like single layout) */
+.layout--single .page {
   padding-left: 2rem;
   padding-right: 2rem;
-  box-sizing: border-box;
 }
