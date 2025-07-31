@@ -6,9 +6,6 @@ nav_order: 2
 ---
 ## Recovery Dharma Meetings and Meditation Groups in Vermont
 
-
-## Recovery Dharma Meetings and Meditation Groups in Vermont
-
 {% for meeting in site.data.meetings %}
 ### {{ meeting.name }}
 - **Date & Time:** {{ meeting.time }}
