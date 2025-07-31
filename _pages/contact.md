@@ -1,11 +1,10 @@
 ---
 layout: single
-title: "Contact / Submit Event"
+title: "Contact Us"
 permalink: /contact/
 nav_order: 5
 classes: wide
 ---
-## Contact / Submit an Event
 
 Have an event to share or a question? Use the form below or email us at [info@recoverydharmavt.org](mailto:info@recoverydharmavt.org).
 
