@@ -6,8 +6,16 @@ nav_order: 2
 ---
 ## Recovery Dharma Meetings and Meditation Groups in Vermont
 
+
+## Recovery Dharma Meetings and Meditation Groups in Vermont
+
 {% for meeting in site.data.meetings %}
-- **{{ meeting.time }}** – {{ meeting.name }}{% if meeting.address %} ({{ meeting.location }}: {{ meeting.address }}){% endif %}
+### {{ meeting.name }}
+- **Date & Time:** {{ meeting.time }}
+- **Type:** {{ meeting.type }}
+- **Address:** {{ meeting.address }}
+
+---
 {% endfor %}
 
 <!-- You can embed a Google Calendar here if desired -->
