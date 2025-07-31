@@ -49,6 +49,3 @@ kramdown:
 exclude:
   - README.md
   - RecoveryDharmaBVT/README.md
-
-# Accessibility & mobile
-# Minimal Mistakes is mobile-friendly by default. For accessibility, use semantic headings and alt text in Markdown.
