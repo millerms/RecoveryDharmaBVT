@@ -1,8 +1,11 @@
 ---
 layout: page
-title: Contact / Submit Event
+title: "Contact / Submit Event"
+permalink: /contact/
 nav_order: 5
 ---
+
+
 
 # Contact / Submit an Event
 
