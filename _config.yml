@@ -1,0 +1,54 @@
+# Jekyll configuration for Recovery Dharma Vermont
+
+# Site settings
+title: "Recovery Dharma Vermont"
+description: "A community for Recovery Dharma in Vermont. Meetings, meditation events, resources, and contact info."
+url: "https://<your-github-username>.github.io/RecoveryDharmaBVT"
+baseurl: ""
+
+# Theme settings
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-data
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Meetings"
+    url: "/meetings/"
+  - title: "Meditation Events"
+    url: "/meditation-events/"
+  - title: "Resources"
+    url: "/resources/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: false
+
+# Markdown & formatting
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Exclude
+exclude:
+  - README.md
+  - RecoveryDharmaBVT/README.md
+
+# Accessibility & mobile
+# Minimal Mistakes is mobile-friendly by default. For accessibility, use semantic headings and alt text in Markdown.
