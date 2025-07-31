@@ -3,7 +3,7 @@ layout: single
 title: "Burlington Meetings & Groups"
 permalink: /meetings/
 nav_order: 2
-classes: wide
+classes: full-width
 ---
 ## Recovery Dharma Meetings and Meditation Groups in Burlington, VT
 

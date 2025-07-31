@@ -3,7 +3,7 @@ layout: single
 title: "Contact Us"
 permalink: /contact/
 nav_order: 5
-classes: wide
+classes: full-width
 ---
 
 Have an event to share or a question? Use the form below or email us at [info@recoverydharmavt.org](mailto:info@recoverydharmavt.org).
