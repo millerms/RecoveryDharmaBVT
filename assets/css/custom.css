@@ -1,108 +1,29 @@
-/* Expand page content width */
+/* General page layout */
 .page__content {
   max-width: 90% !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  text-align: center;
 }
 
-/* Optional: Adjust inner sections (like single layout) */
+.page__content > h1,
+.page__content > h2,
+.page__content > p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.page__content > ul {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  text-align: left;
+}
+
+/* Inner layout padding */
 .layout--single .page {
   padding-left: 2rem;
   padding-right: 2rem;
-}
-
-/* Zen-style button container */
-.zen-buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  max-width: 400px;
-  margin: 2rem auto;
-}
-
-/* Individual button styles */
-.zen-button {
-  display: block;
-  text-align: center;
-  padding: 0.75rem 1rem;
-  font-size: clamp(0.95rem, 2.5vw, 1.1rem);
-  background: #ffffff;
-  color: #333;
-  border-radius: 16px;
-  text-decoration: none;
-  border: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.04);
-  transition: all 0.25s ease-in-out;
-}
-
-/* Hover state with glow */
-.zen-button:hover {
-  background: #e8f5e9;
-  border-color: #c5e1a5;
-  color: #2e7d32;
-  box-shadow: 0 0 12px rgba(46, 125, 50, 0.2);
-}
-
-/* Responsive tweaks for mobile */
-@media (max-width: 480px) {
-  .zen-buttons {
-    max-width: 90%;
-    margin: 1rem auto;
-    gap: 0.75rem;
-  }
-
-  .zen-button {
-    padding: 0.6rem 0.8rem;
-    border-radius: 12px;
-  }
-
-  .zen-button:hover {
-    box-shadow: 0 0 8px rgba(46, 125, 50, 0.15);
-  }
-
-  .zen-nav-button {
-    width: 100%;
-    flex: 1 1 100%;
-  }
-}
-
-/* Horizontal nav buttons under single pages */
-.zen-page-nav {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  margin-top: 1.5rem;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Nav button styling */
-.zen-nav-button {
-  background: #ffffff;
-  color: #333;
-  padding: 0.75rem 1.25rem;
-  border-radius: 16px;
-  border: 1px solid #ccc;
-  text-decoration: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  transition: all 0.2s ease;
-  font-weight: 500;
-  text-align: center;
-  width: 200px;
-  flex: 1 1 200px;
-}
-
-/* Icon spacing inside nav buttons */
-.zen-nav-button .emoji {
-  margin-right: 0.5rem;
-}
-
-/* Hover state for nav buttons */
-.zen-nav-button:hover {
-  background-color: #fdf6e3;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Soft dividing line */
@@ -111,4 +32,92 @@
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   margin: 3rem auto 2rem;
   width: 80%;
+}
+
+/* Vertical button stack (landing page style) */
+.zen-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+/* Individual vertical button style */
+.zen-button {
+  display: block;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  font-size: clamp(0.95rem, 2.5vw, 1.1rem);
+  background: #ffffff;
+  color: #333;
+  border-radius: 16px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.04);
+  text-decoration: none;
+  transition: all 0.25s ease-in-out;
+}
+
+.zen-button:hover {
+  background: #e8f5e9;
+  border-color: #c5e1a5;
+  color: #2e7d32;
+  box-shadow: 0 0 12px rgba(46, 125, 50, 0.2);
+}
+
+/* Horizontal nav buttons (below single pages) */
+.zen-page-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+/* Individual nav buttons */
+.zen-nav-button {
+  background: #ffffff;
+  color: #333;
+  padding: 0.75rem 1.25rem;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  text-align: center;
+  width: 200px;
+  flex: 1 1 200px;
+}
+
+.zen-nav-button:hover {
+  background-color: #fdf6e3;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.zen-nav-button .emoji {
+  margin-right: 0.5rem;
+}
+
+/* Mobile adjustments */
+@media (max-width: 480px) {
+  .zen-buttons {
+    max-width: 90%;
+    gap: 0.75rem;
+  }
+
+  .zen-button {
+    padding: 0.6rem 0.8rem;
+    border-radius: 12px;
+  }
+
+  .zen-nav-button {
+    width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .zen-nav-button:hover {
+    box-shadow: 0 0 8px rgba(46, 125, 50, 0.15);
+  }
 }
