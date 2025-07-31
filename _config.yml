@@ -7,12 +7,15 @@ url: "https://millerms.github.io"
 baseurl: "/RecoveryDharmaBVT"
 
 # Theme settings
-theme: null
+theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
 plugins:
   - jekyll-remote-theme
   - jekyll-data
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Navigation
 navigation:
