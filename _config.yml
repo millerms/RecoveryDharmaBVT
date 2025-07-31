@@ -7,7 +7,7 @@ url: "https://millerms.github.io"
 baseurl: "/RecoveryDharmaBVT"
 
 # Theme settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: null
 plugins:
   - jekyll-remote-theme
   - jekyll-data
@@ -49,3 +49,8 @@ kramdown:
 exclude:
   - README.md
   - RecoveryDharmaBVT/README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - theme-temp
