@@ -5,10 +5,9 @@ permalink: /meditation-events/
 nav_order: 3
 ---
 
-# Meditation Events
+## Meditation Events
 
-List upcoming meditation events here. Update by editing this file or using a data file in `_data/meditation-events.yml`.
-
+Date is tentative and subject to change. Check back for updates.
 - **October, 10-12 2025** – Mindful Recovery Retreat, Adamant, VT
 
 <!-- You can embed a calendar or external feed here if desired -->

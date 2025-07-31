@@ -5,9 +5,7 @@ permalink: /contact/
 nav_order: 5
 ---
 
-
-
-# Contact / Submit an Event
+## Contact / Submit an Event
 
 Have an event to share or a question? Use the form below or email us at [info@recoverydharmavt.org](mailto:info@recoverydharmavt.org).
 
