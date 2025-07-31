@@ -7,7 +7,7 @@ url: "https://millerms.github.io"
 baseurl: "/RecoveryDharmaBVT"
 
 # Theme settings
-theme: null
+remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-remote-theme
   - jekyll-data
