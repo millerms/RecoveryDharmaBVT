@@ -58,7 +58,10 @@ layout: default
         <hr class="zen-divider">
 
         {% assign current = page.url %}
-        {% assign all_nav_pages = site.pages | where: "nav_order", true %}
+        {% assign all_nav_pages = site.pages | where_exp: "p", "p.nav_order != nil" %}
+        {% assign all_nav_pages = all_nav_pages | where_exp: "p", "p.nav_order != 0" %}
+        {% assign all_nav_pages = all_nav_pages | where_exp: "p", "p.nav_order != null" %}
+        {% assign all_nav_pages = all_nav_pages | where_exp: "p", "p.nav_order != false" %}
         {% assign nav_pages = all_nav_pages | reject: "url", current | sort: "nav_order" %}
 
         {% if nav_pages.size > 0 %}
