@@ -3,6 +3,7 @@ layout: single
 title: "Meditation Events"
 permalink: /meditation-events/
 nav_order: 3
+classes: wide
 ---
 ## Meditation Events
 

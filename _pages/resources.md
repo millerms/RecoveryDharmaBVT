@@ -3,6 +3,7 @@ layout: single
 title: "Resources"
 permalink: /resources/
 nav_order: 4
+classes: wide
 ---
 ## Resources for Recovery and Meditation
 ### Meetings

@@ -1,7 +1,9 @@
 ---
-layout: home
+layout: single
 title: Recovery Dharma BVT
 nav_order: 1
+permalink: /
+classes: wide
 ---
 ## Welcome to Burlington Vermont's Page for All Things Recovery Dharma 
 
