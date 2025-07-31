@@ -1,10 +1,9 @@
 ---
 layout: home
-title: Recovery Dharma Vermont
+title: Recovery Dharma BVT
 nav_order: 1
 ---
-
-# Welcome to Recovery Dharma Vermont
+## Welcome to Burlington Vermont's Page for All Things Recovery Dharma 
 
 Our mission is to support recovery through Buddhist practices and community. Explore meetings, meditation events, resources, and ways to connect below.
 

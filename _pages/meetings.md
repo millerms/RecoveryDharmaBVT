@@ -4,7 +4,6 @@ title: "Meetings"
 permalink: /meetings/
 nav_order: 2
 ---
-
 ## Recovery Dharma Meetings in Vermont
 
 - **Wednesday 6pm** – Burlington, VT (In-Person: 21 Buell St, Burlington, VT 05401)

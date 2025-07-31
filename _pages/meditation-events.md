@@ -4,7 +4,6 @@ title: "Meditation Events"
 permalink: /meditation-events/
 nav_order: 3
 ---
-
 ## Meditation Events
 
 Date is tentative and subject to change. Check back for updates.
