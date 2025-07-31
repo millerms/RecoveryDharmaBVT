@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Meetings"
 permalink: /meetings/
 nav_order: 2

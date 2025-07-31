@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Contact / Submit Event"
 permalink: /contact/
 nav_order: 5

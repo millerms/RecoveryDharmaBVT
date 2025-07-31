@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Meditation Events"
 permalink: /meditation-events/
 nav_order: 3
