@@ -126,7 +126,7 @@ A blueprint for living wisely and compassionately, divided into three domains:
 - **[Buddhism Without Beliefs](https://jaygarfield.org/wp-content/uploads/2014/01/buddhism-without-beliefs.pdf)** – *by Stephen Batchelor*  
   A secular and philosophical look at Buddhism stripped of ritual and metaphysics. Great for critical thinkers, skeptics, and those seeking a grounded, experiential approach.
 
-- **[The Noble Eightfold Path: Way to the End of Suffering](https://www.bps.lk/olib/bp/bp105s_Bodhi_Noble-Eightfold-Path.pdf)** – *by Bhikkhu Bodhi*  
+- **[The Noble Eightfold Path: Way to the End of Suffering](https://www.openheartzen.org/uploads/3/1/2/1/31214929/the_noble_eightfold_path-by_bhikkhu_bodhi.pdf)** – *by Bhikkhu Bodhi*  
   A thorough but approachable commentary on the Eightfold Path. Rooted in early Buddhist texts, ideal for those ready to go deeper into practice and ethics.
 
 - **[Recovery Dharma](https://recoverydharma.org/book)** – *by the Recovery Dharma Collective*  
