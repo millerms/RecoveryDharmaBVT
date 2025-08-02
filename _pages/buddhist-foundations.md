@@ -36,7 +36,6 @@ These teachings have been deeply meaningful to me in recovery. They helped me re
 
 Here you’ll find a gentle introduction to core Buddhist ideas, including ethical precepts, the Eightfold Path, and different forms of meditation. The goal isn’t to get it all perfect, it’s to begin with curiosity and keep walking the path. This is especially for folks in recovery who want something grounded, experiential, and not loaded with dogma. Buddhism, at its heart, is a path of liberation through understanding.
 
-
 [Alan Watts: The Real You](https://youtu.be/mMRrCYPxD0I?si=tNn3_KuxT-7LYDHR) - An inspirational and profound speech from the late philosopher Alan Watts.
 
 <hr class="zen-divider">
