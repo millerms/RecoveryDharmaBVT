@@ -38,9 +38,9 @@ Here you’ll find a gentle introduction to core Buddhist ideas, including ethic
 
 If you’re more of a listener or viewer, these two talks offer different but complementary doorways into the heart of practice. One speaks to our deeper sense of identity and belonging, the other to the power of living deliberately and with awareness:
 
-[Alan Watts: The Real You](https://youtu.be/mMRrCYPxD0I?si=tNn3_KuxT-7LYDHR) - A profound and poetic meditation on self, illusion, and what it means to truly be from the late philosopher Alan Watts.
+- [Alan Watts: The Real You](https://youtu.be/mMRrCYPxD0I?si=tNn3_KuxT-7LYDHR) - A profound and poetic meditation on self, illusion, and what it means to truly be from the late philosopher Alan Watts.
 
-[Sam Harris: The Logic of Practice](https://www.youtube.com/watch?v=2vcisHKJ3JA) - A modern, clear-eyed case for meditation as a tool for insight, calm, and transformation from Sam Harris.
+- [Sam Harris: The Logic of Practice](https://www.youtube.com/watch?v=2vcisHKJ3JA) - A modern, clear-eyed case for meditation as a tool for insight, calm, and transformation from Sam Harris.
 
 <hr class="zen-divider">
 
