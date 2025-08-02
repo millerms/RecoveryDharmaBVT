@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: "Resources"
 permalink: /resources/
 nav_order: 4

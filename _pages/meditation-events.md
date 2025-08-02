@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: "Events"
 permalink: /events/
 nav_order: 3

@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: "Burlington Meetings & Groups"
 permalink: /meetings/
 nav_order: 2

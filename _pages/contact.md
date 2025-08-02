@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: "Contact Us"
 permalink: /contact/
 nav_order: 6
