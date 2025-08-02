@@ -5,9 +5,11 @@ permalink: /buddhist-foundations/
 nav_order: 5
 classes: width
 ---
-
 # Buddhist Foundations
 Welcome! This page introduces Buddhist philosophy and ethics in a non-dogmatic, beginner-friendly way, especially for people in recovery. 
+
+> “Craving is the root of suffering. If you remove craving, you remove suffering.”  
+> — The Buddha
 
 ## On This Page
 - [Buddhist Foundations](#buddhist-foundations)
@@ -19,11 +21,11 @@ Welcome! This page introduces Buddhist philosophy and ethics in a non-dogmatic, 
     - [The Eightfold Path](#the-eightfold-path)
   - [Types of Meditation](#types-of-meditation)
   - [Resources](#resources)
-    - [📚 Suggested Readings: Buddhist Philosophy & Ethics](#-suggested-readings-buddhist-philosophy--ethics)
+    - [Suggested Readings: Buddhist Philosophy & Ethics](#-suggested-readings-buddhist-philosophy--ethics)
     - [Classic & Foundational Texts](#classic--foundational-texts)
     - [Accessible & Contemporary Introductions](#accessible--contemporary-introductions)
-    - [🎧 Podcasts](#-podcasts)
-    - [🎥 Videos](#-videos)
+    - [Podcasts](#-podcasts)
+    - [Videos](#-videos)
 
 <hr class="zen-divider">
 
@@ -34,7 +36,10 @@ These teachings have been deeply meaningful to me in recovery. They helped me re
 
 Here you’ll find a gentle introduction to core Buddhist ideas, including ethical precepts, the Eightfold Path, and different forms of meditation. The goal isn’t to get it all perfect, it’s to begin with curiosity and keep walking the path. This is especially for folks in recovery who want something grounded, experiential, and not loaded with dogma. Buddhism, at its heart, is a path of liberation through understanding.
 
-*Placeholder for video link.*
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=vT-p9VSIq1A" 
+  title="Alan Watts - An introduction to Buddhism - You're It!" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <hr class="zen-divider">
 ## Ethics & Practice
@@ -97,7 +102,7 @@ A blueprint for living wisely and compassionately, divided into three domains:
 
 ## Resources
 
-### 📚 Suggested Readings: Buddhist Philosophy & Ethics
+### Suggested Readings: Buddhist Philosophy & Ethics
 
 ### Classic & Foundational Texts
 
@@ -133,12 +138,13 @@ A blueprint for living wisely and compassionately, divided into three domains:
   A peer-led, non-theistic approach to recovery based on Buddhist principles. Includes meditation, inquiry, community, and ethical living. Free and made by/for people in recovery.
 
 
-### 🎧 Podcasts
+### Podcasts
 - [Tara Brach](https://www.tarabrach.com/desire/) – Insightful talks on Buddhism and everyday healing  
 - [Sam Harris](https://www.samharris.org/podcasts) – Conversations at the intersection of Buddhism and Neuroscience  
 - [Ten Percent Happier](https://www.tenpercent.com/podcast) – Practical interviews and mindfulness tools
 
-### 🎥 Videos
-- [Bhikkhu Analayo: Four Foundations of Mindfulness](https://mindfulnessexercises.com/free-online-mindfulness-courses/the4-foundations-of-mindfulness/)  
-- [Ajahn Brahm: Dealing with Craving](https://www.youtube.com/watch?v=IKSAHMAiRMk)  
+### Videos
+- [Gabor Maté: The Hungry Ghost: A Biopsychosocial Perspective on Addiction](https://www.youtube.com/watch?v=NC5dp9q0Tg0)  
+- [Tara Brach: The Realm of Hungry Ghosts](https://www.tarabrach.com/the-realm-of-hungry-ghosts/)  
+- [Ajahn Amaro: Substitute Your Choice of Addiction](https://www.youtube.com/watch?v=aaWrYOfZKdA)
 - [Recovery Dharma: Where Do I Begin](https://www.youtube.com/watch?v=ZkGK5tl-Kn0)
