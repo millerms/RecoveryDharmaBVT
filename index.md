@@ -65,7 +65,6 @@ Below you’ll find links to the most relevant pages:
 
 <hr class="zen-divider">
 
-### Quote of the Moment
 <div id="rd-quote-box" class="buddhist-quote">
   <em>Loading quote...</em>
 </div>
