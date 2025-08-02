@@ -36,7 +36,11 @@ These teachings have been deeply meaningful to me in recovery. They helped me re
 
 Here you’ll find a gentle introduction to core Buddhist ideas, including ethical precepts, the Eightfold Path, and different forms of meditation. The goal isn’t to get it all perfect, it’s to begin with curiosity and keep walking the path. This is especially for folks in recovery who want something grounded, experiential, and not loaded with dogma. Buddhism, at its heart, is a path of liberation through understanding.
 
+If you’re more of a listener or viewer, these two talks offer different but complementary doorways into the heart of practice. One speaks to our deeper sense of identity and belonging, the other to the power of living deliberately and with awareness:
+
 [Alan Watts: The Real You](https://youtu.be/mMRrCYPxD0I?si=tNn3_KuxT-7LYDHR) - An inspirational and profound speech from the late philosopher Alan Watts.
+
+[Sam Harris: The Logic of Practice](https://www.youtube.com/watch?v=2vcisHKJ3JA) - In this lesson, Sam argues for the importance of living an examined life and explains the real benefits of meditation.
 
 <hr class="zen-divider">
 ## Ethics & Practice
@@ -61,7 +65,7 @@ In recovery, the **Fifth Precept** resonates deeply. It helps reclaim sobriety a
 3. **Cessation of Craving Ends Suffering** – Recovery is possible when we untangle from habitual craving and begin to make space.
 4. **The Path Out Is the Eightfold Path** – The way to healing is a holistic, intentional path: wise comprehension, ethical living, mindful presence, and steady effort.
 
-**Recovery Dharma** adapt these as:
+**Recovery Dharma** adapts these as:
 - Addiction causes suffering  
 - Craving creates addiction  
 - Recovery is possible  
@@ -89,10 +93,10 @@ A blueprint for living wisely and compassionately, divided into three domains:
 
 ## Types of Meditation
 
-- **Vipassanā (Insight Meditation):** Observing reality as it is—sensations, thoughts, emotions—with equanimity and clarity  
-- **Samatha (Concentration):** Calming the mind and developing one-pointed attention  
-- **Metta (Loving-Kindness):** Cultivating compassion and goodwill for self and others  
-- **Tonglen (Giving & Taking):** Breathing in suffering, breathing out compassion—especially in relational and communal healing
+- **[Vipassanā (Insight Meditation):](https://www.youtube.com/watch?v=tw7XBKhZJh4)** Observing reality as it is—sensations, thoughts, emotions—with equanimity and clarity  
+- **[Metta (Loving-Kindness):](https://insighttimer.com/recoverydharma/guided-meditations/metta-lovingkindness-2)** Cultivating compassion and goodwill for self and others
+- **[Compassion (Karuna):](https://insighttimer.com/nutjob4life/guided-meditations/compassion-meditation-from-recovery-dharma)** Breathing in suffering, breathing out compassion—especially in relational and communal healing
+- **[Tonglen (Giving & Taking):](https://www.youtube.com/watch?v=amrGu1oHsvQ)** Breathing in suffering, breathing out compassion—especially in relational and communal healing
 
 <hr class="zen-divider">
 
