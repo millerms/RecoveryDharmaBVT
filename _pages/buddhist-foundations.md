@@ -61,7 +61,7 @@ In recovery, the **Fifth Precept** resonates deeply. It helps reclaim sobriety a
 3. **Cessation of Craving Ends Suffering** – Recovery is possible when we untangle from habitual craving and begin to make space.
 4. **The Path Out Is the Eightfold Path** – The way to healing is a holistic, intentional path: wise comprehension, ethical living, mindful presence, and steady effort.
 
-**Recovery Dharma** and **Refuge Recovery** adapt these as:
+**Recovery Dharma** adapt these as:
 - Addiction causes suffering  
 - Craving creates addiction  
 - Recovery is possible  
