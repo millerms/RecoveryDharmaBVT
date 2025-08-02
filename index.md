@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: splash
 title: Recovery Dharma Vermont
 nav_order: 1
 permalink: /
