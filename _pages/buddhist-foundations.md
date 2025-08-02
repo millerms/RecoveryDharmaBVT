@@ -141,4 +141,4 @@ A blueprint for living wisely and compassionately, divided into three domains:
 ### 🎥 Videos
 - [Bhikkhu Analayo: Four Foundations of Mindfulness](https://mindfulnessexercises.com/free-online-mindfulness-courses/the4-foundations-of-mindfulness/)  
 - [Ajahn Brahm: Dealing with Craving](https://www.youtube.com/watch?v=IKSAHMAiRMk)  
-- [Recovery Dharma Overview](https://www.youtube.com/watch?v=ZkGK5tl-Kn0)
+- [Recovery Dharma: Where Do I Begin](https://www.youtube.com/watch?v=ZkGK5tl-Kn0)
