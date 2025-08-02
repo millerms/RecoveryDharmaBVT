@@ -20,7 +20,7 @@ Welcome! This page introduces Buddhist philosophy and ethics in a non-dogmatic, 
     - [The Four Noble Truths & Addiction](#the-four-noble-truths--addiction)
     - [The Eightfold Path](#the-eightfold-path)
   - [Types of Meditation](#types-of-meditation)
-  - [Resources](#resources)
+  - [Other Resources](#other-resources)
     - [Suggested Readings: Buddhist Philosophy & Ethics](#-suggested-readings-buddhist-philosophy--ethics)
     - [Classic & Foundational Texts](#classic--foundational-texts)
     - [Accessible & Contemporary Introductions](#accessible--contemporary-introductions)
@@ -101,7 +101,7 @@ A blueprint for living wisely and compassionately, divided into three domains:
 <hr class="zen-divider">
 
 
-## Resources
+## Other Resources
 
 ### Suggested Readings: Buddhist Philosophy & Ethics
 
