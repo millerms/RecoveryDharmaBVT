@@ -21,11 +21,10 @@ Welcome! This page introduces Buddhist philosophy and ethics in a non-dogmatic, 
     - [The Eightfold Path](#the-eightfold-path)
   - [Types of Meditation](#types-of-meditation)
   - [Other Resources](#other-resources)
-    - [Suggested Readings: Buddhist Philosophy & Ethics](#-suggested-readings-buddhist-philosophy--ethics)
     - [Classic & Foundational Texts](#classic--foundational-texts)
     - [Accessible & Contemporary Introductions](#accessible--contemporary-introductions)
-    - [Podcasts](#-podcasts)
-    - [Videos](#-videos)
+    - [Podcasts](#podcasts)
+    - [Videos](#videos)
 
 <hr class="zen-divider">
 
@@ -43,6 +42,7 @@ If you’re more of a listener or viewer, these two talks offer different but co
 [Sam Harris: The Logic of Practice](https://www.youtube.com/watch?v=2vcisHKJ3JA) - A modern, clear-eyed case for meditation as a tool for insight, calm, and transformation from Sam Harris.
 
 <hr class="zen-divider">
+
 ## Ethics & Practice
 
 ### The Five Precepts
@@ -100,12 +100,11 @@ A blueprint for living wisely and compassionately, divided into three domains:
 
 <hr class="zen-divider">
 
-
 ## Other Resources
 
 ### Suggested Readings: Buddhist Philosophy & Ethics
 
-### Classic & Foundational Texts
+#### Classic & Foundational Texts
 
 - **[The Dhammapada](https://www.buddhanet.net/pdf_file/scrndhamma.pdf)**  
   A poetic collection of verses attributed to the Buddha, offering concise wisdom on ethics, mindfulness, and liberation. Often quoted across all traditions and ideal for daily reflection.
@@ -121,7 +120,7 @@ A blueprint for living wisely and compassionately, divided into three domains:
 
 ---
 
-### Accessible & Contemporary Introductions
+#### Accessible & Contemporary Introductions
 
 - **[Radical Acceptance](https://archive.org/details/tarabrachradicalacceptanceembracingyourlifewiththeheartofabuddhabantam2004)** – *by Tara Brach*  
   Blends Buddhist teachings with trauma-sensitive psychology. Offers tools for self-compassion and present-moment awareness—especially valuable for those in recovery or healing work.
