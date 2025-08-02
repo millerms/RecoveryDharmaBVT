@@ -34,10 +34,10 @@ Below you’ll find links to the most relevant pages:
   </div>
   <div class="zen-link-row">
     <div class="zen-link-text">
-      <strong>Events</strong><br>
-      Join special meditation offerings, retreats, and group practices.
+      <strong>Buddhist Foundations</strong><br>
+      Learn about Buddhist ethics, meditation types, and foundational teachings in a simple, friendly way.
     </div>
-    <a href="{{ site.baseurl }}/events/" class="zen-nav-button">🧘‍♂️ Events</a>
+    <a href="{{ site.baseurl }}/buddhist-foundations/" class="zen-nav-button">🌱 Buddhist Foundations</a>
   </div>
   <div class="zen-link-row">
     <div class="zen-link-text">
@@ -48,10 +48,10 @@ Below you’ll find links to the most relevant pages:
   </div>
   <div class="zen-link-row">
     <div class="zen-link-text">
-      <strong>Buddhist Foundations</strong><br>
-      Learn about Buddhist ethics, meditation types, and foundational teachings in a simple, friendly way.
+      <strong>Events</strong><br>
+      Join special meditation offerings, retreats, and group practices.
     </div>
-    <a href="{{ site.baseurl }}/buddhist-foundations/" class="zen-nav-button">🌱 Buddhist Foundations</a>
+    <a href="{{ site.baseurl }}/events/" class="zen-nav-button">🧘‍♂️ Events</a>
   </div>
   <div class="zen-link-row">
     <div class="zen-link-text">
