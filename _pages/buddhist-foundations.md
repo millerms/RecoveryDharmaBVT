@@ -19,7 +19,7 @@ Welcome! This page introduces Buddhist philosophy and ethics in a non-dogmatic, 
     - [The Five Precepts](#the-five-precepts)
     - [The Four Noble Truths & Addiction](#the-four-noble-truths--addiction)
     - [The Eightfold Path](#the-eightfold-path)
-  - [Types of Meditation](#types-of-meditation)
+  - [Buddhist Practices to Support Recovery](#buddhist-practices-to-support-recovery)
   - [Other Resources](#other-resources)
     - [Suggested Readings: Buddhist Philosophy & Ethics](#suggested-readings-buddhist-philosophy--ethics)
       - [Classic & Foundational Texts](#classic--foundational-texts)
@@ -92,12 +92,12 @@ A blueprint for living wisely and compassionately, divided into three domains:
 
 <hr class="zen-divider">
 
-## Types of Meditation
 
+## Buddhist Practices to Support Recovery
 - **[Vipassanā (Insight Meditation):](https://www.youtube.com/watch?v=tw7XBKhZJh4)** Observing reality as it is—sensations, thoughts, emotions—with equanimity and clarity  
-- **[Metta (Loving-Kindness):](https://insighttimer.com/recoverydharma/guided-meditations/metta-lovingkindness-2)** Cultivating compassion and goodwill for self and others
-- **[Compassion (Karuna):](https://insighttimer.com/nutjob4life/guided-meditations/compassion-meditation-from-recovery-dharma)** Breathing in suffering, breathing out compassion—especially in relational and communal healing
-- **[Tonglen (Giving & Taking):](https://www.youtube.com/watch?v=amrGu1oHsvQ)** Breathing in suffering, breathing out compassion—especially in relational and communal healing
+- **[Metta (Loving-Kindness):](https://insighttimer.com/recoverydharma/guided-meditations/metta-lovingkindness-2)** Cultivating compassion and goodwill for self and others  
+- **[Compassion (Karuna):](https://insighttimer.com/nutjob4life/guided-meditations/compassion-meditation-from-recovery-dharma)** Breathing in suffering, breathing out compassion—especially in relational and communal healing  
+- **[Tonglen (Giving & Taking):](https://www.youtube.com/watch?v=amrGu1oHsvQ)** Practicing radical empathy by consciously taking in others' suffering and sending relief  
 
 <hr class="zen-divider">
 
