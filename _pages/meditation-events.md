@@ -5,9 +5,9 @@ permalink: /events/
 nav_order: 3
 classes: full-width
 ---
-## Events
+## Events (Coming Soon)
 
-Date is tentative and subject to change. Check back for updates.
+This is a placeholder event. Date is tentative and subject to change. Check back for updates.
 - **October, 10-12 2025** – Mindful Recovery Retreat, Adamant, VT
 
 
