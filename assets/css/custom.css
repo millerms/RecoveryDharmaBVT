@@ -240,3 +240,19 @@
   color: #1b5e20;
   border-color: #81c784;
 }
+.minimal-footer-credit {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 0.75rem;
+}
+
+.minimal-footer-credit a {
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.minimal-footer-credit a:hover {
+  text-decoration: underline;
+  color: #1b5e20;
+}
