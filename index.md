@@ -4,13 +4,14 @@ title: Recovery Dharma Vermont
 nav_order: 1
 permalink: /
 ---
-# Welcome to Burlington Vermont's Page for All Things Recovery Dharma 
+# Recovery Dharma Vermont
+<h2 class="subtitle">Welcome to Burlington, Vermont's Page for All Things Recovery Dharma</h2>
 
 Our mission is to support recovery through Buddhist practices and community. Whether you're new to Recovery Dharma or have been practicing for years, this space is here to help you connect, learn, and heal.
 
 <hr class="zen-divider">
 
-## What is Recovery Dharma?
+### What is Recovery Dharma?
 
 Recovery Dharma is a peer-led, non-theistic approach to recovery that uses Buddhist principles as a foundation for healing from addiction and suffering. We believe in the power of mindfulness, meditation, community, and personal responsibility. There’s no dogma, just an invitation to investigate your own experience and walk a path of wisdom and compassion - together.
 
@@ -18,7 +19,7 @@ Our practices are grounded in the Four Noble Truths and the Eightfold Path. This
 
 <hr class="zen-divider">
 
-### Explore the Site
+#### Explore the Site
 
 Below you’ll find links to the most relevant pages:
 
