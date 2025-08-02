@@ -8,7 +8,7 @@ baseurl: "/RecoveryDharmaBVT"
 
 # Theme settings
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-remote-theme
   - jekyll-data
@@ -26,6 +26,8 @@ navigation:
     url: "/meditation-events/"
   - title: "Resources"
     url: "/resources/"
+  - title: "Buddhist Foundations"
+    url: /buddhist-foundations/
   - title: "Contact"
     url: "/contact/"
 
