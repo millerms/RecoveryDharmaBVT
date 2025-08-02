@@ -29,3 +29,12 @@ This is a simple, mobile-friendly static website for the Recovery Dharma communi
 - Customize content in Markdown files.
 - Update navigation and config as needed.
 - Ask for help or guidance as you iterate!
+
+## For future reference:
+A reproducible, low-maintenance setup for each new project:
+```bash
+cd my-new-site
+rbenv local 3.2.2
+bundle install
+bundle exec jekyll serve
+```
