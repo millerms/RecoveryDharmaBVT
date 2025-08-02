@@ -2,7 +2,7 @@
 layout: splash
 title: Buddhist Foundations
 permalink: /buddhist-foundations/
-nav_order: 5
+nav_order: 3
 classes: width
 ---
 # Buddhist Foundations

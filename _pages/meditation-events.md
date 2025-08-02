@@ -2,7 +2,7 @@
 layout: single
 title: "Events"
 permalink: /events/
-nav_order: 3
+nav_order: 5
 classes: full-width
 ---
 ## Events (Coming Soon)

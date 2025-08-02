@@ -56,38 +56,6 @@ layout: default
         {{ content }}
 
         {% assign current = page.url %}
-        {% if current != "/" %}
-          {% assign all_nav_pages = site.pages 
-            | where_exp: "p", "p.nav_order != nil" 
-            | where_exp: "p", "p.nav_order != 0" 
-            | where_exp: "p", "p.nav_order != null" 
-            | where_exp: "p", "p.nav_order != false" 
-            | reject: "url", current 
-            | sort: "nav_order" 
-            | slice: 0, 3 %}
-
-          {% if all_nav_pages.size > 0 %}
-            <hr class="zen-divider">
-            <div class="zen-page-nav">
-              {% for p in all_nav_pages %}
-                {% assign icon = "📎" %}
-                {% case p.title %}
-                  {% when "Burlington Meetings & Groups" %}
-                    {% assign icon = "🪷" %}
-                  {% when "Meditation Events" %}
-                    {% assign icon = "🧘" %}
-                  {% when "Resources" %}
-                    {% assign icon = "📚" %}
-                  {% when "Contact Us" %}
-                    {% assign icon = "✉️" %}
-                {% endcase %}
-                <a class="zen-nav-button" href="{{ p.url | relative_url }}">
-                  <span class="emoji">{{ icon }}</span> {{ p.title }}
-                </a>
-              {% endfor %}
-            </div>
-          {% endif %}
-        {% endif %}
 
         {% if page.link %}
           <div>
