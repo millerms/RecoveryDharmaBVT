@@ -2,11 +2,11 @@
 main:
   - title: "Burlington Meetings & Groups"
     url: /meetings/
-  - title: "Events"
-    url: /events/
-  - title: "Resources"
-    url: /resources/
   - title: "Buddhist Foundations"
     url: /buddhist-foundations/
+  - title: "Resources"
+    url: /resources/
+  - title: "Events"
+    url: /events/
   - title: "Contact Us"
     url: /contact/
