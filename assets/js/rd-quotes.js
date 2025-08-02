@@ -43,7 +43,7 @@ function cycleRDQuotes() {
   setInterval(() => {
     idx = (idx + 1) % rdQuotes.length;
     showQuote(idx);
-  }, 60000);
+  }, 30000);
 }
 
 document.addEventListener('DOMContentLoaded', cycleRDQuotes);
