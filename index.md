@@ -17,6 +17,10 @@ Recovery Dharma is a peer-led, non-theistic approach to recovery that uses Buddh
 
 Our practices are grounded in the Four Noble Truths and the Eightfold Path. This site is a hub for Vermont-based offerings and a living resource for anyone interested in this way of recovery.
 
+> “This program leads to recovery from addiction to substances like alcohol and drugs and from process addictions like sex, gambling, pornography, technology, work, codependence, shopping, eating, media, self-harm, lying, stealing, and obsessive worrying.”  
+> — *Recovery Dharma, p. X*
+
+
 <hr class="zen-divider">
 
 #### Explore the Site
