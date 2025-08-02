@@ -21,8 +21,9 @@ Welcome! This page introduces Buddhist philosophy and ethics in a non-dogmatic, 
     - [The Eightfold Path](#the-eightfold-path)
   - [Types of Meditation](#types-of-meditation)
   - [Other Resources](#other-resources)
-    - [Classic & Foundational Texts](#classic--foundational-texts)
-    - [Accessible & Contemporary Introductions](#accessible--contemporary-introductions)
+    - [Suggested Readings: Buddhist Philosophy & Ethics](#suggested-readings-buddhist-philosophy--ethics)
+      - [Classic & Foundational Texts](#classic--foundational-texts)
+      - [Accessible & Contemporary Introductions](#accessible--contemporary-introductions)
     - [Podcasts](#podcasts)
     - [Videos](#videos)
 
