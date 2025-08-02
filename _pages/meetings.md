@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: "Burlington Meetings & Groups"
 permalink: /meetings/
 nav_order: 2
@@ -13,8 +13,9 @@ classes: full-width
 - **Type:** {{ meeting.type }}
 - **Address:** {{ meeting.address }}
 
----
+<hr class="zen-divider">
 {% endfor %}
+
 
 <!-- You can embed a Google Calendar here if desired -->
 <!-- <iframe src="YOUR_GOOGLE_CALENDAR_URL" width="100%" height="600"></iframe> -->

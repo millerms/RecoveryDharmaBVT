@@ -1,8 +1,8 @@
 ---
-layout: single
+layout: splash
 title: "Contact Us"
 permalink: /contact/
-nav_order: 5
+nav_order: 6
 classes: full-width
 ---
 

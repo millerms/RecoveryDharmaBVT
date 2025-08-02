@@ -3,8 +3,10 @@ main:
   - title: "Burlington Meetings & Groups"
     url: /meetings/
   - title: "Events"
-    url: /meditation-events/
+    url: /events/
   - title: "Resources"
     url: /resources/
+  - title: "Buddhist Foundations"
+    url: /buddhist-foundations/
   - title: "Contact Us"
     url: /contact/
