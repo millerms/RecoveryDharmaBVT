@@ -1,4 +1,4 @@
-<div class="page__footer-follow">
+<div class="page__footer-follow" style="padding-left: 50px;">
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
@@ -18,10 +18,18 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">
+<div class="page__footer-copyright" style="padding-left: 50px;">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
   {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }}
   <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp;
   <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
   <span class="footer-credit">Built by Michael Miller.</span>
 </div>
+
+<img src="{{ '/assets/images/rd-icons/rd-triangles.png' | relative_url }}" 
+     alt="Decorative Triangles"
+     style="position: absolute; bottom: 0; right: 0; height: 80px; opacity: 0.8;">
+
+<img src="{{ '/assets/images/rd-icons/rd-tower.png' | relative_url }}" 
+     alt="Decorative Tower"
+     style="position: absolute; bottom: 0; left: 0; height: 125px; opacity: 0.8;">

@@ -143,7 +143,9 @@ body {
   backdrop-filter: blur(4px);
   box-shadow: 0 4px 12px rgba(141, 110, 99, 0.12);
   animation: fadeInSlide 0.8s ease-out both;
-  border-left: 5px solid #2f4b7c;
+  position: relative;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .buddhist-quote em {
@@ -256,13 +258,16 @@ body {
 
 /* --- OPTIONAL QUOTE BOX (alternate style) --- */
 
+
 .quote-box {
   background: #f4f4f4;
   padding: 1.5rem;
-  border-left: 5px solid #008ecf;
   margin: 2rem auto;
   animation: fadeSlideIn 0.6s ease-in-out both;
+  position: relative;
+  padding-left: 3.2rem;
 }
+
 
 @keyframes fadeSlideIn {
   0% {
