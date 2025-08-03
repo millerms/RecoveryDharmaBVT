@@ -11,6 +11,8 @@ Welcome! This page introduces Buddhist philosophy and ethics in a non-dogmatic, 
 > “Craving is the root of suffering. If you remove craving, you remove suffering.”  
 > — The Buddha
 
+<div class="section-divider"></div>
+
 ## On This Page
 - [Buddhist Foundations](#buddhist-foundations)
   - [On This Page](#on-this-page)
@@ -41,7 +43,7 @@ If you’re more of a listener or viewer, these two talks offer different but co
 - [Alan Watts: The Real You](https://youtu.be/mMRrCYPxD0I?si=tNn3_KuxT-7LYDHR) - A profound and poetic meditation on self, illusion, and what it means to truly be from the late philosopher Alan Watts.
 
 - [Sam Harris: The Logic of Practice](https://www.youtube.com/watch?v=2vcisHKJ3JA) - A modern, clear-eyed case for meditation as a tool for insight, calm, and transformation from Sam Harris.
-
+  
 <hr class="zen-divider">
 
 ## Ethics & Practice
@@ -58,6 +60,7 @@ These are voluntary ethical commitments that ground the mind and foster well-bei
 
 In recovery, the **Fifth Precept** resonates deeply. It helps reclaim sobriety as a form of ethical clarity and self-respect. [The Fifth Precept Sangha](https://5th-precept.org/fifth-precept-recovery-community) is a peer-led recovery and meditation community rooted in this ethic.
 
+<div class="section-divider"></div>
 
 ### The Four Noble Truths & Addiction
 
@@ -71,6 +74,8 @@ In recovery, the **Fifth Precept** resonates deeply. It helps reclaim sobriety a
 - Craving creates addiction  
 - Recovery is possible  
 - The Eightfold Path is our guide
+
+<div class="section-divider"></div>
 
 ### The Eightfold Path
 
@@ -91,7 +96,6 @@ A blueprint for living wisely and compassionately, divided into three domains:
 - Right Concentration – Deep states of calm through meditation
 
 <hr class="zen-divider">
-
 
 ## Buddhist Practices to Support Recovery
 - **[Vipassanā (Insight Meditation):](https://www.youtube.com/watch?v=tw7XBKhZJh4)** Observing reality as it is—sensations, thoughts, emotions—with equanimity and clarity  
@@ -119,7 +123,7 @@ A blueprint for living wisely and compassionately, divided into three domains:
 - **[The Heart of the Buddha’s Teaching](https://www.dwms.org/uploads/8/7/8/7/87873912/thich_nhat_hanh_-_the_heart_of_buddhas_teaching.pdf)** – *by Thich Nhat Hanh*  
   A compassionate guide to Buddhist philosophy and practice, including mindfulness, suffering, and transformation. Welcoming for beginners and grounded in experience.
 
----
+<div class="section-divider"></div>
 
 #### Accessible & Contemporary Introductions
 
@@ -138,14 +142,17 @@ A blueprint for living wisely and compassionately, divided into three domains:
 - **[Recovery Dharma](https://recoverydharma.org/book)** – *by the Recovery Dharma Collective*  
   A peer-led, non-theistic approach to recovery based on Buddhist principles. Includes meditation, inquiry, community, and ethical living. Free and made by/for people in recovery.
 
+<div class="section-divider"></div>
 
 ### Podcasts
-- [Tara Brach](https://www.tarabrach.com/desire/) – Insightful talks on Buddhism and everyday healing  
-- [Sam Harris](https://www.samharris.org/podcasts) – Conversations at the intersection of Buddhism and Neuroscience  
-- [Ten Percent Happier](https://www.tenpercent.com/podcast) – Practical interviews and mindfulness tools
+- **[Tara Brach](https://www.tarabrach.com/desire/)** – Insightful talks on Buddhism and everyday healing  
+- **[Sam Harris](https://www.samharris.org/podcasts)** – Conversations at the intersection of Buddhism and Neuroscience  
+- **[Ten Percent Happier](https://www.tenpercent.com/podcast)** – Practical interviews and mindfulness tools
+
+<div class="section-divider"></div>
 
 ### Videos
-- [Gabor Maté: The Hungry Ghost: A Biopsychosocial Perspective on Addiction](https://www.youtube.com/watch?v=NC5dp9q0Tg0)  
-- [Tara Brach: The Realm of Hungry Ghosts](https://www.tarabrach.com/the-realm-of-hungry-ghosts/)  
-- [Ajahn Amaro: Substitute Your Choice of Addiction](https://www.youtube.com/watch?v=aaWrYOfZKdA)
-- [Recovery Dharma: Where Do I Begin](https://www.youtube.com/watch?v=ZkGK5tl-Kn0)
+- **[Gabor Maté: The Hungry Ghost: A Biopsychosocial Perspective on Addiction](https://www.youtube.com/watch?v=NC5dp9q0Tg0)**  
+- **[Tara Brach: The Realm of Hungry Ghosts](https://www.tarabrach.com/the-realm-of-hungry-ghosts/)**  
+- **[Ajahn Amaro: Substitute Your Choice of Addiction](https://www.youtube.com/watch?v=aaWrYOfZKdA)**  
+- **[Recovery Dharma: Where Do I Begin](https://www.youtube.com/watch?v=ZkGK5tl-Kn0)**  

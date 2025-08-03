@@ -7,8 +7,8 @@ url: "https://rdvt.org"
 baseurl: ""
 
 # Theme settings
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+minimal_mistakes_skin: "zen" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-remote-theme
   - jekyll-data

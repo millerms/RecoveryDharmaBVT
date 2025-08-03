@@ -21,7 +21,7 @@ Our practices are grounded in the Four Noble Truths and the Eightfold Path. This
 > — *Recovery Dharma, p. X*
 
 
-<hr class="zen-divider">
+<div class="section-divider"></div>
 
 #### Explore the Site
 
@@ -35,7 +35,7 @@ Below you’ll find links to the most relevant pages:
       Find local in-person and online Recovery Dharma meetings in Burlington and beyond.
     </div>
     <a href="{{ site.baseurl }}/meetings/" class="zen-nav-button">🪷 Meetings & Groups</a>
-  </div>
+  </div> 
   <div class="zen-link-row">
     <div class="zen-link-text">
       <strong>Buddhist Foundations</strong><br>
@@ -66,7 +66,7 @@ Below you’ll find links to the most relevant pages:
   </div>
 </div>
 
-<hr class="zen-divider">
+<div class="section-divider"></div>
 
 <div id="rd-quote-box" class="buddhist-quote">
   <em>Loading quote...</em>

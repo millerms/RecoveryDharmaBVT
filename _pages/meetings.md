@@ -13,7 +13,7 @@ classes: full-width
 - **Type:** {{ meeting.type }}
 - **Address:** {{ meeting.address }}
 
-<hr class="zen-divider">
+<div class="section-divider"></div>
 {% endfor %}
 
 
