@@ -373,3 +373,7 @@ body {
   color: #2e1f0f;
   border-color: #8d6e63;
 }
+/* --- HAMBURGER MENU ICON COLOR --- */
+.greedy-nav .menu-toggle {
+  color: #003f5c;
+}
