@@ -18,7 +18,7 @@ This is a simple, mobile-friendly static website for the Recovery Dharma communi
 ## How to Deploy
 1. Commit and push changes to your GitHub repo.
 2. Enable GitHub Pages in repo settings (main branch).
-3. Your site will be live at `https://millerms.github.io/RecoveryDharmaBVT/`.
+3. Your site will be live at `https://rdvt.org`.
 
 ## Learning Resources
 - [Jekyll Docs](https://jekyllrb.com/docs/)

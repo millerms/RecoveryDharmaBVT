@@ -3,8 +3,8 @@
 # Site settings
 title: "Recovery Dharma Vermont"
 description: "A community for Recovery Dharma in Vermont. Meetings, meditation events, resources, and contact info."
-url: "https://millerms.github.io"
-baseurl: "/RecoveryDharmaBVT"
+url: "https://rdvt.org"
+baseurl: ""
 
 # Theme settings
 remote_theme: "mmistakes/minimal-mistakes"
