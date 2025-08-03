@@ -71,4 +71,4 @@ Below you’ll find links to the most relevant pages:
 <div id="rd-quote-box" class="buddhist-quote">
   <em>Loading quote...</em>
 </div>
-<script src="{{ 'js/rd-quotes.js' | relative_url }}"></script>
+<script src="{{ '/js/rd-quotes.js' | relative_url }}"></script>
