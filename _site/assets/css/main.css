@@ -14,6 +14,10 @@ a:hover { color: #3e2a1b !important; }
 
 .btn:hover, .btn--primary:hover { background-color: #5a3e2b; color: #fff; }
 
+.navicon-link { color: #23507b !important; }
+
+.navicon-link:hover { color: #3477b7 !important; }
+
 /*!
  * Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes

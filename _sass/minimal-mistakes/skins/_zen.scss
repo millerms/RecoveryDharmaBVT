@@ -54,3 +54,12 @@ a:hover {
   background-color: #5a3e2b; // deep brown for contrast in footer
   color: #fff;
 }
+
+// Set hamburger menu icon to deep ocean blue and lighter on hover
+.navicon-link {
+  color: #23507b !important; // deep ocean blue
+}
+
+.navicon-link:hover {
+  color: lighten(#23507b, 15%) !important; // lighter blue on hover
+}

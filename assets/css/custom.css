@@ -375,5 +375,10 @@ body {
 }
 /* --- HAMBURGER MENU ICON COLOR --- */
 .greedy-nav .menu-toggle {
-  color: #003f5c;
+  color: #23507b;
+}
+
+/* --- SPACING BELOW STICKY NAV --- */
+main h1:first-of-type {
+  margin-top: 2.5rem;
 }
