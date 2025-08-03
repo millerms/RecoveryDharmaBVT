@@ -31,6 +31,7 @@ This is a simple, mobile-friendly static website for the Recovery Dharma communi
 - Ask for help or guidance as you iterate!
 
 ## For future reference:
+
 A reproducible, low-maintenance setup for each new project:
 ```bash
 cd my-new-site
