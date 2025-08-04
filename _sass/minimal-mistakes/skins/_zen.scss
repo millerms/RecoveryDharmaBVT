@@ -7,15 +7,15 @@
 $background-color: #f7f1e8 !default; // slightly warmer, less bright
 $text-color: #2e2b1b !default;
 $muted-text-color: #5e5b4f !default;
-$primary-color: #3a5e45 !default; // darker sage green
+$primary-color: #37874f !default; // darker sage green
 $border-color: mix(#fff, #5e5b4f, 75%) !default;
-$footer-background-color: mix($primary-color, #fff, 80%) !default;
+$footer-background-color: $primary-color !default;
 $accent-color: #8c5e3c !default; // warm terracotta
-$link-color: #5a3e2b !default; // deeper brown
+$link-color: mix(#fff, $primary-color, 80%) !default;
 $hover-color: #1b5e20 !default; // darker green for hover effects
 $masthead-link-color: #003f5c !default;
-$masthead-link-color-hover: mix(#003f5c, $text-color, 80%) !default;
-$navicon-link-color-hover: mix(#1b5e20, $text-color, 80%) !default;
+$masthead-link-color-hover: mix(#fff, $primary-color, 80%) !default;
+$navicon-link-color-hover: mix(#fff, $primary-color, 80%) !default;
 
 .page__footer {
   color: #fff !important; // override

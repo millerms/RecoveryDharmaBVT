@@ -199,9 +199,7 @@ body {
   backdrop-filter: blur(6px);
 }
 
-.greedy-nav a:hover {
-  color: #038c07;
-}
+
 
 /* --- MASTHEAD COLOR ALIGNMENT --- */
 .masthead,
