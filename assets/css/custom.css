@@ -548,8 +548,8 @@ main h1:first-of-type {
 
 @media (max-width: 600px) {
   .zen-hero-banner h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     top: 0.75rem;
-    padding: 0 1.25rem;
+    padding: 0 1.3rem;
   }
 }
