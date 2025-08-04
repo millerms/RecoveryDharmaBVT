@@ -384,3 +384,125 @@ body {
 main h1:first-of-type {
   margin-top: 2.5rem;
 }
+/* --- CONTACT FORM ZEN STYLE --- */
+
+.zen-contact-form {
+  background: #fdfaf5;
+  padding: 2rem;
+  margin: 3rem auto;
+  border: 1px solid #d7ccc8;
+  border-radius: 12px;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(85, 72, 60, 0.08);
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+}
+
+.zen-contact-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #2e7d32;
+}
+
+.zen-contact-form input,
+.zen-contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+  background-color: #ffffff;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.zen-contact-form input:focus,
+.zen-contact-form textarea:focus {
+  border-color: #81c784;
+  outline: none;
+}
+
+.zen-contact-form button {
+  background-color: #2e7d32;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.zen-contact-form button:hover {
+  background-color: #1b5e20;
+}
+.zen-events-wrapper {
+  background: #fdfaf5;
+  border: 1px solid #e0dcd5;
+  padding: 2.5rem 1.5rem;
+  margin: 3rem auto;
+  max-width: 720px;
+  border-radius: 14px;
+  box-shadow: 0 6px 12px rgba(85, 72, 60, 0.08);
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+  animation: fadeInUp 0.6s ease both;
+}
+
+.zen-events-wrapper h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #2e7d32;
+  margin-bottom: 1.25rem;
+}
+
+.zen-intro {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.zen-placeholder-event {
+  background-color: #ffffff;
+  border: 1px solid #d7ccc8;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(85, 72, 60, 0.06);
+}
+
+.zen-placeholder-event h3 {
+  font-size: 1.3rem;
+  color: #003f5c;
+  margin-bottom: 0.5rem;
+}
+
+.zen-placeholder-event p {
+  font-size: 1rem;
+  color: #444;
+  margin: 0.3rem 0;
+}
+
+.zen-note {
+  font-style: italic;
+  color: #7b5e57;
+}
+
+.zen-check-back {
+  text-align: center;
+  font-size: 1rem;
+  color: #444;
+  margin-top: 2.5rem;
+}
+
+.zen-check-back a {
+  color: #2e7d32;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.zen-check-back a:hover {
+  text-decoration: underline;
+}

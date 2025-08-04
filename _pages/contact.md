@@ -5,9 +5,19 @@ permalink: /contact/
 nav_order: 6
 classes: full-width
 ---
-We'd love to hear from you! Whether you have questions, want to share an event, or just want to connect, please reach out to (this is a dummy email, will replace soon.) - [info@recoverydharmavt.org](mailto:info@recoverydharmavt.org).
+We'd love to hear from you! Whether you have questions, want to share an event, or just want to connect, please reach out to us.
 
-<!-- Embed Google Form below
-<!-- <iframe src="YOUR_GOOGLE_FORM_URL" width="100%" height="600"></iframe>
+(There is no endpoint for this form, contact feature coming soon.)
 
-To update the form, edit this file and replace the Google Form URL above. -->
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="zen-contact-form">
+  <label for="name">Name</label><br>
+  <input type="text" name="name" id="name" required><br><br>
+
+  <label for="email">Email</label><br>
+  <input type="email" name="_replyto" id="email" required><br><br>
+
+  <label for="message">Message</label><br>
+  <textarea name="message" id="message" rows="6" required></textarea><br><br>
+
+  <button type="submit">Send</button>
+</form>

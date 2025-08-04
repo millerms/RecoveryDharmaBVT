@@ -6,13 +6,13 @@ var store = [{
         "teaser": null
       },{
         "title": "Contact Us",
-        "excerpt":"We’d love to hear from you! Whether you have questions, want to share an event, or just want to connect, please reach out to (this is a dummy email, will replace soon.) - info@recoverydharmavt.org.    ","categories": [],
+        "excerpt":"We’d love to hear from you! Whether you have questions, want to share an event, or just want to connect, please reach out to us.   (There is no endpoint for this form, contact feature coming soon.)      Name          Email          Message          Send  ","categories": [],
         "tags": [],
         "url": "/contact/",
         "teaser": null
       },{
         "title": "Events",
-        "excerpt":"Coming Soon.   This is a placeholder event. Date is tentative and subject to change. Check back for updates.     October, 10-12 2025 – Mindful Recovery Retreat, Adamant, VT    ","categories": [],
+        "excerpt":"Upcoming Meditation Events We're building a schedule of events to support practice, community, and recovery. Whether it's retreats, daylong sits, or special talks, this is where you'll find them. Mindful Recovery Retreat Date: October 10–12, 2025 Location: Adamant, Vermont Details are tentative. Stay tuned for more info. More events coming...","categories": [],
         "tags": [],
         "url": "/events/",
         "teaser": null
