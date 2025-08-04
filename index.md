@@ -4,12 +4,13 @@ title: Recovery Dharma Vermont
 nav_order: 1
 permalink: /
 ---
-# Recovery Dharma Vermont
-
-<picture>
-  <source srcset="{{ '/assets/images/mossy-forest.webp' | relative_url }}" type="image/webp">
-  <img src="{{ '/assets/images/mossy-forest.jpg' | relative_url }}" alt="Mossy Forest" style="width: 100%; height: auto; max-height: 300px; object-fit: cover; border-radius: 8px;">
-</picture>
+<div class="zen-hero-banner">
+  <picture>
+    <source srcset="{{ '/assets/images/mossy-forest.webp' | relative_url }}" type="image/webp">
+    <img src="{{ '/assets/images/mossy-forest.jpg' | relative_url }}" alt="Mossy Forest">
+  </picture>
+  <h1>Recovery Dharma Vermont</h1>
+</div>
 
 <h2 class="subtitle">Welcome to Burlington, Vermont's Page for All Things Recovery Dharma</h2>
 <p class="intro-text">This site is a resource for those interested in Recovery Dharma. Our mission is to support recovery through Buddhist practices and community. Whether you're new to Recovery Dharma or have been practicing for years, this space is here to help you connect, learn, and heal.</p>

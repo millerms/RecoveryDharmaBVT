@@ -506,3 +506,44 @@ main h1:first-of-type {
 .zen-check-back a:hover {
   text-decoration: underline;
 }
+
+/* --- HERO BANNER --- */
+.zen-hero-banner {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+.zen-hero-banner picture,
+.zen-hero-banner img {
+  display: block;
+  width: 100vw;
+  height: auto;
+  border-radius: 0;
+}
+
+.zen-hero-banner h1 {
+  position: absolute;
+  top: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+  padding: 0 1rem;
+  text-align: center;
+  -webkit-text-stroke: 0.5px #000000;
+}
+
+@media (max-width: 600px) {
+  .zen-hero-banner h1 {
+    font-size: 1.5rem;
+    top: 0.75rem;
+    padding: 0 0.75rem;
+  }
+}
