@@ -515,8 +515,12 @@ main h1:first-of-type {
   width: 100%;
   max-width: none;
   margin: 0;
+  background-color: #1a2b3c; /* deep blue-gray for contrast */
 }
 
+.zen-hero-banner picture {
+  background-color: transparent;
+}
 .zen-hero-banner picture,
 .zen-hero-banner img {
   display: block;
