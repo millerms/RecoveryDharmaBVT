@@ -179,11 +179,10 @@ body {
 }
 
 .greedy-nav a {
-  color: #2e7d32;
+  color: #ffffff;
   font-weight: 600;
   letter-spacing: 0.5px;
 }
-
 
 .greedy-nav li::after {
   display: none;
@@ -195,9 +194,20 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #fdfaf5; /* maintain visual consistency with body */
+  background-color: #003f5c;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   backdrop-filter: blur(6px);
+}
+
+.greedy-nav a:hover {
+  color: #038c07;
+}
+
+/* --- MASTHEAD COLOR ALIGNMENT --- */
+.masthead,
+.masthead__inner-wrap,
+.site-header {
+  background-color: #003f5c;
 }
 
 /* --- FOOTER --- */
@@ -378,6 +388,18 @@ body {
 /* --- HAMBURGER MENU ICON COLOR --- */
 .greedy-nav .menu-toggle {
   color: #23507b;
+}
+
+/* Dropdown menu background */
+.greedy-nav .hidden-links {
+  background-color: #003f5c; /* Your desired color */
+}
+
+/* Hover effects */
+.greedy-nav .hidden-links a:hover {
+  background-color: #003f5c;
+  color: #1b5e20;
+  border-bottom: 2px solid #1b5e20
 }
 
 /* --- SPACING BELOW STICKY NAV --- */

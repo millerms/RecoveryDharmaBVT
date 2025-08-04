@@ -4,19 +4,15 @@
 
 .page__footer-follow .social-icons .svg-inline--fa { color: inherit; }
 
-a:hover { color: #3e2a1b !important; }
+a:hover { color: #1b5e20 !important; }
 
-.navicon-link:hover { color: #3e2a1b !important; }
+.navicon-link:hover { color: #1b5e20 !important; }
 
 .page, .page__content, .archive__item { box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); border-radius: 4px; }
 
 .btn, .btn--primary { background-color: #3a5e45; color: #fff; border: none; padding: 0.5em 1em; border-radius: 3px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); transition: background-color 0.2s ease-in-out; }
 
 .btn:hover, .btn--primary:hover { background-color: #5a3e2b; color: #fff; }
-
-.navicon-link { color: #23507b !important; }
-
-.navicon-link:hover { color: #3477b7 !important; }
 
 /*!
  * Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
@@ -603,8 +599,8 @@ tr, td, th { vertical-align: middle; }
 
 /* Priority plus navigation ========================================================================== */
 .greedy-nav { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; min-height: 2em; background: #f7f1e8; }
-.greedy-nav a { display: block; margin: 0 1rem; color: #2e2b1b; text-decoration: none; -webkit-transition: none; transition: none; }
-.greedy-nav a:hover { color: #2e2b1b; }
+.greedy-nav a { display: block; margin: 0 1rem; color: #003f5c; text-decoration: none; -webkit-transition: none; transition: none; }
+.greedy-nav a:hover { color: #093b4f; }
 .greedy-nav a.site-logo { margin-left: 0; margin-right: 0.5rem; }
 .greedy-nav a.site-title { margin-left: 0; }
 .greedy-nav img { -webkit-transition: none; transition: none; }
@@ -617,7 +613,7 @@ tr, td, th { vertical-align: middle; }
 .greedy-nav .hidden-links { position: absolute; top: 100%; right: 0; margin-top: 15px; padding: 5px; border: 1px solid #d7d6d3; border-radius: 4px; background: #f7f1e8; -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
 .greedy-nav .hidden-links.hidden { display: none; }
 .greedy-nav .hidden-links a { margin: 0; padding: 10px 20px; font-size: 1em; }
-.greedy-nav .hidden-links a:hover { color: #2e2b1b; background: #d5d5d1; }
+.greedy-nav .hidden-links a:hover { color: #093b4f; background: #1f541f; }
 .greedy-nav .hidden-links:before { content: ""; position: absolute; top: -11px; right: 10px; width: 0; border-style: solid; border-width: 0 10px 10px; border-color: #d7d6d3 transparent; display: block; z-index: 0; }
 .greedy-nav .hidden-links:after { content: ""; position: absolute; top: -10px; right: 10px; width: 0; border-style: solid; border-width: 0 10px 10px; border-color: #f7f1e8 transparent; display: block; z-index: 1; }
 .greedy-nav .hidden-links li { display: block; border-bottom: 1px solid #d7d6d3; }
@@ -901,8 +897,8 @@ body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .vi
 .close .navicon:before { -webkit-transform: rotate3d(0, 0, 1, 45deg); transform: rotate3d(0, 0, 1, 45deg); }
 .close .navicon:after { -webkit-transform: rotate3d(0, 0, 1, -45deg); transform: rotate3d(0, 0, 1, -45deg); }
 
-@supports (pointer-events: none) { .greedy-nav__toggle:before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; background-color: #f7f1e8; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; pointer-events: none; } }
-.greedy-nav__toggle.close:before { opacity: 0.9; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; pointer-events: auto; }
+@supports (pointer-events: none) { .greedy-nav__toggle:before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: inherit; opacity: 0.9; pointer-events: none; transition: none; } }
+.greedy-nav__toggle.close:before { opacity: 0.9; pointer-events: auto; transition: none; }
 
 .greedy-nav__toggle:hover .navicon, .greedy-nav__toggle:hover .navicon:before, .greedy-nav__toggle:hover .navicon:after { background: #2c4734; }
 .greedy-nav__toggle:hover.close .navicon { background: transparent; }

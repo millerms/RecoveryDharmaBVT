@@ -179,11 +179,10 @@ body {
 }
 
 .greedy-nav a {
-  color: #2e7d32;
+  color: #ffffff;
   font-weight: 600;
   letter-spacing: 0.5px;
 }
-
 
 .greedy-nav li::after {
   display: none;
@@ -195,9 +194,20 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #fdfaf5; /* maintain visual consistency with body */
+  background-color: #003f5c;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   backdrop-filter: blur(6px);
+}
+
+.greedy-nav a:hover {
+  color: #038c07;
+}
+
+/* --- MASTHEAD COLOR ALIGNMENT --- */
+.masthead,
+.masthead__inner-wrap,
+.site-header {
+  background-color: #003f5c;
 }
 
 /* --- FOOTER --- */
@@ -380,6 +390,18 @@ body {
   color: #23507b;
 }
 
+/* Dropdown menu background */
+.greedy-nav .hidden-links {
+  background-color: #003f5c; /* Your desired color */
+}
+
+/* Hover effects */
+.greedy-nav .hidden-links a:hover {
+  background-color: #003f5c;
+  color: #1b5e20;
+  border-bottom: 2px solid #1b5e20
+}
+
 /* --- SPACING BELOW STICKY NAV --- */
 main h1:first-of-type {
   margin-top: 2.5rem;
@@ -515,14 +537,20 @@ main h1:first-of-type {
   width: 100%;
   max-width: none;
   margin: 0;
+  background-color: #1a2b3c; /* deep blue-gray for contrast */
 }
 
+.zen-hero-banner picture {
+  background-color: transparent;
+}
 .zen-hero-banner picture,
 .zen-hero-banner img {
   display: block;
   width: 100vw;
   height: auto;
   border-radius: 0;
+  max-height: 70vh;
+  object-fit: cover;
 }
 
 .zen-hero-banner h1 {
@@ -542,8 +570,8 @@ main h1:first-of-type {
 
 @media (max-width: 600px) {
   .zen-hero-banner h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     top: 0.75rem;
-    padding: 0 0.75rem;
+    padding: 0 1.3rem;
   }
 }

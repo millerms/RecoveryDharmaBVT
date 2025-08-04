@@ -12,10 +12,10 @@ $border-color: mix(#fff, #5e5b4f, 75%) !default;
 $footer-background-color: mix($primary-color, #fff, 80%) !default;
 $accent-color: #8c5e3c !default; // warm terracotta
 $link-color: #5a3e2b !default; // deeper brown
-$hover-color: #3e2a1b !default; // deep brown-black
-$masthead-link-color: $text-color !default;
-$masthead-link-color-hover: $text-color !default;
-$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+$hover-color: #1b5e20 !default; // darker green for hover effects
+$masthead-link-color: #003f5c !default;
+$masthead-link-color-hover: mix(#003f5c, $text-color, 80%) !default;
+$navicon-link-color-hover: mix(#1b5e20, $text-color, 80%) !default;
 
 .page__footer {
   color: #fff !important; // override
@@ -53,13 +53,4 @@ a:hover {
 .btn:hover, .btn--primary:hover {
   background-color: #5a3e2b; // deep brown for contrast in footer
   color: #fff;
-}
-
-// Set hamburger menu icon to deep ocean blue and lighter on hover
-.navicon-link {
-  color: #23507b !important; // deep ocean blue
-}
-
-.navicon-link:hover {
-  color: lighten(#23507b, 15%) !important; // lighter blue on hover
 }
