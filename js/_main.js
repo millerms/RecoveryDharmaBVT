@@ -231,4 +231,18 @@ $(document).ready(function () {
         container.prepend(copyButton);
       });
   }
+  // Scroll-reveal effect on scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observer.unobserve(entry.target); // Only animate once
+      }
+    });
+  });
+
+  document.querySelectorAll("main *").forEach((el) => {
+    el.classList.add("scroll-reveal");
+    observer.observe(el);
+  });
 });
