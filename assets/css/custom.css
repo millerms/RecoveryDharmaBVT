@@ -544,11 +544,13 @@ main h1:first-of-type {
 .zen-hero-banner picture,
 .zen-hero-banner img {
   display: block;
-  width: 100vw;
+  width: 100%;
   height: auto;
   border-radius: 0;
-  max-height: 70vh;
-  object-fit: cover;
+  max-height: none;
+  object-fit: contain;
+  max-width: 500px; /* Add this line to limit image size on larger screens */
+  margin: 0 auto;   /* Center the image horizontally */
 }
 
 .zen-hero-banner h1 {
