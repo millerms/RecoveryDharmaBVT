@@ -262,9 +262,6 @@ body {
     padding: 0.6rem 0.8rem;
     border-radius: 12px;
   }
-  .zen-hero-banner img {
-    width: 95%;
-  }
 }
 
 /* --- OPTIONAL QUOTE BOX (alternate style) --- */
@@ -576,8 +573,5 @@ main h1:first-of-type {
     font-size: 1.4rem;
     top: 0.75rem;
     padding: 0 1.3rem;
-  }
-  .zen-hero-banner img {
-    width: 95%;
   }
 }
