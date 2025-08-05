@@ -577,6 +577,7 @@ main h1:first-of-type {
   }
 }
 
+/*
 @keyframes fadeInOnScroll {
   from {
     opacity: 0;
@@ -599,7 +600,9 @@ main h1:first-of-type {
   opacity: 1;
   transform: translateY(0);
 }
+*/
 
+/* --- LOGO TEXT STYLES --- */
 .rdvt-logo-text {
   font-family: 'Yeseva One', sans-serif;
   font-weight: 400;
