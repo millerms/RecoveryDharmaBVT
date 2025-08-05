@@ -6,8 +6,8 @@ permalink: /
 ---
 <div class="zen-hero-banner">
   <picture>
-    <source srcset="{{ '/assets/images/rd-icons/rdvt-enso.png' | relative_url }}" type="image/png">
-    <img src="{{ '/assets/images/rd-icons/rdvt-enso.png' | relative_url }}" alt="RDVT Icon">
+    <source srcset="{{ '/assets/images/rd-icons/enso-tree.png' | relative_url }}" type="image/png">
+    <img src="{{ '/assets/images/rd-icons/enso-tree.png' | relative_url }}" alt="RDVT Icon">
   </picture>
 </div>
 
