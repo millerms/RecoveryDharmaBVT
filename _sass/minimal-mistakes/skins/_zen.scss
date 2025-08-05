@@ -9,7 +9,7 @@ $text-color: #2e2b1b !default;
 $muted-text-color: #5e5b4f !default;
 $primary-color: #37874f !default; // darker sage green
 $border-color: mix(#fff, #5e5b4f, 75%) !default;
-$footer-background-color: $primary-color !default;
+$footer-background-color: mix(#0f420e, $primary-color, 80%)!default;
 $accent-color: #8c5e3c !default; // warm terracotta
 $link-color: mix(#fff, $primary-color, 80%) !default;
 $hover-color: #1b5e20 !default; // darker green for hover effects
