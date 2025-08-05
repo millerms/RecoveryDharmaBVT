@@ -6,10 +6,9 @@ permalink: /
 ---
 <div class="zen-hero-banner">
   <picture>
-    <source srcset="{{ '/assets/images/mossy-forest.webp' | relative_url }}" type="image/webp">
-    <img src="{{ '/assets/images/mossy-forest.jpg' | relative_url }}" alt="Mossy Forest">
+    <source srcset="{{ '/assets/images/rd-icons/rdvt-icon.png' | relative_url }}" type="image/png">
+    <img src="{{ '/assets/images/rd-icons/rdvt-icon.png' | relative_url }}" alt="RDVT Icon">
   </picture>
-  <h1>Recovery Dharma Vermont</h1>
 </div>
 
 <h2 class="subtitle">Welcome to Burlington, Vermont's Page for All Things Recovery Dharma</h2>
