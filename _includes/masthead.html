@@ -1,12 +1,12 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 
-<div class="masthead">
+<div class="masthead" style="position: fixed; top: 0; width: 100%; z-index: 999;">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <a class="site-title" href="{{ '/' | relative_url }}">
           <img src="{{ '/assets/images/rd-icons/rd-color-ring.png' | relative_url }}" alt="rd-color-ring" style="height: 40px; vertical-align: middle; margin-right: 8px;">
-            RDVT
+            <span class="rdvt-logo-text">RDVT</span>
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
         <ul class="visible-links">
@@ -31,3 +31,4 @@
     </div>
   </div>
 </div>
+<div style="height: 80px;"></div>

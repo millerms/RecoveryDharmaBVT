@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
 html {
   scroll-behavior: smooth;
 }
@@ -597,4 +598,13 @@ main h1:first-of-type {
 .scroll-reveal.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.rdvt-logo-text {
+  font-family: 'Yeseva One', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 1.2px;
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
