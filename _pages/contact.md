@@ -7,17 +7,4 @@ classes: full-width
 ---
 We'd love to hear from you! Whether you have questions, want to share an event, or just want to connect, please reach out to us.
 
-(There is no endpoint for this form, contact feature coming soon.)
-
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="zen-contact-form">
-  <label for="name">Name</label><br>
-  <input type="text" name="name" id="name" required><br><br>
-
-  <label for="email">Email</label><br>
-  <input type="email" name="_replyto" id="email" required><br><br>
-
-  <label for="message">Message</label><br>
-  <textarea name="message" id="message" rows="6" required></textarea><br><br>
-
-  <button type="submit">Send</button>
-</form>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdd2fHHwTSWoC8Iny1tjyWCbl3LqRywcWTGKyr0KAuT8YEhmg/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

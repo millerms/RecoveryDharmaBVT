@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Contact Us",
-        "excerpt":"We’d love to hear from you! Whether you have questions, want to share an event, or just want to connect, please reach out to us.   (There is no endpoint for this form, contact feature coming soon.)      Name          Email          Message          Send  ","categories": [],
+        "excerpt":"We’d love to hear from you! Whether you have questions, want to share an event, or just want to connect, please reach out to us.   Loading… ","categories": [],
         "tags": [],
         "url": "/contact/",
         "teaser": null
