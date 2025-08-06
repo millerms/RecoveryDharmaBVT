@@ -327,6 +327,7 @@ function handleGesture() {
   }
 }
 
+
 document.addEventListener('touchstart', function(event) {
   touchStartX = event.changedTouches[0].screenX;
 });
@@ -335,3 +336,41 @@ document.addEventListener('touchend', function(event) {
   touchEndX = event.changedTouches[0].screenX;
   handleGesture();
 });
+
+// Mobile double-tap gesture for previous/next quote
+let lastTapRight = 0;
+let lastTapLeft = 0;
+
+const quoteBox = document.getElementById('rd-quote-box');
+if (quoteBox) {
+  quoteBox.addEventListener('touchend', function(e) {
+    const now = new Date().getTime();
+    const tapX = e.changedTouches[0].clientX;
+    const boxRect = quoteBox.getBoundingClientRect();
+    const relativeX = tapX - boxRect.left;
+
+    if (relativeX > boxRect.width / 2) {
+      // right side double tap
+      if (now - lastTapRight < 300) {
+        // next quote
+        const nextBtn = document.getElementById('next-quote');
+        currentQuoteIndex = (currentQuoteIndex + 1) % rdQuotes.length;
+        showQuote(currentQuoteIndex);
+        pulseButton(nextBtn);
+        pauseAutoRotateAndResume();
+      }
+      lastTapRight = now;
+    } else {
+      // left side double tap
+      if (now - lastTapLeft < 300) {
+        // prev quote
+        const prevBtn = document.getElementById('prev-quote');
+        currentQuoteIndex = (currentQuoteIndex - 1 + rdQuotes.length) % rdQuotes.length;
+        showQuote(currentQuoteIndex);
+        pulseButton(prevBtn);
+        pauseAutoRotateAndResume();
+      }
+      lastTapLeft = now;
+    }
+  });
+}
