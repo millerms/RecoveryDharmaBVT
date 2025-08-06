@@ -75,7 +75,7 @@ Below you’ll find descriptions of the pages:
 <div class="section-divider"></div>
 
 <div id="rd-quote-box" class="buddhist-quote zen-quote-box fade-in">
-  <div class="quote-nav" style="display: flex; gap: 3rem; justify-content: center;">
+  <div class="quote-nav" style="display: flex; gap: 1.5rem; justify-content: center;">
     <button id="prev-quote" class="quote-nav-btn" aria-label="Previous quote">←</button>
     <button id="next-quote" class="quote-nav-btn" aria-label="Next quote">→</button>
   </div>
