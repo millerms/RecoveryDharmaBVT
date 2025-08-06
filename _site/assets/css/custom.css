@@ -1,17 +1,24 @@
+/* ===============================
+   1. Global Resets & Base Styles
+   =============================== */
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+:root {
+  --primary-color: #003f5c;
+}
 html {
   scroll-behavior: smooth;
 }
-
 body {
   opacity: 0;
   animation: fadeInBody 1s ease-in forwards;
+  background-color: #fdfaf5;
 }
-
-@keyframes fadeInBody {
-  to {
-    opacity: 1;
-  }
+* {
+  box-sizing: border-box;
+}
+::selection {
+  background: #e2e2e2;
+  color: #003f5c;
 }
 
 /* General anchor tag styles */
@@ -21,12 +28,10 @@ a {
   border-bottom: none;
   color: #003f5c;
 }
-
 a:visited {
   color: #4393b0;
   opacity: 0.8;
 }
-
 a::after {
   content: '';
   position: absolute;
@@ -40,117 +45,38 @@ a::after {
   transition: transform 0.2s ease-in-out;
 }
 
-.zen-button:active,
-.zen-nav-button:active {
-  transform: scale(0.98);
-  box-shadow: 0 2px 8px rgba(141, 110, 99, 0.08);
+/* ===============================
+   2. Typography & Text Styles
+   =============================== */
+.buddhist-quote,
+.quote-text,
+.quote-author,
+.rdvt-logo-text,
+.zen-link-text,
+.zen-meeting-title,
+.zen-intro,
+.zen-footer,
+.zen-footer a,
+.minimal-footer,
+.minimal-footer-nav a,
+.minimal-footer-credit,
+.minimal-footer-credit a {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
 }
-/* --- INDEX PAGE: LINK BLOCK STYLES --- */
-
-body {
-  background-color: #fdfaf5;
-}
-
-.zen-link-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-  max-width: 700px;
-  margin: 2.5rem auto 2rem auto;
-}
-
-a.zen-link-text,
-.zen-link-text:visited,
-button.zen-link-text,
-.zen-link-text:visited:active {
-  color: #4393b0;
-  opacity: 0.8;
-}
-
-.zen-link-row {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1.1rem 1.5rem 1.5rem 1.5rem;
-  gap: 0.7rem;
-}
-
-.zen-link-text {
-  font-size: 1.08rem;
-  text-align: center;
-  color: #222;
-  margin-bottom: 0.2rem;
-}
-
-.zen-link-list .zen-nav-button {
-  width: 100%;
-  max-width: 260px;
-  min-width: 220px;
-  font-size: 1.05rem;
-  display: block;
-  box-sizing: border-box;
-  margin: 0 auto;
-  text-align: center;
-  white-space: normal;
-  overflow: visible;
-  text-overflow: unset;
-  animation: fadeInUp 0.6s ease both;
-}
-
-/* --- BUTTON BASE STYLES --- */
-
-.zen-nav-button, .zen-button {
-  background: #f7fcf8;
-  color: #2e7d32;
-  padding: 0.85rem 1.25rem;
-  border-radius: 16px;
-  border: 2px solid #2e7d32;
-  text-decoration: none;
-  transition: all 0.2s ease;
-  font-weight: 500;
-  display: inline-block;
-  box-shadow: 0 4px 12px rgba(141, 110, 99, 0.12);
-}
-
-.zen-nav-button:hover, .zen-nav-button:focus,
-.zen-button:hover, .zen-button:focus {
-  background: #efebe9;
-  border-color: #5d4037;
-  color: #5d4037;
-  box-shadow: 0 4px 12px rgba(141, 110, 99, 0.12);
-}
-
-/* --- QUOTE BOX --- */
 .buddhist-quote {
   font-family: 'Bookman Old Style', 'Bookman', 'Georgia', serif;
   font-size: 1.1rem;
   font-weight: 500;
   line-height: 1.75;
-  color: #ffffff; /* no change needed */
-  background: 
-    url('../images/rice-paper.jpg') center/cover no-repeat,
-    #003f5c; /* Fallback color */
-  background-blend-mode: multiply;
-  background-color: rgba(0, 63, 92, 0.8);
-  border-radius: 16px;
-  padding: 1.75rem 2rem;
-  margin: 2rem auto;
-  max-width: 700px;
+  color: #ffffff;
   text-align: center;
-  backdrop-filter: blur(4px);
-  box-shadow: 0 4px 12px rgba(141, 110, 99, 0.12);
-  position: relative;
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
-
 .buddhist-quote em {
   display: block;
   font-style: italic;
   margin-bottom: 1rem;
   color: #ffffff;
 }
-
 .buddhist-quote span {
   display: block;
   font-weight: 500;
@@ -159,67 +85,55 @@ button.zen-link-text,
   font-size: 0.95rem;
   letter-spacing: 0.3px;
 }
-
-/* --- QUOTE CONTAINER (with rice paper texture) --- */
-.quote-container {
-  background: #003f5c;
-  background-image: url('assets/images/rice-paper.jpg');
-  background-size: cover;
-  background-blend-mode: multiply;
-  border-radius: 16px;
-  padding: 1.75rem 2rem;
-  margin: 2rem auto;
-  max-width: 700px;
-  box-shadow: 0 4px 12px rgba(141, 110, 99, 0.12);
-  position: relative;
+.quote-text {
+  text-align: left;
+  white-space: pre-line;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
 }
-
-/* --- NAVBAR: REMOVE WHITE BACKGROUND --- */
-
-.greedy-nav {
-  background: transparent !important;
-  box-shadow: none !important;
-  border-radius: 0 !important;
-  padding: 0 !important;
+.quote-author {
+  text-align: center;
+  margin-top: 0.25rem;
 }
-
-.greedy-nav .inner-wrap {
-  padding: 0 !important;
-  margin: 0 auto;
-}
-
-.greedy-nav a {
+#quote-text,
+#quote-author {
+  display: block;
   color: #ffffff;
-  font-weight: 600;
-  letter-spacing: 0.5px;
+  font-size: 1.5rem;
+  opacity: 1;
+  transition: opacity 0.8s ease-in-out;
 }
-
-.greedy-nav li::after {
-  display: none;
+.hidden {
+  opacity: 0;
 }
-
-/* --- STICKY NAVIGATION --- */
-
-.greedy-nav {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: #003f5c;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-  backdrop-filter: blur(6px);
+.rdvt-logo-text {
+  font-family: 'Yeseva One', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 1.2px;
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-
-
-
-/* --- MASTHEAD COLOR ALIGNMENT --- */
-.masthead,
-.masthead__inner-wrap,
-.site-header {
-  background-color: #003f5c;
+.zen-link-text {
+  font-size: 1.08rem;
+  text-align: center;
+  color: #222;
+  margin-bottom: 0.2rem;
 }
-
-/* --- FOOTER --- */
-
+.zen-meeting-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: var(--zen-primary);
+}
+.zen-intro {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+  line-height: 1.6;
+}
 .zen-footer {
   text-align: center;
   margin: 3rem auto 1.5rem auto;
@@ -232,7 +146,6 @@ button.zen-link-text,
   max-width: 960px;
   font-family: "Inter", "Helvetica Neue", sans-serif;
 }
-
 .zen-footer a {
   color: #003f5c;
   text-decoration: none;
@@ -240,41 +153,72 @@ button.zen-link-text,
   margin: 0 0.5rem;
   letter-spacing: 0.5px;
 }
-
 .zen-footer a:hover {
   text-decoration: underline;
   color: #2f4b7c;
 }
-
-/* --- RESPONSIVE STYLES --- */
-
-@media (max-width: 600px) {
-  .zen-link-list {
-    max-width: 98vw;
-  }
-
-  .zen-link-row {
-    padding: 1rem 0.7rem 1.2rem 0.7rem;
-    gap: 0.5rem;
-  }
-
-  .zen-link-list .zen-nav-button {
-    width: 100%;
-    max-width: 100%;
-    min-width: 160px;
-  }
-
-  .zen-link-text {
-    font-size: 1rem;
-  }
-
-  .zen-button {
-    padding: 0.6rem 0.8rem;
-    border-radius: 12px;
-  }
+.minimal-footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1.5rem 1rem;
+  background-color: #f0f4f1;
+  border-top: 1px solid #cfd8dc;
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+}
+.minimal-footer-nav a {
+  padding: 0.5rem 1rem;
+  background-color: #e8f5e9;
+  color: #086c0d;
+  border: 1px solid #a5d6a7;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  letter-spacing: 0.5px;
+}
+.minimal-footer-nav a:hover {
+  background-color: #c8e6c9;
+  color: #1b5e20;
+  border-color: #81c784;
+}
+.minimal-footer-credit {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 0.75rem;
+}
+.minimal-footer-credit a {
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: 500;
+}
+.minimal-footer-credit a:hover {
+  text-decoration: underline;
+  color: #1b5e20;
 }
 
-/* --- ENHANCED QUOTE BOX --- */
+/* ===============================
+   3. Layout: Containers & Components
+   =============================== */
+.buddhist-quote {
+  border-radius: 16px;
+  padding: 1.75rem 2rem;
+  margin: 2rem auto;
+  max-width: 700px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 12px rgba(141, 110, 99, 0.12);
+  position: relative;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.quote-container {
+  border-radius: 16px;
+  padding: 1.75rem 2rem;
+  margin: 2rem auto;
+  max-width: 700px;
+  box-shadow: 0 4px 12px rgba(141, 110, 99, 0.12);
+  position: relative;
+}
 .quote-box {
   background: #fdfdfb;
   background-size: cover;
@@ -289,8 +233,6 @@ button.zen-link-text,
   line-height: 1.6;
   transition: all 0.3s ease-in-out;
 }
-
-/* Fade-in animation for quotes */
 .quote-box.fade {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
@@ -298,135 +240,61 @@ button.zen-link-text,
 .quote-box.show {
   opacity: 1;
 }
-
-/* --- QUOTE BOX BUTTONS (restored) --- */
-@keyframes fadeInSlide {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.fade-in {
-  animation: fadeInSlide 0.8s ease-out 0s 1 normal both running;
-}
-
-/* --- QUOTE NAV BUTTONS (new, with pulse and hover) --- */
-.quote-nav-button {
-  background-color: #f4f4f4;
-  color: #003f5c;
-  border: none;
-  padding: 0.5rem 0.75rem;
-  font-size: 1.25rem;
-  margin: 0 0.5rem;
-  border-radius: 50%;
-  transition: transform 0.2s ease-in-out, background-color 0.3s ease;
-  cursor: pointer;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.07);
-}
-
-.quote-nav-button:hover {
-  background-color: #e2e2e2;
-  transform: scale(1.1);
-}
-
-.quote-nav-button:active {
-  animation: pulse 0.3s;
-}
-
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.15); }
-  100% { transform: scale(1); }
-}
-/* Ensure primary color variable is defined */
-:root {
-  --primary-color: #003f5c;
-}
-
-
-@keyframes fadeSlideIn {
-  0% {
-    opacity: 0;
-    transform: translateY(12px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* --- CUSTOM MINIMAL FOOTER WITH BUTTONS --- */
-
-.minimal-footer {
-  text-align: center;
-  margin-top: 3rem;
-  padding: 1.5rem 1rem;
-  background-color: #f0f4f1;
-  border-top: 1px solid #cfd8dc;
-  font-family: "Inter", "Helvetica Neue", sans-serif;
-}
-
-.minimal-footer-nav {
+.zen-link-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.75rem;
-  margin-bottom: 0.75rem;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 700px;
+  margin: 2.5rem auto 2rem auto;
 }
-
-.minimal-footer-nav a {
-  padding: 0.5rem 1rem;
-  background-color: #e8f5e9;
-  color: #086c0d;
-  border: 1px solid #a5d6a7;
-  border-radius: 10px;
-  text-decoration: none;
-  font-size: 0.9rem;
-  font-weight: 500;
-  transition: all 0.2s ease-in-out;
-  letter-spacing: 0.5px;
+.zen-link-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.1rem 1.5rem 1.5rem 1.5rem;
+  gap: 0.7rem;
 }
-
-.minimal-footer-nav a:hover {
-  background-color: #c8e6c9;
-  color: #1b5e20;
-  border-color: #81c784;
+.zen-link-list .zen-nav-button {
+  width: 100%;
+  max-width: 260px;
+  min-width: 220px;
+  font-size: 1.05rem;
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  animation: fadeInUp 0.6s ease both;
 }
-.minimal-footer-credit {
-  font-size: 0.85rem;
-  color: #777;
-  margin-top: 0.75rem;
-}
-
-.minimal-footer-credit a {
+.zen-nav-button, .zen-button {
+  background: #f7fcf8;
   color: #2e7d32;
+  padding: 0.85rem 1.25rem;
+  border-radius: 16px;
+  border: 2px solid #2e7d32;
   text-decoration: none;
+  transition: all 0.2s ease;
   font-weight: 500;
+  display: inline-block;
+  box-shadow: 0 4px 12px rgba(141, 110, 99, 0.12);
 }
-
-.minimal-footer-credit a:hover {
-  text-decoration: underline;
-  color: #1b5e20;
+.zen-nav-button:hover, .zen-nav-button:focus,
+.zen-button:hover, .zen-button:focus {
+  background: #efebe9;
+  border-color: #5d4037;
+  color: #5d4037;
+  box-shadow: 0 4px 12px rgba(141, 110, 99, 0.12);
 }
-
-@keyframes fadeInUp {
-  0% { opacity: 0; transform: translateY(10px); }
-  100% { opacity: 1; transform: translateY(0); }
+.zen-footer {
+  /* already styled in Typography */
 }
-/* --- SECTION DIVIDER --- */
-
 .section-divider {
   border-top: 1px solid rgba(85, 72, 60, 0.12);
   margin: 2.5rem auto;
   max-width: 720px;
 }
-
-/* --- SCROLL TO TOP BUTTON --- */
 .scroll-top-btn {
   position: fixed;
   bottom: 2rem;
@@ -444,40 +312,15 @@ button.zen-link-text,
   opacity: 0;
   visibility: hidden;
 }
-
 .scroll-top-btn.visible {
   opacity: 1;
   visibility: visible;
 }
-
 .scroll-top-btn:hover {
   background-color: #d7ccc8;
   color: #2e1f0f;
   border-color: #8d6e63;
 }
-/* --- HAMBURGER MENU ICON COLOR --- */
-.greedy-nav .menu-toggle {
-  color: #23507b;
-}
-
-/* Dropdown menu background */
-.greedy-nav .hidden-links {
-  background-color: #003f5c; /* Your desired color */
-}
-
-/* Hover effects */
-.greedy-nav .hidden-links a:hover {
-  background-color: #003f5c;
-  color: #1b5e20;
-  border-bottom: 2px solid #1b5e20
-}
-
-/* --- SPACING BELOW STICKY NAV --- */
-main h1:first-of-type {
-  margin-top: 2.5rem;
-}
-/* --- CONTACT FORM ZEN STYLE --- */
-
 .zen-contact-form {
   background: #fdfaf5;
   padding: 2rem;
@@ -488,14 +331,12 @@ main h1:first-of-type {
   box-shadow: 0 4px 10px rgba(85, 72, 60, 0.08);
   font-family: "Inter", "Helvetica Neue", sans-serif;
 }
-
 .zen-contact-form label {
   display: block;
   font-weight: 600;
   margin-bottom: 0.5rem;
   color: #2e7d32;
 }
-
 .zen-contact-form input,
 .zen-contact-form textarea {
   width: 100%;
@@ -507,13 +348,11 @@ main h1:first-of-type {
   background-color: #ffffff;
   transition: border-color 0.2s ease-in-out;
 }
-
 .zen-contact-form input:focus,
 .zen-contact-form textarea:focus {
   border-color: #81c784;
   outline: none;
 }
-
 .zen-contact-form button {
   background-color: #2e7d32;
   color: #ffffff;
@@ -525,7 +364,6 @@ main h1:first-of-type {
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
-
 .zen-contact-form button:hover {
   background-color: #1b5e20;
 }
@@ -540,22 +378,12 @@ main h1:first-of-type {
   font-family: "Inter", "Helvetica Neue", sans-serif;
   animation: fadeInUp 0.6s ease both;
 }
-
 .zen-events-wrapper h2 {
   text-align: center;
   font-size: 2rem;
   color: #2e7d32;
   margin-bottom: 1.25rem;
 }
-
-.zen-intro {
-  font-size: 1.1rem;
-  color: #333;
-  margin-bottom: 2rem;
-  text-align: center;
-  line-height: 1.6;
-}
-
 .zen-placeholder-event {
   background-color: #ffffff;
   border: 1px solid #d7ccc8;
@@ -564,42 +392,34 @@ main h1:first-of-type {
   margin-bottom: 2rem;
   box-shadow: 0 2px 6px rgba(85, 72, 60, 0.06);
 }
-
 .zen-placeholder-event h3 {
   font-size: 1.3rem;
   color: #003f5c;
   margin-bottom: 0.5rem;
 }
-
 .zen-placeholder-event p {
   font-size: 1rem;
   color: #444;
   margin: 0.3rem 0;
 }
-
 .zen-note {
   font-style: italic;
   color: #7b5e57;
 }
-
 .zen-check-back {
   text-align: center;
   font-size: 1rem;
   color: #444;
   margin-top: 2.5rem;
 }
-
 .zen-check-back a {
   color: #2e7d32;
   font-weight: 600;
   text-decoration: none;
 }
-
 .zen-check-back a:hover {
   text-decoration: underline;
 }
-
-/* --- HERO BANNER --- */
 .zen-hero-banner {
   position: relative;
   overflow: hidden;
@@ -607,9 +427,8 @@ main h1:first-of-type {
   width: 100%;
   max-width: none;
   margin: 0;
-  background-color: #1a2b3c; /* deep blue-gray for contrast */
+  background-color: #1a2b3c;
 }
-
 .zen-hero-banner picture {
   background-color: transparent;
 }
@@ -621,10 +440,9 @@ main h1:first-of-type {
   border-radius: 0;
   max-height: none;
   object-fit: contain;
-  max-width: 500px; /* Add this line to limit image size on larger screens */
-  margin: 0 auto;   /* Center the image horizontally */
+  max-width: 500px;
+  margin: 0 auto;
 }
-
 .zen-hero-banner h1 {
   position: absolute;
   top: 1.25rem;
@@ -639,24 +457,6 @@ main h1:first-of-type {
   text-align: center;
   -webkit-text-stroke: 0.5px #000000;
 }
-
-@media (max-width: 600px) {
-  .zen-hero-banner h1 {
-    font-size: 1.4rem;
-    top: 0.75rem;
-    padding: 0 1.3rem;
-  }
-}
-
-/* --- LOGO TEXT STYLES --- */
-.rdvt-logo-text {
-  font-family: 'Yeseva One', sans-serif;
-  font-weight: 400;
-  font-size: 1.2rem;
-  letter-spacing: 1.2px;
-  color: #ffffff;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
 .event-card {
   background-color: #f9f9f9;
   border-left: 6px solid var(--primary-color);
@@ -668,35 +468,25 @@ main h1:first-of-type {
   opacity: 0;
   transform: translateY(10px);
 }
-
-/* Animate in */
 .event-card.animate {
   opacity: 1;
   transform: translateY(0);
 }
-
-/* Field labels and values */
 .event-card strong {
   display: inline-block;
   color: var(--primary-color);
   font-weight: 600;
   margin-right: 6px;
 }
-
-/* Event field */
 .event-field {
   margin-bottom: 0.4rem;
 }
-
-/* Event grid layout */
 .events-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
   margin-top: 1.5rem;
 }
-
-/* Divider */
 .zen-divider {
   border: none;
   height: 1px;
@@ -711,39 +501,26 @@ main h1:first-of-type {
   margin-bottom: 2rem;
   box-shadow: var(--zen-shadow-light);
 }
-
 .zen-meeting-card > *:first-child {
   margin-top: 0;
 }
-
 .zen-meeting-card > *:last-child {
   margin-bottom: 0;
 }
-
-.zen-meeting-title {
-  font-size: 1.25rem;
-  font-weight: 700;
-  margin-bottom: 0.75rem;
-  color: var(--zen-primary);
-}
-
 .zen-meeting-card ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
-
 .zen-meeting-card li {
   margin-bottom: 0.5rem;
   font-size: 1.05rem;
 }
-
 .zen-meeting-card li span {
   font-weight: 600;
   margin-right: 0.5rem;
   color: var(--zen-primary);
 }
-
 .zen-meeting-card hr {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -754,10 +531,13 @@ main h1:first-of-type {
   padding-left: 1rem;
   margin-bottom: 1rem;
 }
-
 .zen-meeting-details p {
   margin: 0.25rem 0;
 }
+
+/* ===============================
+   4. Quote Navigation
+   =============================== */
 .quote-navigation {
   display: flex;
   justify-content: space-between;
@@ -765,7 +545,6 @@ main h1:first-of-type {
   margin-top: 1rem;
   padding: 0 1rem;
 }
-
 .quote-navigation button {
   background: none;
   border: none;
@@ -774,27 +553,175 @@ main h1:first-of-type {
   color: var(--primary-color);
   transition: color 0.3s ease, transform 0.2s ease;
 }
-
 .quote-navigation button:hover {
   color: #2c3e50;
   transform: scale(1.2);
 }
-
-@media screen and (max-width: 600px) {
-  .quote-navigation button {
-    font-size: 1.25rem;
-  }
+.quote-nav-button {
+  background-color: #f4f4f4;
+  color: #003f5c;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  font-size: 1.25rem;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.07);
 }
-/* --- QUOTE NAVIGATION BUTTONS (new) --- */
+.quote-nav-button:hover {
+  background-color: #e2e2e2;
+  transform: scale(1.1);
+}
+.quote-nav-button:active {
+  animation: pulse 0.3s;
+}
+.fade-in {
+  animation: fadeInSlide 0.8s ease-out 0s 1 normal both running;
+}
 #prev-quote, #next-quote {
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
-
 #prev-quote:hover, #next-quote:hover {
   transform: scale(1.1);
   opacity: 0.8;
 }
 
+/* ===============================
+   5. Header & Navigation
+   =============================== */
+.masthead,
+.masthead__inner-wrap,
+.site-header {
+  background-color: #014361;
+  background-image: url('/assets/images/rice-paper-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+.greedy-nav {
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #014361;
+  background-image: url('/assets/images/rice-paper-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 63, 92, 0.8);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(6px);
+}
+.greedy-nav .inner-wrap {
+  padding: 0 !important;
+  margin: 0 auto;
+}
+.greedy-nav a {
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.greedy-nav li::after {
+  display: none;
+}
+.greedy-nav .menu-toggle {
+  color: #23507b;
+}
+.greedy-nav .hidden-links {
+  background-image: url('/assets/images/rice-paper-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: #014361;
+}
+.greedy-nav .hidden-links a:hover {
+  background-color: #014361;
+  background-image: url('/assets/images/rice-paper-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  color: #1b5e20;
+  border-bottom: 2px solid #1b5e20;
+}
+main h1:first-of-type {
+  margin-top: 2.5rem;
+}
+.minimal-footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+/* ===============================
+   6. Backgrounds & Textures
+   =============================== */
+/* Rice paper backgrounds for Buddhist quote, masthead, and hidden-links */
+.buddhist-quote {
+  background:
+    url('../images/rice-paper-1.jpg') center/cover no-repeat,
+    #003f5c;
+  background-blend-mode: multiply;
+  background-color: #003c58;
+}
+.quote-container {
+  background: #003c58;
+  background-image: url('assets/images/rice-paper-1.jpg');
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+.masthead,
+.masthead__inner-wrap,
+.site-header,
+.greedy-nav .hidden-links {
+  background-image: url('/assets/images/rice-paper-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+/* ===============================
+   7. Animations & Effects
+   =============================== */
+@keyframes fadeInBody {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeInSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
 @keyframes subtle-fade {
   from {
     opacity: 0;
@@ -805,8 +732,59 @@ main h1:first-of-type {
     transform: translateY(0);
   }
 }
-/* Responsive adjustments for quote box and nav buttons */
+.fade-in {
+  animation: fadeInSlide 0.8s ease-out 0s 1 normal both running;
+}
+.quote-box.fade {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.quote-box.show {
+  opacity: 1;
+}
+.event-card {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.event-card.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===============================
+   8. Media Queries & Mobile Tweaks
+   =============================== */
+@media screen and (max-width: 600px) {
+  .quote-navigation button {
+    font-size: 1.25rem;
+  }
+}
 @media (max-width: 600px) {
+  .zen-hero-banner h1 {
+    font-size: 1.4rem;
+    top: 0.75rem;
+    padding: 0 1.3rem;
+  }
+  .zen-link-list {
+    max-width: 98vw;
+  }
+  .zen-link-row {
+    padding: 1rem 0.7rem 1.2rem 0.7rem;
+    gap: 0.5rem;
+  }
+  .zen-link-list .zen-nav-button {
+    width: 100%;
+    max-width: 100%;
+    min-width: 160px;
+  }
+  .zen-link-text {
+    font-size: 1rem;
+  }
+  .zen-button {
+    padding: 0.6rem 0.8rem;
+    border-radius: 12px;
+  }
   .quote-box {
     font-size: 0.95rem;
     padding: 0.75rem;
@@ -816,30 +794,8 @@ main h1:first-of-type {
     padding: 0.4rem 0.6rem;
   }
 }
-/* --- QUOTE TEXT & AUTHOR ANIMATION --- */
-.quote-text {
-  text-align: left;
-  white-space: pre-line;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem; /* Reduce space above the quote */
-}
-
-.quote-author {
-  text-align: left;
-  padding-left: 5rem;
-  margin-top: 0.25rem; /* Reduce space before the author */
-}
-
-#quote-text,
-#quote-author {
-  display: block;
-  color: #ffffff;
-  font-size: 1.5rem;
-  opacity: 1;
-  transition: opacity 0.8s ease-in-out;
-}
-
-.hidden {
-  opacity: 0;
+.zen-button:active,
+.zen-nav-button:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 8px rgba(141, 110, 99, 0.08);
 }
