@@ -636,3 +636,58 @@ main h1:first-of-type {
   background-color: #ccc;
   margin: 1.2rem 0;
 }
+.zen-meeting-card {
+  background-color: var(--zen-surface);
+  border: 1px solid var(--zen-surface-border);
+  border-radius: 12px;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--zen-shadow-light);
+}
+
+.zen-meeting-card > *:first-child {
+  margin-top: 0;
+}
+
+.zen-meeting-card > *:last-child {
+  margin-bottom: 0;
+}
+
+.zen-meeting-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: var(--zen-primary);
+}
+
+.zen-meeting-card ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.zen-meeting-card li {
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+}
+
+.zen-meeting-card li span {
+  font-weight: 600;
+  margin-right: 0.5rem;
+  color: var(--zen-primary);
+}
+
+.zen-meeting-card hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: none;
+  border-top: 1px solid var(--zen-surface-border);
+}
+.zen-meeting-details {
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.zen-meeting-details p {
+  margin: 0.25rem 0;
+}

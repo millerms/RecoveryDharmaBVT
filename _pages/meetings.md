@@ -1,19 +1,22 @@
 ---
-layout: single
+layout: splash
 title: "Burlington Meetings & Groups"
 permalink: /meetings/
 nav_order: 2
 classes: full-width
 ---
-## Recovery Dharma Meetings and Meditation Groups in Burlington, VT
+<h1 style="margin-top: 5px;">Recovery Meetings and Other Meditations</h1>
 
 {% for meeting in site.data.meetings %}
-### {{ meeting.name }}
-- **Date & Time:** {{ meeting.time }}
-- **Type:** {{ meeting.type }}
-- **Address:** {{ meeting.address }}
-
-<div class="section-divider"></div>
+<div class="zen-meeting-block">
+  <h3 class="zen-meeting-title">{{ meeting.name }}</h3>
+  <div class="zen-meeting-details">
+    <p>📅 <strong>Date &amp; Time:</strong> {{ meeting.time }}</p>
+    <p>🧘 <strong>Type:</strong> {{ meeting.type }}</p>
+    <p>📍 <strong>Address:</strong> <a href="https://www.google.com/maps/search/?api=1&query={{ meeting.address | uri_escape }}" target="_blank" rel="noopener noreferrer">{{ meeting.address }}</a></p>
+  </div>
+</div>
+<hr class="zen-divider">
 {% endfor %}
 
 

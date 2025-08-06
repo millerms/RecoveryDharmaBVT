@@ -18,7 +18,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Burlington Meetings & Groups",
-        "excerpt":"Recovery Dharma Meetings and Meditation Groups in Burlington, VT Recovery Dharma - Recovery Rodeo - Burlington Date &amp; Time: Wednesday @ 6pm - 7pm Type: In-person Address: 21 Buell St, Burlington, VT 05401 Recovery Dharma - One Breath Sangha - Burlington Date &amp; Time: Thursday @ 1pm - 2pm Type:...","categories": [],
+        "excerpt":"Recovery Meetings and Other Meditations Recovery Dharma - Recovery Rodeo - Burlington 📅 Date &amp; Time: Wednesday @ 6pm - 7pm 🧘 Type: In-person 📍 Address: 21 Buell St, Burlington, VT 05401 Recovery Dharma - One Breath Sangha - Burlington 📅 Date &amp; Time: Thursday @ 1pm - 2pm 🧘...","categories": [],
         "tags": [],
         "url": "/meetings/",
         "teaser": null
