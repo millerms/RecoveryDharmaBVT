@@ -38,7 +38,7 @@ Below you’ll find links to the most relevant pages:
   <div class="zen-link-row">
     <div class="zen-link-text">
       <strong>Meetings & Groups</strong><br>
-      Find local in-person and online Recovery Dharma meetings in Burlington and beyond.
+      Find local in-person Recovery Dharma meetings and other meditation groups in Burlington and beyond.
     </div>
     <a href="{{ site.baseurl }}/meetings/" class="zen-nav-button">🪷 Meetings & Groups</a>
   </div> 
@@ -52,7 +52,7 @@ Below you’ll find links to the most relevant pages:
   <div class="zen-link-row">
     <div class="zen-link-text">
       <strong>Resources</strong><br>
-      Explore PDFs, recordings, and links to deepen your understanding and practice.
+      Explore PDFs, meditations, and links to deepen your understanding and practice through Recovery Dharma.
     </div>
     <a href="{{ site.baseurl }}/resources/" class="zen-nav-button">📚 Resources</a>
   </div>
