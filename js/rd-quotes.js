@@ -127,7 +127,17 @@ const rdQuotes = [
   { text: "The obstacle is the path.", author: "Zen Proverb" },
   { text: "The ego is a veil between humans and God.", author: "Rumi" },
   { text: "Hold fast to your center and do not lose it.", author: "Lao Tzu" },
-  { text: "I have been a seeker and I still am. But I stopped asking the books and the stars. I started listening to the teaching of my soul.", author: "Rumi" }
+  { text: "I have been a seeker and I still am. But I stopped asking the books and the stars. I started listening to the teaching of my soul.", author: "Rumi" },
+  { text: "Try to let what is simply be.", author: "Jack Kornfield" },
+  { text: "You only lose what you cling to.", author: "Attributed to Buddha" },
+  { text: "Silence is sometimes the best answer.", author: "Dalai Lama" },
+  { text: "Simplicity is the ultimate sophistication.", author: "Leonardo da Vinci" },
+  { text: "I am not what happened to me, I am what I choose to become.", author: "Carl Jung" },
+  { text: "The privilege of a lifetime is to become who you truly are.", author: "Carl Jung" },
+  { text: "When one tugs at a single thing in nature, he finds it attached to the rest of the world.", author: "John Muir" },
+  { text: "Each of us is a note in the great symphony of life.", author: "Unknown" },
+  { text: "Enlightenment is when a wave realizes it is the ocean.", author: "Thich Nhat Hanh" },
+  { text: "The way is not in the sky. The way is in the heart.", author: "Attributed to Buddha" }
 ];
 
 function cycleRDQuotes() {
