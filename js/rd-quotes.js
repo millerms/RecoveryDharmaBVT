@@ -104,9 +104,30 @@ const rdQuotes = [
   { text: "God is the name of the blanket we throw over the mystery to give it shape.", author: "Barry Taylor" },
   { text: "You can fall apart and still come back. You can relapse and still recover. You can lose your way and still find meaning.", author: "Unknown" },
   { text: "You can search the entire universe and not find a single being more deserving of love than yourself.", author: "Buddha (paraphrased)" },
-  { text: "Let go or be dragged.", author: "Unknown (Zen Saying)" },
+  { text: "Let go or be dragged.", author: "Zen Saying" },
   { text: "The only way out is through.", author: "Robert Frost" },
-  { text: "You are the sky. Everything else is just the weather.", author: "Pema Chödrön" }
+  { text: "You are the sky. Everything else is just the weather.", author: "Pema Chödrön" },
+  { text: "Nothing is forever. Not even your troubles.", author: "Arnold H. Glasow" },
+  { text: "We must be willing to let go of the life we planned so as to have the life that is waiting for us.", author: "Joseph Campbell" },
+  { text: "The art of life is a constant readjustment to our surroundings.", author: "Kakuzō Okakura" },
+  { text: "A flower does not think of competing with the flower next to it. It just blooms.", author: "Zen Proverb" },
+  { text: "When I let go of what I am, I become what I might be.", author: "Lao Tzu" },
+  { text: "I am because we are.", author: "Ubuntu Proverb" },
+  { text: "You cannot separate peace from freedom, because no one can be at peace unless they have freedom.", author: "Malcolm X" },
+  { text: "You do not have to be good. You only have to let the soft animal of your body love what it loves.", author: "Mary Oliver" },
+  { text: "There is a crack in everything. That’s how the light gets in.", author: "Leonard Cohen" },
+  { text: "To heal is to touch with love that which we previously touched with fear.", author: "Stephen Levine" },
+  { text: "Freedom is being yourself without permission.", author: "Unknown" },
+  { text: "Walk as if you are kissing the Earth with your feet.", author: "Thich Nhat Hanh" },
+  { text: "The miracle is not to walk on water. The miracle is to walk on the earth.", author: "Thich Nhat Hanh" },
+  { text: "You cannot step into the same river twice.", author: "Heraclitus" },
+  { text: "Real generosity toward the future lies in giving all to the present.", author: "Albert Camus" },
+  { text: "Your pain is the breaking of the shell that encloses your understanding.", author: "Kahlil Gibran" },
+  { text: "Hard times require furious dancing.", author: "Alice Walker" },
+  { text: "The obstacle is the path.", author: "Zen Proverb" },
+  { text: "The ego is a veil between humans and God.", author: "Rumi" },
+  { text: "Hold fast to your center and do not lose it.", author: "Lao Tzu" },
+  { text: "I have been a seeker and I still am. But I stopped asking the books and the stars. I started listening to the teaching of my soul.", author: "Rumi" }
 ];
 
 function cycleRDQuotes() {
