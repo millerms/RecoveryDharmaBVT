@@ -591,7 +591,7 @@ a::after {
 .masthead__inner-wrap,
 .site-header {
   background-color: #014361;
-  background-image: url('/assets/images/rice-paper-3.jpg');
+  background-image: url('/assets/images/rice-paper-3.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
@@ -605,7 +605,7 @@ a::after {
   top: 0;
   z-index: 1000;
   background-color: #014361;
-  background-image: url('/assets/images/rice-paper-3.jpg');
+  background-image: url('/assets/images/rice-paper-3.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
@@ -629,7 +629,7 @@ a::after {
   color: #23507b;
 }
 .greedy-nav .hidden-links {
-  background-image: url('/assets/images/rice-paper-3.jpg');
+  background-image: url('/assets/images/rice-paper-3.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
@@ -637,7 +637,7 @@ a::after {
 }
 .greedy-nav .hidden-links a:hover {
   background-color: #014361;
-  background-image: url('/assets/images/rice-paper-3.jpg');
+  background-image: url('/assets/images/rice-paper-3.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
@@ -661,14 +661,14 @@ main h1:first-of-type {
 /* Rice paper backgrounds for Buddhist quote, masthead, and hidden-links */
 .buddhist-quote {
   background:
-    url('../images/rice-paper-1.jpg') center/cover no-repeat,
+    url('../images/rice-paper-1.webp') center/cover no-repeat,
     #003f5c;
   background-blend-mode: multiply;
   background-color: #003c58;
 }
 .quote-container {
   background: #003c58;
-  background-image: url('assets/images/rice-paper-1.jpg');
+  background-image: url('assets/images/rice-paper-1.webp');
   background-size: cover;
   background-blend-mode: multiply;
 }
@@ -676,7 +676,7 @@ main h1:first-of-type {
 .masthead__inner-wrap,
 .site-header,
 .greedy-nav .hidden-links {
-  background-image: url('/assets/images/rice-paper-3.jpg');
+  background-image: url('/assets/images/rice-paper-3.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
