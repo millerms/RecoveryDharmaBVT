@@ -166,6 +166,19 @@ const rdQuotes = [
   { text: "The way is not in the sky. The way is in the heart.", author: "Attributed to Buddha" }
 ];
 
+// Shuffle quote indices for non-repeating random order
+let shuffledIndices = [];
+let currentShuffleIndex = 0;
+
+function shuffleIndices(length) {
+  const array = [...Array(length).keys()];
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 // Main logic wrapped in DOMContentLoaded listener
 document.addEventListener('DOMContentLoaded', function () {
   console.log("DOM ready");
@@ -175,11 +188,9 @@ document.addEventListener('DOMContentLoaded', function () {
     return;
   }
 
-  const currentQuoteIndex = Math.floor(Math.random() * rdQuotes.length);
-
-  setTimeout(() => {
-    showQuote(currentQuoteIndex);
-  }, 500);
+  shuffledIndices = shuffleIndices(rdQuotes.length);
+  currentShuffleIndex = 0;
+  showQuote(shuffledIndices[currentShuffleIndex]);
 });
 
 function showQuote(index) {
@@ -211,8 +222,12 @@ function startAutoRotate() {
   if (autoRotateTimer) clearInterval(autoRotateTimer);
   autoRotateTimer = setInterval(() => {
     if (!autoRotatePaused) {
-      currentQuoteIndex = (currentQuoteIndex + 1) % rdQuotes.length;
-      showQuote(currentQuoteIndex);
+      currentShuffleIndex++;
+      if (currentShuffleIndex >= shuffledIndices.length) {
+        shuffledIndices = shuffleIndices(rdQuotes.length);
+        currentShuffleIndex = 0;
+      }
+      showQuote(shuffledIndices[currentShuffleIndex]);
     }
   }, 30000);
 }
@@ -237,10 +252,6 @@ function pulseButton(btn) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  // Pick a random starting quote
-  currentQuoteIndex = Math.floor(Math.random() * rdQuotes.length);
-  showQuote(currentQuoteIndex);
-
   // Add aria-live and tabindex to quote container for accessibility
   const container = document.querySelector('.quote-container');
   if (container) {
@@ -252,30 +263,44 @@ document.addEventListener('DOMContentLoaded', function() {
   const nextBtn = document.getElementById('next-quote');
   if (prevBtn && nextBtn) {
     prevBtn.addEventListener('click', () => {
-      currentQuoteIndex = (currentQuoteIndex - 1 + rdQuotes.length) % rdQuotes.length;
-      showQuote(currentQuoteIndex);
+      currentShuffleIndex--;
+      if (currentShuffleIndex < 0) {
+        currentShuffleIndex = shuffledIndices.length - 1;
+      }
+      showQuote(shuffledIndices[currentShuffleIndex]);
       pulseButton(prevBtn);
       pauseAutoRotateAndResume();
     });
     nextBtn.addEventListener('click', () => {
-      currentQuoteIndex = (currentQuoteIndex + 1) % rdQuotes.length;
-      showQuote(currentQuoteIndex);
+      currentShuffleIndex++;
+      if (currentShuffleIndex >= shuffledIndices.length) {
+        shuffledIndices = shuffleIndices(rdQuotes.length);
+        currentShuffleIndex = 0;
+      }
+      showQuote(shuffledIndices[currentShuffleIndex]);
       pulseButton(nextBtn);
       pauseAutoRotateAndResume();
     });
     // Keyboard accessibility for buttons
     prevBtn.addEventListener('keydown', (event) => {
       if (event.key === 'Enter' || event.key === ' ') {
-        currentQuoteIndex = (currentQuoteIndex - 1 + rdQuotes.length) % rdQuotes.length;
-        showQuote(currentQuoteIndex);
+        currentShuffleIndex--;
+        if (currentShuffleIndex < 0) {
+          currentShuffleIndex = shuffledIndices.length - 1;
+        }
+        showQuote(shuffledIndices[currentShuffleIndex]);
         pulseButton(prevBtn);
         pauseAutoRotateAndResume();
       }
     });
     nextBtn.addEventListener('keydown', (event) => {
       if (event.key === 'Enter' || event.key === ' ') {
-        currentQuoteIndex = (currentQuoteIndex + 1) % rdQuotes.length;
-        showQuote(currentQuoteIndex);
+        currentShuffleIndex++;
+        if (currentShuffleIndex >= shuffledIndices.length) {
+          shuffledIndices = shuffleIndices(rdQuotes.length);
+          currentShuffleIndex = 0;
+        }
+        showQuote(shuffledIndices[currentShuffleIndex]);
         pulseButton(nextBtn);
         pauseAutoRotateAndResume();
       }
@@ -293,13 +318,20 @@ document.addEventListener('keydown', function(event) {
   const prevBtn = document.getElementById('prev-quote');
   const nextBtn = document.getElementById('next-quote');
   if (event.key === 'ArrowLeft') {
-    currentQuoteIndex = (currentQuoteIndex - 1 + rdQuotes.length) % rdQuotes.length;
-    showQuote(currentQuoteIndex);
+    currentShuffleIndex--;
+    if (currentShuffleIndex < 0) {
+      currentShuffleIndex = shuffledIndices.length - 1;
+    }
+    showQuote(shuffledIndices[currentShuffleIndex]);
     pulseButton(prevBtn);
     pauseAutoRotateAndResume();
   } else if (event.key === 'ArrowRight') {
-    currentQuoteIndex = (currentQuoteIndex + 1) % rdQuotes.length;
-    showQuote(currentQuoteIndex);
+    currentShuffleIndex++;
+    if (currentShuffleIndex >= shuffledIndices.length) {
+      shuffledIndices = shuffleIndices(rdQuotes.length);
+      currentShuffleIndex = 0;
+    }
+    showQuote(shuffledIndices[currentShuffleIndex]);
     pulseButton(nextBtn);
     pauseAutoRotateAndResume();
   }
@@ -314,19 +346,25 @@ function handleGesture() {
   const nextBtn = document.getElementById('next-quote');
   // Use 50px threshold for swipe
   if (touchEndX < touchStartX - 50) {
-    currentQuoteIndex = (currentQuoteIndex + 1) % rdQuotes.length;
-    showQuote(currentQuoteIndex);
+    currentShuffleIndex++;
+    if (currentShuffleIndex >= shuffledIndices.length) {
+      shuffledIndices = shuffleIndices(rdQuotes.length);
+      currentShuffleIndex = 0;
+    }
+    showQuote(shuffledIndices[currentShuffleIndex]);
     pulseButton(nextBtn);
     pauseAutoRotateAndResume();
   }
   if (touchEndX > touchStartX + 50) {
-    currentQuoteIndex = (currentQuoteIndex - 1 + rdQuotes.length) % rdQuotes.length;
-    showQuote(currentQuoteIndex);
+    currentShuffleIndex--;
+    if (currentShuffleIndex < 0) {
+      currentShuffleIndex = shuffledIndices.length - 1;
+    }
+    showQuote(shuffledIndices[currentShuffleIndex]);
     pulseButton(prevBtn);
     pauseAutoRotateAndResume();
   }
 }
-
 
 document.addEventListener('touchstart', function(event) {
   touchStartX = event.changedTouches[0].screenX;
@@ -354,8 +392,12 @@ if (quoteBox) {
       if (now - lastTapRight < 300) {
         // next quote
         const nextBtn = document.getElementById('next-quote');
-        currentQuoteIndex = (currentQuoteIndex + 1) % rdQuotes.length;
-        showQuote(currentQuoteIndex);
+        currentShuffleIndex++;
+        if (currentShuffleIndex >= shuffledIndices.length) {
+          shuffledIndices = shuffleIndices(rdQuotes.length);
+          currentShuffleIndex = 0;
+        }
+        showQuote(shuffledIndices[currentShuffleIndex]);
         pulseButton(nextBtn);
         pauseAutoRotateAndResume();
       }
@@ -365,8 +407,11 @@ if (quoteBox) {
       if (now - lastTapLeft < 300) {
         // prev quote
         const prevBtn = document.getElementById('prev-quote');
-        currentQuoteIndex = (currentQuoteIndex - 1 + rdQuotes.length) % rdQuotes.length;
-        showQuote(currentQuoteIndex);
+        currentShuffleIndex--;
+        if (currentShuffleIndex < 0) {
+          currentShuffleIndex = shuffledIndices.length - 1;
+        }
+        showQuote(shuffledIndices[currentShuffleIndex]);
         pulseButton(prevBtn);
         pauseAutoRotateAndResume();
       }
