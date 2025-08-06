@@ -584,21 +584,22 @@ a::after {
   opacity: 0.8;
 }
 
-/* ===============================
-   5. Header & Navigation
-   =============================== */
-/* Masthead background: clean rice paper texture with subtle overlay */
+/* ==================================
+   5. Header, Navigation, & Textures
+   ================================== */
+/* Rice paper backgrounds for Buddhist quote, masthead, and hidden-links */
 .masthead,
 .masthead__inner-wrap,
 .site-header,
 .greedy-nav,
-.greedy-nav .hidden-links {
+.greedy-nav .hidden-links,
+.buddhist-quote,
+.quote-container {
   background-color: #095c83;
   background-image: url('/assets/images/rice-paper-1.webp') !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-blend-mode: multiply !important;
-}
 }
 .greedy-nav {
   background: transparent !important;
@@ -680,7 +681,7 @@ a::after {
   transform: rotate(-45deg);
 }
 
-/* Optional: hover color effect */
+/* Hover color effect */
 .greedy-nav__toggle:hover .navicon,
 .greedy-nav__toggle:hover .navicon::before,
 .greedy-nav__toggle:hover .navicon::after {
@@ -699,20 +700,7 @@ main h1:first-of-type {
 }
 
 /* ===============================
-   6. Backgrounds & Textures
-   =============================== */
-/* Rice paper backgrounds for Buddhist quote, masthead, and hidden-links */
-.buddhist-quote,
-.quote-container{
-  background:
-    url('../images/rice-paper-1.webp') center/cover no-repeat,
-    #095c83;
-  background-blend-mode: multiply;
-  background-color: #095c83;
-}
-
-/* ===============================
-   7. Animations & Effects
+   6. Animations & Effects
    =============================== */
 @keyframes fadeInBody {
   to {
@@ -779,7 +767,7 @@ main h1:first-of-type {
 }
 
 /* ===============================
-   8. Media Queries & Mobile Tweaks
+   7. Media Queries & Mobile Tweaks
    =============================== */
 @media screen and (max-width: 600px) {
   .quote-navigation button {
