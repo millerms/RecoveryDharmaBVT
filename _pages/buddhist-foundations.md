@@ -38,7 +38,7 @@ These teachings have been deeply meaningful to me in recovery. They helped me re
 
 Here you’ll find a gentle introduction to core Buddhist ideas, including ethical precepts, the Eightfold Path, and different forms of meditation. The goal isn’t to get it all perfect, it’s to begin with curiosity and keep walking the path. This is especially for folks in recovery who want something grounded, experiential, and not loaded with dogma. Buddhism, at its heart, is a path of liberation through understanding.
 
-If you’re more of a listener or viewer, these two talks offer different but complementary doorways into the heart of practice. One speaks to our deeper sense of identity and belonging, the other to the power of living deliberately and with awareness:
+If you’re more of a listener, these two talks offer different but complementary doorways into the heart of practice. One speaks to our deeper sense of identity and belonging, the other to the power of living deliberately and with awareness:
 
 - **[Alan Watts: The Real You](https://youtu.be/mMRrCYPxD0I?si=tNn3_KuxT-7LYDHR)** - A profound and poetic meditation on self, illusion, and what it means to truly be from the late philosopher Alan Watts.
 
@@ -58,16 +58,14 @@ These are voluntary ethical commitments that ground the mind and foster well-bei
 4. **To refrain from false speech** – Truthfulness, avoiding gossip or harshness  
 5. **To refrain from intoxicants that cloud the mind** – Maintaining clarity and mindfulness
 
-In recovery, the **Fifth Precept** resonates deeply. It helps reclaim sobriety as a form of ethical clarity and self-respect. [The Fifth Precept Sangha](https://5th-precept.org/fifth-precept-recovery-community) is a peer-led recovery and meditation community rooted in this ethic.
-
 <div class="section-divider"></div>
 
 ### The Four Noble Truths & Addiction
 
-1. **There Is Suffering (Dukkha)** – Life involves dissatisfaction in both obvious and subtle forms: suffering, unease, and “not-enoughness.” Addiction often starts as an attempt to relieve this suffering.
-2. **Craving (Tanha) Is the Cause** – It is craving—whether physical, emotional, or psychological—that fuels the cycle of addiction.
-3. **Cessation of Craving Ends Suffering** – Recovery is possible when we untangle from habitual craving and begin to make space.
-4. **The Path Out Is the Eightfold Path** – The way to healing is a holistic, intentional path: wise comprehension, ethical living, mindful presence, and steady effort.
+1. **There Is Suffering (Dukkha)** – Life involves dissatisfaction in both obvious and subtle forms: suffering, unease, and “not-enoughness.” Addiction often starts as an attempt to relieve this suffering. We commit to understanding the truth of suffering.
+2. **Craving (Tanha) Is the Cause** – It is craving—whether physical, emotional, or psychological—that fuels the cycle of addiction. We commit to understanding that craving leads to suffering.
+3. **Cessation of Craving Ends Suffering** – Recovery is possible when we untangle from habitual craving and begin to make space. We commit to understand that less craving leads to less suffering.
+4. **The Path Out Is the Eightfold Path** – The way to healing is a holistic, intentional path: wise comprehension, ethical living, mindful presence, and steady effort. We commit to cultivating the path.
 
 **Recovery Dharma** adapts these as:
 - Addiction causes suffering  

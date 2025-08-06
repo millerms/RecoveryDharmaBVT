@@ -59,7 +59,26 @@ const rdQuotes = [
   { text: "The illusion of self is the root of all conflict.", author: "The Buddha (paraphrased)" },
   { text: "Emptiness is not nothingness. It is the fullness of possibility.", author: "Nagarjuna (modern interpretation)" },
   { text: "An awakened mind is not attached to anything, not even awakening.", author: "Dzogchen Ponlop Rinpoche" },
-  { text: "The past no longer is, the future has not yet come. Look deeply at life as it is.", author: "The Buddha" }
+  { text: "The past no longer is, the future has not yet come. Look deeply at life as it is.", author: "The Buddha" },
+  { text: "Don’t get lost in your pain, know that one day your pain will become your cure.", author: "Rumi" },
+  { text: "Try not to resist the changes that come your way. Instead, let life live through you.", author: "Rumi" },
+  { text: "Be like a tree and let the dead leaves drop.", author: "Rumi" },
+  { text: "These pains you feel are messengers. Listen to them.", author: "Rumi" },
+  { text: "With life as short as a half-taken breath, don’t plant anything but love.", author: "Rumi" },
+  { text: "You were born with wings, why prefer to crawl through life?", author: "Rumi" },
+  { text: "As you start to walk the way, the way appears.", author: "Rumi" },
+  { text: "What you seek is seeking you.", author: "Rumi" },
+  { text: "If you are distressed by anything external, the pain is not due to the thing itself, but to your estimate of it.", author: "Marcus Aurelius" },
+  { text: "He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.", author: "Epictetus" },
+  { text: "Man is not worried by real problems so much as by his imagined anxieties about real problems.", author: "Epictetus" },
+  { text: "We suffer more often in imagination than in reality.", author: "Seneca" },
+  { text: "It is not death that a man should fear, but he should fear never beginning to live.", author: "Marcus Aurelius" },
+  { text: "To love only what happens, what was destined. No greater harmony.", author: "Marcus Aurelius" },
+  { text: "Don’t seek for everything to happen as you wish it would, but rather wish that everything happens as it actually will—then your life will flow well.", author: "Epictetus" },
+  { text: "You become what you give your attention to.", author: "Epictetus" },
+  { text: "The happiness of your life depends upon the quality of your thoughts.", author: "Marcus Aurelius" },
+  { text: "If you want to improve, be content to be thought foolish and stupid.", author: "Epictetus" },
+  { text: "The impediment to action advances action. What stands in the way becomes the way.", author: "Marcus Aurelius" }
 ];
 
 function cycleRDQuotes() {

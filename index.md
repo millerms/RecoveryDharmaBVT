@@ -19,7 +19,7 @@ permalink: /
 
 ### What is Recovery Dharma?
 
-Recovery Dharma is a peer-led, non-theistic approach to recovery that uses Buddhist principles as a foundation for healing from addiction and suffering. We believe in the power of mindfulness, meditation, community, and personal responsibility. There’s no dogma, just an invitation to investigate your own experience and walk a path of wisdom and compassion - together.
+Recovery Dharma is a peer-led, non-theistic approach to recovery that uses Buddhist principles as a foundation for healing from addiction and suffering. We believe in the power of mindfulness, meditation, community, and personal responsibility. There’s no dogma, just an invitation to investigate your own experience and walk a path of wisdom and compassion -- together.
 
 Our practices are grounded in the Four Noble Truths and the Eightfold Path. This site is a hub for Vermont-based offerings and a living resource for anyone interested in this way of recovery.
 
