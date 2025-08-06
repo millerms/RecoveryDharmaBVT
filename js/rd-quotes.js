@@ -145,7 +145,7 @@ function cycleRDQuotes() {
   if (!box) return;
   let idx = Math.floor(Math.random() * rdQuotes.length);
   function showQuote(i) {
-    box.innerHTML = `<em>“${rdQuotes[i].text}”</em><br>— ${rdQuotes[i].author}`;
+    box.innerHTML = `<em>“${rdQuotes[i].text}”</em><br>~ ${rdQuotes[i].author}`;
   }
   showQuote(idx);
   setInterval(() => {
