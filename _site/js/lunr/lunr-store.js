@@ -12,7 +12,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Events",
-        "excerpt":"Upcoming Meditation Events We're building a schedule of events to support practice, community, and recovery. Whether it's retreats, daylong sits, or special talks, this is where you'll find them. Mindful Recovery Retreat Date: October 10–12, 2025 Location: Adamant, Vermont Details are tentative. Stay tuned for more info. More events coming...","categories": [],
+        "excerpt":"   Upcoming Meditation Events         We're building a schedule of events to support practice, community, and recovery. Whether it's retreats, daylong sits, or special talks, this is where you'll find them.              More events coming soon. Check back often or get in touch if you'd like to help organize!     ","categories": [],
         "tags": [],
         "url": "/events/",
         "teaser": null

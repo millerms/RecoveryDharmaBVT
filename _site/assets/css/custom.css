@@ -611,3 +611,49 @@ main h1:first-of-type {
   color: #ffffff;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+.event-card {
+  background-color: #f9f9f9;
+  border-left: 6px solid var(--primary-color);
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+/* Animate in */
+.event-card.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Field labels and values */
+.event-card strong {
+  display: inline-block;
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+/* Event field */
+.event-field {
+  margin-bottom: 0.4rem;
+}
+
+/* Event grid layout */
+.events-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* Divider */
+.zen-divider {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 1.2rem 0;
+}
