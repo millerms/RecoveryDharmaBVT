@@ -121,25 +121,17 @@ button.zen-link-text,
 }
 
 /* --- QUOTE BOX --- */
-
-@keyframes fadeInSlide {
-  0% {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 .buddhist-quote {
   font-family: 'Bookman Old Style', 'Bookman', 'Georgia', serif;
   font-size: 1.1rem;
   font-weight: 500;
   line-height: 1.75;
   color: #ffffff; /* no change needed */
-  background: #003f5c;
+  background: 
+    url('../images/rice-paper.jpg') center/cover no-repeat,
+    #003f5c; /* Fallback color */
+  background-blend-mode: multiply;
+  background-color: rgba(0, 63, 92, 0.8);
   border-radius: 16px;
   padding: 1.75rem 2rem;
   margin: 2rem auto;
@@ -147,7 +139,6 @@ button.zen-link-text,
   text-align: center;
   backdrop-filter: blur(4px);
   box-shadow: 0 4px 12px rgba(141, 110, 99, 0.12);
-  animation: fadeInSlide 0.8s ease-out both;
   position: relative;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -167,6 +158,20 @@ button.zen-link-text,
   margin-top: 0.5rem;
   font-size: 0.95rem;
   letter-spacing: 0.3px;
+}
+
+/* --- QUOTE CONTAINER (with rice paper texture) --- */
+.quote-container {
+  background: #003f5c;
+  background-image: url('assets/images/rice-paper.jpg');
+  background-size: cover;
+  background-blend-mode: multiply;
+  border-radius: 16px;
+  padding: 1.75rem 2rem;
+  margin: 2rem auto;
+  max-width: 700px;
+  box-shadow: 0 4px 12px rgba(141, 110, 99, 0.12);
+  position: relative;
 }
 
 /* --- NAVBAR: REMOVE WHITE BACKGROUND --- */
@@ -269,16 +274,78 @@ button.zen-link-text,
   }
 }
 
-/* --- OPTIONAL QUOTE BOX (alternate style) --- */
-
-
+/* --- ENHANCED QUOTE BOX --- */
 .quote-box {
-  background: #f4f4f4;
-  padding: 1.5rem;
-  margin: 2rem auto;
-  animation: fadeSlideIn 0.6s ease-in-out both;
+  background: #fdfdfb;
+  background-size: cover;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: relative;
-  padding-left: 3.2rem;
+  border: 1px solid #ddd;
+  margin: 1rem auto;
+  max-width: 700px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Fade-in animation for quotes */
+.quote-box.fade {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.quote-box.show {
+  opacity: 1;
+}
+
+/* --- QUOTE BOX BUTTONS (restored) --- */
+@keyframes fadeInSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeInSlide 0.8s ease-out 0s 1 normal both running;
+}
+
+/* --- QUOTE NAV BUTTONS (new, with pulse and hover) --- */
+.quote-nav-button {
+  background-color: #f4f4f4;
+  color: #003f5c;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  font-size: 1.25rem;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.07);
+}
+
+.quote-nav-button:hover {
+  background-color: #e2e2e2;
+  transform: scale(1.1);
+}
+
+.quote-nav-button:active {
+  animation: pulse 0.3s;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+/* Ensure primary color variable is defined */
+:root {
+  --primary-color: #003f5c;
 }
 
 
@@ -690,4 +757,89 @@ main h1:first-of-type {
 
 .zen-meeting-details p {
   margin: 0.25rem 0;
+}
+.quote-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+.quote-navigation button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--primary-color);
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.quote-navigation button:hover {
+  color: #2c3e50;
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 600px) {
+  .quote-navigation button {
+    font-size: 1.25rem;
+  }
+}
+/* --- QUOTE NAVIGATION BUTTONS (new) --- */
+#prev-quote, #next-quote {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+#prev-quote:hover, #next-quote:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+@keyframes subtle-fade {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Responsive adjustments for quote box and nav buttons */
+@media (max-width: 600px) {
+  .quote-box {
+    font-size: 0.95rem;
+    padding: 0.75rem;
+  }
+  .quote-nav-button {
+    font-size: 1rem;
+    padding: 0.4rem 0.6rem;
+  }
+}
+/* --- QUOTE TEXT & AUTHOR ANIMATION --- */
+.quote-text {
+  text-align: left;
+  white-space: pre-line;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem; /* Reduce space above the quote */
+}
+
+.quote-author {
+  text-align: left;
+  padding-left: 5rem;
+  margin-top: 0.25rem; /* Reduce space before the author */
+}
+
+#quote-text,
+#quote-author {
+  display: block;
+  color: #ffffff;
+  font-size: 1.5rem;
+  opacity: 1;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.hidden {
+  opacity: 0;
 }

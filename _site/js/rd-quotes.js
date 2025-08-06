@@ -59,21 +59,279 @@ const rdQuotes = [
   { text: "The illusion of self is the root of all conflict.", author: "The Buddha (paraphrased)" },
   { text: "Emptiness is not nothingness. It is the fullness of possibility.", author: "Nagarjuna (modern interpretation)" },
   { text: "An awakened mind is not attached to anything, not even awakening.", author: "Dzogchen Ponlop Rinpoche" },
-  { text: "The past no longer is, the future has not yet come. Look deeply at life as it is.", author: "The Buddha" }
+  { text: "The past no longer is, the future has not yet come. Look deeply at life as it is.", author: "The Buddha" },
+  { text: "Don’t get lost in your pain, know that one day your pain will become your cure.", author: "Rumi" },
+  { text: "Try not to resist the changes that come your way. Instead, let life live through you.", author: "Rumi" },
+  { text: "Be like a tree and let the dead leaves drop.", author: "Rumi" },
+  { text: "These pains you feel are messengers. Listen to them.", author: "Rumi" },
+  { text: "With life as short as a half-taken breath, don’t plant anything but love.", author: "Rumi" },
+  { text: "You were born with wings, why prefer to crawl through life?", author: "Rumi" },
+  { text: "As you start to walk the way, the way appears.", author: "Rumi" },
+  { text: "What you seek is seeking you.", author: "Rumi" },
+  { text: "If you are distressed by anything external, the pain is not due to the thing itself, but to your estimate of it.", author: "Marcus Aurelius" },
+  { text: "He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.", author: "Epictetus" },
+  { text: "Man is not worried by real problems so much as by his imagined anxieties about real problems.", author: "Epictetus" },
+  { text: "We suffer more often in imagination than in reality.", author: "Seneca" },
+  { text: "It is not death that a man should fear, but he should fear never beginning to live.", author: "Marcus Aurelius" },
+  { text: "To love only what happens, what was destined. No greater harmony.", author: "Marcus Aurelius" },
+  { text: "Don’t seek for everything to happen as you wish it would, but rather wish that everything happens as it actually will—then your life will flow well.", author: "Epictetus" },
+  { text: "You become what you give your attention to.", author: "Epictetus" },
+  { text: "The happiness of your life depends upon the quality of your thoughts.", author: "Marcus Aurelius" },
+  { text: "If you want to improve, be content to be thought foolish and stupid.", author: "Epictetus" },
+  { text: "The impediment to action advances action. What stands in the way becomes the way.", author: "Marcus Aurelius" },
+  {
+    text: 
+    `Life always gives us exactly the teacher we need at every moment.  
+      This includes every mosquito, 
+      every misfortune, 
+      every red light,  
+      every traffic jam, 
+      every obnoxious supervisor (or employee),  
+      every illness, 
+      every loss, 
+      every addiction,  
+      every piece of garbage,
+      every breath.`,
+    author: "Charlotte Joko Beck"
+  },
+  { text: "The wound is the place where the Light enters you.", author: "Rumi" },
+  { text: "The only lasting beauty is the beauty of the heart.", author: "Rumi" },
+  { text: "When the soul lies down in that grass, the world is too full to talk about ideas, language, even the phrase each other doesn’t make any sense.", author: "Rumi" },
+  { text: "The only way to deal with fear is to face it head on.", author: "Pema Chödrön" },
+  { text: "When you let go of what you are, you become what you might be.", author: "Lao Tzu" },
+  { text: "The quieter you become, the more you can hear.", author: "Ram Dass" },
+  { text: "You are not a drop in the ocean. You are the entire ocean in a drop.", author: "Rumi" },
+  { text: "The function of prayer is not to influence God, but rather to change the nature of the one who prays.", author: "Søren Kierkegaard" },
+  { text: "The only Zen you find on the tops of mountains is the Zen you bring up there.", author: "Robert M. Pirsig" },
+  { text: "I would rather have questions that cannot be answered than answers that cannot be questioned.", author: "Richard Feynman" },
+  { text: "Every morning we are born again. What we do today is what matters most.", author: "Buddha" },
+  { text: "You can't go back and change the beginning, but you can start where you are and change the ending.", author: "C.S. Lewis" },
+  { text: "We are what we repeatedly do... therefore excellence is not an act, but a habit.", author: "Will Durant" },
+  { text: "Knowing how to think empowers you far beyond those who only know what to think.", author: "Neil deGrasse Tyson" },
+  { text: "Between stimulus and response there is a space. In that space is our power to choose our response. In our response lies our growth and our freedom.", author: "Victor Frankl" },
+  { text: "I am an old man and have known a great many troubles, but most of them never happened.", author: "Mark Twain" },
+  { text: "The greatest glory in living lies not in never falling, but in rising every time we fall.", author: "Nelson Mandela" },
+{
+  text: `I prayed for change, so I changed my mind.  
+    I prayed for guidance and learned to trust myself.  
+    I prayed for happiness and realized I am not my ego.  
+    I prayed for peace and learned to accept others unconditionally.  
+    I prayed for abundance and realized my doubt kept it out.  
+    I prayed for wealth and realized it is my health.  
+    I prayed for a miracle and realized I am the miracle.  
+    I prayed for a soul mate and realized I am with the One.  
+    I prayed for love and realized it is always knocking,  
+    but I have to allow it in.`,
+  author: "Rumi"
+},
+  { text: "Wherever there is a human being, there is an opportunity for kindness.", author: "Seneca" },
+  { text: "I always get to where I am going by walking away from where I have been.", author: "Winnie the Pooh" },
+  { text: "God is a metaphor for that which transcends all levels of intellectual thought. It's as simple as that.", author: "Joseph Campbell" },
+  { text: "God is the name of the blanket we throw over the mystery to give it shape.", author: "Barry Taylor" },
+  { text: "You can fall apart and still come back. You can relapse and still recover. You can lose your way and still find meaning.", author: "Unknown" },
+  { text: "You can search the entire universe and not find a single being more deserving of love than yourself.", author: "Buddha (paraphrased)" },
+  { text: "Let go or be dragged.", author: "Zen Saying" },
+  { text: "The only way out is through.", author: "Robert Frost" },
+  { text: "You are the sky. Everything else is just the weather.", author: "Pema Chödrön" },
+  { text: "Nothing is forever. Not even your troubles.", author: "Arnold H. Glasow" },
+  { text: "We must be willing to let go of the life we planned so as to have the life that is waiting for us.", author: "Joseph Campbell" },
+  { text: "The art of life is a constant readjustment to our surroundings.", author: "Kakuzō Okakura" },
+  { text: "A flower does not think of competing with the flower next to it. It just blooms.", author: "Zen Proverb" },
+  { text: "When I let go of what I am, I become what I might be.", author: "Lao Tzu" },
+  { text: "I am because we are.", author: "Ubuntu Proverb" },
+  { text: "You cannot separate peace from freedom, because no one can be at peace unless they have freedom.", author: "Malcolm X" },
+  { text: "You do not have to be good. You only have to let the soft animal of your body love what it loves.", author: "Mary Oliver" },
+  { text: "There is a crack in everything. That’s how the light gets in.", author: "Leonard Cohen" },
+  { text: "To heal is to touch with love that which we previously touched with fear.", author: "Stephen Levine" },
+  { text: "Freedom is being yourself without permission.", author: "Unknown" },
+  { text: "Walk as if you are kissing the Earth with your feet.", author: "Thich Nhat Hanh" },
+  { text: "The miracle is not to walk on water. The miracle is to walk on the earth.", author: "Thich Nhat Hanh" },
+  { text: "You cannot step into the same river twice.", author: "Heraclitus" },
+  { text: "Real generosity toward the future lies in giving all to the present.", author: "Albert Camus" },
+  { text: "Your pain is the breaking of the shell that encloses your understanding.", author: "Kahlil Gibran" },
+  { text: "Hard times require furious dancing.", author: "Alice Walker" },
+  { text: "The obstacle is the path.", author: "Zen Proverb" },
+  { text: "The ego is a veil between humans and God.", author: "Rumi" },
+  { text: "Hold fast to your center and do not lose it.", author: "Lao Tzu" },
+  { text: "I have been a seeker and I still am. But I stopped asking the books and the stars. I started listening to the teaching of my soul.", author: "Rumi" },
+  { text: "Try to let what is simply be.", author: "Jack Kornfield" },
+  { text: "You only lose what you cling to.", author: "Attributed to Buddha" },
+  { text: "Silence is sometimes the best answer.", author: "Dalai Lama" },
+  { text: "Simplicity is the ultimate sophistication.", author: "Leonardo da Vinci" },
+  { text: "I am not what happened to me, I am what I choose to become.", author: "Carl Jung" },
+  { text: "The privilege of a lifetime is to become who you truly are.", author: "Carl Jung" },
+  { text: "When one tugs at a single thing in nature, he finds it attached to the rest of the world.", author: "John Muir" },
+  { text: "Each of us is a note in the great symphony of life.", author: "Unknown" },
+  { text: "Enlightenment is when a wave realizes it is the ocean.", author: "Thich Nhat Hanh" },
+  { text: "The way is not in the sky. The way is in the heart.", author: "Attributed to Buddha" }
 ];
 
-function cycleRDQuotes() {
-  const box = document.getElementById('rd-quote-box');
-  if (!box) return;
-  let idx = Math.floor(Math.random() * rdQuotes.length);
-  function showQuote(i) {
-    box.innerHTML = `<em>“${rdQuotes[i].text}”</em><br>— ${rdQuotes[i].author}`;
+// Main logic wrapped in DOMContentLoaded listener
+document.addEventListener('DOMContentLoaded', function () {
+  console.log("DOM ready");
+
+  if (!Array.isArray(rdQuotes) || rdQuotes.length === 0) {
+    console.error("rdQuotes is not defined or empty.");
+    return;
   }
-  showQuote(idx);
-  setInterval(() => {
-    idx = (idx + 1) % rdQuotes.length;
-    showQuote(idx);
+
+  const currentQuoteIndex = Math.floor(Math.random() * rdQuotes.length);
+
+  setTimeout(() => {
+    showQuote(currentQuoteIndex);
+  }, 500);
+});
+
+function showQuote(index) {
+  if (typeof index !== 'number' || !rdQuotes[index]) {
+    console.error('Invalid quote index:', index);
+    return;
+  }
+
+  const quote = rdQuotes[index];
+  console.log("Rendering quote:", quote);
+
+  const quoteEl = document.getElementById("quote-text");
+  const authorEl = document.getElementById("quote-author");
+
+  if (!quoteEl || !authorEl) {
+    console.error("Quote text or author element not found in DOM.");
+    return;
+  }
+
+  quoteEl.textContent = `"${quote.text}"`;
+  authorEl.textContent = `~ ${quote.author}`;
+}
+
+let autoRotateTimer = null;
+let autoRotatePaused = false;
+let autoRotateResumeTimeout = null;
+
+function startAutoRotate() {
+  if (autoRotateTimer) clearInterval(autoRotateTimer);
+  autoRotateTimer = setInterval(() => {
+    if (!autoRotatePaused) {
+      currentQuoteIndex = (currentQuoteIndex + 1) % rdQuotes.length;
+      showQuote(currentQuoteIndex);
+    }
   }, 30000);
 }
 
-document.addEventListener('DOMContentLoaded', cycleRDQuotes);
+function pauseAutoRotateAndResume() {
+  autoRotatePaused = true;
+  if (autoRotateResumeTimeout) clearTimeout(autoRotateResumeTimeout);
+  autoRotateResumeTimeout = setTimeout(() => {
+    autoRotatePaused = false;
+  }, 10000);
+}
+
+function pulseButton(btn) {
+  if (!btn) return;
+  btn.classList.remove('pulse');
+  // Force reflow
+  void btn.offsetWidth;
+  btn.classList.add('pulse');
+  setTimeout(() => {
+    btn.classList.remove('pulse');
+  }, 300);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Pick a random starting quote
+  currentQuoteIndex = Math.floor(Math.random() * rdQuotes.length);
+  showQuote(currentQuoteIndex);
+
+  // Add aria-live and tabindex to quote container for accessibility
+  const container = document.querySelector('.quote-container');
+  if (container) {
+    container.setAttribute('aria-live', 'polite');
+    container.setAttribute('tabindex', '0');
+  }
+
+  const prevBtn = document.getElementById('prev-quote');
+  const nextBtn = document.getElementById('next-quote');
+  if (prevBtn && nextBtn) {
+    prevBtn.addEventListener('click', () => {
+      currentQuoteIndex = (currentQuoteIndex - 1 + rdQuotes.length) % rdQuotes.length;
+      showQuote(currentQuoteIndex);
+      pulseButton(prevBtn);
+      pauseAutoRotateAndResume();
+    });
+    nextBtn.addEventListener('click', () => {
+      currentQuoteIndex = (currentQuoteIndex + 1) % rdQuotes.length;
+      showQuote(currentQuoteIndex);
+      pulseButton(nextBtn);
+      pauseAutoRotateAndResume();
+    });
+    // Keyboard accessibility for buttons
+    prevBtn.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        currentQuoteIndex = (currentQuoteIndex - 1 + rdQuotes.length) % rdQuotes.length;
+        showQuote(currentQuoteIndex);
+        pulseButton(prevBtn);
+        pauseAutoRotateAndResume();
+      }
+    });
+    nextBtn.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        currentQuoteIndex = (currentQuoteIndex + 1) % rdQuotes.length;
+        showQuote(currentQuoteIndex);
+        pulseButton(nextBtn);
+        pauseAutoRotateAndResume();
+      }
+    });
+  }
+  // Auto-cycle every 30 seconds:
+  startAutoRotate();
+});
+
+// Keyboard arrow navigation
+document.addEventListener('keydown', function(event) {
+  // Don't trigger if focus is on a button (let button handle it)
+  const active = document.activeElement;
+  if (active && (active.id === 'prev-quote' || active.id === 'next-quote')) return;
+  const prevBtn = document.getElementById('prev-quote');
+  const nextBtn = document.getElementById('next-quote');
+  if (event.key === 'ArrowLeft') {
+    currentQuoteIndex = (currentQuoteIndex - 1 + rdQuotes.length) % rdQuotes.length;
+    showQuote(currentQuoteIndex);
+    pulseButton(prevBtn);
+    pauseAutoRotateAndResume();
+  } else if (event.key === 'ArrowRight') {
+    currentQuoteIndex = (currentQuoteIndex + 1) % rdQuotes.length;
+    showQuote(currentQuoteIndex);
+    pulseButton(nextBtn);
+    pauseAutoRotateAndResume();
+  }
+});
+
+// Touch swipe navigation for mobile
+let touchStartX = 0;
+let touchEndX = 0;
+
+function handleGesture() {
+  const prevBtn = document.getElementById('prev-quote');
+  const nextBtn = document.getElementById('next-quote');
+  // Use 50px threshold for swipe
+  if (touchEndX < touchStartX - 50) {
+    currentQuoteIndex = (currentQuoteIndex + 1) % rdQuotes.length;
+    showQuote(currentQuoteIndex);
+    pulseButton(nextBtn);
+    pauseAutoRotateAndResume();
+  }
+  if (touchEndX > touchStartX + 50) {
+    currentQuoteIndex = (currentQuoteIndex - 1 + rdQuotes.length) % rdQuotes.length;
+    showQuote(currentQuoteIndex);
+    pulseButton(prevBtn);
+    pauseAutoRotateAndResume();
+  }
+}
+
+document.addEventListener('touchstart', function(event) {
+  touchStartX = event.changedTouches[0].screenX;
+});
+
+document.addEventListener('touchend', function(event) {
+  touchEndX = event.changedTouches[0].screenX;
+  handleGesture();
+});

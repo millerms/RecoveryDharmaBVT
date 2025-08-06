@@ -79,7 +79,21 @@ const rdQuotes = [
   { text: "The happiness of your life depends upon the quality of your thoughts.", author: "Marcus Aurelius" },
   { text: "If you want to improve, be content to be thought foolish and stupid.", author: "Epictetus" },
   { text: "The impediment to action advances action. What stands in the way becomes the way.", author: "Marcus Aurelius" },
-  { text: "Life always gives us exactly the teacher we need at every moment. This includes every mosquito, every misfortune, every red light, every traffic jam, every obnoxious supervisor (or employee), every illness, every loss, every addiction, every piece of garbage, every breath.", author: "Charlotte Joko Beck" },
+  {
+    text: 
+    `Life always gives us exactly the teacher we need at every moment.  
+      This includes every mosquito, 
+      every misfortune, 
+      every red light,  
+      every traffic jam, 
+      every obnoxious supervisor (or employee),  
+      every illness, 
+      every loss, 
+      every addiction,  
+      every piece of garbage,
+      every breath.`,
+    author: "Charlotte Joko Beck"
+  },
   { text: "The wound is the place where the Light enters you.", author: "Rumi" },
   { text: "The only lasting beauty is the beauty of the heart.", author: "Rumi" },
   { text: "When the soul lies down in that grass, the world is too full to talk about ideas, language, even the phrase each other doesn’t make any sense.", author: "Rumi" },
@@ -97,7 +111,19 @@ const rdQuotes = [
   { text: "Between stimulus and response there is a space. In that space is our power to choose our response. In our response lies our growth and our freedom.", author: "Victor Frankl" },
   { text: "I am an old man and have known a great many troubles, but most of them never happened.", author: "Mark Twain" },
   { text: "The greatest glory in living lies not in never falling, but in rising every time we fall.", author: "Nelson Mandela" },
-  { text: "I prayed for change, so, I changed my mind. I prayed for guidance and learned to trust myself. I prayed for happiness and realized I am not my ego. I prayed for peace and learned to accept others unconditionally. I prayed for abundance and realized my doubt kept it out. I prayed for wealth and realized it is my health. I prayed for a miracle and realized I am the miracle. I prayed for a soul mate and realized I am with the One. I prayed for love and realized it is always knocking, but I have to allow it in.", author: "Rumi" },
+{
+  text: `I prayed for change, so I changed my mind.  
+    I prayed for guidance and learned to trust myself.  
+    I prayed for happiness and realized I am not my ego.  
+    I prayed for peace and learned to accept others unconditionally.  
+    I prayed for abundance and realized my doubt kept it out.  
+    I prayed for wealth and realized it is my health.  
+    I prayed for a miracle and realized I am the miracle.  
+    I prayed for a soul mate and realized I am with the One.  
+    I prayed for love and realized it is always knocking,  
+    but I have to allow it in.`,
+  author: "Rumi"
+},
   { text: "Wherever there is a human being, there is an opportunity for kindness.", author: "Seneca" },
   { text: "I always get to where I am going by walking away from where I have been.", author: "Winnie the Pooh" },
   { text: "God is a metaphor for that which transcends all levels of intellectual thought. It's as simple as that.", author: "Joseph Campbell" },
@@ -140,18 +166,172 @@ const rdQuotes = [
   { text: "The way is not in the sky. The way is in the heart.", author: "Attributed to Buddha" }
 ];
 
-function cycleRDQuotes() {
-  const box = document.getElementById('rd-quote-box');
-  if (!box) return;
-  let idx = Math.floor(Math.random() * rdQuotes.length);
-  function showQuote(i) {
-    box.innerHTML = `<em>“${rdQuotes[i].text}”</em><br>~ ${rdQuotes[i].author}`;
+// Main logic wrapped in DOMContentLoaded listener
+document.addEventListener('DOMContentLoaded', function () {
+  console.log("DOM ready");
+
+  if (!Array.isArray(rdQuotes) || rdQuotes.length === 0) {
+    console.error("rdQuotes is not defined or empty.");
+    return;
   }
-  showQuote(idx);
-  setInterval(() => {
-    idx = (idx + 1) % rdQuotes.length;
-    showQuote(idx);
+
+  const currentQuoteIndex = Math.floor(Math.random() * rdQuotes.length);
+
+  setTimeout(() => {
+    showQuote(currentQuoteIndex);
+  }, 500);
+});
+
+function showQuote(index) {
+  if (typeof index !== 'number' || !rdQuotes[index]) {
+    console.error('Invalid quote index:', index);
+    return;
+  }
+
+  const quote = rdQuotes[index];
+  console.log("Rendering quote:", quote);
+
+  const quoteEl = document.getElementById("quote-text");
+  const authorEl = document.getElementById("quote-author");
+
+  if (!quoteEl || !authorEl) {
+    console.error("Quote text or author element not found in DOM.");
+    return;
+  }
+
+  quoteEl.textContent = `"${quote.text}"`;
+  authorEl.textContent = `~ ${quote.author}`;
+}
+
+let autoRotateTimer = null;
+let autoRotatePaused = false;
+let autoRotateResumeTimeout = null;
+
+function startAutoRotate() {
+  if (autoRotateTimer) clearInterval(autoRotateTimer);
+  autoRotateTimer = setInterval(() => {
+    if (!autoRotatePaused) {
+      currentQuoteIndex = (currentQuoteIndex + 1) % rdQuotes.length;
+      showQuote(currentQuoteIndex);
+    }
   }, 30000);
 }
 
-document.addEventListener('DOMContentLoaded', cycleRDQuotes);
+function pauseAutoRotateAndResume() {
+  autoRotatePaused = true;
+  if (autoRotateResumeTimeout) clearTimeout(autoRotateResumeTimeout);
+  autoRotateResumeTimeout = setTimeout(() => {
+    autoRotatePaused = false;
+  }, 10000);
+}
+
+function pulseButton(btn) {
+  if (!btn) return;
+  btn.classList.remove('pulse');
+  // Force reflow
+  void btn.offsetWidth;
+  btn.classList.add('pulse');
+  setTimeout(() => {
+    btn.classList.remove('pulse');
+  }, 300);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Pick a random starting quote
+  currentQuoteIndex = Math.floor(Math.random() * rdQuotes.length);
+  showQuote(currentQuoteIndex);
+
+  // Add aria-live and tabindex to quote container for accessibility
+  const container = document.querySelector('.quote-container');
+  if (container) {
+    container.setAttribute('aria-live', 'polite');
+    container.setAttribute('tabindex', '0');
+  }
+
+  const prevBtn = document.getElementById('prev-quote');
+  const nextBtn = document.getElementById('next-quote');
+  if (prevBtn && nextBtn) {
+    prevBtn.addEventListener('click', () => {
+      currentQuoteIndex = (currentQuoteIndex - 1 + rdQuotes.length) % rdQuotes.length;
+      showQuote(currentQuoteIndex);
+      pulseButton(prevBtn);
+      pauseAutoRotateAndResume();
+    });
+    nextBtn.addEventListener('click', () => {
+      currentQuoteIndex = (currentQuoteIndex + 1) % rdQuotes.length;
+      showQuote(currentQuoteIndex);
+      pulseButton(nextBtn);
+      pauseAutoRotateAndResume();
+    });
+    // Keyboard accessibility for buttons
+    prevBtn.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        currentQuoteIndex = (currentQuoteIndex - 1 + rdQuotes.length) % rdQuotes.length;
+        showQuote(currentQuoteIndex);
+        pulseButton(prevBtn);
+        pauseAutoRotateAndResume();
+      }
+    });
+    nextBtn.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        currentQuoteIndex = (currentQuoteIndex + 1) % rdQuotes.length;
+        showQuote(currentQuoteIndex);
+        pulseButton(nextBtn);
+        pauseAutoRotateAndResume();
+      }
+    });
+  }
+  // Auto-cycle every 30 seconds:
+  startAutoRotate();
+});
+
+// Keyboard arrow navigation
+document.addEventListener('keydown', function(event) {
+  // Don't trigger if focus is on a button (let button handle it)
+  const active = document.activeElement;
+  if (active && (active.id === 'prev-quote' || active.id === 'next-quote')) return;
+  const prevBtn = document.getElementById('prev-quote');
+  const nextBtn = document.getElementById('next-quote');
+  if (event.key === 'ArrowLeft') {
+    currentQuoteIndex = (currentQuoteIndex - 1 + rdQuotes.length) % rdQuotes.length;
+    showQuote(currentQuoteIndex);
+    pulseButton(prevBtn);
+    pauseAutoRotateAndResume();
+  } else if (event.key === 'ArrowRight') {
+    currentQuoteIndex = (currentQuoteIndex + 1) % rdQuotes.length;
+    showQuote(currentQuoteIndex);
+    pulseButton(nextBtn);
+    pauseAutoRotateAndResume();
+  }
+});
+
+// Touch swipe navigation for mobile
+let touchStartX = 0;
+let touchEndX = 0;
+
+function handleGesture() {
+  const prevBtn = document.getElementById('prev-quote');
+  const nextBtn = document.getElementById('next-quote');
+  // Use 50px threshold for swipe
+  if (touchEndX < touchStartX - 50) {
+    currentQuoteIndex = (currentQuoteIndex + 1) % rdQuotes.length;
+    showQuote(currentQuoteIndex);
+    pulseButton(nextBtn);
+    pauseAutoRotateAndResume();
+  }
+  if (touchEndX > touchStartX + 50) {
+    currentQuoteIndex = (currentQuoteIndex - 1 + rdQuotes.length) % rdQuotes.length;
+    showQuote(currentQuoteIndex);
+    pulseButton(prevBtn);
+    pauseAutoRotateAndResume();
+  }
+}
+
+document.addEventListener('touchstart', function(event) {
+  touchStartX = event.changedTouches[0].screenX;
+});
+
+document.addEventListener('touchend', function(event) {
+  touchEndX = event.changedTouches[0].screenX;
+  handleGesture();
+});

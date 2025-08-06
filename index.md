@@ -74,7 +74,12 @@ Below you’ll find descriptions of the pages:
 
 <div class="section-divider"></div>
 
-<div id="rd-quote-box" class="buddhist-quote">
-  <em>Loading quote...</em>
+<div id="rd-quote-box" class="buddhist-quote zen-quote-box fade-in">
+  <blockquote id="quote-text" class="quote-text">Loading quote...</blockquote>
+  <cite id="quote-author" class="quote-author"></cite>
+  <div class="quote-nav">
+    <button id="prev-quote" class="quote-nav-btn" aria-label="Previous quote">←</button>
+    <button id="next-quote" class="quote-nav-btn" aria-label="Next quote">→</button>
+  </div>
 </div>
 <script src="{{ '/js/rd-quotes.js' | relative_url }}"></script>
