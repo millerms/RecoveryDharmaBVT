@@ -31,7 +31,7 @@ Our practices are grounded in the Four Noble Truths and the Eightfold Path. This
 
 #### Explore the Site
 
-Below you’ll find links to the most relevant pages:
+Below you’ll find descriptions of the pages:
 
 
 <div class="zen-link-list">
