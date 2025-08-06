@@ -104,7 +104,9 @@ const rdQuotes = [
   { text: "God is the name of the blanket we throw over the mystery to give it shape.", author: "Barry Taylor" },
   { text: "You can fall apart and still come back. You can relapse and still recover. You can lose your way and still find meaning.", author: "Unknown" },
   { text: "You can search the entire universe and not find a single being more deserving of love than yourself.", author: "Buddha (paraphrased)" },
-  { text: "Let go or be dragged.", author: "Unknown (Zen Saying)" }
+  { text: "Let go or be dragged.", author: "Unknown (Zen Saying)" },
+  { text: "The only way out is through.", author: "Robert Frost" },
+  { text: "You are the sky. Everything else is just the weather.", author: "Pema Chödrön" }
 ];
 
 function cycleRDQuotes() {
