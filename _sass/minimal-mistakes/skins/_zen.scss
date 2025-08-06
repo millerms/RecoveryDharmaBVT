@@ -4,18 +4,18 @@
    
 /* Colors */
 // Soften the background by making it slightly more yellow/brown
-$background-color: #f7f1e8 !default; // slightly warmer, less bright
-$text-color: #2e2b1b !default;
-$muted-text-color: #5e5b4f !default;
-$primary-color: #37874f !default; // darker sage green
+$background-color: #f6e8d3 !default; // slightly warmer, less bright
+$text-color: #1b2e20 !default;
+$muted-text-color: #495c49 !default;
+$primary-color: #2a7c43 !default; // darker sage green
 $border-color: mix(#fff, #5e5b4f, 75%) !default;
-$footer-background-color: mix(#0f420e, $primary-color, 80%)!default;
-$accent-color: #8c5e3c !default; // warm terracotta
-$link-color: mix(#fff, $primary-color, 80%) !default;
-$hover-color: #1b5e20 !default; // darker green for hover effects
+$footer-background-color: mix(#0f420e, $primary-color, 90%)!default;
+$accent-color: #9b5838 !default; // warm terracotta
+$link-color: #bbbbbb !default;
+$hover-color: #bbbbbb !default; // soft grey for hover effects
 $masthead-link-color: #003f5c !default;
-$masthead-link-color-hover: mix(#fff, $primary-color, 80%) !default;
-$navicon-link-color-hover: mix(#fff, $primary-color, 80%) !default;
+$masthead-link-color-hover:  mix(#0b310b, $primary-color, 90%)!default;
+$navicon-link-color-hover:  mix(#0b310b, $primary-color, 90%)!default;
 
 .page__footer {
   color: #fff !important; // override

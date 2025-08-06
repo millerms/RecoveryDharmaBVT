@@ -587,14 +587,18 @@ a::after {
 /* ===============================
    5. Header & Navigation
    =============================== */
+/* Masthead background: clean rice paper texture with subtle overlay */
 .masthead,
 .masthead__inner-wrap,
-.site-header {
-  background-color: #0b6dae;
-  background-image: url('/assets/images/rice-paper-3.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-blend-mode: multiply;
+.site-header,
+.greedy-nav,
+.greedy-nav .hidden-links {
+  background-color: #095c83;
+  background-image: url('/assets/images/rice-paper-1.webp') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-blend-mode: multiply !important;
+}
 }
 .greedy-nav {
   background: transparent !important;
@@ -604,11 +608,6 @@ a::after {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #0b6dae;
-  background-image: url('/assets/images/rice-paper-3.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-blend-mode: multiply;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   backdrop-filter: blur(6px);
 }
@@ -627,22 +626,67 @@ a::after {
 .greedy-nav .menu-toggle {
   color: #23507b;
 }
-.greedy-nav .hidden-links {
-  background-image: url('/assets/images/rice-paper-3.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-blend-mode: multiply;
-  background-color: #0b6dae;
-}
 .greedy-nav .hidden-links a:hover {
-  background-color: #0b6dae;
-  background-image: url('/assets/images/rice-paper-3.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-blend-mode: multiply;
+  background-color: #1589d6aa;
   color: #1b5e20;
   border-bottom: 3px solid #1b5e20;
 }
+
+/* === Hamburger (navicon) toggle styling === */
+.greedy-nav__toggle .navicon {
+  position: relative;
+  width: 1.5rem;
+  height: 0.25rem;
+  background: #ffffff; /* middle bar */
+  margin: auto;
+  transition: 0.3s ease-in-out;
+}
+
+.greedy-nav__toggle .navicon::before,
+.greedy-nav__toggle .navicon::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 1.5rem;
+  height: 0.25rem;
+  background: #ffffff; /* top & bottom bars */
+  transition: 0.3s ease-in-out;
+}
+
+.greedy-nav__toggle .navicon::before {
+  top: -0.5rem;
+}
+
+.greedy-nav__toggle .navicon::after {
+  bottom: -0.5rem;
+}
+
+/* When menu is open (close class) */
+.greedy-nav__toggle.close .navicon {
+  background: transparent;
+}
+
+.greedy-nav__toggle.close .navicon::before,
+.greedy-nav__toggle.close .navicon::after {
+  top: 0;
+  transform-origin: 50% 50%;
+}
+
+.greedy-nav__toggle.close .navicon::before {
+  transform: rotate(45deg);
+}
+
+.greedy-nav__toggle.close .navicon::after {
+  transform: rotate(-45deg);
+}
+
+/* Optional: hover color effect */
+.greedy-nav__toggle:hover .navicon,
+.greedy-nav__toggle:hover .navicon::before,
+.greedy-nav__toggle:hover .navicon::after {
+  background: #bbbbbb; /* softer gray on hover */
+}
+
 main h1:first-of-type {
   margin-top: 2.5rem;
 }
@@ -658,27 +702,13 @@ main h1:first-of-type {
    6. Backgrounds & Textures
    =============================== */
 /* Rice paper backgrounds for Buddhist quote, masthead, and hidden-links */
-.buddhist-quote {
+.buddhist-quote,
+.quote-container{
   background:
     url('../images/rice-paper-1.webp') center/cover no-repeat,
-    #003f5c;
+    #095c83;
   background-blend-mode: multiply;
-  background-color: #003c58;
-}
-.quote-container {
-  background: #003c58;
-  background-image: url('assets/images/rice-paper-1.webp');
-  background-size: cover;
-  background-blend-mode: multiply;
-}
-.masthead,
-.masthead__inner-wrap,
-.site-header,
-.greedy-nav .hidden-links {
-  background-image: url('/assets/images/rice-paper-3.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-blend-mode: multiply;
+  background-color: #095c83;
 }
 
 /* ===============================
