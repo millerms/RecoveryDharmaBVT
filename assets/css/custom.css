@@ -287,9 +287,6 @@ a::after {
   color: #5d4037;
   box-shadow: 0 4px 12px rgba(141, 110, 99, 0.12);
 }
-.zen-footer {
-  /* already styled in Typography */
-}
 .section-divider {
   border-top: 1px solid rgba(85, 72, 60, 0.12);
   margin: 2.5rem auto;
