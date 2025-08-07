@@ -27,7 +27,7 @@ This page is a collection of resources to support your Recovery Dharma practice 
 - [Recovery Dharma Facebook Group](https://www.facebook.com/groups/recoverydharma)
 <div class="section-divider"></div>
 
-## Links to Other Meditation Groups in Burlington
+## Links to Other Meditation Groups in Burlington, VT
 - [Burlington Dharma Collective](https://www.burlingtondharmacollective.com/)
 - [New Leaf Sangha](https://www.sevendaysvt.com/event/new-leaf-sangha-mindfulness-practice-41783747)
 - [Burlington Shambhala Center](https://burlington.shambhala.org/)
