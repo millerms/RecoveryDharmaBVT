@@ -17,4 +17,4 @@ Thumbs.db
 
 # Ignore any custom build/theme folders (if not needed)
 minimal-mistakes/
-_theme/
+_theme/ 
