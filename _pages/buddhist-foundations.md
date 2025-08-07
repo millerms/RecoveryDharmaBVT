@@ -47,9 +47,9 @@ Here you’ll find a gentle introduction to core Buddhist ideas, including ethic
 
 If you’re more of a listener, these two talks offer different but complementary doorways into the heart of practice. One speaks to our deeper sense of identity and belonging, the other to the power of living deliberately and with awareness:
 
-- **[Alan Watts: The Real You](https://youtu.be/mMRrCYPxD0I?si=tNn3_KuxT-7LYDHR)** - A profound and poetic meditation on self, illusion, and what it means to truly be from the late philosopher Alan Watts.
+- **[Alan Watts: The Real You](https://youtu.be/mMRrCYPxD0I?si=tNn3_KuxT-7LYDHR)** – A poetic exploration of selfhood, illusion, and interconnectedness. Watts invites us to relax the grip of ego and glimpse the mystery of who—or what—we really are.
 
-- **[Sam Harris: The Logic of Practice](https://www.youtube.com/watch?v=2vcisHKJ3JA)** - A modern, clear-eyed case for meditation as a tool for insight, calm, and transformation from Sam Harris.
+- **[Sam Harris: The Logic of Practice](https://www.youtube.com/watch?v=2vcisHKJ3JA)** – A modern and direct talk on why meditation matters. Harris explains how mindfulness can illuminate suffering, reveal insight, and transform daily life.
 
 <hr class="zen-divider">
 
@@ -157,14 +157,15 @@ A blueprint for living wisely and compassionately, divided into three domains:
 <div class="section-divider"></div>
 
 ### Podcasts
-- **[Tara Brach](https://www.tarabrach.com/desire/)** – Insightful talks on Buddhism and everyday healing  
-- **[Sam Harris](https://www.samharris.org/podcasts)** – Conversations at the intersection of Buddhism and Neuroscience  
-- **[Ten Percent Happier](https://www.tenpercent.com/podcast)** – Practical interviews and mindfulness tools
+- **[Tara Brach](https://www.tarabrach.com/desire/)** – Gentle, heart-centered talks blending Buddhist wisdom with psychological insight. Especially powerful for navigating emotions and healing past wounds.
+- **[Sam Harris](https://www.samharris.org/podcasts)** – Clear, philosophical deep-dives into meditation, consciousness, and the mind, with guests across neuroscience, Buddhism, and beyond.
+- **[Ten Percent Happier](https://www.tenpercent.com/podcast)** – Engaging and down-to-earth interviews with meditation teachers, scientists, and thought leaders. Host Dan Harris explores mindfulness as a tool for emotional resilience, personal growth, and everyday clarity.
 
 <div class="section-divider"></div>
 
 ### Videos
-- **[Gabor Maté: The Hungry Ghost: A Biopsychosocial Perspective on Addiction](https://www.youtube.com/watch?v=NC5dp9q0Tg0)**  
-- **[Tara Brach: The Realm of Hungry Ghosts](https://www.tarabrach.com/the-realm-of-hungry-ghosts/)**  
-- **[Ajahn Amaro: Substitute Your Choice of Addiction](https://www.youtube.com/watch?v=aaWrYOfZKdA)**  
-- **[Recovery Dharma: Where Do I Begin](https://www.youtube.com/watch?v=ZkGK5tl-Kn0)** 
+- **[evermind media](https://evermind.media/)** – A curated archive of Thich Nhat Hanh’s teachings and Plum Village videos, offering gentle wisdom on mindfulness, healing, and everyday awareness
+- **[Gabor Maté: The Hungry Ghost: A Biopsychosocial Perspective on Addiction](https://www.youtube.com/watch?v=NC5dp9q0Tg0)** – A powerful talk exploring how trauma, stress, and unmet needs shape addiction, with insights for healing
+- **[Tara Brach: The Realm of Hungry Ghosts](https://www.tarabrach.com/the-realm-of-hungry-ghosts/)** – A tender and insightful exploration of craving and inner emptiness, and how mindfulness and compassion restore balance
+- **[Ajahn Amaro: Substitute Your Choice of Addiction](https://www.youtube.com/watch?v=aaWrYOfZKdA)** – A clear, down-to-earth talk on how mindful choices and Buddhist training can replace addictive patterns with peace
+- **[Recovery Dharma: Where Do I Begin](https://www.youtube.com/watch?v=ZkGK5tl-Kn0)** – A welcoming intro to Recovery Dharma’s peer-led approach, blending meditation, inquiry, and community
