@@ -5,7 +5,10 @@ permalink: /meetings/
 nav_order: 2
 classes: full-width
 ---
-<h1 style="margin-top: 5px;">Recovery Meetings and Other Meditations</h1>
+<div style="display: flex; align-items: center; gap: 0.25rem; margin-top: 1.5rem;">
+  <img src="/assets/images/rd-icons/rd-black-ring.webp" alt="Recovery Dharma Black Ring" style="width: 60px; margin-bottom: 0;">
+  <h1 style="margin: 0;">Recovery Meetings and Other Meditation Groups</h1>
+</div>
 
 {% for meeting in site.data.meetings %}
 <div class="zen-meeting-block">
@@ -13,6 +16,7 @@ classes: full-width
   <div class="zen-meeting-details">
     <p>📅 <strong>Date &amp; Time:</strong> {{ meeting.time }}</p>
     <p>🧘 <strong>Type:</strong> {{ meeting.type }}</p>
+    <p>🌆 <strong>Town:</strong> {{ meeting.town }}</p>
     <p>📍 <strong>Address:</strong> <a href="https://www.google.com/maps/search/?api=1&query={{ meeting.address | uri_escape }}" target="_blank" rel="noopener noreferrer">{{ meeting.address }}</a></p>
   </div>
 </div>

@@ -8,10 +8,12 @@ classes: width
 # Buddhist Foundations
 Welcome! This page introduces Buddhist philosophy and ethics in a non-dogmatic, beginner-friendly way, especially for people in recovery. 
 
-> “Craving is the root of suffering. If you remove craving, you remove suffering.”  
-> — The Buddha
-
-<div class="section-divider"></div>
+<div style="position: relative; text-align: center; max-width: 100%; margin-top: 1rem;">
+  <img src="/assets/images/buddha-quote.webp" alt="Buddha" style="width: 100%; max-height: 60%; height: auto; display: block;" />
+  <div style="position: absolute; top: 50%; right: 0; width: 50%; transform: translateY(-60%); text-align: right; padding-right: 2rem; color: white; font-weight: bold; font-size: clamp(1rem, 2.5vw, 1.5rem); text-shadow: 0 2px 6px rgba(0,0,0,0.5);">
+    “Craving is the root of suffering. If you remove craving, you remove suffering.”<br>— The Buddha
+  </div>
+</div>
 
 ## On This Page
 - [Buddhist Foundations](#buddhist-foundations)
@@ -47,6 +49,13 @@ If you’re more of a listener, these two talks offer different but complementar
 <hr class="zen-divider">
 
 ## Ethics & Practice
+
+<div style="position: relative; text-align: center; max-width: 100%; margin-top: 1rem;">
+  <img src="/assets/images/mossy-forest.webp" alt="Mossy Forest" style="width: 100%; max-height: 50%; height: auto; display: block;" />
+  <div style="position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); width: 75%; text-align: center; color: white; font-weight: bold; font-size: clamp(1rem, 2.5vw, 1.5rem); text-shadow: 0 2px 6px rgba(0,0,0,0.5);">
+    “Buddhism is not a religion, it is a way of life.”<br>— The Buddha
+  </div>
+</div>
 
 ### The Five Precepts
 
@@ -153,4 +162,4 @@ A blueprint for living wisely and compassionately, divided into three domains:
 - **[Gabor Maté: The Hungry Ghost: A Biopsychosocial Perspective on Addiction](https://www.youtube.com/watch?v=NC5dp9q0Tg0)**  
 - **[Tara Brach: The Realm of Hungry Ghosts](https://www.tarabrach.com/the-realm-of-hungry-ghosts/)**  
 - **[Ajahn Amaro: Substitute Your Choice of Addiction](https://www.youtube.com/watch?v=aaWrYOfZKdA)**  
-- **[Recovery Dharma: Where Do I Begin](https://www.youtube.com/watch?v=ZkGK5tl-Kn0)**  
+- **[Recovery Dharma: Where Do I Begin](https://www.youtube.com/watch?v=ZkGK5tl-Kn0)** 

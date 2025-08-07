@@ -74,7 +74,7 @@ classes: full-width
               icon = '📍';
               break;
             case 'description':
-              icon = '🧘';
+              icon = 'ℹ️';
               break;
             default:
               icon = '';

@@ -18,13 +18,13 @@ var store = [{
         "teaser": null
       },{
         "title": "Burlington Meetings & Groups",
-        "excerpt":"Recovery Meetings and Other Meditations Recovery Dharma - Recovery Rodeo - Burlington 📅 Date &amp; Time: Wednesday @ 6pm - 7pm 🧘 Type: In-person 📍 Address: 21 Buell St, Burlington, VT 05401 Recovery Dharma - One Breath Sangha - Burlington 📅 Date &amp; Time: Thursday @ 1pm - 2pm 🧘...","categories": [],
+        "excerpt":"Recovery Meetings and Other Meditation Groups Recovery Dharma - Recovery Rodeo 📅 Date &amp; Time: Wednesday @ 6pm - 7pm 🧘 Type: In-person 🌆 Town: Burlington 📍 Address: 21 Buell St, Burlington, VT 05401 Recovery Dharma - One Breath Sangha 📅 Date &amp; Time: Thursday @ 1pm - 2pm 🧘...","categories": [],
         "tags": [],
         "url": "/meetings/",
         "teaser": null
       },{
         "title": "Resources",
-        "excerpt":"Resources for Recovery and Meditation RD Meetings Recovery Dharma Vermont Meetings Recovery Dharma Online Meetings RD Book and Meditations Recovery Dharma Book (PDF) Guided Recovery Dharma Meditations RD Online Resources Recovery Dharma Website Recovery Dharma YouTube Channel Recovery Dharma Facebook Group Other Meditation Groups in Burlington Burlington Dharma Collective New...","categories": [],
+        "excerpt":"Resources for Recovery and Meditation This page is a collection of resources to support your Recovery Dharma practice and meditation journey. Here you’ll find links to the Recovery Dharma book, guided meditations, and other helpful materials. RD Meetings Recovery Dharma Vermont Meetings Recovery Dharma Online Meetings RD Book and Meditations...","categories": [],
         "tags": [],
         "url": "/resources/",
         "teaser": null
