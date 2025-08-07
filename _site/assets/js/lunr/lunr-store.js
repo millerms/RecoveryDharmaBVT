@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Contact Us",
-        "excerpt":"We’d love to hear from you! Whether you have questions, want to share an event, or just want to connect, please reach out to us.           Loading…     ","categories": [],
+        "excerpt":"   Contact Us           We’d love to hear from you! Whether you have questions, want to share an event, or just want to connect, please reach out to us.           Loading…     ","categories": [],
         "tags": [],
         "url": "/contact/",
         "teaser": null
@@ -18,7 +18,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Burlington Meetings & Groups",
-        "excerpt":"Recovery Meetings and Other Meditation Groups Recovery Dharma - Recovery Rodeo 📅 Date &amp; Time: Wednesday @ 6pm - 7pm 🧘 Type: In-person 🌆 Town: Burlington 📍 Address: 21 Buell St, Burlington, VT 05401 Recovery Dharma - One Breath Sangha 📅 Date &amp; Time: Thursday @ 1pm - 2pm 🧘...","categories": [],
+        "excerpt":"Burlington Meetings &amp; Groups Recovery Dharma - Recovery Rodeo 📅 Date &amp; Time: Wednesday @ 6pm - 7pm 🧘 Type: In-person 🌆 Town: Burlington 📍 Address: 21 Buell St, Burlington, VT 05401 Recovery Dharma - One Breath Sangha 📅 Date &amp; Time: Thursday @ 1pm - 2pm 🧘 Type: In-person...","categories": [],
         "tags": [],
         "url": "/meetings/",
         "teaser": null

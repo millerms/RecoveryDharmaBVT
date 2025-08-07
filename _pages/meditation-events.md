@@ -7,7 +7,7 @@ classes: full-width
 ---
 
 <div class="zen-events-wrapper">
-  <h2 style="margin-top: 0;">Upcoming Meditation Events</h2>
+  <h1 style="display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; margin-top: 0;">Upcoming Meditation Events</h1>
   <p class="zen-intro" style="text-align: left;">
     We're building a schedule of events to support practice, community, and recovery. Whether it's retreats, daylong sits, or special talks, this is where you'll find them. 
   </p>

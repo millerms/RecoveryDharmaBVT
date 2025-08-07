@@ -5,7 +5,12 @@ permalink: /buddhist-foundations/
 nav_order: 3
 classes: width
 ---
-# Buddhist Foundations
+<div style="display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; margin-top: 1.5rem;">
+  <h1>Buddhist Foundations</h1>
+  <p style="max-width: 500px; margin-top: 0;">
+  </p>
+</div>
+
 Welcome! This page introduces Buddhist philosophy and ethics in a non-dogmatic, beginner-friendly way, especially for people in recovery. 
 
 <div style="position: relative; text-align: center; max-width: 100%; margin-top: 1rem;">

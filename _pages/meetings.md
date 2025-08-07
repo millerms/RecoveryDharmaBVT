@@ -5,9 +5,9 @@ permalink: /meetings/
 nav_order: 2
 classes: full-width
 ---
-<div style="display: flex; align-items: center; gap: 0.25rem; margin-top: 1.5rem;">
-  <img src="/assets/images/rd-icons/rd-black-ring.webp" alt="Recovery Dharma Black Ring" style="width: 60px; margin-bottom: 0;">
-  <h1 style="margin: 0;">Recovery Meetings and Other Meditation Groups</h1>
+<div style="display: flex; align-items: center; justify-content: center; gap: 0.75rem; margin-top: 1.5rem;">
+  <img src="/assets/images/rd-icons/rd-black-ring.webp" alt="Recovery Dharma Black Ring" style="width: 60px; height: auto;">
+  <h1 style="margin: 0;">Burlington Meetings &amp; Groups</h1>
 </div>
 
 {% for meeting in site.data.meetings %}
