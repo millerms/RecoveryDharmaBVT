@@ -7,7 +7,7 @@ permalink: /
 <div class="zen-hero-banner">
   <picture>
     <source srcset="{{ '/assets/images/rd-icons/rdvt-icon.webp' | relative_url }}" type="image/webp">
-    <img src="{{ '/assets/images/rd-icons/rdvt-icon.webp' | relative_url }}" alt="RDVT Icon">
+    <img src="{{ '/assets/images/rd-icons/rdvt-icon.webp' | relative_url }}" alt="Recovery Dharma Vermont Icon">
   </picture>
 </div>
 

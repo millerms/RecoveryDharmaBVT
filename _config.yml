@@ -5,10 +5,17 @@ title: "Recovery Dharma Vermont"
 description: "A community for Recovery Dharma in Vermont. Meetings, meditation events, resources, and contact info."
 url: "https://rdvt.org"
 baseurl: ""
+og_image: /assets/images/rd-icons/rdvt-icon.webp
+tagline: "Buddhist-inspired recovery in Vermont"
+social:
+  name: "Recovery Dharma Vermont"
+  image: /assets/images/rd-icons/rdvt-icon.webp
+  links:
+    - https://rdvt.org
 
 # Theme settings
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
-minimal_mistakes_skin: "zen" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "zen"
 plugins:
   - jekyll-remote-theme
   - jekyll-data
