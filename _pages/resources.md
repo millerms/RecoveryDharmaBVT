@@ -7,7 +7,7 @@ classes: full-width
 ---
 <div style="text-align: center; margin-bottom: 0.5rem;">
   <img src="/assets/images/rd-icons/rd-triangle.webp" alt="Recovery Dharma Triangle Icon" style="width: 150px;">
-  <h1 style="font-size: 1.8rem; margin: 0.5rem 0 0 0; margin-bottom: 1rem;">Resources for Recovery and Meditation</h1>
+  <h1 style="margin: 0.5rem 0 0 0; margin-bottom: 1rem;">Resources for Recovery and Meditation</h1>
 </div>
 This page is a collection of resources to support your Recovery Dharma practice and meditation journey. Here you'll find links to the Recovery Dharma book, guided meditations, and other helpful materials.
 
