@@ -52,7 +52,7 @@ If you’re more of a listener, these two talks offer different but complementar
 
 <div style="position: relative; text-align: center; max-width: 100%; margin-top: 1rem;">
   <img src="/assets/images/mossy-forest.webp" alt="Mossy Forest" style="width: 100%; max-height: 75%; height: auto; display: block;" />
-  <div style="position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); width: 75%; text-align: center; color: white; font-weight: bold; font-size: clamp(1rem, 2.5vw, 1.5rem); text-shadow: 0 2px 6px rgba(0,0,0,0.5);">
+  <div style="position: absolute; bottom: 5%; left: 50%; transform: translateX(-50%); width: 75%; text-align: center; color: white; font-weight: bold; font-size: clamp(1rem, 2.5vw, 1.5rem); text-shadow: 0 2px 6px rgba(0,0,0,0.5);">
     “Buddhism is not a religion, it is a way of life.”<br>— The Buddha
   </div>
 </div>
