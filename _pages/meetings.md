@@ -7,8 +7,12 @@ classes: full-width
 ---
 <div style="display: flex; align-items: center; justify-content: center; gap: 0.75rem; margin-top: 1.5rem;">
   <img src="/assets/images/rd-icons/rd-black-ring.webp" alt="Recovery Dharma Black Ring" style="width: 60px; height: auto;">
-  <h1 style="margin: 0;">Burlington Meetings &amp; Groups</h1>
+  <h1 style="margin: 0;">RD Meetings &amp; Meditation Groups</h1>
 </div>
+<p class="zen-intro" style="text-align: center; max-width: 600px; margin: 0 auto;">
+  This page lists local Recovery Dharma meetings and meditation groups in Vermont. Whether you're new to Recovery Dharma or looking to deepen your practice, these gatherings are a great way to connect with others on the path.
+</p>
+<hr class="zen-divider">    
 
 {% for meeting in site.data.meetings %}
 <div class="zen-meeting-block">
