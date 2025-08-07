@@ -5,10 +5,11 @@ permalink: /resources/
 nav_order: 4
 classes: full-width
 ---
-<div style="text-align: center; margin-bottom: 0.5rem;">
-  <img src="/assets/images/rd-icons/rd-triangle.webp" alt="Recovery Dharma Triangle Icon" style="width: 150px;">
-  <h1 style="margin: 0.5rem 0 0 0; margin-bottom: 1rem;">Resources for Recovery and Meditation</h1>
+<div style="display: flex; align-items: center; justify-content: center; gap: 0.75rem; margin-top: 1.5rem; margin-bottom: 1rem;">
+  <img src="/assets/images/rd-icons/rd-triangle.webp" alt="Recovery Dharma Triangle" style="width: 75px; height: auto;">
+  <h1 style="margin: 0;">RD Resources</h1>
 </div>
+
 This page is a collection of resources to support your Recovery Dharma practice and meditation journey. Here you'll find links to the Recovery Dharma book, guided meditations, and other helpful materials.
 
 ## RD Meetings
