@@ -1,0 +1,20 @@
+# Ignore Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+
+# Ignore Ruby-related files
+Gemfile.lock
+
+# Ignore local OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific and temp files
+*.swp
+*.swo
+*.zip
+
+# Ignore any custom build/theme folders (if not needed)
+minimal-mistakes/
+_theme/
