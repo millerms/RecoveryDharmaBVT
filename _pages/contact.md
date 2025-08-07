@@ -5,7 +5,7 @@ permalink: /contact/
 nav_order: 6
 classes: full-width
 ---
-<div style="display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; margin-top: 1rem; margin-bottom: 0;">
+<div style="display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; margin-top: 1.5rem; margin-bottom: 0;">
   <h1>Contact Us</h1>
   <p style="max-width: 700px; margin-top: 0.5rem;">
   </p>

@@ -5,7 +5,7 @@ permalink: /buddhist-foundations/
 nav_order: 3
 classes: width
 ---
-<div style="display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; margin-top: 1.5rem;">
+<div style="display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; margin-top: 1.75rem;">
   <h1>Buddhist Foundations</h1>
   <p style="max-width: 500px; margin-top: 0;">
   </p>
