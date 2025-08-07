@@ -168,4 +168,4 @@ A blueprint for living wisely and compassionately, divided into three domains:
 - **[Gabor Maté: The Hungry Ghost: A Biopsychosocial Perspective on Addiction](https://www.youtube.com/watch?v=NC5dp9q0Tg0)** – A powerful talk exploring how trauma, stress, and unmet needs shape addiction, with insights for healing
 - **[Tara Brach: The Realm of Hungry Ghosts](https://www.tarabrach.com/the-realm-of-hungry-ghosts/)** – A tender and insightful exploration of craving and inner emptiness, and how mindfulness and compassion restore balance
 - **[Ajahn Amaro: Substitute Your Choice of Addiction](https://www.youtube.com/watch?v=aaWrYOfZKdA)** – A clear, down-to-earth talk on how mindful choices and Buddhist training can replace addictive patterns with peace
-- **[Recovery Dharma: Where Do I Begin](https://www.youtube.com/watch?v=ZkGK5tl-Kn0)** – A welcoming intro to Recovery Dharma’s peer-led approach, blending meditation, inquiry, and community
+- **[Recovery Dharma: Where Do I Begin](https://www.youtube.com/watch?v=ZkGK5tl-Kn0)** – A welcoming intro to Recovery Dharma’s peer-led approach, blending meditation, inquiry, and community 
