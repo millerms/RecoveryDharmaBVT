@@ -70,6 +70,29 @@ markdown: kramdown
 kramdown:
   input: GFM
 
+keywords:
+  - recovery dharma
+  - buddhist recovery
+  - meditation in recovery
+  - sobriety support
+  - addiction community
+  - mindfulness practice
+  - peer support
+  - Vermont recovery
+  - Burlington recovery
+  - community healing
+  - Buddhist teachings
+  - mindfulness in recovery
+  - recovery meetings
+  - buddhism and addiction
+  - 12-step alternative
+  - peer-led recovery
+  - trauma-informed recovery
+  - recovery resources
+  - recovery events
+  - recovery meditation
+  - recovery support
+
 # Exclude
 exclude:
   - README.md
