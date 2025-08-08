@@ -17,7 +17,9 @@ permalink: /
   </p>
 </div>
 
+<div style="display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center;">
 <p class="intro-text">This site is a resource for those interested in Recovery Dharma. Our mission is to support recovery through Buddhist practices and community. Whether you're new to Recovery Dharma or have been practicing for years, this space is here to help you connect, learn, and heal.</p>
+</div>
 
 <hr class="zen-divider">
 
