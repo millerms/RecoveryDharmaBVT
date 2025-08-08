@@ -5,11 +5,11 @@ permalink: /meetings/
 nav_order: 2
 classes: full-width
 ---
-<div style="display: flex; align-items: center; justify-content: center; gap: 0.75rem; margin-top: 1.5rem; margin-bottom: 1rem;">
-  <img src="/assets/images/rd-icons/rd-black-ring.webp" alt="Recovery Dharma Black Ring" style="width: 60px; height: auto;">
-  <h1 style="margin: 0;">RD Meetings &amp; Meditation Groups</h1>
+<div class="page-title-with-icon">
+  <img src="/assets/images/rd-icons/rd-black-ring.webp" alt="Recovery Dharma Black Ring" width="60" height="60" loading="lazy">
+  <h1>RD Meetings &amp; Meditation Groups</h1>
 </div>
-  This page lists local Recovery Dharma meetings and meditation groups in Vermont. Whether you're new to Recovery Dharma or looking to deepen your practice, these gatherings are a great way to connect with others on the path.
+  This page lists local Recovery Dharma meetings and meditation groups in Vermont, providing key details such as time, type, town, and address. Whether you are new to Recovery Dharma or an experienced practitioner, these gatherings offer valuable opportunities for connection, mindfulness, and recovery support throughout the community.
 
 <hr class="zen-divider">    
 
@@ -25,7 +25,3 @@ classes: full-width
 </div>
 <hr class="zen-divider">
 {% endfor %}
-
-
-<!-- You can embed a Google Calendar here if desired -->
-<!-- <iframe src="YOUR_GOOGLE_CALENDAR_URL" width="100%" height="600"></iframe> -->

@@ -1,40 +1,40 @@
 - name: Recovery Dharma - Recovery Rodeo
-  time: "Wednesday @ 6pm - 7pm"
+  time: "Wednesday @ 6:00pm - 7:00pm"
   type: "In-person"
   town: "Burlington"
   address: "21 Buell St, Burlington, VT 05401"
 - name: Recovery Dharma - One Breath Sangha
-  time: "Thursday @ 1pm - 2pm"
+  time: "Thursday @ 1:00pm - 2:00pm"
   type: "In-person"
   town: "Burlington"
   address: "179 S Winooski Ave, Burlington, VT 05401"
 - name: Recovery Dharma - Montpelier @ KHL Children's Library, 2nd Floor
-  time: "Wednesday @ 6pm – 7pm"
+  time: "Wednesday @ 6:00pm - 7:00pm"
   type: "In-person"
   town: "Montpelier"
   address: "135 Main St, Montpelier, VT 05602, USA"
 - name: Recovery Dharma - MRV @ Warren UCC
-  time: "Wednesday @ 7pm – 8pm"
+  time: "Wednesday @ 7:00pm - 8:00pm"
   type: "In-person"
   town: "Warren"
   address: "339 Main St, Warren, VT 05674, USA"
 - name: Recovery Dharma - Upper Valley Turning Point
-  time: "Wednesday @ 6:45pm – 7:45pm"
+  time: "Wednesday @ 6:45pm - 7:45pm"
   type: "In-person"
   town: "Hartford"
   address: "Olcott Dr, Hartford, VT 05001, USA"
 - name: Recovery Dharma - Park Place
-  time: "Friday @ 6:30pm – 7:45pm"
+  time: "Friday @ 6:30pm - 7:45pm"
   type: "In-person"
   town: "Bellows Falls"
   address: "44 School St Ext, Bellows Falls, VT 05101, USA"
 - name: Burlington Dharma Collective Weekly Sit
-  time: "Friday @ 8am - 8:45am"
+  time: "Friday @ 8:00am - 8:45am"
   type: "In-person"
   town: "Burlington"
   address: "241 N Winooski Ave, Burlington, VT 05401"
 - name: New Leaf Sangha
-  time: "Sunday @ 6pm - 7:45pm"
+  time: "Sunday @ 6:00pm - 7:45pm"
   type: "In-person"
   town: "Burlington"
   address: "294 N Winooski Ave #212A, Burlington, VT 05401"
