@@ -10,7 +10,7 @@ classes: full-width
   <h1 style="margin: 0;">RD Resources</h1>
 </div>
 
-This page is a collection of resources to support your Recovery Dharma practice and meditation journey. Here you'll find links to the Recovery Dharma book, guided meditations, and other helpful materials.
+This page is a collection of resources to support your Recovery Dharma practice and meditation journey. Here you'll find links to the Recovery Dharma book, guided meditations, online resources, and other helpful meditation groups in the area.
 
 ## RD Meetings
 - **[Recovery Dharma Vermont Meetings](https://recoverydharma.org/meetings/?search=Vermont)**: Find in-person RD meetings across Vermont.
