@@ -26,7 +26,8 @@ This page offers a curated collection of resources to support your Recovery Dhar
 - **[Recovery Dharma Website](https://recoverydharma.org)**: The official RD organization website and resource hub.
 - **[Recovery Dharma YouTube Channel](https://www.youtube.com/@recoverydharma)**: Watch talks, meditations, and community content.
 - **[Recovery Dharma Facebook Group](https://www.facebook.com/groups/recoverydharma)**: Join the global RD Facebook discussion group.
-<hr class="zen-divider">   
+- **[Start A New Recovery Dharma Group!](https://recoverydharma.org/get-started/sangha-groups/)**: Find or start a local RD group in your area.
+<hr class="zen-divider">  
 
 ## Links to Other Meditation Groups in Burlington, VT
 - **[Burlington Dharma Collective](https://www.burlingtondharmacollective.com/)**: Peer-led meditation community in Burlington in the traditions of Vajrayana as taught by [Bhumisparsha](https://www.bhumisparsha.org/) and [Lama Rod Owens](https://www.lamarod.com/).
