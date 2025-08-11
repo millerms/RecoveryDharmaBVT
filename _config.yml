@@ -7,6 +7,11 @@ url: "https://rdvt.org"
 baseurl: ""
 og_image: /assets/images/rd-icons/rdvt-icon.webp
 tagline: "Buddhist-inspired recovery in Vermont"
+social:
+  name: "Recovery Dharma Vermont"
+  image: /assets/images/rd-icons/rdvt-icon.webp
+  links:
+    - https://rdvt.org
 
 # Theme settings
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
