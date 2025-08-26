@@ -1,10 +1,16 @@
 <footer style="position: relative; text-align: center; padding: 1rem 0; font-size: 0.9rem;">
-  <nav>
-    <a href="/" style="margin: 0 10px;">Home</a>
-    <a href="/meetings" style="margin: 0 10px;">Meetings & Groups</a>
-    <a href="/buddhist-foundations" style="margin: 0 10px;">Buddhist Foundations</a>
-    <a href="/resources" style="margin: 0 10px;">Resources</a>
-    <a href="/events" style="margin: 0 10px;">Events</a>
-    <a href="/contact" style="margin: 0 10px;">Contact</a>
-</nav>
+  <nav aria-label="Footer navigation" style="text-align:center;">
+    <a href="{{ site.baseurl }}/" style="margin: 0 3px;">Home</a>
+    <span aria-hidden="true" style="margin: 0 1px;">|</span>
+    <a href="{{ site.baseurl }}/meetings/" style="margin: 0 3px;">Meetings &amp; Groups</a>
+    <span aria-hidden="true" style="margin: 0 1px;">|</span>
+    <a href="{{ site.baseurl }}/buddhist-foundations/" style="margin: 0 3px;">Buddhist Foundations</a>
+    <span aria-hidden="true" style="margin: 0 1px;">|</span>
+    <a href="{{ site.baseurl }}/resources/" style="margin: 0 3px;">Resources</a>
+    <span aria-hidden="true" style="margin: 0 1px;">|</span>
+    <a href="{{ site.baseurl }}/new-events/" style="margin: 0 3px;">Events</a>
+    <span aria-hidden="true" style="margin: 0 1px;">|</span>
+    <a href="{{ site.baseurl }}/contact/" style="margin: 0 3px;">Contact</a>
+  </nav>
 </footer>
+<script src="/js/tactile.js" defer></script>
