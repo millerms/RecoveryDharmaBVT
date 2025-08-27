@@ -922,6 +922,11 @@ a::after {
   color: #ffffff;
   font-weight: 600;
   letter-spacing: 0.5px;
+  text-shadow:
+    -1px -1px 1px rgba(0,0,0,0.1),
+     1px -1px 1px rgba(0,0,0,0.1),
+    -1px  1px 1px rgba(0,0,0,0.1),
+     1px  1px 1px rgba(0,0,0,0.1);
 }
 .greedy-nav li::after {
   display: none;
