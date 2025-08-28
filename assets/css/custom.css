@@ -109,18 +109,18 @@ html, body {
 .btn--blue{ background-color: color-mix(in oklab, var(--zen-accent-2) 48%, transparent); }
 
 /* States */
-.btn:hover,.zen-button:hover,.zen-nav-button:hover{
+.btn:hover,.zen-button:hover,.zen-nav-button:hover, .quote-nav-btn:hover, .quote-nav-button:hover{
   transform: translateY(-1px);
   box-shadow: 0 10px 26px rgba(0,0,0,.30), inset 0 1px 0 rgba(255,255,255,.12);
   border-color: hsl(var(--glass-tint) / .35);
 }
-.btn:active,.zen-button:active,.zen-nav-button:active{
+.btn:active,.zen-button:active,.zen-nav-button:active, .quote-nav-btn:active, .quote-nav-button:active{
   transform: translateY(0) scale(.98);
   box-shadow: 0 6px 18px rgba(0,0,0,.26) inset 0 1px 0 rgba(255,255,255,.06);
 }
 
 /* Focus ring */
-.btn:focus-visible,.zen-button:focus-visible,.zen-nav-button:focus-visible{
+.btn:focus-visible,.zen-button:focus-visible,.zen-nav-button:focus-visible, .quote-nav-btn:focus-visible, .quote-nav-button:focus-visible{
   outline: none;
   box-shadow: 0 10px 26px rgba(0,0,0,.30), var(--ring);
 }
@@ -134,8 +134,8 @@ html, body {
 
 /* Masthead + dropdown */
 .masthead,.masthead__inner-wrap,.site-header,.greedy-nav,.greedy-nav .hidden-links{
-  -webkit-backdrop-filter: blur(3px) saturate(120%);
-  backdrop-filter: blur(3px) saturate(120%);
+  -webkit-backdrop-filter: blur(4px) saturate(120%);
+  backdrop-filter: blur(4px) saturate(120%);
   background-color: hsla(220, 65%, 27%, 0.12) !important;
   border-bottom: 1px solid hsl(var(--glass-tint-blue) / .28);
   box-shadow: 0 8px 26px rgba(0,0,0,.28);
@@ -861,20 +861,24 @@ a::after {
   transform: scale(1.2);
 }
 .quote-nav-button {
-  background-color: #f4f4f4;
-  color: #003f5c;
-  border: none;
-  padding: 0.5rem 0.75rem;
+  /* Glass variant to match site buttons */
+  -webkit-backdrop-filter: blur(var(--blur-md)) saturate(120%);
+  backdrop-filter: blur(var(--blur-md)) saturate(120%);
+  background-color: hsl(var(--glass-tint) / .14);
+  border: 1px solid hsl(var(--glass-tint) / .32);
+  color: #f7fbff;
+  padding: 0;               /* size is set in the shared 42x42 circle rule */
   font-size: 1.25rem;
   margin: 0 0.5rem;
   border-radius: 50%;
-  transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+  transition: transform var(--t-fast) var(--e-out), background-color var(--t-fast) var(--e-out), border-color var(--t-fast) var(--e-out), box-shadow var(--t-fast) var(--e-out);
   cursor: pointer;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.07);
+  box-shadow: 0 4px 18px rgba(0,0,0,.25), inset 0 1px 0 rgba(255,255,255,.08);
 }
 .quote-nav-button:hover {
-  background-color: #e2e2e2;
+  background-color: hsl(var(--glass-tint) / .18);
   transform: scale(1.1);
+  border-color: hsl(var(--glass-tint) / .38);
 }
 .quote-nav-button:active {
   animation: pulse 0.3s;
