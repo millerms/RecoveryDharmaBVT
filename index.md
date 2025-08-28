@@ -55,14 +55,14 @@ Below you’ll find descriptions of the pages:
   <div class="zen-link-row">
     <div class="zen-link-text reveal reveal--up">
       <strong>Buddhist Foundations</strong><br>
-      Learn about Buddhist ethics, meditation types, and foundational teachings in a simple, friendly way.
+      Learn about Buddhism and how its teachings inform Recovery Dharma practices. We cover key concepts, meditation techniques, ethical guidelines, and links to additional resources.
     </div>
     <a href="{{ site.baseurl }}/buddhist-foundations/" class="zen-nav-button">🌱 Buddhist Foundations</a>
   </div>
   <div class="zen-link-row">
     <div class="zen-link-text reveal reveal--up">
       <strong>Resources</strong><br>
-      Explore PDFs, meditations, and links to deepen your understanding and practice through Recovery Dharma.
+      Explore meetings, meditations, links, and other local meditation groups to deepen your understanding and practice through Recovery Dharma.
     </div>
     <a href="{{ site.baseurl }}/resources/" class="zen-nav-button">📚 Resources</a>
   </div>
