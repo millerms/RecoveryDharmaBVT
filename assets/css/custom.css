@@ -897,7 +897,7 @@ a::after {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1;             /* avoid extra vertical padding */
   padding: 0;                 /* reset any leftover padding */
 }
