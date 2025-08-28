@@ -8,15 +8,16 @@ classes: full-width
 
 <div class="zen-events-wrapper">
   <h1 style="display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; margin-top: 0;">Upcoming Meditation Events</h1>
-  <p class="zen-intro" style="text-align: left;">
+  <p class="zen-intro reveal reveal--up" style="text-align: left;">
     This page lists upcoming meditation events, workshops, and retreats related to Recovery Dharma and Buddhist practices in Vermont.
   </p>
 <hr class="zen-divider">
 
   <div id="events-table"></div>
 
-  <p class="zen-check-back" style="text-align: left;">More events coming soon. Check back often or <a href="/contact/">get in touch</a> if you'd like to help organize!</p>
+  <p class="zen-check-back reveal reveal--up" style="text-align: left;">More events coming soon. Check back often or <a href="/contact/">get in touch</a> if you'd like to help organize!</p>
 </div>
+<div class="reveal reveal--up">
 <script>
   async function loadEvents() {
     const response = await fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vSV8x4BiaVF7wqEvXVR3jQ-pISXz9iSgrG---8pz8C6yKfux-nXejmfAfSVNu6hMQ-bnzNO0sw8-k2M/pub?output=csv');
@@ -105,3 +106,4 @@ classes: full-width
 
   loadEvents();
 </script>
+</div>

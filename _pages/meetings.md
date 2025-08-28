@@ -9,12 +9,13 @@ classes: full-width
   <img src="/assets/images/rd-icons/rd-black-ring.webp" alt="Recovery Dharma Black Ring" width="60" height="60" loading="lazy">
   <h1>RD Meetings &amp; Meditation Groups</h1>
 </div>
-  This page lists local Recovery Dharma meetings and meditation groups in Vermont, providing key details such as time, type, town, and address. Whether you are new to Recovery Dharma or an experienced practitioner, these gatherings offer valuable opportunities for connection, mindfulness, and recovery support throughout the community.
+This page lists local Recovery Dharma meetings and meditation groups in Vermont, providing key details such as time, type, town, and address. Whether you are new to Recovery Dharma or an experienced practitioner, these gatherings offer valuable opportunities for connection, mindfulness, and recovery support throughout the community.
+{: .reveal .reveal--up }
 
 <hr class="zen-divider">    
 
 {% for meeting in site.data.meetings %}
-<div class="zen-meeting-block">
+<div class="zen-meeting-block reveal reveal--up">
   <h3 class="zen-meeting-title">{{ meeting.name }}</h3>
   <div class="zen-meeting-details">
     <p>📅 <strong>Date &amp; Time:</strong> {{ meeting.time }}</p>
