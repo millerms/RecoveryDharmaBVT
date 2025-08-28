@@ -21,6 +21,9 @@ classes: full-width
     <p>🧘 <strong>Type:</strong> {{ meeting.type }}</p>
     <p>🌆 <strong>Town:</strong> {{ meeting.town }}</p>
     <p>📍 <strong>Address:</strong> <a href="https://www.google.com/maps/search/?api=1&query={{ meeting.address | uri_escape }}" target="_blank" rel="noopener noreferrer">{{ meeting.address }}</a></p>
+    {% if meeting.directions %}
+    <p>🧭 <strong>Directions:</strong> {{ meeting.directions }}</p>
+    {% endif %}
   </div>
 </div>
 <hr class="zen-divider">
