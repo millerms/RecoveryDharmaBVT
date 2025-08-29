@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+/* Removed unused Zen Kurenaido import to reduce payload */
 /* ===============================
    0. Glassmorphism Styles
    =============================== */
@@ -58,6 +58,7 @@ html, body {
   background-blend-mode: overlay, normal;
   color: var(--zen-ink-subtle);
 }
+@media (max-width: 768px) { html, body { background-attachment: scroll, scroll; background-size: 100% 100%, 1200px 1200px; } }
 
 /* Reusable glass surface */
 .glass{
@@ -125,12 +126,7 @@ html, body {
   box-shadow: 0 10px 26px rgba(0,0,0,.30), var(--ring);
 }
 
-/* Round icon buttons (quote arrows) */
-.quote-nav-btn,.quote-nav-button{
-  width: 42px; height: 42px; border-radius: 999px;
-  display: inline-grid; place-items: center;
-  font-size: 20px; line-height: 1;
-}
+/* Round icon buttons (quote arrows) — consolidated later with .quote-nav-button */
 
 /* Masthead + dropdown */
 .masthead,.masthead__inner-wrap,.site-header,.greedy-nav,.greedy-nav .hidden-links{
@@ -144,28 +140,43 @@ html, body {
 .greedy-nav .hidden-links{
   overflow: hidden;
   /* Match masthead but with extra blur for stronger frosted look */
-  -webkit-backdrop-filter: blur(40px) saturate(300%) !important;
-  backdrop-filter: blur(40px) saturate(300%) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+  backdrop-filter: blur(16px) saturate(180%) !important;
   /* keep some tint so text stays legible */
   background-color: hsla(220, 72%, 25%, 0.4) !important;
   background-image: linear-gradient(to bottom, rgba(255,255,255,.06), rgba(0,0,0,.07));
   border: 1px solid hsl(var(--glass-tint-blue) / .60);
   border-radius: var(--r-lg);
   box-shadow: 0 12px 32px rgba(0,0,0,.40);
-  will-change: backdrop-filter;
 }
 
 /* Glassy footer with dark green tint */
-.page__footer, .page__footer .page__footer-inner{
-  -webkit-backdrop-filter: blur(var(--blur-lg)) saturate(60%);
-  backdrop-filter: blur(var(--blur-lg)) saturate(60%);
-  background-color: hsl(var(--glass-tint-green) / .80);
-  border-top: 1px solid hsl(var(--glass-tint-green) / .80);
-  box-shadow: 0 -8px 26px rgba(0,0,0,.28);
+.page__footer{
+  -webkit-backdrop-filter: blur(var(--blur-lg)) saturate(85%);
+  backdrop-filter: blur(var(--blur-lg)) saturate(85%);
+  background-color: hsl(var(--glass-tint-green) / .86);
+  border-top: 1px solid hsl(var(--glass-tint-green) / .86);
+  box-shadow: 0 -8px 26px rgba(0,0,0,.30);
   color: #eaf6ef;
 }
 .page__footer a{ color:#eaf6ef; }
 .page__footer a:hover{ color:#ffffff; text-decoration: underline; }
+
+/* Footer layout */
+.footer__inner{ position: relative; max-width: 1100px; margin: 0 auto; padding: 1.25rem 1rem; display: grid; gap: .6rem; }
+.footer__nav{ display: flex; flex-wrap: wrap; gap: 0; justify-content: center; align-items: center; }
+.footer__nav a{ display: inline-flex; align-items: center; }
+.footer__nav a:not(:first-child)::before{ content: "|"; color: rgba(234,246,239,.7); margin: 0 .45rem; }
+.footer__nav a{ text-decoration: none; border-bottom: 1px solid transparent; }
+.footer__nav a:hover{ border-color: currentColor; }
+.footer__meta{ display: flex; flex-direction: column; align-items: center; gap: .25rem; }
+.footer__social{ list-style: none; display: flex; gap: .75rem; padding: 0; margin: .25rem 0; }
+.footer__social a{ text-decoration: none; }
+.footer__credit{ margin: 0; font-size: .9rem; opacity: .95; }
+.footer__decor{ position: absolute; bottom: 12px; left: 8px; height: 80px; width: 60px; opacity: .8; }
+
+/* Slightly deeper forest green */
+:root{ --glass-tint-green: 140 45% 10%; }
 
 /* Page title bar wrappers you added */
 .zen-hero-banner,
@@ -180,79 +191,16 @@ html, body {
   border-radius: var(--r-lg);
   overflow: hidden;
 }
-.buddhist-quote,
-.quote-container,
-.zen-events-wrapper,
-.zen-meeting-card,
-.zen-weekly-day{
-  composes: glass card;
-}
+/* Removed invalid CSS Modules 'composes' directive */
 
-/* calendar frame centered */
-.zen-weekly-calendar{
-  display: grid;
-  grid-template-columns: repeat(7, minmax(220px,1fr));
-  gap: var(--gap);
-  max-width: 1320px;
-  margin: 0 auto;
-  padding-inline: clamp(8px, 3vw, 20px);
-}
-
-/* glass day column */
-.zen-weekly-day{
-  -webkit-backdrop-filter: blur(var(--blur-lg)) saturate(115%);
-  backdrop-filter: blur(var(--blur-lg)) saturate(115%);
-  background-color: hsl(var(--glass-tint) / .10);
-  border: 1px solid hsl(var(--glass-tint) / .26);
-  border-radius: var(--r-lg);
-  box-shadow: 0 8px 26px rgba(0,0,0,.28);
-  padding: 16px;
-}
-.zen-weekly-day__label{
-  text-align: center;
-  font-weight: 800;
-  color: #143b33;
-  margin-bottom: .5rem;
-  letter-spacing: .3px;
-}
-.zen-weekly-day__list{
-  display: grid;
-  gap: 10px;
-}
-.zen-meeting-card{
-  -webkit-backdrop-filter: blur(var(--blur-md)) saturate(115%);
-  backdrop-filter: blur(var(--blur-md)) saturate(115%);
-  background-color: hsl(var(--glass-tint) / .12);
-  border: 1px solid hsl(var(--glass-tint) / .28);
-  border-radius: var(--r-md);
-  padding: 10px 12px;
-  box-shadow: 0 6px 20px rgba(0,0,0,.22);
-}
-
-/* Dense mode for crowded days (set by JS) */
-.zen-weekly-day.is-dense .zen-meeting-card{
-  font-size: .92rem;
-  line-height: 1.3;
-  padding: 8px 10px;
-}
-
-/* Hide empty days (set by JS) */
-.zen-weekly-day--hidden{ display:none; }
-
-/* smaller screens: 2–3 cols */
-@media (max-width: 1100px){
-  .zen-weekly-calendar{ grid-template-columns: repeat(3, minmax(220px,1fr)); }
-}
-@media (max-width: 680px){
-  .zen-weekly-calendar{ grid-template-columns: 1fr; }
-}
+/* Removed unused weekly calendar and dense-day CSS */
 
 /* Quote card */
 .buddhist-quote,.quote-container{
   -webkit-backdrop-filter: blur(var(--blur-lg)) saturate(120%);
   backdrop-filter: blur(var(--blur-lg)) saturate(120%);
-  background-color: hsl(var(--glass-tint) / .12);
-  border: 1px solid hsl(var(--glass-tint) / .28);
+  background-color: hsl(var(--glass-tint-blue) / .6);
+  border: 1px solid hsl(var(--glass-tint-blue) / .7);
   border-radius: var(--r-lg);
   box-shadow: 0 10px 30px rgba(0,0,0,.28);
 }
@@ -292,9 +240,7 @@ html, body {
 /* ===============================
    1. Global Resets & Base Styles
    =============================== */
-:root {
-  --primary-color: #003f5c;
-}
+:root { --primary-color: #003f5c; }
 html {
   scroll-behavior: smooth;
 }
@@ -334,6 +280,10 @@ a::after {
   transform-origin: left;
   transition: transform 0.2s ease-in-out;
 }
+
+/* Improve link visibility in main content */
+.page__content a { text-decoration: underline; }
+.page__content a::after { display: none; }
 
 /* ===============================
    2. Typography & Text Styles
@@ -525,27 +475,7 @@ a::after {
   box-shadow: 0 4px 12px rgba(141, 110, 99, 0.12);
   position: relative;
 }
-.quote-box {
-  background: #fdfdfb;
-  background-size: cover;
-  border-radius: 12px;
-  padding: 1rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  position: relative;
-  border: 1px solid #ddd;
-  margin: 1rem auto;
-  max-width: 700px;
-  font-size: 1.2rem;
-  line-height: 1.6;
-  transition: all 0.3s ease-in-out;
-}
-.quote-box.fade {
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-.quote-box.show {
-  opacity: 1;
-}
+/* Removed unused .quote-box styles */
 .zen-link-list {
   display: flex;
   flex-direction: column;
@@ -574,25 +504,7 @@ a::after {
   text-overflow: unset;
   animation: fadeInUp 0.6s ease both;
 }
-.zen-nav-button, .zen-button {
-  background: #f7fcf8;
-  color: #2e7d32;
-  padding: 0.85rem 1.25rem;
-  border-radius: 16px;
-  border: 2px solid #2e7d32;
-  text-decoration: none;
-  transition: all 0.2s ease;
-  font-weight: 500;
-  display: inline-block;
-  box-shadow: 0 4px 12px rgba(141, 110, 99, 0.12);
-}
-.zen-nav-button:hover, .zen-nav-button:focus,
-.zen-button:hover, .zen-button:focus {
-  background: #efebe9;
-  border-color: #5d4037;
-  color: #5d4037;
-  box-shadow: 0 4px 12px rgba(141, 110, 99, 0.12);
-}
+/* Use glass button base; no flat overrides for .zen-nav-button / .zen-button */
 .section-divider {
   border-top: 1px solid rgba(85, 72, 60, 0.12);
   margin: 2.5rem auto;
@@ -760,50 +672,14 @@ a::after {
   text-align: center;
   -webkit-text-stroke: 0.5px #000000;
 }
-.event-card {
-  background-color: #f9f9f9;
-  border-left: 6px solid var(--primary-color);
-  padding: 1.2rem 1.5rem;
-  margin-bottom: 1.5rem;
-  border-radius: 6px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  opacity: 0;
-  transform: translateY(10px);
-}
-.event-card.animate {
-  opacity: 1;
-  transform: translateY(0);
-}
-.event-card strong {
-  display: inline-block;
-  color: var(--primary-color);
-  font-weight: 600;
-  margin-right: 6px;
-}
-.event-field {
-  margin-bottom: 0.4rem;
-}
-.events-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-}
+/* Removed unused legacy .event-card styles */
 .zen-divider {
   border: none;
   height: 1px;
   background-color: #ccc;
   margin: 1.2rem 0;
 }
-.zen-meeting-card {
-  background-color: var(--zen-surface);
-  border: 1px solid var(--zen-surface-border);
-  border-radius: 12px;
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 2rem;
-  box-shadow: var(--zen-shadow-light);
-}
+/* Structural adjustments for meeting cards */
 .zen-meeting-card > *:first-child {
   margin-top: 0;
 }
@@ -822,13 +698,13 @@ a::after {
 .zen-meeting-card li span {
   font-weight: 600;
   margin-right: 0.5rem;
-  color: var(--zen-primary);
+  color: var(--zen-accent);
 }
 .zen-meeting-card hr {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   border: none;
-  border-top: 1px solid var(--zen-surface-border);
+  border-top: 1px solid hsl(var(--glass-tint) / .24);
 }
 .zen-meeting-details {
   padding-left: 1rem;
@@ -883,9 +759,7 @@ a::after {
 .quote-nav-button:active {
   animation: pulse 0.3s;
 }
-.fade-in {
-  animation: fadeInSlide 0.8s ease-out 0s 1 normal both running;
-}
+/* .fade-in consolidated above; avoid duplicate definition */
 #prev-quote, #next-quote {
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
@@ -909,15 +783,7 @@ a::after {
 /* ==================================
    5. Header, Navigation, & Textures
    ================================== */
-/* Rice paper background for content cards only (keep nav glassy) */
-.buddhist-quote,
-.quote-container {
-  background-color: hsla(220, 91%, 26%, 0.8);
-  background-image: url('/assets/images/rice-paper-1.webp');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: multiply;
-}
+/* Rice paper overlay removed from individual cards to avoid texture stacking */
 .greedy-nav {
   background: transparent !important;
   box-shadow: none !important;
@@ -1067,22 +933,8 @@ main h1:first-of-type {
     transform: translateY(0);
   }
 }
-.quote-box.fade {
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-.quote-box.show {
-  opacity: 1;
-}
-.event-card {
-  opacity: 0;
-  transform: translateY(10px);
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-.event-card.animate {
-  opacity: 1;
-  transform: translateY(0);
-}
+/* Removed duplicate .quote-box animation block */
+/* Removed duplicate .event-card animation block */
 
 /* ===============================
    7. Media Queries & Mobile Tweaks
@@ -1117,10 +969,7 @@ main h1:first-of-type {
     padding: 0.6rem 0.8rem;
     border-radius: 12px;
   }
-  .quote-box {
-    font-size: 0.95rem;
-    padding: 0.75rem;
-  }
+  /* .quote-box removed */
   .quote-nav-button {
     font-size: 1rem;
     padding: 0.4rem 0.6rem;
@@ -1135,7 +984,7 @@ main h1:first-of-type {
 /* ===============================
    8. Reveal Animations Styles
    =============================== */
-html { scroll-behavior: smooth; }
+/* scroll-behavior already set earlier; removed duplicate */
 
 /* Accessible focus outline (keyboard only) */
 :focus-visible { outline: 2px solid var(--color-primary, #103d2d); outline-offset: 2px; }

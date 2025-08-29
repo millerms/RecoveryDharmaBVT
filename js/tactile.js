@@ -1,4 +1,3 @@
-<script>
 document.addEventListener('click', (e)=>{
   const t = e.target.closest('.btn,.zen-button,.zen-nav-button,.quote-nav-btn,.quote-nav-button');
   if(!t) return;
@@ -12,4 +11,3 @@ document.addEventListener('click', (e)=>{
   t.appendChild(r);
   setTimeout(()=> r.remove(), 450);
 });
-</script>

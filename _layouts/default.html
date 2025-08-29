@@ -19,9 +19,9 @@
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <div class="initial-content">
+    <main id="main" role="main" class="initial-content">
       {{ content }}
-    </div>
+    </main>
 
     {% if site.search == true %}
       <div class="search-content">
@@ -32,11 +32,9 @@
     <div id="footer" class="page__footer">
       <footer>
         {% include footer/custom.html %}
-        {% include footer.html %}
       </footer>
     </div>
 
-</file>
     {% include scripts.html %}
 
     <!-- Scroll to Top Button -->

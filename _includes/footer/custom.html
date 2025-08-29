@@ -1,15 +1,31 @@
-<footer style="position: relative; text-align: center; padding: 1rem 0; font-size: 0.9rem;">
-  <nav aria-label="Footer navigation" style="text-align:center;">
-    <a href="{{ site.baseurl }}/" style="margin: 0 3px;">Home</a>
-    <span aria-hidden="true" style="margin: 0 1px;">|</span>
-    <a href="{{ site.baseurl }}/meetings/" style="margin: 0 3px;">Meetings &amp; Groups</a>
-    <span aria-hidden="true" style="margin: 0 1px;">|</span>
-    <a href="{{ site.baseurl }}/buddhist-foundations/" style="margin: 0 3px;">Buddhist Foundations</a>
-    <span aria-hidden="true" style="margin: 0 1px;">|</span>
-    <a href="{{ site.baseurl }}/resources/" style="margin: 0 3px;">Resources</a>
-    <span aria-hidden="true" style="margin: 0 1px;">|</span>
-    <a href="{{ site.baseurl }}/events/" style="margin: 0 3px;">Events</a>
-    <span aria-hidden="true" style="margin: 0 1px;">|</span>
-    <a href="{{ site.baseurl }}/contact/" style="margin: 0 3px;">Contact</a>
+<div class="footer__inner">
+  <nav class="footer__nav" aria-label="Footer navigation">
+    <a href="{{ site.baseurl }}/">Home</a>
+    <a href="{{ site.baseurl }}/meetings/">Meetings &amp; Groups</a>
+    <a href="{{ site.baseurl }}/buddhist-foundations/">Buddhist Foundations</a>
+    <a href="{{ site.baseurl }}/resources/">Resources</a>
+    <a href="{{ site.baseurl }}/events/">Events</a>
+    <a href="{{ site.baseurl }}/contact/">Contact</a>
   </nav>
-</footer>
+
+  <div class="footer__meta">
+    <ul class="footer__social social-icons" aria-label="Social links">
+      {% if site.footer.links %}
+        {% for link in site.footer.links %}
+          {% if link.label and link.url %}
+            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </ul>
+    <p class="footer__credit">
+      &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
+      Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp;
+      <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
+      <span class="footer-credit">Built by Michael Miller.</span>
+    </p>
+  </div>
+
+  <img src="{{ '/assets/images/rd-icons/rd-tower.webp' | relative_url }}" 
+       alt="Decorative Color Tower" class="footer__decor">
+</div>

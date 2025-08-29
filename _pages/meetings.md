@@ -16,7 +16,7 @@ This page lists local Recovery Dharma meetings and meditation groups in Vermont,
 
 {% for meeting in site.data.meetings %}
 <div class="zen-meeting-block reveal reveal--up">
-  <h3 class="zen-meeting-title">{{ meeting.name }}</h3>
+  <h2 class="zen-meeting-title">{{ meeting.name }}</h2>
   <div class="zen-meeting-details">
     <p>📅 <strong>Date &amp; Time:</strong> {{ meeting.time }}</p>
     <p>🧘 <strong>Type:</strong> {{ meeting.type }}</p>
