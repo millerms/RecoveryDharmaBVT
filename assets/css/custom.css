@@ -171,16 +171,25 @@ html, body {
 .footer__nav a:not(:first-child)::before{ content: "|"; color: rgba(234,246,239,.7); margin: 0 .45rem; }
 .footer__nav a{ text-decoration: none; border-bottom: 1px solid transparent; }
 .footer__nav a:hover{ border-color: currentColor; }
-.footer__meta{ display: flex; flex-direction: column; align-items: left; gap: .5rem; }
+.footer__meta{ display: flex; flex-direction: column; align-items: left; gap: .25rem; }
 .footer__social{ list-style: none; display: flex; gap: .75rem; padding: 0; margin: .25rem 0; }
 .footer__social a{ text-decoration: none; }
 .footer__credit{ margin: 0; font-size: .75rem; opacity: .95; }
-.footer__decor{ position: absolute; inset: 0 auto 0 0; height: 100%; width: auto; opacity: .9; z-index: 0; }
+.footer__decor{
+  position: absolute;
+  left: -10px;            /* nudge further left */
+  bottom: -8px;           /* sit slightly lower */
+  top: auto;              /* anchor to bottom */
+  height: 80%; /* extend a bit beyond to keep flush */
+  width: auto;
+  opacity: .9;
+  z-index: 0;
+}
 
 /* Reserve space for the decorative tower so text doesn't overlap */
 :root{ --footer-decor-space: 56px; }
-@media (max-width: 480px){ :root{ --footer-decor-space: 32px; } }
-@media (min-width: 900px){ :root{ --footer-decor-space: 56px; } }
+@media (max-width: 480px){ :root{ --footer-decor-space: 48px; } .footer__decor{ left: -20px; bottom: -10px; height: calc(80% + 20px); } }
+@media (min-width: 900px){ :root{ --footer-decor-space: 72px; } .footer__decor{ left: -14px; bottom: -8px; height: calc(80% + 16px); } }
 
 /* Slightly deeper forest green */
 :root{ --glass-tint-green: 140 45% 10%; }
