@@ -1,6 +1,36 @@
-/* Removed unused Zen Kurenaido import to reduce payload */
-/* ===============================
-   0. Glassmorphism Styles
+/* =============================================
+   Custom CSS – Navigation Guide
+   ---------------------------------------------
+   Contents (search these tags to jump):
+   [S0] Theme & Glass Variables
+   [S1] Page Background
+   [S2] Core Glass Surfaces & Buttons
+   [S3] Navigation & Masthead
+   [S4] Footer (Glassy Forest Green)
+   [S5] Components (Wrappers, Cards, Quotes, Meetings, Hero)
+   [S6] Utilities (Fade helper, Ripple, Reduced motion)
+   [S7] Base Resets
+   [S8] Typography
+   [S9] Hamburger Toggle (Navicon)
+   [S10] Animations & Effects (Reveal)
+   [S11] Media Queries
+   ---------------------------------------------
+*/
+
+/* Quick Tuning Cheat Sheet
+   - Glass density (all glass): raise/lower `--glass-alpha` in [S0]
+   - Dropdown legibility: adjust blur/tint in `.greedy-nav .hidden-links` [S3]
+   - Footer color: change `--glass-tint-green` override near [S4]
+   - Footer tower spacing: tweak `--footer-decor-space` and `.footer__decor` left/bottom/height [S4]
+   - Background performance: keep fixed bg disabled on small screens [S1]
+   - Buttons/CTAs: base rules live in [S2] — extend with color-only variants
+   - Motion sensitivity: relies on `prefers-reduced-motion` blocks in [S6] and [S10]
+*/
+
+/* =============================== [S0]
+   Theme & Glass Variables
+   - Tweak these to change overall tint, blur, radii, and motion
+   - Footer has its own tint override later in [S4]
    =============================== */
 
 :root{
@@ -37,7 +67,8 @@
   --ring: 0 0 0 3px color-mix(in oklab, white 10%, transparent);
 }
 
-/* dark mode tune */
+/* Optional dark‑mode tuning for glass values (keeps the same palette,
+   slightly deepens shadow on dark backgrounds) */
 @media (prefers-color-scheme: dark){
   :root{
     --glass-alpha: 0.10;
@@ -46,7 +77,11 @@
   }
 }
 
-/* Page background: keep your paper but add depth */
+/* Paper texture over a warm tint. On small screens, disable `background-attachment: fixed`
+   to avoid scroll jank/paint cost on mobile browsers. */
+/* =============================== [S1]
+   Page Background
+   =============================== */
 html, body {
   background-image:
     linear-gradient(rgba(245, 240, 230, 0.94), rgba(245, 240, 230, 0.94)),
@@ -60,7 +95,11 @@ html, body {
 }
 @media (max-width: 768px) { html, body { background-attachment: scroll, scroll; background-size: 100% 100%, 1200px 1200px; } }
 
-/* Reusable glass surface */
+/* =============================== [S2]
+   Core Glass Surfaces & Buttons
+   =============================== */
+/* Reusable glass surface for cards/containers.
+   Adjust --glass-* in :root to retint, strengthen border, or soften shadow. */
 .glass{
   -webkit-backdrop-filter: blur(var(--blur-lg)) saturate(115%);
   backdrop-filter: blur(var(--blur-lg)) saturate(115%);
@@ -78,14 +117,15 @@ html, body {
   padding: clamp(14px, 2vw, 22px);
 }
 
-/* Utility: center a grid row with consistent gap */
+/* Grid helper to center a row with consistent gaps */
 .glass-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: var(--gap);
 }
 
-/* Base glass button */
+/* Base glass button
+   Source of truth for all CTAs; extend with variants (e.g., color-only) */
 .btn, .zen-button, .zen-nav-button, .quote-nav-btn, .quote-nav-button{
   -webkit-backdrop-filter: blur(var(--blur-md)) saturate(120%);
   backdrop-filter: blur(var(--blur-md)) saturate(120%);
@@ -128,6 +168,9 @@ html, body {
 
 /* Round icon buttons (quote arrows) — consolidated later with .quote-nav-button */
 
+/* =============================== [S3]
+   Navigation & Masthead
+   =============================== */
 /* Masthead + dropdown */
 .masthead,.masthead__inner-wrap,.site-header,.greedy-nav,.greedy-nav .hidden-links{
   -webkit-backdrop-filter: blur(4px) saturate(120%);
@@ -139,10 +182,10 @@ html, body {
 
 .greedy-nav .hidden-links{
   overflow: hidden;
-  /* Match masthead but with extra blur for stronger frosted look */
+  /* Stronger frost for dropdown panel (legibility over content) */
   -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
   backdrop-filter: blur(16px) saturate(180%) !important;
-  /* keep some tint so text stays legible */
+  /* Keep a tint so text stays legible */
   background-color: hsla(220, 72%, 25%, 0.4) !important;
   background-image: linear-gradient(to bottom, rgba(255,255,255,.06), rgba(0,0,0,.07));
   border: 1px solid hsl(var(--glass-tint-blue) / .60);
@@ -150,6 +193,9 @@ html, body {
   box-shadow: 0 12px 32px rgba(0,0,0,.40);
 }
 
+/* =============================== [S4]
+   Footer (Glassy Forest Green)
+   =============================== */
 /* Glassy footer with dark green tint */
 .page__footer{
   position: relative;
@@ -164,7 +210,11 @@ html, body {
 .page__footer a{ color:#eaf6ef; }
 .page__footer a:hover{ color:#ffffff; text-decoration: underline; }
 
-/* Footer layout */
+/* Footer layout
+   - `--glass-tint-green`: retint the footer glass (footer uses a darker variant
+      than the global tint; override is declared below)
+   - `--footer-decor-space`: reserve content padding for the left tower
+   - `.footer__decor`: offsets (left/bottom/height) to position the tower */
 .footer__inner{ position: relative; z-index: 1; max-width: 1100px; margin: 0 auto; padding: 1.25rem 1rem; display: grid; gap: .6rem; padding-left: calc(1rem + var(--footer-decor-space, 56px)); }
 .footer__nav{ display: flex; flex-wrap: wrap; gap: 0; justify-content: center; align-items: center; }
 .footer__nav a{ display: inline-flex; align-items: center; }
@@ -188,13 +238,18 @@ html, body {
 
 /* Reserve space for the decorative tower so text doesn't overlap */
 :root{ --footer-decor-space: 56px; }
-@media (max-width: 480px){ :root{ --footer-decor-space: 48px; } .footer__decor{ left: -20px; bottom: -10px; height: calc(80% + 20px); } }
-@media (min-width: 900px){ :root{ --footer-decor-space: 72px; } .footer__decor{ left: -14px; bottom: -8px; height: calc(80% + 16px); } }
+@media (max-width: 480px){ :root{ --footer-decor-space: 48px; } 
+    .footer__decor{ left: -20px; bottom: -10px; height: calc(80% + 20px); } }
+@media (min-width: 900px){ :root{ --footer-decor-space: 72px; } 
+  .footer__decor{ left: -14px; bottom: -8px; height: calc(80% + 16px); } }
 
-/* Slightly deeper forest green */
+/* Footer tint – forest green (overrides the earlier `--glass-tint-green`) */
 :root{ --glass-tint-green: 140 45% 10%; }
 
-/* Page title bar wrappers you added */
+/* =============================== [S5]
+   Components (Wrappers, Cards, Quotes, Meetings, Hero)
+   =============================== */
+/* Component wrappers: shared rounding and overflow rules */
 .zen-hero-banner,
 .page__title-wrapper,
 .section-divider,
@@ -207,11 +262,11 @@ html, body {
   border-radius: var(--r-lg);
   overflow: hidden;
 }
-/* Removed invalid CSS Modules 'composes' directive */
+/* Note: no CSS Modules; keep simple utility composition via classes */
 
-/* Removed unused weekly calendar and dense-day CSS */
+/* Weekly calendar styles intentionally omitted in this project to reduce bloat */
 
-/* Quote card */
+/* Quote cards: glass look to sit over paper */
 .buddhist-quote,.quote-container{
   -webkit-backdrop-filter: blur(var(--blur-lg)) saturate(120%);
   backdrop-filter: blur(var(--blur-lg)) saturate(120%);
@@ -234,6 +289,9 @@ html, body {
   text-align: center;
 }
 
+/* =============================== [S6]
+   Utilities (Fade helper, Ripple, Reduced motion)
+   =============================== */
 /* fade animation stays smooth */
 .fade-in{ animation: fadeInSlide .6s var(--e-soft) both; }
 
@@ -253,8 +311,8 @@ html, body {
   pointer-events:none; mix-blend-mode: screen;
 }
 @keyframes ripple{ to{ transform: scale(1); opacity: 0; } }
-/* ===============================
-   1. Global Resets & Base Styles
+/* =============================== [S7]
+   Base Resets
    =============================== */
 :root { --primary-color: #003f5c; }
 html {
@@ -273,7 +331,10 @@ body {
   color: #003f5c;
 }
 
-/* General anchor tag styles */
+/* Link underline system
+   - Global links use a 1px animated underline (::after)
+   - In main content, we force a traditional underline for readability
+   - Footer can suppress the animated underline via `.page__footer a::after { display:none; }` */
 a {
   position: relative;
   text-decoration: none;
@@ -301,8 +362,8 @@ a::after {
 .page__content a { text-decoration: underline; }
 .page__content a::after { display: none; }
 
-/* ===============================
-   2. Typography & Text Styles
+/* =============================== [S8]
+   Typography
    =============================== */
 .buddhist-quote,
 .quote-text,
@@ -469,9 +530,7 @@ a::after {
   margin:0;
 }
 
-/* ===============================
-   3. Layout: Containers & Components
-   =============================== */
+/* Components — cards, quotes, link lists, hero */
 .buddhist-quote {
   border-radius: 16px;
   padding: 1.75rem 2rem;
@@ -730,9 +789,7 @@ a::after {
   margin: 0.25rem 0;
 }
 
-/* ===============================
-   4. Quote Navigation
-   =============================== */
+/* Quote navigation (component controls) */
 .quote-navigation {
   display: flex;
   justify-content: space-between;
@@ -796,9 +853,7 @@ a::after {
   padding: 0;                 /* reset any leftover padding */
 }
 
-/* ==================================
-   5. Header, Navigation, & Textures
-   ================================== */
+/* Header/nav extras & textures */
 /* Rice paper overlay removed from individual cards to avoid texture stacking */
 .greedy-nav {
   background: transparent !important;
@@ -837,7 +892,9 @@ a::after {
   border-bottom: 3px solid #1b5e20;
 }
 
-/* === Hamburger (navicon) toggle styling === */
+/* =============================== [S9]
+   Hamburger Toggle (Navicon)
+   =============================== */
 .greedy-nav__toggle .navicon {
   position: relative;
   width: 1.5rem;
@@ -902,8 +959,8 @@ main h1:first-of-type {
   gap: 0.75rem;
   margin-bottom: 0.75rem;
 }
-/* ===============================
-   6. Animations & Effects
+/* =============================== [S10]
+   Animations & Effects
    =============================== */
 @keyframes fadeInBody {
   to {
@@ -949,11 +1006,32 @@ main h1:first-of-type {
     transform: translateY(0);
   }
 }
-/* Removed duplicate .quote-box animation block */
-/* Removed duplicate .event-card animation block */
 
-/* ===============================
-   7. Media Queries & Mobile Tweaks
+/* Accessible focus outline (keyboard only) */
+:focus-visible { outline: 2px solid var(--color-primary, #103d2d); outline-offset: 2px; }
+
+/* Subtle lift on cards/tiles */
+.home-tile { transition: transform .22s ease, box-shadow .22s ease; }
+.home-tile:hover, .home-tile:focus-within {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(15,76,92,0.12);
+}
+
+/* Scroll reveal utility */
+:root { --reveal-duration: .5s; --reveal-ease: cubic-bezier(.215,.61,.355,1); }
+.reveal { opacity: 0; transform: translateY(12px); filter: blur(.25px);
+  transition: opacity var(--reveal-duration) var(--reveal-ease),
+              transform var(--reveal-duration) var(--reveal-ease),
+              filter var(--reveal-duration) var(--reveal-ease);
+  will-change: opacity, transform, filter;
+}
+.reveal.is-revealed { opacity: 1; transform: none; filter: none; }
+.reveal--fade { transform: none; }
+.reveal--up { transform: translateY(16px); }
+.reveal--scale { transform: scale(.985); }
+
+/* =============================== [S11]
+   Media Queries & Mobile Tweaks
    =============================== */
 @media screen and (max-width: 600px) {
   .quote-navigation button {
@@ -996,34 +1074,6 @@ main h1:first-of-type {
   transform: scale(0.98);
   box-shadow: 0 2px 8px rgba(141, 110, 99, 0.08);
 }
-
-/* ===============================
-   8. Reveal Animations Styles
-   =============================== */
-/* scroll-behavior already set earlier; removed duplicate */
-
-/* Accessible focus outline (keyboard only) */
-:focus-visible { outline: 2px solid var(--color-primary, #103d2d); outline-offset: 2px; }
-
-/* Subtle lift on cards/tiles */
-.home-tile { transition: transform .22s ease, box-shadow .22s ease; }
-.home-tile:hover, .home-tile:focus-within {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(15,76,92,0.12);
-}
-
-/* Scroll reveal utility */
-:root { --reveal-duration: .5s; --reveal-ease: cubic-bezier(.215,.61,.355,1); }
-.reveal { opacity: 0; transform: translateY(12px); filter: blur(.25px);
-  transition: opacity var(--reveal-duration) var(--reveal-ease),
-              transform var(--reveal-duration) var(--reveal-ease),
-              filter var(--reveal-duration) var(--reveal-ease);
-  will-change: opacity, transform, filter;
-}
-.reveal.is-revealed { opacity: 1; transform: none; filter: none; }
-.reveal--fade { transform: none; }
-.reveal--up { transform: translateY(16px); }
-.reveal--scale { transform: scale(.985); }
 
 /* Reduced-motion: disable fancy transitions */
 @media (prefers-reduced-motion: reduce) {
