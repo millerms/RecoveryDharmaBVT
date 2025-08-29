@@ -6,12 +6,22 @@ description: "A community for Recovery Dharma in Vermont. Meetings, meditation e
 url: "https://rdvt.org"
 baseurl: ""
 og_image: /assets/images/rd-icons/rdvt-icon.webp
+logo: /assets/images/rd-icons/rdvt-icon.webp
 tagline: "Buddhist-inspired recovery in Vermont"
 social:
   name: "Recovery Dharma Vermont"
   image: /assets/images/rd-icons/rdvt-icon.webp
   links:
     - https://rdvt.org
+    - https://recoverydharma.org
+    - https://www.youtube.com/@recoverydharma
+    - https://www.facebook.com/groups/recoverydharma
+
+# Twitter/FB (optional; username left blank if none)
+twitter:
+  card: summary_large_image
+facebook:
+  app_id:
 
 # Theme settings
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"

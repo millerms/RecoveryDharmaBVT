@@ -4,6 +4,8 @@ title: "Burlington Meetings & Groups"
 permalink: /meetings/
 nav_order: 2
 classes: full-width
+description: "Find local Recovery Dharma meetings and meditation groups across Vermont."
+image: /assets/images/rd-icons/rdvt-icon.webp
 ---
 <div class="page-title-with-icon">
   <img src="/assets/images/rd-icons/rd-black-ring.webp" alt="Recovery Dharma Black Ring" width="60" height="60" loading="lazy">

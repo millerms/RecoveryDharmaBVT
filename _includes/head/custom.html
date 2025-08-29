@@ -1,3 +1,18 @@
 <script src="/js/tactile.js" defer></script>
 <script src="/js/reveal.js" defer></script>
 <script src="/js/rd-quotes.js" defer></script>
+<meta name="theme-color" content="#0f3a25">
+
+{%- assign org_sameas = site.social.links | default: nil -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": {{ site.name | default: site.title | jsonify }},
+  "url": {{ site.url | append: site.baseurl | jsonify }},
+  {% if site.logo %}"logo": {{ site.logo | absolute_url | jsonify }},{% endif %}
+  {% if org_sameas %}
+  "sameAs": {{ org_sameas | jsonify }}
+  {% endif %}
+}
+</script>

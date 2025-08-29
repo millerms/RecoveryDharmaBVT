@@ -4,6 +4,8 @@ title: "Contact Us"
 permalink: /contact/
 nav_order: 6
 classes: full-width
+description: "Get in touch with Recovery Dharma Vermont to share events, ask questions, or get involved."
+image: /assets/images/rd-icons/rdvt-icon.webp
 ---
 <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; margin-top: 1.5rem; margin-bottom: 0;">
   <h1>Contact Us</h1>

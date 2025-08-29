@@ -3,6 +3,8 @@ layout: splash
 title: Recovery Dharma Vermont
 nav_order: 1
 permalink: /
+description: "Recovery Dharma Vermont: meetings, meditation events, Buddhist foundations, resources, and contact."
+image: /assets/images/banner.webp
 ---
 <h1 class="sr-only">Recovery Dharma Vermont</h1>
 <div class="zen-hero-banner fade-in">

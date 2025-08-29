@@ -4,6 +4,8 @@ title: "Events"
 permalink: /events/
 nav_order: 5
 classes: full-width
+description: "Upcoming meditation events, workshops, and retreats related to Recovery Dharma and Buddhist practice in Vermont."
+image: /assets/images/mossy-forest.webp
 ---
 
 <div class="zen-events-wrapper">

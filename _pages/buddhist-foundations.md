@@ -4,6 +4,8 @@ title: Buddhist Foundations
 permalink: /buddhist-foundations/
 nav_order: 3
 classes: width
+description: "Beginner-friendly guide to Buddhist philosophy and ethics for recovery: precepts, Four Noble Truths, Eightfold Path, and practices."
+image: /assets/images/buddha-quote.webp
 ---
 <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; margin-top: 1.75rem;">
   <h1>Buddhist Foundations</h1>
