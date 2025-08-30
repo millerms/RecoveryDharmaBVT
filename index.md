@@ -54,7 +54,7 @@ Below you’ll find descriptions of the pages:
       <strong>Meetings & Groups</strong><br>
       Find local in-person Recovery Dharma meetings and other meditation groups in Burlington and beyond.
     </div>
-    <a href="{{ site.baseurl }}/meetings/" class="zen-nav-button">🪷 Meetings & Groups</a>
+    <a href="{{ site.baseurl }}/meetings/" class="zen-nav-button reveal reveal--up">🪷 Meetings & Groups</a>
   </div> 
   <div class="zen-divider-short"></div>
   <div class="zen-link-row">
@@ -62,7 +62,7 @@ Below you’ll find descriptions of the pages:
       <strong>Buddhist Foundations</strong><br>
       Learn about Buddhism and how its teachings inform Recovery Dharma practices. We cover key concepts, meditation techniques, ethical guidelines, and links to additional resources.
     </div>
-    <a href="{{ site.baseurl }}/buddhist-foundations/" class="zen-nav-button">🌱 Buddhist Foundations</a>
+    <a href="{{ site.baseurl }}/buddhist-foundations/" class="zen-nav-button reveal reveal--up">🌱 Buddhist Foundations</a>
   </div>
   <div class="zen-divider-short"></div>
   <div class="zen-link-row">
@@ -70,7 +70,7 @@ Below you’ll find descriptions of the pages:
       <strong>Resources</strong><br>
       Explore meetings, meditations, links, and other local meditation groups to deepen your understanding and practice through Recovery Dharma.
     </div>
-    <a href="{{ site.baseurl }}/resources/" class="zen-nav-button">📚 Resources</a>
+    <a href="{{ site.baseurl }}/resources/" class="zen-nav-button reveal reveal--up">📚 Resources</a>
   </div>
   <div class="zen-divider-short"></div>
   <div class="zen-link-row">
@@ -78,7 +78,7 @@ Below you’ll find descriptions of the pages:
       <strong>Events</strong><br>
       Join special meditation offerings, retreats, and group practices.
     </div>
-    <a href="{{ site.baseurl }}/events/" class="zen-nav-button">🧘‍♂️ Events</a>
+    <a href="{{ site.baseurl }}/events/" class="zen-nav-button reveal reveal--up">🧘‍♂️ Events</a>
   </div>
   <div class="zen-divider-short"></div>
   <div class="zen-link-row">
@@ -86,7 +86,7 @@ Below you’ll find descriptions of the pages:
       <strong>Contact</strong><br>
       Reach out to share an event, ask questions, or get involved.
     </div>
-    <a href="{{ site.baseurl }}/contact/" class="zen-nav-button">✉️ Contact</a>
+    <a href="{{ site.baseurl }}/contact/" class="zen-nav-button reveal reveal--up">✉️ Contact</a>
   </div>
 </div>
 
