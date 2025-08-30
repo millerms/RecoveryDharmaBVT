@@ -18,8 +18,8 @@ Welcome! This page introduces Buddhist philosophy and ethics in a non-dogmatic, 
 <div class="fade-in">
   <div style="position: relative; text-align: center; max-width: 100%; margin-top: 1rem;">
     <img src="/assets/images/buddha-quote.webp" alt="Buddha" style="width: 100%; max-height: 60%; height: auto; display: block;" />
-    <div style="position: absolute; top: 50%; right: 0; width: 53%; transform: translateY(-55%); text-align: right; padding-right: 2rem; color: white; font-weight: bold; font-size: clamp(1rem, 2.5vw, 1.5rem); text-shadow: 0 2px 6px rgba(0,0,0,0.5);">
-      “Craving is the root of suffering. If you remove craving, you remove suffering.”<br>— The Buddha
+    <div style="position: absolute; top: 50%; right: 0; width: 50%; transform: translateY(-55%); text-align: right; padding-right: 2rem; color: white; font-weight: bold; font-size: clamp(0.85rem, 2.3vw, 1.2rem); text-shadow: 0 2px 6px rgba(0,0,0,0.5);">
+      “Craving is the root of suffering. If you remove craving, you remove suffering.”<br><br>— The Buddha
     </div>
   </div>
 </div>
@@ -70,8 +70,8 @@ If you’re more of a listener, these two talks offer different but complementar
 <div class="reveal reveal--up">
   <div style="position: relative; text-align: center; max-width: 100%; margin-top: 1rem;">
     <img src="/assets/images/mossy-forest.webp" alt="Mossy Forest" style="width: 100%; max-height: 75%; height: auto; display: block;" />
-    <div style="position: absolute; bottom: 5%; left: 50%; transform: translateX(-50%); width: 80%; text-align: center; color: white; font-weight: bold; font-size: clamp(1rem, 2.5vw, 1.5rem); text-shadow: 0 2px 6px rgba(0,0,0,0.5);">
-      “Buddhism is not a religion, it is a way of life.”<br>— The Buddha
+    <div style="position: absolute; bottom: 5%; left: 50%; transform: translateX(-50%); width: 80%; text-align: center; color: white; font-weight: bold; font-size: clamp(0.9rem, 2.5vw, 1.5rem); text-shadow: 0 2px 6px rgba(0,0,0,0.5);">
+      “Buddhism is not a religion, it is a way of life.”<br><br>— The Buddha
     </div>
   </div>
 </div>
