@@ -21,7 +21,7 @@ image: /assets/images/banner.webp
 </div>
 
 <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center;">
-<p class="intro-text reveal reveal--up">This site is a resource for those interested in Recovery Dharma. Our mission is to support recovery through Buddhist practices and community. Whether you're new to Recovery Dharma or have been practicing for years, this space is here to help you connect, learn, and heal.</p>
+<p class="intro-text reveal reveal--up">This site is a resource for those interested in Recovery Dharma. For me, it started when I hit bottom and found a path that didn't just promise fixes but invited exploration. Our mission is to support recovery through Buddhist practices and community. Whether you're new to Recovery Dharma or have been practicing for years, this space is here to help you connect, learn, and heal step by compassionate step.</p>
 </div>
 
 <hr class="zen-divider">

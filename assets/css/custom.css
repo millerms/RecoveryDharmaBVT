@@ -122,12 +122,26 @@ html, body {
   background-blend-mode: overlay;
   color: var(--zen-ink-subtle);
   line-height: 1.6;
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 @media (max-width: 768px) {
   html, body {
     background-attachment: scroll;
     background-size: 100% 100%, 1200px 1200px;
+  }
+}
+
+/* Subtle parallax effect for rice paper texture */
+.parallax-paper {
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  body.parallax-active {
+    background-position: center var(--parallax-y, 0);
+    transition: background-position 0.1s ease-out;
   }
 }
 
@@ -204,10 +218,6 @@ a:visited {
 }
 
 /* Layout containers */
-.l-full {
-  width: 100%;
-}
-
 .l-max-w-sm { max-width: 640px; }
 .l-max-w-md { max-width: 768px; }
 .l-max-w-lg { max-width: 1024px; }
@@ -273,7 +283,6 @@ a:visited {
 .text--base { font-size: 1rem; line-height: 1.6; }
 .text--lg { font-size: 1.125rem; line-height: 1.5; }
 .text--xl { font-size: 1.25rem; line-height: 1.4; }
-.text--bold { font-weight: 600; }
 
 /* =============================== [CP]
    Components
@@ -326,22 +335,28 @@ a:visited {
   -webkit-tap-highlight-color: transparent;
 }
 
-/* Home buttons: replace text underline with a full-width green bottom border animation */
+/* Home buttons: remove border, add similar animated green underline like masthead */
+.zen-nav-button, .btn--home .zen-button{
+  border: none !important;
+  position: relative;
+}
+
 .zen-nav-button::after{
   content: '';
   position: absolute;
   left: 0;
-  right: 0;
-  bottom: 0;              /* sit flush inside the button */
-  height: 2px;            /* thicker than default link underline */
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
   background: var(--zen-accent);
-  border-radius: 0 0 var(--r-md) var(--r-md);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform var(--t-fast) var(--e-out);
 }
+
 .zen-nav-button:hover::after,
-.zen-nav-button:focus-visible::after{ transform: scaleX(1); }
+.zen-nav-button:focus-visible::after,
+.zen-nav-button:active::after{ transform: scaleX(1); }
 
 /* Accent variants */
 .btn--primary{ background-color: color-mix(in oklab, var(--zen-accent) 48%, transparent); }
@@ -364,7 +379,18 @@ a:visited {
   box-shadow: 0 10px 26px rgba(0,0,0,.30), var(--ring);
 }
 
-/* Round icon buttons (quote arrows) */
+.quote-nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid hsl(var(--glass-tint) / .28);
+  border-radius: 50%;
+  font-size: 25px;
+  line-height: 1;
+  padding: 0;
+}
 
 /* =============================== [S3]
    Navigation & Masthead
@@ -436,11 +462,26 @@ a:visited {
 }
 
 /* Reserve space for the decorative tower so text doesn't overlap */
-:root{ --footer-decor-space: 56px; }
-@media (max-width: 480px){ :root{ --footer-decor-space: 58px; } 
-    .footer__decor{ left: -20px; bottom: -10px; height: calc(80% + 20px); } }
-@media (min-width: 900px){ :root{ --footer-decor-space: 72px; } 
-  .footer__decor{ left: -14px; bottom: -8px; height: calc(80% + 16px); } }
+/* Reserve space for the decorative tower so text doesn't overlap */
+:root { --footer-decor-space: 56px; }
+
+@media (max-width: 480px) {
+  :root { --footer-decor-space: 58px; }
+  .footer__decor {
+    left: -20px;
+    bottom: -10px;
+    height: calc(80% + 20px);
+  }
+}
+
+@media (min-width: 900px) {
+  :root { --footer-decor-space: 72px; }
+  .footer__decor {
+    left: -14px;
+    bottom: -8px;
+    height: calc(80% + 16px);
+  }
+}
 
 /* Footer tint – forest green (overrides the earlier `--glass-tint-green`) */
 :root{ --glass-tint-green: 140 45% 10%; }
@@ -473,6 +514,29 @@ a:visited {
   border: 1px solid hsla(216, 85%, 13%, 0.8);
   border-radius: var(--r-lg);
   box-shadow: 0 10px 30px rgba(0,0,0,.28);
+}
+
+/* Quote crossfade animations */
+#quote-text {
+  transition: opacity var(--t-med) ease-in-out;
+  will-change: opacity;
+}
+
+#quote-author {
+  transition: opacity var(--t-med) ease-in-out;
+  will-change: opacity;
+}
+
+/* Fade out states */
+#quote-text.fade-out,
+#quote-author.author-fade-out {
+  opacity: 0;
+}
+
+/* Fade in states */
+#quote-text.fade-in,
+#quote-author.author-fade-in {
+  opacity: 1;
 }
 
 /* quote text */
@@ -591,6 +655,29 @@ a:visited {
    Responsive, accessibility, performance optimizations
    =============================== */
 
+/* Enhanced focus states - subtle glows for better accessibility */
+.btn:focus-visible, .zen-button:focus-visible,
+.zen-nav-button:focus-visible, .quote-nav-btn:focus-visible {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 12px 32px rgba(0,0,0,.35), 0 0 20px rgba(14, 130, 37, 0.4);
+}
+
+.glass:focus-visible, .glass.card:focus-visible,
+.zen-meeting-card:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 32px rgba(0,0,0,.35), 0 0 16px rgba(46, 125, 50, 0.3);
+  border-color: var(--zen-accent) !important;
+}
+
+/* Loading states for forms */
+.zen-contact-form button.loading,
+.form-loading .zen-contact-form button {
+  opacity: 0.6;
+  cursor: wait;
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(0,0,0,.25);
+}
+
 /* Accessibility - Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
   *,
@@ -615,9 +702,16 @@ a:visited {
   .ripple {
     display: none !important;
   }
+
+  /* Keep basic focus visible but remove enhanced interactions */
+  .btn:focus-visible[class], .zen-button:focus-visible[class],
+  .zen-nav-button:focus-visible[class], .quote-nav-btn:focus-visible[class] {
+    transform: none !important;
+    box-shadow: 0 10px 26px rgba(0,0,0,.30), var(--ring) !important;
+  }
 }
 
-/* Keyboard focus outlines */
+/* Keyboard focus outlines (fallback) */
 :focus-visible {
   outline: 2px solid var(--primary-color);
   outline-offset: 2px;
@@ -863,9 +957,13 @@ a:visited {
 .zen-link-row {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding: 1.1rem 1.5rem 1.5rem 1.5rem;
   gap: 0.7rem;
+}
+.zen-link-text {
+  text-align: left;
+  width: 100%;
 }
 .zen-link-list .zen-nav-button {
   width: 100%;
@@ -1287,16 +1385,6 @@ main h1:first-of-type {
   0% { opacity: 0; transform: translateY(10px); }
   100% { opacity: 1; transform: translateY(0); }
 }
-@keyframes subtle-fade {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
 /* Accessible focus outline (keyboard only) */
 :focus-visible { outline: 2px solid var(--color-primary, #103d2d); outline-offset: 2px; }
@@ -1345,7 +1433,7 @@ main h1:first-of-type {
   .zen-link-list .zen-nav-button {
     width: 100%;
     max-width: 100%;
-    min-width: 160px;
+    min-width: 300px;
   }
   .zen-link-text {
     font-size: 1rem;
@@ -1366,4 +1454,105 @@ main h1:first-of-type {
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .reveal { opacity: 1 !important; transform: none !important; filter: none !important; }
+}
+
+/* =============================== [AE]
+   Advanced Enhancements (Phase 3)
+   ==================================== */
+
+/* Section dividers: Subtle wave with flow animation */
+.section-divider-wave {
+  position: relative;
+  height: 60px;
+  margin: 3rem auto;
+  background: linear-gradient(135deg,
+    hsl(var(--glass-tint) / 0.05) 0%,
+    hsl(var(--glass-tint) / 0.02) 50%,
+    hsl(var(--glass-tint) / 0.05) 100%);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+}
+
+.section-divider-wave::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    radial-gradient(circle at 25% 40%, hsla(45, 25%, 93%, 0.12) 0%, transparent 60%),
+    radial-gradient(circle at 75% 70%, hsla(45, 25%, 93%, 0.1) 0%, transparent 60%);
+  animation: wave-flow 12s ease-in-out infinite;
+}
+
+@keyframes wave-flow {
+  0%, 100% { transform: translateX(-10px) scale(0.98); opacity: 0.3; }
+  50% { transform: translateX(10px) scale(1.02); opacity: 0.8; }
+}
+
+/* Gradient text utilities for headings */
+.text-gradient-zen {
+  background: linear-gradient(135deg,
+    var(--zen-accent) 0%,
+    var(--zen-accent-2) 50%,
+    var(--zen-accent) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 200% 200%;
+  animation: gradient-shift 4s ease-in-out infinite;
+  color: transparent !important;
+  display: inline-block;
+}
+
+.h1-zen-gradient {
+  background: linear-gradient(135deg,
+    var(--zen-accent) 0%,
+    color-mix(in oklab, var(--zen-accent) 80%, var(--zen-accent-2)) 30%,
+    var(--zen-accent-2) 60%,
+    var(--zen-accent) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 300% 300%;
+  animation: gradient-shift 5s ease-in-out infinite;
+  color: transparent !important;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(14, 130, 37, 0.2);
+  line-height: 1.2;
+}
+
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Parallax-ready utility classes */
+.parallax-element {
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+}
+
+.parallax-active .parallax-element {
+  transition: transform 0.1s ease-out;
+}
+
+/* Enhanced glass morph variation */
+.glass.parallax-ready {
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease;
+  animation: glass-shimmer 6s ease-in-out infinite;
+}
+
+@keyframes glass-shimmer {
+  0%, 100% {
+    box-shadow:
+      0 8px 30px var(--glass-shadow-light),
+      inset 0 1px 0 rgba(255,255,255,0.06);
+  }
+  50% {
+    box-shadow:
+      0 12px 40px color-mix(in oklab, var(--glass-shadow-light), transparent 25%),
+      inset 0 1px 0 rgba(255,255,255,0.08);
+  }
 }

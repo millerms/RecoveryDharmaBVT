@@ -58,7 +58,7 @@ Here you’ll find a gentle introduction to core Buddhist ideas, including ethic
 If you’re more of a listener, these two talks offer different but complementary doorways into the heart of practice. One speaks to our deeper sense of identity and belonging, the other to the power of living deliberately and with awareness:
 {: .reveal .reveal--up }
 
-- **[Alan Watts: The Real You](https://youtu.be/mMRrCYPxD0I?si=tNn3_KuxT-7LYDHR)** – A poetic exploration of selfhood, illusion, and interconnectedness. Watts invites us to relax the grip of ego and glimpse the mystery of who—or what—we really are.
+- **[Alan Watts: The Real You](https://youtu.be/mMRrCYPxD0I?si=tNn3_KuxT-7LYDHR)** – A poetic exploration of selfhood, illusion, and interconnectedness. Watts invites us to relax the grip of ego and glimpse the mystery of who, or what, we really are.
 {: .reveal .reveal--up }
 
 - **[Sam Harris: The Logic of Practice](https://www.youtube.com/watch?v=2vcisHKJ3JA)** – A modern and direct talk on why meditation matters. Harris explains how mindfulness can illuminate suffering, reveal insight, and transform daily life.
@@ -93,8 +93,10 @@ These are voluntary ethical commitments that ground the mind and foster well-bei
 ### The Four Noble Truths & Addiction
 {: .reveal .reveal--up }
 
+Imagine suffering as a hungry fish drawn to bait and addiction is that tempting hook. But with awareness, we see the pattern before being caught.
+
 1. **There Is Suffering (Dukkha)** – Life involves dissatisfaction in both obvious and subtle forms: suffering, unease, and “not-enoughness.” Addiction often starts as an attempt to relieve this suffering. We commit to understanding the truth of suffering.
-2. **Craving (Tanha) Is the Cause** – It is craving—whether physical, emotional, or psychological—that fuels the cycle of addiction. We commit to understanding that craving leads to suffering.
+2. **Craving (Tanha) Is the Cause** – It is craving, whether physical, emotional, or psychological, that fuels the cycle of addiction. We commit to understanding that craving leads to suffering.
 3. **Cessation of Craving Ends Suffering** – Recovery is possible when we untangle from habitual craving and begin to make space. We commit to understand that less craving leads to less suffering.
 4. **The Path Out Is the Eightfold Path** – The way to healing is a holistic, intentional path: wise comprehension, ethical living, mindful presence, and steady effort. We commit to cultivating the path.
 {: .reveal .reveal--up }
@@ -131,17 +133,19 @@ A blueprint for living wisely and compassionately, divided into three domains:
 - Right Concentration – Deep states of calm through meditation
 {: .reveal .reveal--up }
 
-These eight factors are interdependent and mutually reinforcing. The path is not linear, but a holistic approach to transforming suffering into freedom.
+These eight elements interweave like threads in a tapestry of healing. The path isn't linear, but a holistic approach to transforming suffering into freedom.
 {: .reveal .reveal--up }
 <hr class="zen-divider">
 
 ## Buddhist Practices to Support Recovery
 {: .reveal .reveal--up }
-- **[Vipassanā (Insight Meditation):](https://www.youtube.com/watch?v=tw7XBKhZJh4)** Observing reality as it is—sensations, thoughts, emotions—with equanimity and clarity  
+Start small; even three mindful breaths can plant the seed of healing.
+
+- **[Vipassanā (Insight Meditation):](https://www.youtube.com/watch?v=tw7XBKhZJh4)** Observing reality as it is, the sensations, thoughts, and emotions, with equanimity and clarity  
 {: .reveal .reveal--up }
 - **[Metta (Loving-Kindness):](https://insighttimer.com/recoverydharma/guided-meditations/metta-lovingkindness-2)** Cultivating compassion and goodwill for self and others  
 {: .reveal .reveal--up }
-- **[Compassion (Karuna):](https://insighttimer.com/nutjob4life/guided-meditations/compassion-meditation-from-recovery-dharma)** Breathing in suffering, breathing out compassion—especially in relational and communal healing  
+- **[Compassion (Karuna):](https://insighttimer.com/nutjob4life/guided-meditations/compassion-meditation-from-recovery-dharma)** Breathing in suffering, breathing out compassion, especially in relational and communal healing  
 {: .reveal .reveal--up }
 - **[Tonglen (Giving & Taking):](https://www.youtube.com/watch?v=amrGu1oHsvQ)** Practicing radical empathy by consciously taking in others' suffering and sending relief  
 {: .reveal .reveal--up }
@@ -208,7 +212,7 @@ Many contemporary authors offer fresh perspectives on Buddhist teachings, making
 {: .reveal .reveal--up }
 - **[Tara Brach](https://www.tarabrach.com/desire/)** – Gentle, heart-centered talks blending Buddhist wisdom with psychological insight. Especially powerful for navigating emotions and healing past wounds.
 {: .reveal .reveal--up }
-- **[Sam Harris](https://www.samharris.org/podcasts)** – Clear, philosophical deep-dives into meditation, consciousness, and the mind, with guests across neuroscience, Buddhism, and beyond.
+- **[Sam Harris](https://www.samharris.org/podcasts)** – Clear, philosophical deep-dives into meditation, consciousness, and the mind, with guests across neuroscience, Buddhism, and beyond. Check out his [Waking Up app](https://www.wakingup.com/) for a primer on mindfulness meditation and much more.
 {: .reveal .reveal--up }
 - **[Ten Percent Happier](https://www.tenpercent.com/podcast)** – Engaging and down-to-earth interviews with meditation teachers, scientists, and thought leaders. Host Dan Harris explores mindfulness as a tool for emotional resilience, personal growth, and everyday clarity.
 {: .reveal .reveal--up }

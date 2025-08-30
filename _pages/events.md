@@ -11,7 +11,7 @@ image: /assets/images/mossy-forest.webp
 <div class="zen-events-wrapper">
   <h1 style="display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; margin-top: 0;">Upcoming Meditation Events</h1>
   <p class="zen-intro reveal reveal--up" style="text-align: left;">
-    This page lists upcoming meditation events, workshops, and retreats related to Recovery Dharma and Buddhist practices in Vermont.
+    This page lists upcoming meditation events, workshops, and retreats related to Recovery Dharma and Buddhist practices in Vermont. Joining a retreat or workshop can feel like stepping into a gentle current, let it carry you toward deeper practice and connection.
   </p>
 <hr class="zen-divider">
 

@@ -193,14 +193,32 @@ document.addEventListener('DOMContentLoaded', function () {
   showQuote(shuffledIndices[currentShuffleIndex]);
 });
 
-function showQuote(index) {
+function showQuote(index, skipTransition = false) {
   if (typeof index !== 'number' || !rdQuotes[index]) {
     console.error('Invalid quote index:', index);
     return;
   }
 
+  if (skipTransition) {
+    // Skip transition for initial load or reduced motion
+    const quote = rdQuotes[index];
+    console.log("Rendering quote (no transition):", quote);
+
+    const quoteEl = document.getElementById("quote-text");
+    const authorEl = document.getElementById("quote-author");
+
+    if (!quoteEl || !authorEl) {
+      console.error("Quote text or author element not found in DOM.");
+      return;
+    }
+
+    quoteEl.textContent = `"${quote.text}"`;
+    authorEl.textContent = `~ ${quote.author}`;
+    return;
+  }
+
   const quote = rdQuotes[index];
-  console.log("Rendering quote:", quote);
+  console.log("Rendering quote (with fade):", quote);
 
   const quoteEl = document.getElementById("quote-text");
   const authorEl = document.getElementById("quote-author");
@@ -210,8 +228,31 @@ function showQuote(index) {
     return;
   }
 
-  quoteEl.textContent = `"${quote.text}"`;
-  authorEl.textContent = `~ ${quote.author}`;
+  // Add fade-out class
+  quoteEl.classList.add('fade-out');
+  authorEl.classList.add('author-fade-out');
+
+  // Store new quote content for callback
+  const newQuoteText = `"${quote.text}"`;
+  const newAuthorText = `~ ${quote.author}`;
+
+  // After fade out completes, update content and fade in
+  setTimeout(() => {
+    quoteEl.textContent = newQuoteText;
+    authorEl.textContent = newAuthorText;
+
+    quoteEl.classList.remove('fade-out');
+    authorEl.classList.remove('author-fade-out');
+
+    quoteEl.classList.add('fade-in');
+    authorEl.classList.add('author-fade-in');
+
+    // Clean up fade-in classes after animation
+    setTimeout(() => {
+      quoteEl.classList.remove('fade-in');
+      authorEl.classList.remove('author-fade-in');
+    }, 300);
+  }, 300);
 }
 
 let autoRotateTimer = null;

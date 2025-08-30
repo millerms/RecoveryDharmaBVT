@@ -13,7 +13,7 @@ image: /assets/images/rd-icons/rdvt-icon.webp
   </p>
 </div>
 
-We'd love to hear from you! Whether you have questions, want to share an event, or just want to connect, please reach out to us.
+We'd love to hear from you! Whether you have questions, want to share an event, or just want to connect, please reach out to us. We're here to listen—share openly.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 150%;">
   <iframe 
