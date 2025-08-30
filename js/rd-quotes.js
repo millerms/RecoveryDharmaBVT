@@ -213,7 +213,7 @@ function showQuote(index, skipTransition = false) {
     }
 
     quoteEl.textContent = `"${quote.text}"`;
-    authorEl.textContent = `~ ${quote.author}`;
+    authorEl.textContent = `— ${quote.author}`;
     return;
   }
 
@@ -234,7 +234,7 @@ function showQuote(index, skipTransition = false) {
 
   // Store new quote content for callback
   const newQuoteText = `"${quote.text}"`;
-  const newAuthorText = `~ ${quote.author}`;
+  const newAuthorText = `— ${quote.author}`;
 
   // After fade out completes, update content and fade in
   setTimeout(() => {

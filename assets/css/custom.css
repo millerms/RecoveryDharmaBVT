@@ -404,6 +404,14 @@ a:visited {
   box-shadow: 0 8px 26px rgba(0,0,0,.28);
 }
 
+/* Masthead link hover color override (beats skin) */
+.masthead .greedy-nav a:hover,
+.masthead .greedy-nav a:focus-visible,
+.masthead .masthead__menu-item a:hover,
+.masthead .site-title:hover {
+  color: #cdcdcd !important; /* light grey */
+}
+
 .greedy-nav .hidden-links{
   overflow: hidden;
   /* Stronger frost for dropdown panel (legibility over content) */
@@ -1234,10 +1242,12 @@ a:visited {
 .buddhist-quote .quote-nav-btn {
   background-color: hsl(var(--glass-tint) / .08);
   border-color: hsl(var(--glass-tint) / .24);
+  color: #ffffff; /* white arrows in quote nav */
 }
-.buddhist-quote .quote-nav-btn:hover {
+.buddhist-quote .quote-nav-btn  {
   background-color: hsl(var(--glass-tint) / .12);
   border-color: hsl(var(--glass-tint) / .30);
+  color: #ffffffee; /* keep white on hover */
 }
 
 /* Header/nav extras & textures */
