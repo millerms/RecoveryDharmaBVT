@@ -46,6 +46,7 @@ Our practices are grounded in the Four Noble Truths and the Eightfold Path. This
 Below you’ll find descriptions of the pages:
 {: .reveal .reveal--up }
 
+<div class="zen-divider-short"></div>
 
 <div class="zen-link-list">
   <div class="zen-link-row">
@@ -55,6 +56,7 @@ Below you’ll find descriptions of the pages:
     </div>
     <a href="{{ site.baseurl }}/meetings/" class="zen-nav-button">🪷 Meetings & Groups</a>
   </div> 
+  <div class="zen-divider-short"></div>
   <div class="zen-link-row">
     <div class="zen-link-text reveal reveal--up">
       <strong>Buddhist Foundations</strong><br>
@@ -62,6 +64,7 @@ Below you’ll find descriptions of the pages:
     </div>
     <a href="{{ site.baseurl }}/buddhist-foundations/" class="zen-nav-button">🌱 Buddhist Foundations</a>
   </div>
+  <div class="zen-divider-short"></div>
   <div class="zen-link-row">
     <div class="zen-link-text reveal reveal--up">
       <strong>Resources</strong><br>
@@ -69,6 +72,7 @@ Below you’ll find descriptions of the pages:
     </div>
     <a href="{{ site.baseurl }}/resources/" class="zen-nav-button">📚 Resources</a>
   </div>
+  <div class="zen-divider-short"></div>
   <div class="zen-link-row">
     <div class="zen-link-text reveal reveal--up">
       <strong>Events</strong><br>
@@ -76,6 +80,7 @@ Below you’ll find descriptions of the pages:
     </div>
     <a href="{{ site.baseurl }}/events/" class="zen-nav-button">🧘‍♂️ Events</a>
   </div>
+  <div class="zen-divider-short"></div>
   <div class="zen-link-row">
     <div class="zen-link-text reveal reveal--up">
       <strong>Contact</strong><br>

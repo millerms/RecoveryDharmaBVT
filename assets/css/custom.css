@@ -208,6 +208,11 @@ a:visited {
 /* Suppress animated underline in footer to avoid double underline under the pipe */
 .page__footer a::after { display: none; }
 
+/* Remove faint box outlines from content containers sitewide */
+.page, .page__content, .archive__item {
+  box-shadow: none !important;
+}
+
 /* =============================== [LY]
    Layout & Spacing
    Grids, containers, flex utilities, breakpoints
@@ -1157,10 +1162,16 @@ a:visited {
 }
 /* Removed unused legacy .event-card styles */
 .zen-divider {
+  width: 75%; /* Adjust percentage or pixel value as needed */
+  margin: 20px auto; /* Centers the divider and adds vertical spacing */
   border: none;
-  height: 1px;
-  background-color: #ccc;
-  margin: 1.2rem 0;
+  border-top: 1px solid #ccc; /* Sets the line style and color */
+}
+.zen-divider-short {
+  width: 50%; /* Adjust percentage or pixel value as needed */
+  margin: 20px auto; /* Centers the divider and adds vertical spacing */
+  border: none;
+  border-top: 1px solid #ccc; /* Sets the line style and color */
 }
 /* Structural adjustments for meeting cards */
 .zen-meeting-card > *:first-child {
@@ -1248,6 +1259,12 @@ a:visited {
 /* Lighten quote nav buttons only inside the buddhist quote box */
 .buddhist-quote .quote-nav-btn  {
   color: #ffffffee; /* keep white on hover */
+}
+
+/* Page-specific: Buddhist Foundations
+   Gently round images only on this page */
+.buddhist-foundations-page .initial-content img {
+  border-radius: var(--r-md);
 }
 
 /* Header/nav extras & textures */

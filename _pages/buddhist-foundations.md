@@ -3,7 +3,7 @@ layout: splash
 title: Buddhist Foundations
 permalink: /buddhist-foundations/
 nav_order: 3
-classes: width
+classes: [width, buddhist-foundations-page]
 description: "Beginner-friendly guide to Buddhist philosophy and ethics for recovery: precepts, Four Noble Truths, Eightfold Path, and practices."
 image: /assets/images/buddha-quote.webp
 ---
@@ -42,7 +42,7 @@ Welcome! This page introduces Buddhist philosophy and ethics in a non-dogmatic, 
     - [Podcasts](#podcasts)
     - [Videos](#videos)
 {: .reveal .reveal--up }
-<hr class="zen-divider">
+<hr class="section-divider">
 
 ## What Is Buddhism?
 {: .reveal .reveal--up }
@@ -64,7 +64,7 @@ If you’re more of a listener, these two talks offer different but complementar
 - **[Sam Harris: The Logic of Practice](https://www.youtube.com/watch?v=2vcisHKJ3JA)** – A modern and direct talk on why meditation matters. Harris explains how mindfulness can illuminate suffering, reveal insight, and transform daily life.
 {: .reveal .reveal--up }
 
-<hr class="zen-divider">
+<hr class="section-divider">
 
 ## Ethics & Practice
 <div class="reveal reveal--up">
@@ -92,7 +92,7 @@ These are voluntary ethical commitments that ground the mind and foster well-bei
 5. **To refrain from intoxicants that cloud the mind** – Maintaining clarity and mindfulness
 {: .reveal .reveal--up }
 
-<div class="section-divider"></div>
+<div class="zen-divider"></div>
 
 ### The Four Noble Truths & Addiction
 {: .reveal .reveal--up }
@@ -116,7 +116,7 @@ Imagine suffering as a hungry fish drawn to bait and addiction is that tempting 
 - The Eightfold Path is our guide
 {: .reveal .reveal--up }
 
-<div class="section-divider"></div>
+<div class="zen-divider"></div>
 
 ### The Eightfold Path
 {: .reveal .reveal--up }
@@ -158,7 +158,7 @@ Start small; even three mindful breaths can plant the seed of healing.
 - **[Tonglen (Giving & Taking):](https://www.youtube.com/watch?v=amrGu1oHsvQ)** Practicing radical empathy by consciously taking in others' suffering and sending relief  
 {: .reveal .reveal--up }
 
-<hr class="zen-divider">
+<hr class="section-divider">
 
 ## Other Resources
 {: .reveal .reveal--up }
@@ -214,7 +214,7 @@ Many contemporary authors offer fresh perspectives on Buddhist teachings, making
   A peer-led, non-theistic approach to recovery based on Buddhist principles. Includes meditation, inquiry, community, and ethical living. Free and made by/for people in recovery.
 {: .reveal .reveal--up }
 
-<div class="section-divider"></div>
+<div class="zen-divider"></div>
 
 ### Podcasts
 {: .reveal .reveal--up }
@@ -225,7 +225,7 @@ Many contemporary authors offer fresh perspectives on Buddhist teachings, making
 - **[Ten Percent Happier](https://www.tenpercent.com/podcast)** – Engaging and down-to-earth interviews with meditation teachers, scientists, and thought leaders. Host Dan Harris explores mindfulness as a tool for emotional resilience, personal growth, and everyday clarity.
 {: .reveal .reveal--up }
 
-<div class="section-divider"></div>
+<div class="zen-divider"></div>
 
 ### Videos
 {: .reveal .reveal--up }
