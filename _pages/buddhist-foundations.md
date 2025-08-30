@@ -105,6 +105,7 @@ Imagine suffering as a hungry fish drawn to bait and addiction is that tempting 
 </div>
 
 **Recovery Dharma** adapts these as:
+{: .reveal .reveal--up }
 - Addiction causes suffering  
 - Craving creates addiction  
 - Recovery is possible  
