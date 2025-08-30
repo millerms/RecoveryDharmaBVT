@@ -125,17 +125,20 @@ A blueprint for living wisely and compassionately, divided into three domains:
 {: .reveal .reveal--up }
 
 **Wisdom (Paññā)**  
+{: .reveal .reveal--up }
 - Right View – Seeing clearly that craving causes suffering  
 - Right Intention – Commitment to renunciation, harmlessness, and compassion
 {: .reveal .reveal--up }
 
 **Ethics (Sīla)**  
+{: .reveal .reveal--up }
 - Right Speech – Truthful, kind, and useful communication  
 - Right Action – Behaving ethically, guided by the precepts  
 - Right Livelihood – Earning a living without harm
 {: .reveal .reveal--up }
 
 **Mental Training (Samādhi)**  
+{: .reveal .reveal--up }
 - Right Effort – Cultivating wholesome states of mind  
 - Right Mindfulness – Clear awareness of body, feelings, thoughts  
 - Right Concentration – Deep states of calm through meditation
