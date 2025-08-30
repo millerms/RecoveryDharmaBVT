@@ -437,7 +437,7 @@ a:visited {
 
 /* Reserve space for the decorative tower so text doesn't overlap */
 :root{ --footer-decor-space: 56px; }
-@media (max-width: 480px){ :root{ --footer-decor-space: 48px; } 
+@media (max-width: 480px){ :root{ --footer-decor-space: 58px; } 
     .footer__decor{ left: -20px; bottom: -10px; height: calc(80% + 20px); } }
 @media (min-width: 900px){ :root{ --footer-decor-space: 72px; } 
   .footer__decor{ left: -14px; bottom: -8px; height: calc(80% + 16px); } }
@@ -757,15 +757,11 @@ a:visited {
 /* Extra small screens */
 @media (max-width: 480px) {
   :root {
-    --footer-decor-space: 40px;
+    --footer-decor-space: 50px; /* +10px more space on extra small screens */
   }
 
   .page__footer .footer__inner {
-    padding-left: 1rem;
-  }
-
-  .footer__decor {
-    display: none; /* Hide decorative element on very small screens */
+    padding-left: calc(1rem + var(--footer-decor-space));
   }
 
   .zen-hero-banner h1 {
