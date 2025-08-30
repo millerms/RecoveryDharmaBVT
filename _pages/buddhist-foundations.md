@@ -67,7 +67,7 @@ If you’re more of a listener, these two talks offer different but complementar
 <hr class="section-divider">
 
 ## Ethics & Practice
-<div class="reveal reveal--up">
+<div class="reveal reveal--up" markdown="1">
   <div style="position: relative; text-align: center; max-width: 100%; margin-top: 1rem;">
     <img src="/assets/images/mossy-forest.webp" alt="Mossy Forest" style="width: 100%; max-height: 75%; height: auto; display: block;" />
     <div style="position: absolute; bottom: 5%; left: 50%; transform: translateX(-50%); width: 80%; text-align: center; color: white; font-weight: bold; font-size: clamp(0.9rem, 2.5vw, 1.5rem); text-shadow: 0 2px 6px rgba(0,0,0,0.5);">
@@ -81,16 +81,13 @@ If you’re more of a listener, these two talks offer different but complementar
 
 These are voluntary ethical commitments that ground the mind and foster well-being:
 {: .reveal .reveal--up }
+<div class="reveal reveal--up" markdown="1">
 1. **To refrain from harming living beings** – Cultivating compassion and nonviolence  
-{: .reveal .reveal--up }
 2. **To refrain from taking what is not given** – Honesty and integrity  
-{: .reveal .reveal--up }
 3. **To refrain from sexual misconduct** – Respect and mindfulness in relationships  
-{: .reveal .reveal--up }
 4. **To refrain from false speech** – Truthfulness, avoiding gossip or harshness  
-{: .reveal .reveal--up }
 5. **To refrain from intoxicants that cloud the mind** – Maintaining clarity and mindfulness
-{: .reveal .reveal--up }
+</div>
 
 <div class="zen-divider"></div>
 
@@ -100,14 +97,12 @@ These are voluntary ethical commitments that ground the mind and foster well-bei
 Imagine suffering as a hungry fish drawn to bait and addiction is that tempting hook. But with awareness, we see the pattern before being caught.
 {: .reveal .reveal--up }
 
+<div class="reveal reveal--up" markdown="1">
 1. **There Is Suffering (Dukkha)** – Life involves dissatisfaction in both obvious and subtle forms: suffering, unease, and “not-enoughness.” Addiction often starts as an attempt to relieve this suffering. We commit to understanding the truth of suffering.
-{: .reveal .reveal--up }
 2. **Craving (Tanha) Is the Cause** – It is craving, whether physical, emotional, or psychological, that fuels the cycle of addiction. We commit to understanding that craving leads to suffering.
-{: .reveal .reveal--up }
 3. **Cessation of Craving Ends Suffering** – Recovery is possible when we untangle from habitual craving and begin to make space. We commit to understand that less craving leads to less suffering.
-{: .reveal .reveal--up }
 4. **The Path Out Is the Eightfold Path** – The way to healing is a holistic, intentional path: wise comprehension, ethical living, mindful presence, and steady effort. We commit to cultivating the path.
-{: .reveal .reveal--up }
+</div>
 
 **Recovery Dharma** adapts these as:
 - Addiction causes suffering  
@@ -151,6 +146,7 @@ These eight elements interweave like threads in a tapestry of healing. The path 
 ## Buddhist Practices to Support Recovery
 {: .reveal .reveal--up }
 Start small; even three mindful breaths can plant the seed of healing.
+{: .reveal .reveal--up }
 
 - **[Vipassanā (Insight Meditation):](https://www.youtube.com/watch?v=tw7XBKhZJh4)** Observing reality as it is, the sensations, thoughts, and emotions, with equanimity and clarity  
 {: .reveal .reveal--up }
