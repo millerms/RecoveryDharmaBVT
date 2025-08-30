@@ -107,8 +107,11 @@ Imagine suffering as a hungry fish drawn to bait and addiction is that tempting 
 **Recovery Dharma** adapts these as:
 {: .reveal .reveal--up }
 - Addiction causes suffering  
+{: .reveal .reveal--up }
 - Craving creates addiction  
+{: .reveal .reveal--up }
 - Recovery is possible  
+{: .reveal .reveal--up }
 - The Eightfold Path is our guide
 {: .reveal .reveal--up }
 
@@ -123,20 +126,25 @@ A blueprint for living wisely and compassionately, divided into three domains:
 **Wisdom (Paññā)**  
 {: .reveal .reveal--up }
 - Right View – Seeing clearly that craving causes suffering  
+{: .reveal .reveal--up }
 - Right Intention – Commitment to renunciation, harmlessness, and compassion
 {: .reveal .reveal--up }
 
 **Ethics (Sīla)**  
 {: .reveal .reveal--up }
 - Right Speech – Truthful, kind, and useful communication  
+{: .reveal .reveal--up }
 - Right Action – Behaving ethically, guided by the precepts  
+{: .reveal .reveal--up }
 - Right Livelihood – Earning a living without harm
 {: .reveal .reveal--up }
 
 **Mental Training (Samādhi)**  
 {: .reveal .reveal--up }
 - Right Effort – Cultivating wholesome states of mind  
+{: .reveal .reveal--up }
 - Right Mindfulness – Clear awareness of body, feelings, thoughts  
+{: .reveal .reveal--up }
 - Right Concentration – Deep states of calm through meditation
 {: .reveal .reveal--up }
 
