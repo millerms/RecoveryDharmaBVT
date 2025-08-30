@@ -1,5 +1,5 @@
 document.addEventListener('click', (e)=>{
-  const t = e.target.closest('.btn,.zen-button,.zen-nav-button,.quote-nav-btn,.quote-nav-button');
+  const t = e.target.closest('.btn,.zen-button,.zen-nav-button,.quote-nav-btn');
   if(!t) return;
   const r = document.createElement('span');
   const rect = t.getBoundingClientRect();

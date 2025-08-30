@@ -44,7 +44,7 @@
   /* glass colors */
   --glass-tint: 220 55% 25%;   /* HSL basis for blur tint */
   --glass-tint-green: 140 35% 15%; /* darker green tint for footer */
-  --glass-tint-blue: 220 50% 14%;
+  --glass-tint-blue: 216, 85%, 13%; /* blue tint for masthead/nav */
   --glass-alpha: 0.10;         /* surface fill */
   --glass-stroke: 0.30;        /* border alpha */
   --glass-shadow: 0.35;        /* shadow alpha */
@@ -126,7 +126,7 @@ html, body {
 
 /* Base glass button
    Source of truth for all CTAs; extend with variants (e.g., color-only) */
-.btn, .zen-button, .zen-nav-button, .quote-nav-btn, .quote-nav-button{
+.btn, .zen-button, .zen-nav-button, .quote-nav-btn{
   -webkit-backdrop-filter: blur(var(--blur-md)) saturate(120%);
   backdrop-filter: blur(var(--blur-md)) saturate(120%);
   background-color: hsl(var(--glass-tint) / .12);
@@ -150,23 +150,23 @@ html, body {
 .btn--blue{ background-color: color-mix(in oklab, var(--zen-accent-2) 48%, transparent); }
 
 /* States */
-.btn:hover,.zen-button:hover,.zen-nav-button:hover, .quote-nav-btn:hover, .quote-nav-button:hover{
+.btn:hover,.zen-button:hover,.zen-nav-button:hover, .quote-nav-btn:hover{
   transform: translateY(-1px);
   box-shadow: 0 10px 26px rgba(0,0,0,.30), inset 0 1px 0 rgba(255,255,255,.12);
   border-color: hsl(var(--glass-tint) / .35);
 }
-.btn:active,.zen-button:active,.zen-nav-button:active, .quote-nav-btn:active, .quote-nav-button:active{
+.btn:active,.zen-button:active,.zen-nav-button:active, .quote-nav-btn:active{
   transform: translateY(0) scale(.98);
   box-shadow: 0 6px 18px rgba(0,0,0,.26) inset 0 1px 0 rgba(255,255,255,.06);
 }
 
 /* Focus ring */
-.btn:focus-visible,.zen-button:focus-visible,.zen-nav-button:focus-visible, .quote-nav-btn:focus-visible, .quote-nav-button:focus-visible{
+.btn:focus-visible,.zen-button:focus-visible,.zen-nav-button:focus-visible, .quote-nav-btn:focus-visible{
   outline: none;
   box-shadow: 0 10px 26px rgba(0,0,0,.30), var(--ring);
 }
 
-/* Round icon buttons (quote arrows) — consolidated later with .quote-nav-button */
+/* Round icon buttons (quote arrows) */
 
 /* =============================== [S3]
    Navigation & Masthead
@@ -175,7 +175,7 @@ html, body {
 .masthead,.masthead__inner-wrap,.site-header,.greedy-nav,.greedy-nav .hidden-links{
   -webkit-backdrop-filter: blur(4px) saturate(120%);
   backdrop-filter: blur(4px) saturate(120%);
-  background-color: hsla(220, 65%, 27%, 0.12) !important;
+  background-color: hsla(221, 66%, 24%, 0.12) !important;
   border-bottom: 1px solid hsl(var(--glass-tint-blue) / .28);
   box-shadow: 0 8px 26px rgba(0,0,0,.28);
 }
@@ -208,7 +208,7 @@ html, body {
   color: #eaf6ef;
 }
 .page__footer a{ color:#eaf6ef; }
-.page__footer a:hover{ color:#ffffff; text-decoration: underline; }
+
 
 /* Footer layout
    - `--glass-tint-green`: retint the footer glass (footer uses a darker variant
@@ -219,7 +219,7 @@ html, body {
 .footer__nav{ display: flex; flex-wrap: wrap; gap: 0; justify-content: center; align-items: center; }
 .footer__nav a{ display: inline-flex; align-items: center; }
 .footer__nav a:not(:first-child)::before{ content: "|"; color: rgba(234,246,239,.7); margin: 0 .45rem; }
-.footer__nav a{ text-decoration: none; border-bottom: 1px solid transparent; }
+.footer__nav a{ text-decoration: none; }
 .footer__nav a:hover{ border-color: currentColor; }
 .footer__meta{ display: flex; flex-direction: column; align-items: left; gap: .25rem; }
 .footer__social{ list-style: none; display: flex; gap: .75rem; padding: 0; margin: .25rem 0; }
@@ -270,8 +270,8 @@ html, body {
 .buddhist-quote,.quote-container{
   -webkit-backdrop-filter: blur(var(--blur-lg)) saturate(120%);
   backdrop-filter: blur(var(--blur-lg)) saturate(120%);
-  background-color: hsl(var(--glass-tint-blue) / .6);
-  border: 1px solid hsl(var(--glass-tint-blue) / .7);
+  background-color: hsla(216, 85%, 13%, 0.75);
+  border: 1px solid hsla(216, 85%, 13%, 0.8);
   border-radius: var(--r-lg);
   box-shadow: 0 10px 30px rgba(0,0,0,.28);
 }
@@ -303,7 +303,7 @@ html, body {
   *{ animation: none !important; transition: none !important; }
 }
 /* ripple */
-.btn,.zen-button,.zen-nav-button,.quote-nav-btn,.quote-nav-button{ position: relative; overflow: hidden; }
+.btn,.zen-button,.zen-nav-button,.quote-nav-btn{ position: relative; overflow: hidden; }
 .ripple{
   position:absolute; border-radius:50%;
   background: radial-gradient(circle, rgba(255,255,255,.35) 0%, rgba(255,255,255,.12) 40%, transparent 60%);
@@ -469,10 +469,6 @@ a::after {
   font-weight: 500;
   margin: 0 0.5rem;
   letter-spacing: 0.5px;
-}
-.zen-footer a:hover {
-  text-decoration: underline;
-  color: #2f4b7c;
 }
 .minimal-footer {
   text-align: center;
@@ -809,29 +805,7 @@ a::after {
   color: #2c3e50;
   transform: scale(1.2);
 }
-.quote-nav-button {
-  /* Glass variant to match site buttons */
-  -webkit-backdrop-filter: blur(var(--blur-md)) saturate(120%);
-  backdrop-filter: blur(var(--blur-md)) saturate(120%);
-  background-color: hsl(var(--glass-tint) / .14);
-  border: 1px solid hsl(var(--glass-tint) / .32);
-  color: #f7fbff;
-  padding: 0;               /* size is set in the shared 42x42 circle rule */
-  font-size: 1.25rem;
-  margin: 0 0.5rem;
-  border-radius: 50%;
-  transition: transform var(--t-fast) var(--e-out), background-color var(--t-fast) var(--e-out), border-color var(--t-fast) var(--e-out), box-shadow var(--t-fast) var(--e-out);
-  cursor: pointer;
-  box-shadow: 0 4px 18px rgba(0,0,0,.25), inset 0 1px 0 rgba(255,255,255,.08);
-}
-.quote-nav-button:hover {
-  background-color: hsl(var(--glass-tint) / .18);
-  transform: scale(1.1);
-  border-color: hsl(var(--glass-tint) / .38);
-}
-.quote-nav-button:active {
-  animation: pulse 0.3s;
-}
+/* removed unused .quote-nav-button variant */
 /* .fade-in consolidated above; avoid duplicate definition */
 #prev-quote, #next-quote {
   transition: transform 0.2s ease, opacity 0.2s ease;
@@ -840,8 +814,7 @@ a::after {
   transform: scale(1.1);
   opacity: 0.8;
 }
-.quote-nav-btn,
-.quote-nav-button {
+.quote-nav-btn {
   display: flex;              /* switch from grid/inline-grid to flex */
   align-items: center;        /* center vertically */
   justify-content: center;    /* center horizontally */
@@ -851,6 +824,16 @@ a::after {
   font-size: 25px;
   line-height: 1;             /* avoid extra vertical padding */
   padding: 0;                 /* reset any leftover padding */
+}
+
+/* Lighten quote nav buttons only inside the buddhist quote box */
+.buddhist-quote .quote-nav-btn {
+  background-color: hsl(var(--glass-tint) / .08);
+  border-color: hsl(var(--glass-tint) / .24);
+}
+.buddhist-quote .quote-nav-btn:hover {
+  background-color: hsl(var(--glass-tint) / .12);
+  border-color: hsl(var(--glass-tint) / .30);
 }
 
 /* Header/nav extras & textures */
@@ -982,6 +965,8 @@ main h1:first-of-type {
   50% { transform: scale(1.15); }
   100% { transform: scale(1); }
 }
+/* Enable JS-triggered pulse effect */
+.pulse { animation: pulse 0.3s ease-out; will-change: transform; }
 @keyframes fadeSlideIn {
   0% {
     opacity: 0;
@@ -1064,10 +1049,6 @@ main h1:first-of-type {
     border-radius: 12px;
   }
   /* .quote-box removed */
-  .quote-nav-button {
-    font-size: 1rem;
-    padding: 0.4rem 0.6rem;
-  }
 }
 .zen-button:active,
 .zen-nav-button:active {
