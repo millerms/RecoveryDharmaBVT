@@ -55,7 +55,7 @@
 
   /* Dimensions (converted from magic numbers) */
   --r-lg: 20px; --r-md: 14px; --r-sm: 10px;
-  --blur-lg: 18px; --blur-md: 12px;
+  --blur-lg: 18px; --blur-md: 12px; --blur-sm: 4px;
   --gap: 14px; --space-sm: 8px; --space-md: 16px;
 
   /* Motion (performance-safe: opacity/transform only) */
@@ -733,8 +733,8 @@ a:visited {
   .page__footer,
   .buddhist-quote,
   .quote-container {
-    backdrop-filter: blur(var(--blur-md)) saturate(100%) !important;
-    -webkit-backdrop-filter: blur(var(--blur-md)) saturate(100%) !important;
+    backdrop-filter: blur(var(--blur-sm)) saturate(100%) !important;
+    -webkit-backdrop-filter: blur(var(--blur-sm)) saturate(100%) !important;
     box-shadow:
       0 6px 20px var(--glass-shadow-light),
       inset 0 1px 0 rgba(255,255,255,0.08) !important;
@@ -1237,6 +1237,12 @@ a:visited {
   line-height: 1;             /* avoid extra vertical padding */
   padding: 0;                 /* reset any leftover padding */
   background-color: #3f4870d2; 
+}
+ 
+/* Nudge quote nav buttons upward */
+.buddhist-quote .quote-nav {
+  position: relative;
+  top: -12px;
 }
 
 /* Lighten quote nav buttons only inside the buddhist quote box */
