@@ -8,7 +8,7 @@ description: "Curated Recovery Dharma resources: book, meditations, links, and l
 image: /assets/images/rd-icons/rdvt-icon.webp
 ---
 <div style="display: flex; align-items: center; justify-content: center; gap: 0.75rem; margin-top: 1.5rem; margin-bottom: 1rem; fade-in;">
-  <img src="/assets/images/rd-icons/rd-triangle.webp" alt="Recovery Dharma Triangle" style="width: 100px; height: auto;">
+  <img src="/assets/images/rd-icons/rd-triangle.webp" alt="Recovery Dharma Triangle" style="width: 90px; height: auto;">
   <h1 style="margin: 0;">RD Resources</h1>
 </div>
 
