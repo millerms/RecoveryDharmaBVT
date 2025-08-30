@@ -1236,17 +1236,11 @@ a:visited {
   font-size: 25px;
   line-height: 1;             /* avoid extra vertical padding */
   padding: 0;                 /* reset any leftover padding */
+  background-color: #3f4870d2; 
 }
 
 /* Lighten quote nav buttons only inside the buddhist quote box */
-.buddhist-quote .quote-nav-btn {
-  background-color: hsl(var(--glass-tint) / .08);
-  border-color: hsl(var(--glass-tint) / .24);
-  color: #ffffff; /* white arrows in quote nav */
-}
 .buddhist-quote .quote-nav-btn  {
-  background-color: hsl(var(--glass-tint) / .12);
-  border-color: hsl(var(--glass-tint) / .30);
   color: #ffffffee; /* keep white on hover */
 }
 
