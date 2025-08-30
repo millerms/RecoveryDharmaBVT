@@ -80,11 +80,15 @@ If you’re more of a listener, these two talks offer different but complementar
 {: .reveal .reveal--up }
 
 These are voluntary ethical commitments that ground the mind and foster well-being:
-
+{: .reveal .reveal--up }
 1. **To refrain from harming living beings** – Cultivating compassion and nonviolence  
+{: .reveal .reveal--up }
 2. **To refrain from taking what is not given** – Honesty and integrity  
+{: .reveal .reveal--up }
 3. **To refrain from sexual misconduct** – Respect and mindfulness in relationships  
+{: .reveal .reveal--up }
 4. **To refrain from false speech** – Truthfulness, avoiding gossip or harshness  
+{: .reveal .reveal--up }
 5. **To refrain from intoxicants that cloud the mind** – Maintaining clarity and mindfulness
 {: .reveal .reveal--up }
 
@@ -94,10 +98,14 @@ These are voluntary ethical commitments that ground the mind and foster well-bei
 {: .reveal .reveal--up }
 
 Imagine suffering as a hungry fish drawn to bait and addiction is that tempting hook. But with awareness, we see the pattern before being caught.
+{: .reveal .reveal--up }
 
 1. **There Is Suffering (Dukkha)** – Life involves dissatisfaction in both obvious and subtle forms: suffering, unease, and “not-enoughness.” Addiction often starts as an attempt to relieve this suffering. We commit to understanding the truth of suffering.
+{: .reveal .reveal--up }
 2. **Craving (Tanha) Is the Cause** – It is craving, whether physical, emotional, or psychological, that fuels the cycle of addiction. We commit to understanding that craving leads to suffering.
+{: .reveal .reveal--up }
 3. **Cessation of Craving Ends Suffering** – Recovery is possible when we untangle from habitual craving and begin to make space. We commit to understand that less craving leads to less suffering.
+{: .reveal .reveal--up }
 4. **The Path Out Is the Eightfold Path** – The way to healing is a holistic, intentional path: wise comprehension, ethical living, mindful presence, and steady effort. We commit to cultivating the path.
 {: .reveal .reveal--up }
 
