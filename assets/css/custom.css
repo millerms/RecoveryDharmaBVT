@@ -107,8 +107,14 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 16px; /* Establish consistent rem base */
+  font-size: 17px; /* Establish consistent rem base */
 }
+
+/* Slightly increase base text size on laptop/desktop */
+@media (min-width: 900px) {
+  html { font-size: 20px; }
+}
+
 
 html, body {
   margin: 0; padding: 0;
