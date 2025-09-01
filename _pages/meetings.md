@@ -7,7 +7,7 @@ classes: full-width
 description: "Find local Recovery Dharma meetings and meditation groups across Vermont."
 image: /assets/images/rd-icons/rdvt-icon.webp
 ---
-<div class="fade-in" style="display: flex; align-items: center; justify-content: center; gap: 0.75rem; margin-top: 1.5rem; margin-bottom: 1rem;">
+<div class="fade-in flex flex--center" style="gap: 0.75rem; margin-top: 1.5rem; margin-bottom: 1rem;">
   <img src="{{ '/assets/images/rd-icons/rd-black-ring.webp' | relative_url }}" alt="Recovery Dharma Black Ring" style="width: 55px; height: 55px;">
   <h1 style="margin: 0;">RD Meetings &amp; Meditation Groups</h1>
 </div>

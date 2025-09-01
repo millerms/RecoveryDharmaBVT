@@ -7,7 +7,7 @@ classes: full-width
 description: "Curated Recovery Dharma resources: book, meditations, links, and local meditation groups in Burlington, VT."
 image: /assets/images/rd-icons/rdvt-icon.webp
 ---
-<div style="display: flex; align-items: center; justify-content: center; gap: 0.75rem; margin-top: 1.5rem; margin-bottom: 1rem; fade-in;">
+<div class="fade-in flex flex--center" style="gap: 0.75rem; margin-top: 1.5rem; margin-bottom: 1rem;">
   <img src="/assets/images/rd-icons/rd-triangle.webp" alt="Recovery Dharma Triangle" style="width: 90px; height: auto;">
   <h1 style="margin: 0;">RD Resources</h1>
 </div>

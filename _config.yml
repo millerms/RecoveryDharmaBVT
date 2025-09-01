@@ -5,6 +5,7 @@ title: "Recovery Dharma Vermont"
 description: "A community for Recovery Dharma in Vermont. Meetings, meditation events, resources, and contact info."
 url: "https://rdvt.org"
 baseurl: ""
+locale: en-US
 og_image: /assets/images/rd-icons/rdvt-icon.webp
 logo: /assets/images/rd-icons/rdvt-icon.webp
 tagline: "Buddhist-inspired recovery in Vermont"

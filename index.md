@@ -14,13 +14,13 @@ image: /assets/images/banner.webp
   </picture>
 </div>
 
-<div style="display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center;">
+<div class="flex flex--center flex--column align--center">
     <h2 class="subtitle reveal reveal--up">Welcome to Burlington, Vermont's Page for All Things Recovery Dharma</h2>
   <p style="max-width: 500px; margin-top: 0;">
   </p>
 </div>
 
-<div style="display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center;">
+<div class="flex flex--center flex--column align--center">
 <p class="intro-text reveal reveal--up">This site is a resource for those interested in Recovery Dharma. For me, it started when I hit bottom and found a path that didn't just promise fixes but invited exploration. Our mission is to support recovery through Buddhist practices and community. Whether you're new to Recovery Dharma or have been practicing for years, this space is here to help you connect, learn, and heal step by compassionate step.</p>
 </div>
 
