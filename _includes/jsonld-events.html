@@ -1,0 +1,33 @@
+{%- if site.data.meditation-events and site.data.meditation-events.size > 0 -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+  {%- for e in site.data.meditation-events -%}
+    {
+      "@type": "Event",
+      "name": {{ e.name | jsonify }},
+      "startDate": {{ e.date | jsonify }},
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": {{ e.location | default: "Burlington" | jsonify }},
+          "addressRegion": "VT",
+          "addressCountry": "US"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": {{ site.social.name | default: site.title | jsonify }},
+        "url": {{ site.url | append: site.baseurl | jsonify }}
+      }
+    }{%- unless forloop.last -%},{%- endunless -%}
+  {%- endfor -%}
+  ]
+}
+</script>
+{%- endif -%}
+

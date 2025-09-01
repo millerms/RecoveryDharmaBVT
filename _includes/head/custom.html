@@ -3,16 +3,8 @@
 <script src="/js/rd-quotes.js" defer></script>
 <meta name="theme-color" content="#0f3a25">
 
-{%- assign org_sameas = site.social.links | default: nil -%}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": {{ site.name | default: site.title | jsonify }},
-  "url": {{ site.url | append: site.baseurl | jsonify }},
-  {% if site.logo %}"logo": {{ site.logo | absolute_url | jsonify }},{% endif %}
-  {% if org_sameas %}
-  "sameAs": {{ org_sameas | jsonify }}
-  {% endif %}
-}
-</script>
+{%- comment -%}
+  Organization JSON-LD is emitted from _includes/seo.html to avoid duplication.
+  Add Event JSON-LD (if present) for richer search results.
+{%- endcomment -%}
+{% include jsonld-events.html %}

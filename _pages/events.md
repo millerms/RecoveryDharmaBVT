@@ -52,6 +52,7 @@ image: /assets/images/mossy-forest.webp
           const a = document.createElement('a');
           a.href = row[j];
           a.target = '_blank';
+          a.rel = 'noopener noreferrer';
           a.innerText = 'More Info';
           a.className = 'zen-event-link';
           // Label with icon
