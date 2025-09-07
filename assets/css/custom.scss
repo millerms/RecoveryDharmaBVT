@@ -1,0 +1,15 @@
+---
+# Sass entry for custom site styles (compiles to custom.css)
+---
+
+@charset "utf-8";
+
+// Order matters: globals → typography → layout → components → animations → overrides → responsive
+// Note: folder is named `_custom`; include it explicitly in import paths.
+@import "_custom/globals";
+@import "_custom/typography";
+@import "_custom/layout";
+@import "_custom/components";
+@import "_custom/animations";
+@import "_custom/overrides";
+@import "_custom/responsive";

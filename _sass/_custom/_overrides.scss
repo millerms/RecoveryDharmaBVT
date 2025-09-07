@@ -1,0 +1,33 @@
+// ==============================================
+// ♻️ Overrides — tweaks to theme elements
+// (masthead textures, meetings page hero icon,
+//  hamburger icon micro-interactions)
+// ==============================================
+
+/* Header/nav extras & textures */
+.greedy-nav { background: transparent !important; box-shadow: none !important; border-radius: 0 !important; padding: 0 !important; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 6px rgba(0,0,0,0.08); backdrop-filter: blur(6px); }
+.greedy-nav .inner-wrap { padding: 0 !important; margin: 0 auto; }
+.greedy-nav a { color:#ffffff; font-weight:600; letter-spacing:.5px; text-shadow:-1px -1px 1px rgba(0,0,0,0.1), 1px -1px 1px rgba(0,0,0,0.1), -1px 1px 1px rgba(0,0,0,0.1), 1px 1px 1px rgba(0,0,0,0.1); }
+.greedy-nav li::after { display:none; }
+.greedy-nav .menu-toggle { color:#23507b; }
+.greedy-nav .hidden-links a:hover { background-color:#1589d6aa; color:#1b5e20; border-bottom:3px solid #1b5e20; }
+
+/* Meetings page: add RD ring next to hero title */
+.meetings-page .page__hero--overlay .page__title { display: inline-flex; align-items: center; gap: .6rem; }
+.meetings-page .page__hero--overlay .page__title::before { content:""; width:55px; height:55px; background: url('/assets/images/rd-icons/rd-black-ring.webp') center / contain no-repeat; display:inline-block; }
+
+/* Hamburger Toggle (Navicon) */
+.greedy-nav__toggle .navicon { position: relative; width: 1.5rem; height: 0.25rem; background: #ffffff; margin: auto; transition: 0.3s ease-in-out; }
+.greedy-nav__toggle .navicon::before, .greedy-nav__toggle .navicon::after { content:''; position:absolute; left:0; width:1.5rem; height:.25rem; background:#ffffff; transition:.3s ease-in-out; }
+.greedy-nav__toggle .navicon::before { top: -0.5rem; }
+.greedy-nav__toggle .navicon::after { bottom: -0.5rem; }
+.greedy-nav__toggle.close .navicon { background: transparent; }
+.greedy-nav__toggle.close .navicon::before, .greedy-nav__toggle.close .navicon::after { top:0; transform-origin:50% 50%; }
+.greedy-nav__toggle.close .navicon::before { transform: rotate(45deg); }
+.greedy-nav__toggle.close .navicon::after { transform: rotate(-45deg); }
+.greedy-nav__toggle:hover .navicon, .greedy-nav__toggle:hover .navicon::before, .greedy-nav__toggle:hover .navicon::after { background: #bbbbbb; }
+
+/* Minor utility overrides */
+main h1:first-of-type { margin-top: 2.5rem; }
+.minimal-footer-nav { display:flex; flex-wrap:wrap; justify-content:center; gap:.75rem; margin-bottom:.75rem; }
+

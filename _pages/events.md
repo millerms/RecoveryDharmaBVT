@@ -1,18 +1,17 @@
 ---
 layout: splash
-title: "Events"
+title: "Upcoming Meditation Events"
 permalink: /events/
 nav_order: 5
 classes: full-width
 description: "Upcoming meditation events, workshops, and retreats related to Recovery Dharma and Buddhist practice in Vermont."
-image: /assets/images/mossy-forest.webp
+header:
+  overlay_color: rgba(16, 61, 45, 0.8)
+  overlay_filter: "0.05"
+  overlay_image: "/assets/images/vt/mountain-sunset.webp"
+excerpt: "This page lists upcoming meditation events, workshops, and retreats related to Recovery Dharma and Buddhist practices in Vermont. Joining a retreat or workshop can feel like stepping into a gentle current, let it carry you toward deeper practice and connection."
 ---
-
 <div class="zen-events-wrapper">
-  <h1 style="display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; margin-top: 0;">Upcoming Meditation Events</h1>
-  <p class="zen-intro reveal reveal--up" style="text-align: left;">
-    This page lists upcoming meditation events, workshops, and retreats related to Recovery Dharma and Buddhist practices in Vermont. Joining a retreat or workshop can feel like stepping into a gentle current, let it carry you toward deeper practice and connection.
-  </p>
 <hr class="zen-divider">
 
   <div id="events-table"></div>
@@ -110,3 +109,10 @@ image: /assets/images/mossy-forest.webp
   loadEvents();
 </script>
 </div>
+
+<figure class="vt-break reveal reveal--up">
+  <picture>
+    <source srcset="{{ '/assets/images/vt/burl-whales.webp' | relative_url }}" type="image/webp">
+    <img src="{{ '/assets/images/vt/burl-whales.jpg' | relative_url }}" alt="Whale art outside of Burlington" loading="lazy" decoding="async">
+  </picture>
+</figure>

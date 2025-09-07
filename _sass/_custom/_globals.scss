@@ -1,0 +1,89 @@
+// ==============================================
+// 🌐 Globals — Tokens & Theming, Fallbacks
+// Purpose: site-wide CSS custom properties and
+//          glass fallbacks. No layout here.
+// ==============================================
+
+/* [TK] Tokens & Theming */
+:root {
+  /* Core Brand Colors */
+  --zen-bg: #b6a897;             /* page backdrop tint */
+  --zen-ink: #0e2a21;            /* headings */
+  --zen-ink-subtle: #19393b;     /* body text */
+  --zen-accent: #2e7d32;         /* green accent */
+  --zen-accent-2: #0b6aa8;       /* blue accent */
+  --primary-color: #003f5c;      /* legacy primary */
+
+  /* Glass Morphism */
+  --glass-tint: 220 55% 25%;     /* base HSL for most surfaces */
+  --glass-tint-green: 140 35% 15%; /* footer variant */
+  --glass-tint-blue: 216 85% 13%; /* masthead/nav variant */
+  --glass-alpha: 0.10;           /* surface opacity */
+  --glass-stroke: 0.30;          /* border opacity */
+  --glass-shadow: 0.35;          /* shadow opacity */
+
+  /* Derived Glass Tokens */
+  --glass-bg: #{'hsl(var(--glass-tint) / var(--glass-alpha))'};
+  --glass-bg-card: #{'hsl(var(--glass-tint) / 0.16)'};
+  --glass-bg-strong: #{'hsl(var(--glass-tint) / 0.35)'};
+  --glass-border: #{'hsl(var(--glass-tint) / var(--glass-stroke))'};
+  --glass-shadow-light: #{'rgba(0,0,0,var(--glass-shadow))'};
+  --glass-shadow-med: #{'rgba(0,0,0,calc(var(--glass-shadow) + 0.1))'};
+
+  /* Dimensions */
+  --r-lg: 20px; --r-md: 14px; --r-sm: 10px;
+  --blur-lg: 18px; --blur-md: 12px; --blur-sm: 4px;
+  --gap: 14px; --space-sm: 8px; --space-md: 16px;
+
+  /* Motion */
+  --t-fast: 0.18s; --t-med: 0.28s;
+  --e-out: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --e-soft: cubic-bezier(0.19, 0.84, 0.46, 1);
+
+  /* Reveal Animations */
+  --reveal-duration: 0.5s;
+  --reveal-ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --reveal-delay-base: 12px;
+  --reveal-blur: 0.25px;
+
+  /* Focus Ring */
+  --ring: 0 0 0 3px color-mix(in oklab, white 10%, transparent);
+
+  /* Button theme tokens (for btn-modern) */
+  --c-link: var(--zen-accent);
+  --c-link-hover: color-mix(in oklab, var(--zen-accent) 85%, black 15%);
+  --c-accent: var(--zen-accent-2);
+
+  /* Neutral UI tokens for new components */
+  --c-bg: #fdfaf5;                 /* page background for tooltips contrast */
+  --c-text: var(--zen-ink);        /* base text color */
+  --c-surface: #ffffff;            /* card/accordion surface */
+  --c-border: #{'hsl(var(--glass-tint) / 0.24)'}; /* subtle border */
+}
+
+/* Dark mode tuning (keeps same palette, deeper shadows) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --glass-alpha: 0.10;
+    --glass-stroke: 0.30;
+    --glass-shadow: 0.45;
+  }
+}
+
+/* Glass fallback for unsupported browsers */
+@supports not (backdrop-filter: blur(1px)) {
+  .glass,
+  .masthead,
+  .page__footer,
+  .buddhist-quote,
+  .quote-container,
+  .zen-meeting-card,
+  .btn,
+  .zen-button,
+  .zen-nav-button,
+  .quote-nav-btn {
+    background-color: var(--glass-bg-strong) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+}

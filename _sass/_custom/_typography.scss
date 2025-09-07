@@ -1,0 +1,24 @@
+// ==============================================
+// 🔤 Typography — Links, selection, content text
+// ==============================================
+
+/* Selection */
+::selection {
+  background: color-mix(in oklab, var(--zen-ink-subtle) 20%, var(--zen-accent) 15%);
+  color: var(--zen-ink);
+}
+
+/* Links with animated underline (suppressed in content/footer as needed) */
+a { color: var(--zen-ink); text-decoration: none; position: relative; transition: color var(--t-fast) var(--e-out); }
+a::after { content: ''; position: absolute; left: 0; bottom: -2px; width: 100%; height: 1px; background: currentColor; transform: scaleX(0); transform-origin: left; transition: transform var(--t-fast) var(--e-out); }
+a:hover::after, a:focus-visible::after { transform: scaleX(1); }
+a:visited { color: color-mix(in oklab, var(--zen-ink) 70%, var(--zen-accent-2) 30%); opacity: 0.8; }
+
+/* Force solid underline in main content for accessibility */
+.page__content a { text-decoration: underline; }
+.page__content a::after { display: none; }
+/* Header/nav links: keep animated underlines in masthead only */
+.greedy-nav a::after { display: block; }
+/* Suppress animated underline in footer to avoid double underline under the pipe */
+.page__footer a::after { display: none; }
+

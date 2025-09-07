@@ -1,0 +1,103 @@
+// ==============================================
+// 📱 Responsive — media queries only
+// Centralizes all @media rules for clarity.
+// ==============================================
+
+/* html type scale (larger on >=900px) */
+@media (min-width: 900px) { html { font-size: 20px; } }
+
+/* Background attachment/size on narrow screens */
+@media (max-width: 768px) {
+  html, body { background-attachment: scroll; background-size: 100% 100%, 1200px 1200px; }
+}
+
+/* Parallax background when motion allowed */
+@media (prefers-reduced-motion: no-preference) {
+  body.parallax-active { background-position: center var(--parallax-y, 0); transition: background-position 0.1s ease-out; }
+}
+
+/* Footer decorative tower sizing */
+@media (max-width: 480px) {
+  :root { --footer-decor-space: 58px; }
+  .footer__decor { left: -20px; bottom: -10px; height: calc(80% + 20px); }
+}
+@media (min-width: 900px) {
+  :root { --footer-decor-space: 72px; }
+  .footer__decor { left: -14px; bottom: -8px; height: calc(80% + 16px); }
+}
+
+/* vt-break: full-bleed on small screens */
+@media (max-width: 800px) {
+  .vt-break { width: 100vw; max-width: 100vw; position: relative; left: 50%; margin-left: -50vw; margin-right: -50vw; border-radius: 0; }
+}
+
+/* Meetings page hero icon size */
+@media (max-width: 600px) {
+  .meetings-page .page__hero--overlay .page__title::before { width: 42px; height: 42px; }
+}
+
+/* Original [MQ] section (accessibility + breakpoints) */
+/* Enhanced focus states */
+.btn:focus-visible, .zen-button:focus-visible, .zen-nav-button:focus-visible, .quote-nav-btn:focus-visible { transform: translateY(-1px) scale(1.02); box-shadow: 0 12px 32px rgba(0,0,0,.35), 0 0 20px rgba(14,130,37,0.4); }
+.glass:focus-visible, .glass.card:focus-visible, .zen-meeting-card:focus-visible { transform: translateY(-1px); box-shadow: 0 12px 32px rgba(0,0,0,.35), 0 0 16px rgba(46,125,50,0.3); border-color: var(--zen-accent) !important; }
+
+/* Loading state for forms */
+.zen-contact-form button.loading, .form-loading .zen-contact-form button { opacity:.6; cursor: wait; transform: translateY(0); box-shadow: 0 2px 8px rgba(0,0,0,.25); }
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: color var(--t-fast) var(--e-out), background-color var(--t-fast) var(--e-out), text-decoration-color var(--t-fast) var(--e-out), border-color var(--t-fast) var(--e-out) !important; }
+  .reveal, .fade-in { opacity: 1 !important; transform: none !important; filter: none !important; will-change: auto !important; }
+  .ripple { display: none !important; }
+  .btn:focus-visible[class], .zen-button:focus-visible[class], .zen-nav-button:focus-visible[class], .quote-nav-btn:focus-visible[class] { outline: 3px solid var(--zen-accent); outline-offset: 2px; box-shadow: none; transform: none; }
+  /* Cards: disable transitions */
+  .card, .card * { transition: none !important; }
+}
+
+/* Medium screens */
+@media (max-width: 1024px) {
+  .zen-hero-banner h1 { font-size: 1.8rem; top: 0.875rem; }
+  .zen-link-list { gap: 1rem; }
+  .content-wrapper { padding: 0 var(--space-md); }
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+  :root { --r-lg: 16px; --gap: 12px; --space-md: 12px; }
+  .zen-hero-banner h1 { font-size:1.4rem; top: .625rem; padding: 0 .75rem; }
+  .zen-link-list { max-width: 98vw; margin: 1.5rem auto; }
+  .zen-link-row { padding: .875rem 1rem; gap: .5rem; }
+  .zen-link-list .zen-nav-button, .zen-link-list .btn-modern { width:100%; max-width:100%; min-width:160px; padding: .625rem 1rem; font-size:1rem; }
+  .btn, .zen-button, .zen-nav-button, .btn-modern, .quote-nav-btn { padding: .625rem 1rem; border-radius: var(--r-md); }
+  .quote-navigation { padding: 0 .5rem; }
+  .quote-navigation button { font-size: 1.25rem; }
+  .section-spacer, .page-spacer { margin: calc(var(--gap) * 1.5) auto; }
+  .zen-contact-form, .zen-events-wrapper { margin:2rem auto; padding:1.5rem 1rem; }
+  .zen-events-wrapper h2 { font-size:1.75rem; margin-bottom:1rem; }
+  .zen-placeholder-event { margin-bottom:1.5rem; }
+  :root { --footer-decor-space: 48px; }
+  .page__footer .footer__inner { padding-left: calc(1rem + var(--footer-decor-space)); }
+  .footer__decor { left: -18px; bottom: -6px; height: calc(75% + 12px); }
+}
+
+/* Extra small */
+@media (max-width: 480px) {
+  :root { --footer-decor-space: 50px; }
+  .page__footer .footer__inner { padding-left: calc(1rem + var(--footer-decor-space)); }
+  .zen-hero-banner h1 { font-size: 1.25rem; }
+  .page-title-with-icon { flex-direction: column; gap: 1rem; margin-bottom: .5rem; }
+  .page-title-with-icon img { width: 48px; }
+  .page-title-with-icon h1 { font-size: 1.5rem; }
+}
+
+/* High contrast */
+@media (prefers-contrast: high) {
+  .glass { border: 2px solid currentColor !important; backdrop-filter: none !important; -webkit-backdrop-filter: none !important; background: #{'hsl(0 0% 100% / 0.9)'} !important; }
+}
+
+/* Print */
+@media print {
+  .glass, .masthead, .page__footer { background: transparent !important; box-shadow: none !important; backdrop-filter: none !important; -webkit-backdrop-filter: none !important; }
+  a::after { display: none; }
+  .reveal { opacity: 1 !important; transform: none !important; filter: none !important; }
+}

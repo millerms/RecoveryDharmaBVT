@@ -1,0 +1,42 @@
+// ==============================================
+// ✨ Animations & Utilities — reveal, ripple,
+// keyframes, gradient text, parallax helpers
+// ==============================================
+
+/* Reveal Animation System */
+.reveal { opacity:0; transform: translateY(var(--reveal-delay-base)); filter: blur(var(--reveal-blur)); transition: opacity var(--reveal-duration) var(--reveal-ease), transform var(--reveal-duration) var(--reveal-ease), filter var(--reveal-duration) var(--reveal-ease); will-change: opacity, transform, filter; }
+.reveal.is-revealed { opacity:1; transform:none; filter:none; }
+.reveal--fade { transform: none; }
+.reveal--up { transform: translateY(calc(var(--reveal-delay-base) * 1.333)); }
+.reveal--scale { transform: scale(0.985); }
+[data-reveal-stagger] > .reveal { transition-delay: calc(var(--i, 0) * 80ms); --i: var(--i, 0); }
+[data-reveal-stagger] > .reveal:nth-child(n) { --i: n; }
+
+/* Ripple effect base (containers already set in components) */
+.ripple { position:absolute; border-radius:50%; background: radial-gradient(circle, rgba(255,255,255,0.35) 0%, rgba(255,255,255,0.12) 40%, transparent 60%); transform: scale(0); animation: ripple 0.45s ease-out forwards; pointer-events:none; mix-blend-mode: screen; }
+@keyframes ripple { to { transform: scale(1); opacity: 0; } }
+
+/* Hover lift helpers */
+.glass.card:hover, .home-tile:hover, .home-tile:focus-within { transform: translateY(-2px); transition: transform var(--t-med) var(--e-soft); }
+
+/* Pulse (JS-triggered) */
+.pulse { animation: pulse 0.3s ease-out; will-change: transform; }
+@keyframes pulse { 0%{transform:scale(1)} 50%{transform:scale(1.15)} 100%{transform:scale(1)} }
+
+/* Fade helpers */
+.fade-in { animation: fadeInSlide 0.6s var(--e-soft) both; }
+@keyframes fadeInSlide { 0%{opacity:0; transform:translateY(20px)} 100%{opacity:1; transform:translateY(0)} }
+
+/* Section wave divider + gradient text + parallax helpers */
+.section-divider-wave { position:relative; height:60px; margin:3rem auto; background: linear-gradient(135deg, #{'hsl(var(--glass-tint)/0.05)'} 0%, #{'hsl(var(--glass-tint)/0.02)'} 50%, #{'hsl(var(--glass-tint)/0.05)'} 100%); border-radius: var(--r-lg); overflow:hidden; }
+.section-divider-wave::before { content:''; position:absolute; top:0; left:0; width:100%; height:100%; background-image: radial-gradient(circle at 25% 40%, hsla(45,25%,93%,0.12) 0%, transparent 60%), radial-gradient(circle at 75% 70%, hsla(45,25%,93%,0.1) 0%, transparent 60%); animation: wave-flow 12s ease-in-out infinite; }
+@keyframes wave-flow { 0%,100%{ transform: translateX(-10px) scale(0.98); opacity: .3 } 50%{ transform: translateX(10px) scale(1.02); opacity:.8 } }
+
+.text-gradient-zen { background: linear-gradient(135deg, var(--zen-accent) 0%, var(--zen-accent-2) 50%, var(--zen-accent) 100%); background-clip:text; -webkit-background-clip:text; background-size:200% 200%; animation: gradient-shift 4s ease-in-out infinite; color: transparent !important; display:inline-block; }
+.h1-zen-gradient { background: linear-gradient(135deg, var(--zen-accent) 0%, color-mix(in oklab, var(--zen-accent) 80%, var(--zen-accent-2)) 30%, var(--zen-accent-2) 60%, var(--zen-accent) 100%); background-clip:text; -webkit-background-clip:text; background-size:300% 300%; animation: gradient-shift 5s ease-in-out infinite; color: transparent !important; font-weight:700; text-shadow:0 2px 8px rgba(14,130,37,0.2); line-height:1.2; }
+@keyframes gradient-shift { 0%,100%{background-position:0% 50%} 50%{background-position:100% 50%} }
+
+.parallax-element { will-change: transform; transform: translate3d(0,0,0); }
+.parallax-active .parallax-element { transition: transform 0.1s ease-out; }
+.glass.parallax-ready { position:relative; z-index:1; transition: all .3s ease; animation: glass-shimmer 6s ease-in-out infinite; }
+@keyframes glass-shimmer { 0%,100%{ box-shadow:0 8px 30px var(--glass-shadow-light), inset 0 1px 0 rgba(255,255,255,0.06) } 50%{ box-shadow:0 12px 40px color-mix(in oklab, var(--glass-shadow-light), transparent 25%), inset 0 1px 0 rgba(255,255,255,0.08) } }

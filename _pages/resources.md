@@ -1,19 +1,17 @@
 ---
 layout: splash
-title: "Resources"
+title: "RD Resources"
 permalink: /resources/
 nav_order: 4
 classes: full-width
 description: "Curated Recovery Dharma resources: book, meditations, links, and local meditation groups in Burlington, VT."
 image: /assets/images/rd-icons/rdvt-icon.webp
+header:
+  overlay_color: rgba(16, 61, 45, 0.8)
+  overlay_filter: "0.05"
+  overlay_image: "/assets/images/vt/misty-lake.webp"
+excerpt: "This page offers a curated collection of resources to support your Recovery Dharma practice, meditation journey, and connection to the wider community. Recovery isn't solitary, here's the village to support your practice. You’ll find links to in-person and online RD meetings, the Recovery Dharma book, guided meditations, official RD online platforms, and other local meditation groups in the Burlington, VT area across a variety of Buddhist and mindfulness traditions. These resources are like a Dharma toolkit: books as wisdom maps, meetings as shared shelters."
 ---
-<div class="fade-in flex flex--center" style="gap: 0.75rem; margin-top: 1.5rem; margin-bottom: 1rem;">
-  <img src="/assets/images/rd-icons/rd-triangle.webp" alt="Recovery Dharma Triangle" style="width: 90px; height: auto;">
-  <h1 style="margin: 0;">RD Resources</h1>
-</div>
-
-This page offers a curated collection of resources to support your Recovery Dharma practice, meditation journey, and connection to the wider community. Recovery isn't solitary, here's the village to support your practice. You’ll find links to in-person and online RD meetings, the Recovery Dharma book, guided meditations, official RD online platforms, and other local meditation groups in the Burlington, VT area across a variety of Buddhist and mindfulness traditions. These resources are like a Dharma toolkit: books as wisdom maps, meetings as shared shelters.
-{: .reveal .reveal--up }
 
 ## RD Meetings
 {: .reveal .reveal--up }

@@ -39,6 +39,15 @@ Our practices are grounded in the Four Noble Truths and the Eightfold Path. This
 {: .reveal .reveal--up }
 
 
+<!-- Vermont full-bleed background break -->
+<figure class="vt-break reveal reveal--up">
+  <picture>
+    <source srcset="{{ '/assets/images/vt/fall-lake.webp' | relative_url }}" type="image/webp">
+    <img src="{{ '/assets/images/vt/fall-lake.jpg' | relative_url }}" alt="Vermont fall colors reflecting on a calm lake" loading="lazy" decoding="async">
+  </picture>
+</figure>
+
+
 <div class="zen-divider"></div>
 
 #### Explore the Site
@@ -54,7 +63,15 @@ Below you’ll find descriptions of the pages:
       <strong>Meetings & Groups</strong><br>
       Find local in-person Recovery Dharma meetings and other meditation groups in Burlington and beyond.
     </div>
-    <a href="{{ site.baseurl }}/meetings/" class="zen-nav-button reveal reveal--up">🪷 Meetings & Groups</a>
+    <a href="{{ site.baseurl }}/meetings/" class="zen-nav-button btn-modern btn-modern--ghost reveal reveal--up" aria-label="View meetings and groups">
+      <svg class="btn-modern__icon btn-modern__icon--left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="8" cy="8" r="3" />
+        <path d="M2 20c0-3 3-5 6-5s6 2 6 5" />
+        <circle cx="16" cy="10" r="2" />
+        <path d="M14 20c0-2 2-3.5 4-3.5c1.3 0 2.5 .5 3.3 1.6" />
+      </svg>
+      Meetings &amp; Groups
+    </a>
   </div> 
   <div class="zen-divider-short"></div>
   <div class="zen-link-row">
@@ -62,7 +79,13 @@ Below you’ll find descriptions of the pages:
       <strong>Buddhist Foundations</strong><br>
       Learn about Buddhism and how its teachings inform Recovery Dharma practices. We cover key concepts, meditation techniques, ethical guidelines, and links to additional resources.
     </div>
-    <a href="{{ site.baseurl }}/buddhist-foundations/" class="zen-nav-button reveal reveal--up">🌱 Buddhist Foundations</a>
+    <a href="{{ site.baseurl }}/buddhist-foundations/" class="zen-nav-button btn-modern btn-modern--ghost reveal reveal--up" aria-label="Learn Buddhist foundations">
+      <svg class="btn-modern__icon btn-modern__icon--left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 19c8-1 12-7 13-13c-3 0-7 1-10 4S5 19 5 19z" />
+        <path d="M5 19c0-4 4-8 8-8" />
+      </svg>
+      Buddhist Foundations
+    </a>
   </div>
   <div class="zen-divider-short"></div>
   <div class="zen-link-row">
@@ -70,7 +93,13 @@ Below you’ll find descriptions of the pages:
       <strong>Resources</strong><br>
       Explore meetings, meditations, links, and other local meditation groups to deepen your understanding and practice through Recovery Dharma.
     </div>
-    <a href="{{ site.baseurl }}/resources/" class="zen-nav-button reveal reveal--up">📚 Resources</a>
+    <a href="{{ site.baseurl }}/resources/" class="zen-nav-button btn-modern btn-modern--ghost reveal reveal--up" aria-label="Explore resources">
+      <svg class="btn-modern__icon btn-modern__icon--left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M4 5h10a2 2 0 0 1 2 2v12H6a2 2 0 0 0-2 2V5z" />
+        <path d="M16 19H6a2 2 0 0 0-2 2" />
+      </svg>
+      Resources
+    </a>
   </div>
   <div class="zen-divider-short"></div>
   <div class="zen-link-row">
@@ -78,7 +107,16 @@ Below you’ll find descriptions of the pages:
       <strong>Events</strong><br>
       Join special meditation offerings, retreats, and group practices.
     </div>
-    <a href="{{ site.baseurl }}/events/" class="zen-nav-button reveal reveal--up">🧘‍♂️ Events</a>
+    <a href="{{ site.baseurl }}/events/" class="zen-nav-button btn-modern btn-modern--ghost reveal reveal--up" aria-label="See events">
+      <svg class="btn-modern__icon btn-modern__icon--left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="3" y="5" width="18" height="16" rx="2" />
+        <line x1="16" y1="3" x2="16" y2="7" />
+        <line x1="8" y1="3" x2="8" y2="7" />
+        <line x1="3" y1="11" x2="21" y2="11" />
+      </svg>
+      Events
+      <span class="btn-modern__badge">New!</span>
+    </a>
   </div>
   <div class="zen-divider-short"></div>
   <div class="zen-link-row">
@@ -86,7 +124,13 @@ Below you’ll find descriptions of the pages:
       <strong>Contact</strong><br>
       Reach out to share an event, ask questions, or get involved.
     </div>
-    <a href="{{ site.baseurl }}/contact/" class="zen-nav-button reveal reveal--up">✉️ Contact</a>
+    <a href="{{ site.baseurl }}/contact/" class="zen-nav-button btn-modern btn-modern--ghost reveal reveal--up" aria-label="Contact us">
+      <svg class="btn-modern__icon btn-modern__icon--left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="3" y="7" width="18" height="14" rx="2" />
+        <path d="M3 7l9 6 9-6" />
+      </svg>
+      Contact
+    </a>
   </div>
 </div>
 
