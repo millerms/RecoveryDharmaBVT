@@ -10,8 +10,10 @@ header:
   overlay_color: rgba(16, 61, 45, 0.8)
   overlay_filter: "0.05"
   overlay_image: "/assets/images/vt/misty-lake.webp"
-excerpt: "This page offers a curated collection of resources to support your Recovery Dharma practice, meditation journey, and connection to the wider community. Recovery isn't solitary, here's the village to support your practice. You’ll find links to in-person and online RD meetings, the Recovery Dharma book, guided meditations, official RD online platforms, and other local meditation groups in the Burlington, VT area across a variety of Buddhist and mindfulness traditions. These resources are like a Dharma toolkit: books as wisdom maps, meetings as shared shelters."
+excerpt: "This page offers a curated collection of resources to support your Recovery Dharma practice, meditation journey, and connection to the wider community. Recovery isn't solitary, here's the village to support your practice."
 ---
+ 
+ Below you’ll find links to in-person and online RD meetings, the Recovery Dharma book, guided meditations, official RD online platforms, and other local meditation groups in the Burlington, VT area across a variety of Buddhist and mindfulness traditions. These resources are like a Dharma toolkit: books as wisdom maps, meetings as shared shelters.
 
 ## RD Meetings
 {: .reveal .reveal--up }
