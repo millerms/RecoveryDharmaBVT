@@ -17,8 +17,16 @@
 
 /* Dropdown (hidden-links) base color: softer gray for readability */
 .greedy-nav .hidden-links a {
-  color: #717070 !important; /* light gray on blue tint */
+  color: #ffffff !important; /* light gray on blue tint */
   text-shadow: none;
+}
+
+/* Make dropdown background more opaque for readability on mobile */
+.greedy-nav .hidden-links {
+  background-color: hsla(221, 31%, 37%, 0.6) !important; /* stronger tint */
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+  backdrop-filter: blur(10px) saturate(140%);
+  border: 1px solid rgba(0,0,0,0.25);
 }
 
 /* Crisper hover/focus for masthead links */
