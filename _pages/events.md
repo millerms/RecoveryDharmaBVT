@@ -113,6 +113,6 @@ excerpt: "This page lists upcoming meditation events, workshops, and retreats re
 <figure class="vt-break reveal reveal--up">
   <picture>
     <source srcset="{{ '/assets/images/vt/burl-whales.webp' | relative_url }}" type="image/webp">
-    <img src="{{ '/assets/images/vt/burl-whales.jpg' | relative_url }}" alt="Whale art outside of Burlington" loading="lazy" decoding="async">
+    <img src="{{ '/assets/images/vt/burl-whales.jpg' | relative_url }}" alt="Whale art outside of Burlington" width="6000" height="4000" loading="lazy" decoding="async">
   </picture>
 </figure>

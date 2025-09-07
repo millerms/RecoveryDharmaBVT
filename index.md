@@ -43,7 +43,7 @@ Our practices are grounded in the Four Noble Truths and the Eightfold Path. This
 <figure class="vt-break reveal reveal--up">
   <picture>
     <source srcset="{{ '/assets/images/vt/fall-lake.webp' | relative_url }}" type="image/webp">
-    <img src="{{ '/assets/images/vt/fall-lake.jpg' | relative_url }}" alt="Vermont fall colors reflecting on a calm lake" loading="lazy" decoding="async">
+    <img src="{{ '/assets/images/vt/fall-lake.jpg' | relative_url }}" alt="Vermont fall colors reflecting on a calm lake" width="3936" height="2624" loading="lazy" decoding="async">
   </picture>
 </figure>
 

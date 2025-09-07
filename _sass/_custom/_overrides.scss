@@ -7,7 +7,22 @@
 /* Header/nav extras & textures */
 .greedy-nav { background: transparent !important; box-shadow: none !important; border-radius: 0 !important; padding: 0 !important; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 6px rgba(0,0,0,0.08); backdrop-filter: blur(6px); }
 .greedy-nav .inner-wrap { padding: 0 !important; margin: 0 auto; }
-.greedy-nav a { color:#ffffff; font-weight:600; letter-spacing:.5px; text-shadow:-1px -1px 1px rgba(0,0,0,0.1), 1px -1px 1px rgba(0,0,0,0.1), -1px 1px 1px rgba(0,0,0,0.1), 1px 1px 1px rgba(0,0,0,0.1); }
+.greedy-nav a {
+  color:#ffffff;
+  font-weight:600;
+  letter-spacing:.5px;
+  /* Reduce halo that can look blurry over frosted backgrounds */
+  text-shadow: none;
+}
+
+/* Crisper hover/focus for masthead links */
+.greedy-nav a:hover,
+.greedy-nav a:focus-visible {
+  color: #888787 !important;
+  text-shadow: none !important; /* ensure no halo while hovered */
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
 .greedy-nav li::after { display:none; }
 .greedy-nav .menu-toggle { color:#23507b; }
 .greedy-nav .hidden-links a:hover { background-color:#1589d6aa; color:#1b5e20; border-bottom:3px solid #1b5e20; }
@@ -30,4 +45,3 @@
 /* Minor utility overrides */
 main h1:first-of-type { margin-top: 2.5rem; }
 .minimal-footer-nav { display:flex; flex-wrap:wrap; justify-content:center; gap:.75rem; margin-bottom:.75rem; }
-
