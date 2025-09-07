@@ -10,9 +10,10 @@ header:
   overlay_color: rgba(16, 61, 45, 0.8)
   overlay_filter: "0.05"
   overlay_image: "/assets/images/vt/fall-road.webp"
-excerpt: "This page lists local Recovery Dharma meetings and meditation groups in Vermont, providing key details such as time, type, town, and address. Walking into a meeting can feel daunting, so remember, we're all beginners here, coming together with compassion. Whether you are new to Recovery Dharma or an experienced practitioner, these gatherings offer valuable opportunities for connection, mindfulness, and recovery support throughout the community."
+excerpt: "This page lists local Recovery Dharma meetings and meditation groups in Vermont, providing key details such as time, type, town, and address."
 
 ---  
+Walking into a meeting can feel daunting, so remember, we're all beginners here, coming together with compassion. Whether you are new to Recovery Dharma or an experienced practitioner, these gatherings offer valuable opportunities for connection, mindfulness, and recovery support throughout the community.
 
 {% for meeting in site.data.meetings %}
 <div class="zen-meeting-block reveal reveal--up">
