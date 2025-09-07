@@ -102,7 +102,7 @@ These three teachings are the backbone of Buddhist practice in Recovery Dharma. 
 <details class="accordion reveal reveal--up">
   <summary>The Four Noble Truths &amp; Addiction</summary>
   <div class="accordion__content" markdown="1">
-  Imagine suffering as a hungry fish drawn to bait and addiction is that tempting hook. But with awareness, we see the pattern before being caught.
+  Imagine suffering as a hungry fish drawn to bait and addiction is that tempting hook. With awareness, we see the pattern before being caught.
 
   1. **There Is Suffering (Dukkha)** – Life involves dissatisfaction in both obvious and subtle forms: suffering, unease, and “not-enoughness.” Addiction often starts as an attempt to relieve this suffering. We commit to understanding the truth of suffering.
   2. **Craving (Tanha) Is the Cause** – It is craving, whether physical, emotional, or psychological, that fuels the cycle of addiction. We commit to understanding that craving leads to suffering.
