@@ -15,6 +15,12 @@
   text-shadow: none;
 }
 
+/* Dropdown (hidden-links) base color: softer gray for readability */
+.greedy-nav .hidden-links a {
+  color: #717070 !important; /* light gray on blue tint */
+  text-shadow: none;
+}
+
 /* Crisper hover/focus for masthead links */
 .greedy-nav a:hover,
 .greedy-nav a:focus-visible {
