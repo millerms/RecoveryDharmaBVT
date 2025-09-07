@@ -9,7 +9,7 @@ image: /assets/images/rd-icons/rdvt-icon.webp
 header:
   overlay_color: rgba(16, 61, 45, 0.8)
   overlay_filter: "0.05"
-  overlay_image: "/assets/images/vt/misty-lake.webp"
+  overlay_image: "/assets/images/vt/willoughby-fall.webp"
 excerpt: "This page offers a curated collection of resources to support your Recovery Dharma practice, meditation journey, and connection to the wider community. Recovery isn't solitary, here's the village to support your practice."
 ---
  

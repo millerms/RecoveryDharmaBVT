@@ -33,7 +33,7 @@ excerpt: "This page lists local Recovery Dharma meetings and meditation groups i
 
 <figure class="vt-break reveal reveal--up">
   <picture>
-    <source srcset="{{ '/assets/images/vt/tree-reflection.webp' | relative_url }}" type="image/webp">
-    <img src="{{ '/assets/images/vt/tree-reflection.JPG' | relative_url }}" alt="Tree reflected on a lake in Vermont" loading="lazy" decoding="async">
+    <source srcset="{{ '/assets/images/vt/fall-mountains.webp' | relative_url }}" type="image/webp">
+    <img src="{{ '/assets/images/vt/tree-reflection.JPG' | relative_url }}" alt="Trees in the fall by a Vermont road" loading="lazy" decoding="async">
   </picture>
 </figure>
