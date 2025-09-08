@@ -66,12 +66,7 @@ Below you’ll find descriptions of the pages:
       Find local in-person Recovery Dharma meetings and other meditation groups in Burlington and beyond.
     </div>
     <a href="{{ site.baseurl }}/meetings/" class="zen-nav-button btn-modern btn-modern--ghost reveal reveal--up" aria-label="View meetings and groups">
-      <svg class="btn-modern__icon btn-modern__icon--left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <circle cx="8" cy="8" r="3" />
-        <path d="M2 20c0-3 3-5 6-5s6 2 6 5" />
-        <circle cx="16" cy="10" r="2" />
-        <path d="M14 20c0-2 2-3.5 4-3.5c1.3 0 2.5 .5 3.3 1.6" />
-      </svg>
+      <i class="fas fa-users btn-modern__icon btn-modern__icon--left" aria-hidden="true"></i>
       Meetings &amp; Groups
     </a>
   </div> 
@@ -82,10 +77,7 @@ Below you’ll find descriptions of the pages:
       Learn about Buddhism and how its teachings inform Recovery Dharma practices. We cover key concepts, meditation techniques, ethical guidelines, and links to additional resources.
     </div>
     <a href="{{ site.baseurl }}/buddhist-foundations/" class="zen-nav-button btn-modern btn-modern--ghost reveal reveal--up" aria-label="Learn Buddhist foundations">
-      <svg class="btn-modern__icon btn-modern__icon--left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <path d="M5 19c8-1 12-7 13-13c-3 0-7 1-10 4S5 19 5 19z" />
-        <path d="M5 19c0-4 4-8 8-8" />
-      </svg>
+      <i class="fas fa-leaf btn-modern__icon btn-modern__icon--left" aria-hidden="true"></i>
       Buddhist Foundations
     </a>
   </div>
@@ -96,12 +88,8 @@ Below you’ll find descriptions of the pages:
       A compassionate look through Buddhist, AA, and neuroscience lenses—reducing shame by explaining habit loops and how they change.
     </div>
     <a href="{{ site.baseurl }}/addiction/" class="zen-nav-button btn-modern btn-modern--ghost reveal reveal--up" aria-label="Learn what addiction is">
-      <svg class="btn-modern__icon btn-modern__icon--left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <path d="M12 20c4 0 7-3 7-7S16 6 12 6 5 9 5 13" />
-        <path d="M5 13H3m2 0h2" />
-      </svg>
+      <i class="fas fa-brain btn-modern__icon btn-modern__icon--left" aria-hidden="true"></i>
       Explore Addiction
-      <span class="btn-modern__badge">New</span>
     </a>
   </div>
   <div class="zen-divider-short"></div>
@@ -111,10 +99,7 @@ Below you’ll find descriptions of the pages:
       Explore meetings, meditations, links, and other local meditation groups to deepen your understanding and practice through Recovery Dharma.
     </div>
     <a href="{{ site.baseurl }}/resources/" class="zen-nav-button btn-modern btn-modern--ghost reveal reveal--up" aria-label="Explore resources">
-      <svg class="btn-modern__icon btn-modern__icon--left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <path d="M4 5h10a2 2 0 0 1 2 2v12H6a2 2 0 0 0-2 2V5z" />
-        <path d="M16 19H6a2 2 0 0 0-2 2" />
-      </svg>
+      <i class="fas fa-book btn-modern__icon btn-modern__icon--left" aria-hidden="true"></i>
       Resources
     </a>
   </div>
@@ -125,12 +110,7 @@ Below you’ll find descriptions of the pages:
       Join special meditation offerings, retreats, and group practices.
     </div>
     <a href="{{ site.baseurl }}/events/" class="zen-nav-button btn-modern btn-modern--ghost reveal reveal--up" aria-label="See events">
-      <svg class="btn-modern__icon btn-modern__icon--left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <rect x="3" y="5" width="18" height="16" rx="2" />
-        <line x1="16" y1="3" x2="16" y2="7" />
-        <line x1="8" y1="3" x2="8" y2="7" />
-        <line x1="3" y1="11" x2="21" y2="11" />
-      </svg>
+      <i class="fas fa-calendar-alt btn-modern__icon btn-modern__icon--left" aria-hidden="true"></i>
       Events
       <span class="btn-modern__badge">New!</span>
     </a>
@@ -142,10 +122,7 @@ Below you’ll find descriptions of the pages:
       Reach out to share an event, ask questions, or get involved.
     </div>
     <a href="{{ site.baseurl }}/contact/" class="zen-nav-button btn-modern btn-modern--ghost reveal reveal--up" aria-label="Contact us">
-      <svg class="btn-modern__icon btn-modern__icon--left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <rect x="3" y="7" width="18" height="14" rx="2" />
-        <path d="M3 7l9 6 9-6" />
-      </svg>
+      <i class="far fa-paper-plane btn-modern__icon btn-modern__icon--left" aria-hidden="true"></i>
       Contact
     </a>
   </div>
