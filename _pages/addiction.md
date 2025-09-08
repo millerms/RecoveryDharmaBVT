@@ -33,7 +33,7 @@ Addiction is not a character flaw or moral failing. It is a deeply human surviva
 
 ## A Compassionate Definition
 {: .reveal .reveal--up }
-Addiction is a conditioned loop born from the brain’s effort to survive overwhelming stress, pain, or emptiness. When craving or discomfort arises, a behavior or substance promises relief. The brain stamps in this association, strengthening the loop. Like a hungry ghost endlessly craving but never satisfied, the cycle feeds itself without true satisfaction. Stress, trauma, isolation, and easy access all accelerate this learning. This is not your fault. It is a survival pattern learned under difficult circumstances, and it is fully workable with kindness, patience, and skillful practice.
+Addiction is a conditioned loop born from the brain’s effort to survive overwhelming stress, pain, or emptiness. When craving or discomfort arises, a behavior or substance promises relief. The brain stamps in this association, strengthening the loop. Like a hungry ghost endlessly craving but never satisfied, the cycle feeds itself without true satisfaction. Stress, trauma, isolation, and easy access all accelerate this learning. Modern research highlights addiction as an accelerated learning of maladaptive survival loops, shaped by neuroplasticity and contextual vulnerability <span class="citation">[<a href="#ref-5">5</a>]</span>. This is not your fault. It is a survival pattern learned under difficult circumstances, and it is fully workable with kindness, patience, and skillful practice.
 {: .reveal .reveal--up }
 
 <div class="zen-divider"></div>
@@ -78,14 +78,14 @@ Addiction is a conditioned loop born from the brain’s effort to survive overwh
 <details class="accordion reveal reveal--up">
   <summary>A Neuroscience Lens: Dopamine and Survival Learning</summary>
   <div class="accordion__content" markdown="1">
-  The midbrain reward system (ventral tegmental area → nucleus accumbens) uses dopamine as a teaching signal, tagging experiences that should be repeated for survival. In addiction, this survival learning goes awry, like a compass pointing to the wrong north, because substances and certain behaviors produce fast, large dopamine surges stronger than most natural rewards. The brain mistakenly treats these as urgent survival priorities.
+  The midbrain reward system (ventral tegmental area → nucleus accumbens) uses dopamine as a teaching signal, tagging experiences that should be repeated for survival. In addiction, this survival learning goes awry, like a compass pointing to the wrong north, because substances and certain behaviors produce fast, large dopamine surges stronger than most natural rewards. The brain mistakenly treats these as urgent survival priorities <span class="citation">[<a href="#ref-4">4</a>, <a href="#ref-1">1</a>, <a href="#ref-2">2</a>]</span>.
 
   Over time:
   - Environmental cues become powerful “wanting” triggers (incentive salience), even when the behavior no longer brings pleasure.
   - Stress systems become sensitized, lowering baseline mood and increasing discomfort (*allostatic load*).
   - Prefrontal control areas responsible for planning and self-regulation weaken under chronic stress and sleep loss.
 
-  This is not a disease or defect, but accelerated survival learning on maladaptive targets. The brain’s remarkable plasticity means new learning, supportive environments, and care can rewire these circuits toward healing.
+  Modern research further frames addiction as accelerated learning of maladaptive survival loops, emphasizing the role of neuroplasticity and contextual vulnerability in shaping these persistent patterns <span class="citation">[<a href="#ref-5">5</a>]</span>. While many frameworks exist to understand addiction, including the disease model, this understanding highlights the brain’s remarkable capacity for new learning, supportive environments, and care to rewire these circuits toward healing <span class="citation">[<a href="#ref-3">3</a>]</span>.
   </div>
 </details>
 
@@ -97,6 +97,7 @@ Addiction is a conditioned loop born from the brain’s effort to survive overwh
 - It restores agency: loops can be seen, interrupted, and relearned, often with help.
 - It centers connection over willpower: people heal with people.
 - Craving does not mean brokenness; it reveals the brain’s incredible capacity to adapt, and that same capacity can be harnessed to heal and grow.
+- The latest research underscores addiction as maladaptive learning, not a fixed identity or purely a disease. This framing reduces stigma and supports seeing addiction as a workable pattern rather than a permanent label <span class="citation">[<a href="#ref-5">5</a>]</span>.
 {: .reveal .reveal--up }
 
 <div class="zen-divider"></div>
@@ -154,3 +155,17 @@ You are not your habits. Healing is possible through curiosity, community, and c
     </article>
   </a>
 </div>
+
+<div class="zen-divider"></div>
+## References
+<em>As always, the science is evolving, stay curious and up-to-date.</em>
+
+{: .reveal .reveal--up }
+<ol class="refs">
+  {% include reference.html pmid="26816013" num="1" %}
+  {% include reference.html pmid="26253543" num="2" %}
+  {% include reference.html pmid="31507244" num="3" %}
+  {% include reference.html num="4" title="The Science of Drug Use and Addiction: The Basics" journal="National Institute on Drug Abuse (NIDA)" year="2020" url="https://nida.nih.gov/research-topics/addiction-science/drugs-brain-behavior-science-of-addiction" show_pmid=false %}
+  {% include reference.html pmid="40376607" num="5" %}
+</ol>
+{: .reveal .reveal--up }

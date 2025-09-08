@@ -1,0 +1,40 @@
+{%- comment -%}
+  Usage examples:
+  {% include reference.html pmid="26816013" num="1" %}
+  {% include reference.html num="4" title="The Science of Drug Use and Addiction: The Basics" journal="National Institute on Drug Abuse (NIDA)" year="2020" url="https://nida.nih.gov/..." show_pmid=false %}
+{%- endcomment -%}
+{%- assign num = include.num | default: 1 -%}
+{%- assign pmid = include.pmid -%}
+{%- assign title = include.title -%}
+{%- assign journal = include.journal -%}
+{%- assign year = include.year -%}
+{%- assign url = include.url -%}
+{%- assign show_pmid = include.show_pmid | default: true -%}
+
+<li class="ref-item" id="ref-{{ num }}"{% if pmid %} data-pmid="{{ pmid }}"{% endif %}>
+  <span class="ref-num">{{ num }}</span>
+  <div class="ref-main">
+    {%- if pmid -%}
+      <span class="ref-title"><a class="ref-link" href="https://pubmed.ncbi.nlm.nih.gov/{{ pmid }}/" target="_blank" rel="noopener">Loading…</a></span>
+      <span class="ref-meta">PMID {{ pmid }}</span>
+      <div class="ref-actions">
+        <a class="ref-badge ref-badge--pmid ref-link" href="https://pubmed.ncbi.nlm.nih.gov/{{ pmid }}/" target="_blank" rel="noopener">PubMed</a>
+      </div>
+    {%- else -%}
+      {%- if title -%}
+        {%- if url -%}
+          <span class="ref-title"><a class="ref-link" href="{{ url }}" target="_blank" rel="noopener">{{ title }}</a></span>
+        {%- else -%}
+          <span class="ref-title">{{ title }}</span>
+        {%- endif -%}
+      {%- endif -%}
+      {%- if journal or year -%}
+        <span class="ref-line">
+          {%- if journal -%}<span class="ref-journal">{{ journal }}</span>{%- endif -%}
+          {%- if journal and year -%}<span class="ref-sep"> · </span>{%- endif -%}
+          {%- if year -%}<span class="ref-year">{{ year }}</span>{%- endif -%}
+        </span>
+      {%- endif -%}
+    {%- endif -%}
+  </div>
+</li>
