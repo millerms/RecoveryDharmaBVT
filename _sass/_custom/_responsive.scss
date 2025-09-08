@@ -90,6 +90,13 @@
   .page-title-with-icon h1 { font-size: 1.5rem; }
 }
 
+/* Footer: slightly smaller nav links on narrow phones */
+@media (max-width: 500px) {
+  .page__footer .footer__nav a {
+    font-size: 0.85rem; /* ~2–3px smaller than base 17px */
+  }
+}
+
 /* High contrast */
 @media (prefers-contrast: high) {
   .glass { border: 2px solid currentColor !important; backdrop-filter: none !important; -webkit-backdrop-filter: none !important; background: #{'hsl(0 0% 100% / 0.9)'} !important; }
