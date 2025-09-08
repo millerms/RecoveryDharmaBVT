@@ -45,6 +45,8 @@ navigation:
     url: "/meditation-events/"
   - title: "Resources"
     url: "/resources/"
+  - title: "What Is Addiction?"
+    url: "/addiction/"
   - title: "Buddhist Foundations"
     url: /buddhist-foundations/
   - title: "Contact"

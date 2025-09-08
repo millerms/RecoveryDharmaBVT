@@ -21,7 +21,9 @@ image: /assets/images/banner.webp
 </div>
 
 <div class="flex flex--center flex--column align--center">
-<p class="intro-text reveal reveal--up">This site is a resource for those interested in Recovery Dharma. For me, it started when I hit bottom and found a path that didn't just promise fixes but invited exploration. Our mission is to support recovery through Buddhist practices and community. Whether you're new to Recovery Dharma or have been practicing for years, this space is here to help you connect, learn, and heal step by compassionate step.</p>
+<p class="intro-text reveal reveal--up">This site is a resource for those interested in Recovery Dharma. For me, it started when I hit bottom and found a path that didn't just promise fixes but invited exploration. Our mission is to support recovery through Buddhist practices and community. Whether you're new to Recovery Dharma or have been practicing for years, this space is here to help you connect, learn, and heal step by compassionate step. <br> <br>
+
+<i>Please note: The ideas and views shared on this site are not direct endorsements from Recovery Dharma Global. Local Recovery Dharma sanghas are autonomous, and the perspectives here reflect the author’s own experience and recovery journey.</i></p>
 </div>
 
 <hr class="zen-divider">
@@ -85,6 +87,21 @@ Below you’ll find descriptions of the pages:
         <path d="M5 19c0-4 4-8 8-8" />
       </svg>
       Buddhist Foundations
+    </a>
+  </div>
+  <div class="zen-divider-short"></div>
+  <div class="zen-link-row">
+    <div class="zen-link-text reveal reveal--up">
+      <strong>What Is Addiction?</strong><br>
+      A compassionate look through Buddhist, AA, and neuroscience lenses—reducing shame by explaining habit loops and how they change.
+    </div>
+    <a href="{{ site.baseurl }}/addiction/" class="zen-nav-button btn-modern btn-modern--ghost reveal reveal--up" aria-label="Learn what addiction is">
+      <svg class="btn-modern__icon btn-modern__icon--left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 20c4 0 7-3 7-7S16 6 12 6 5 9 5 13" />
+        <path d="M5 13H3m2 0h2" />
+      </svg>
+      Explore Addiction
+      <span class="btn-modern__badge">New</span>
     </a>
   </div>
   <div class="zen-divider-short"></div>
