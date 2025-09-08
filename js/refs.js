@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const href = doi ? `https://doi.org/${doi}` : `https://pubmed.ncbi.nlm.nih.gov/${pmid}/`;
         main.innerHTML = `
           <span class="ref-title"><a class="ref-link" href="${href}" target="_blank" rel="noopener">${title}</a></span>
-          <span class="ref-line"><span class="ref-authors">${authors}</span><span class="ref-sep"> · </span><span class="ref-journal">${journal}</span><span class="ref-sep"> · </span><span class="ref-year">${year}</span></span>
+          <span class="ref-line"><span class="ref-authors">${authors}</span><span class="ref-sep"> • </span><span class="ref-journal">${journal}</span><span class="ref-sep"> • </span><span class="ref-year">${year}</span></span>
           <div class="ref-actions">
             <a class="ref-badge ref-badge--pmid ref-link" href="https://pubmed.ncbi.nlm.nih.gov/${pmid}/" target="_blank" rel="noopener">PMID ${pmid}</a>
           </div>`;
