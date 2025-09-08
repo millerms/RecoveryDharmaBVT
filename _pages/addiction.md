@@ -9,7 +9,7 @@ image: /assets/images/rd-icons/rdvt-icon.webp
 header:
   overlay_color: rgba(16, 61, 45, 0.8)
   overlay_filter: "0.05"
-  overlay_image: "/assets/images/leaf.webp"
+  overlay_image: "/assets/images/sidewalk-plant.webp"
 excerpt: "A compassionate, evidence-based overview of addiction through Buddhist practice, AA wisdom, and modern neuroscience, reframing addiction as a learned survival response and dopamine habit loop rather than a moral failing."
 ---
 
