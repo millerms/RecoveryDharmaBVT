@@ -169,7 +169,7 @@ Start small; even three mindful breaths can plant the seed of healing.
 
 ### Suggested Readings: Buddhist Philosophy & Ethics
 {: .reveal .reveal--up }
-A mix of classic texts and accessible introductions, many available for free online. These are personal recommendations, not endorsements of any particular tradition or viewpoint. Explore what resonates with you.
+A mix of classic texts and accessible introductions, many available for free online. These are personal recommendations, not endorsements of any particular tradition or viewpoint. Explore what resonates with you. Many are available through public libraries or online platforms via web search.
 {: .reveal .reveal--up }
 
 <h4 id="classic--foundational-texts" class="sr-only">Classic &amp; Foundational Texts</h4>
@@ -182,10 +182,10 @@ A mix of classic texts and accessible introductions, many available for free onl
   - **[In the Buddha’s Words](https://static.sariputta.com/pdf/tipitaka/817/Sutta_In_the_Buddhas_Words_-_An_Anthology_of_Discourses_from_the_Pali_Canon_pdf.pdf)** – *edited by Bhikkhu Bodhi*  
     A curated anthology of Pali Canon suttas grouped thematically with accessible introductions. Great for those wanting a deeper foundation in early Buddhism.
 
-  - **[What the Buddha Taught](http://media.voog.com/0000/0037/7838/files/Walpola%20Rahula%20-%20What%20the%20Buddha%20Taught.pdf.pdf)** – *by Walpola Rahula*  
+  - **[What the Buddha Taught](https://groveatlantic.com/book/what-the-buddha-taught/)** – *by Walpola Rahula*  
     A clear, straightforward introduction to key Buddhist concepts like the Four Noble Truths, Eightfold Path, and anatta (non-self), written by a respected monk and scholar.
 
-  - **[The Heart of the Buddha’s Teaching](https://www.dwms.org/uploads/8/7/8/7/87873912/thich_nhat_hanh_-_the_heart_of_buddhas_teaching.pdf)** – *by Thich Nhat Hanh*  
+  - **[The Heart of the Buddha’s Teaching](https://www.goodreads.com/book/show/209574.The_Heart_of_the_Buddha_s_Teaching)** – *by Thich Nhat Hanh*  
     A compassionate guide to Buddhist philosophy and practice, including mindfulness, suffering, and transformation. Welcoming for beginners and grounded in experience.
   </div>
   
@@ -197,16 +197,16 @@ A mix of classic texts and accessible introductions, many available for free onl
   <div class="accordion__content" markdown="1">
   Many contemporary authors offer fresh perspectives on Buddhist teachings, making them accessible to modern readers. Here are some favorites:
 
-  - **[Radical Acceptance](https://archive.org/details/tarabrachradicalacceptanceembracingyourlifewiththeheartofabuddhabantam2004)** – *by Tara Brach*  
+  - **[Radical Acceptance](https://www.tarabrach.com/books/radical-acceptance/)** – *by Tara Brach*  
     Blends Buddhist teachings with trauma-sensitive psychology. Offers tools for self-compassion and present-moment awareness—especially valuable for those in recovery or healing work.
 
-  - **[The Miracle of Mindfulness](https://truthbrary.mpaq.org/BOOKS/Spirituality%2C%20Meditation%2C%20Self-finding%20%28Books%29/Zen%20Buddhism%20-%20Thich%20Nhat%20Hanh/The_Miracle_of_Mindfulness__An_Introductio_-_Thich_Nhat_Hanh.pdf)** – *by Thich Nhat Hanh*  
+  - **[The Miracle of Mindfulness](https://www.goodreads.com/book/show/95747.The_Miracle_of_Mindfulness)** – *by Thich Nhat Hanh*  
     A gentle and practical introduction to meditation and living mindfully. Includes stories, exercises, and deep insights made simple.
 
-  - **[Buddhism Without Beliefs](https://jaygarfield.org/wp-content/uploads/2014/01/buddhism-without-beliefs.pdf)** – *by Stephen Batchelor*  
+  - **[Buddhism Without Beliefs](https://www.goodreads.com/book/show/90557.Buddhism_without_Beliefs)** – *by Stephen Batchelor*  
     A secular and philosophical look at Buddhism stripped of ritual and metaphysics. Great for critical thinkers, skeptics, and those seeking a grounded, experiential approach.
 
-  - **[The Noble Eightfold Path: Way to the End of Suffering](https://www.openheartzen.org/uploads/3/1/2/1/31214929/the_noble_eightfold_path-by_bhikkhu_bodhi.pdf)** – *by Bhikkhu Bodhi*  
+  - **[The Noble Eightfold Path: Way to the End of Suffering](https://www.accesstoinsight.org/lib/authors/bodhi/waytoend.html)** – *by Bhikkhu Bodhi*  
     A thorough but approachable commentary on the Eightfold Path. Rooted in early Buddhist texts, ideal for those ready to go deeper into practice and ethics.
 
   - **[Recovery Dharma](https://recoverydharma.org/book)** – *by the Recovery Dharma Collective*  
