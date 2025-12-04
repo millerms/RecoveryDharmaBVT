@@ -161,7 +161,7 @@ You are not your habits. Healing is possible through curiosity, community, and c
 
 <div class="zen-divider"></div>
 ## References
-<em>As always, the science is evolving, stay curious and up-to-date.</em>
+<em>As always, the science is evolving, stay curious, up-to-date, and proceed boldy.</em>
 
 {: .reveal .reveal--up }
 <ol class="refs">
