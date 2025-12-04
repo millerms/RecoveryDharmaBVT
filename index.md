@@ -21,19 +21,23 @@ image: /assets/images/banner.webp
 </div>
 
 <div class="flex flex--center flex--column align--center">
-<p class="intro-text reveal reveal--up">This site is a resource for those interested in Recovery Dharma. For me, it started when I hit bottom and found a path that didn't just promise fixes but invited exploration. Our mission is to support recovery through Buddhist practices and community. Whether you're new to Recovery Dharma or have been practicing for years, this space is here to help you connect, learn, and heal step by compassionate step. <br> <br>
+<p class="intro-text reveal reveal--up">This site is a resource for anyone curious about Recovery Dharma. Many of us arrive here after trying to manage addiction and suffering on our own, often feeling stuck or alone. What makes this path different is that it doesn’t ask you to believe anything. It simply invites you to look closely at your experience and discover what supports healing.
 
-<i>Please note: The ideas and views shared on this site are not direct endorsements from Recovery Dharma Global. Local Recovery Dharma sanghas are autonomous, and the perspectives here reflect the author’s own experience and recovery journey.</i></p>
+Our mission is to support recovery through Buddhist teachings, meditation, and a community that understands what it’s like to struggle. Whether this is your first time exploring recovery or part of your ongoing journey, this space is here to help you build a relationship with yourself that is grounded, compassionate, and real.
+
+<br><br>
+<i>Please note: The perspectives shared here reflect lived experience within our local community and are not official statements from Recovery Dharma Global. Each sangha is autonomous, and the content on this site represents the author’s understanding of the Dharma in recovery.</i>
+</p>
 </div>
 
 <hr class="zen-divider">
 
 ### What is Recovery Dharma?
 {: .reveal .reveal--up }
-Recovery Dharma is a peer-led, non-theistic approach to recovery that uses Buddhist principles as a foundation for healing from addiction and suffering. We believe in the power of mindfulness, meditation, community, and personal responsibility. There’s no dogma, just an invitation to investigate your own experience and walk a path of wisdom and compassion -- together.
+Recovery Dharma is a peer-led, non-theistic approach to recovery that uses Buddhist principles as a practical framework for healing from addiction and the suffering that drives it. We explore mindfulness, ethical living, compassion, and supportive community. There’s no doctrine or required beliefs, only an invitation to get curious about the patterns that cause harm and to walk a path toward freedom together.
 {: .reveal .reveal--up }
 
-Our practices are grounded in the Four Noble Truths and the Eightfold Path. This site is a hub for Vermont-based offerings and a living resource for anyone interested in this way of recovery.
+Our practices are rooted in the Four Noble Truths and the Eightfold Path. This site offers Vermont-based meetings, meditation opportunities, and resources to help you find connection and support as you grow in recovery.
 {: .reveal .reveal--up }
 
 > “This program leads to recovery from addiction to substances like alcohol and drugs and from process addictions like sex, gambling, pornography, technology, work, codependence, shopping, eating, media, self-harm, lying, stealing, and obsessive worrying.”  

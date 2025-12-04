@@ -13,7 +13,20 @@ header:
 excerpt: "This page lists local Recovery Dharma meetings and meditation groups in Vermont, providing key details such as time, type, town, and address."
 
 ---  
-Walking into a meeting can feel daunting, so remember, we're all beginners here, coming together with compassion. Whether you are new to Recovery Dharma or an experienced practitioner, these gatherings offer valuable opportunities for connection, mindfulness, and recovery support throughout the community.
+Showing up to a meeting can feel like a big step, so it’s worth saying: everyone is welcome here. We come together as we are, with curiosity, dignity, and a shared intention to reduce suffering. Whether you’re taking your first step toward recovery or returning to connect with friends on the path, these gatherings offer space to breathe, learn, heal, and feel less alone.
+
+### What to Expect
+{: .reveal .reveal--up }
+- A brief meditation to settle the mind.
+- Optional sharing — you never have to speak.
+- Confidentiality and respect for everyone in the room.
+
+Meetings are always free, and you are welcome to just listen.
+
+Many meetings aim to be accessible and trauma‑informed. If you have specific needs, feel free to reach out or ask when you arrive.
+{: .reveal .reveal--up }
+
+<div class="zen-divider-short"></div>
 
 {% for meeting in site.data.meetings %}
 <div class="zen-meeting-block reveal reveal--up">

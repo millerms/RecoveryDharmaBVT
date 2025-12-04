@@ -12,6 +12,9 @@ header:
 excerpt: "This page lists upcoming meditation events, workshops, and retreats related to Recovery Dharma and Buddhist practices in Vermont. Joining a retreat or workshop can feel like stepping into a gentle current, let it carry you toward deeper practice and connection."
 ---
 <div class="zen-events-wrapper">
+  <p class="reveal reveal--up" style="max-width: 640px; margin: 0 auto 1.5rem auto; text-align: left;">
+    Retreats, workshops, and special meditation events can offer a deeper dive than a weekly meeting. They give us time to slow down, listen to our bodies, and practice in community without rushing back to daily life. You do not need any prior experience to attend. You are welcome to show up as you are, participate at your own pace, and take what is helpful for your recovery.
+  </p>
 <hr class="zen-divider">
 
   <div id="events-table"></div>

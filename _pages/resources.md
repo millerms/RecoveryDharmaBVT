@@ -13,7 +13,7 @@ header:
 excerpt: "This page offers a curated collection of resources to support your Recovery Dharma practice, meditation journey, and connection to the wider community. Recovery isn't solitary, here's the village to support your practice."
 ---
  
- Below you’ll find links to in-person and online RD meetings, the Recovery Dharma book, guided meditations, official RD online platforms, and other local meditation groups in the Burlington, VT area across a variety of Buddhist and mindfulness traditions. These resources are like a Dharma toolkit: books as wisdom maps, meetings as shared shelters.
+Below you’ll find links to local and online RD meetings, the Recovery Dharma book, guided meditations, and other Buddhist and mindfulness groups in the Burlington area. Think of these as a toolkit for recovery and community support. Meetings offer connection and shared wisdom. Books and teachings provide maps. Meditation helps us relate to our minds with clarity and compassion.
 
 ## RD Meetings
 {: .reveal .reveal--up }

@@ -49,10 +49,10 @@ Welcome! This page introduces Buddhist philosophy and ethics in a non-dogmatic, 
 This is a soft landing for anyone curious about Buddhism, not as a belief system to adopt, but as a practical and ethical path to explore.
 {: .reveal .reveal--up }
 
-These teachings have been deeply meaningful to me in recovery. They helped me reconnect with reality in a clearer, more compassionate way. Buddhist philosophy doesn’t ask for blind faith, it invites investigation, reflection, and presence. That’s what drew me in. It speaks in terms of causes and conditions, suffering and its end, and the possibility of freedom through practice.
+These teachings have been deeply meaningful to me in recovery. They helped me reconnect with reality in a clearer, more compassionate way. Buddhist philosophy doesn’t ask for blind faith, it invites investigation, reflection, and presence. That’s what drew me in. It speaks in terms of cause and effect, misunderstanding and clarity, and how craving arises downstream when the mind misreads reality.
 {: .reveal .reveal--up }
 
-Here you’ll find a gentle introduction to core Buddhist ideas, including ethical precepts, the Eightfold Path, and different forms of meditation. The goal isn’t to get it all perfect, it’s to begin with curiosity and keep walking the path. This is especially for folks in recovery who want something grounded, experiential, and not loaded with dogma. Buddhism, at its heart, is a path of liberation through understanding.
+Here you’ll find a gentle introduction to core Buddhist ideas, including ethical precepts, the Eightfold Path, and different forms of meditation. The goal isn’t to get it all perfect, it’s to begin with curiosity and keep walking the path. A key insight is that suffering (dukkha) often comes not from life itself but from how the mind interprets and resists experience. This is especially for folks in recovery who want something grounded, experiential, and not loaded with dogma. Buddhism, at its heart, is a path of liberation through understanding.
 {: .reveal .reveal--up }
 
 If you’re more of a listener, these two talks offer different but complementary doorways into the heart of practice. One speaks to our deeper sense of identity and belonging, the other to the power of living deliberately and with awareness:
@@ -80,7 +80,7 @@ If you’re more of a listener, these two talks offer different but complementar
 
 ## Precepts, Truths, and the Path
 {: .reveal .reveal--up }
-These three teachings are the backbone of Buddhist practice in Recovery Dharma. The Five Precepts invite ethical choices that keep us and our community safe. The Four Noble Truths describe the pattern of suffering and craving and the real possibility of recovery. The Eightfold Path is the practical way we walk that freedom: wisdom, ethics, and meditation in everyday life. None of this is dogma, it’s an invitation. Guidance to try, notice, and keep going with kindness.
+These three teachings are the backbone of Buddhist practice in Recovery Dharma. The Five Precepts invite ethical choices that keep us and our community safe. The Four Noble Truths describe how suffering (dukkha) begins with a fundamental misalignment between how things actually are and how we want them to be, and how craving emerges from that misunderstanding. The Eightfold Path is the practical way we walk that freedom: wisdom, ethics, and meditation in everyday life. None of this is dogma, it’s an invitation. Guidance to try, notice, and keep going with kindness.
 {: .reveal .reveal--up }
 
 <h3 id="the-five-precepts" class="sr-only">The Five Precepts</h3>
@@ -102,12 +102,12 @@ These three teachings are the backbone of Buddhist practice in Recovery Dharma. 
 <details class="accordion reveal reveal--up">
   <summary>The Four Noble Truths &amp; Addiction</summary>
   <div class="accordion__content" markdown="1">
-  Think of craving as a hungry ghost, never satisfied no matter how much it consumes. Addiction feeds that restless hunger. With mindfulness, we begin to notice the cycle before we’re consumed by it. Healing begins when we turn inward with the intention to love what was always already there, unconditionally.
+  Addiction is often a looping attempt to feel okay when something in us believes we are not. Craving shows up as a kind of misreading of reality: the mind predicts that relief or connection will come from something outside us, and then chases it over and over. With mindfulness, we begin to notice the moment suffering starts — usually long before we pick up a drink, a drug, or a behavior — and we learn to respond with wise care instead of reflex. Healing doesn’t mean forcing ourselves to stop craving. It means seeing clearly what craving is, how it arises, and what it is trying to protect.
 
-  1. **There Is Suffering (Dukkha)** – Life involves dissatisfaction in both obvious and subtle forms: suffering, unease, and “not-enoughness.” Addiction often starts as an attempt to relieve this suffering. We commit to understanding the truth of suffering.
-  2. **Craving (Tanha) Is the Cause** – It is craving, whether physical, emotional, or psychological, that fuels the cycle of addiction. We commit to understanding that craving leads to suffering.
-  3. **Cessation of Craving Ends Suffering** – Recovery is possible when we untangle from habitual craving and begin to make space. We commit to understand that less craving leads to less suffering.
-  4. **The Path Out Is the Eightfold Path** – The way to healing is a holistic, intentional path: wise comprehension, ethical living, mindful presence, and steady effort. We commit to cultivating the path.
+  1. **There Is Suffering (Dukkha)** – Life involves dissatisfaction in both obvious and subtle forms: suffering, unease, and “not-enoughness.” Addiction often starts as an attempt to relieve this suffering. Much of this suffering comes from misunderstanding our experience and resisting what is already happening. We commit to understanding the truth of suffering.  
+  2. **Craving (Tanha) Is the Cause** – It is craving, whether physical, emotional, or psychological, that fuels the cycle of addiction. We commit to understanding that craving is downstream of suffering — a reactive strategy the mind uses when it feels separate, threatened, or incomplete.
+  3. **Cessation of Craving Ends Suffering** – Recovery is possible when we untangle from habitual craving and begin to make space. We commit to learning how clarity, connection, and presence reduce craving naturally.
+  4. **The Path Out Is the Eightfold Path** – The way to healing is a holistic, intentional path: wise comprehension, ethical living, mindful presence, and steady effort. We commit to practicing these skills in real life so the mind gradually learns a different way to relate to pain and uncertainty.
 
   **Recovery Dharma** adapts these as:
   - Addiction causes suffering  
@@ -196,6 +196,10 @@ A mix of classic texts and accessible introductions, many available for free onl
   <summary>Accessible &amp; Contemporary Introductions</summary>
   <div class="accordion__content" markdown="1">
   Many contemporary authors offer fresh perspectives on Buddhist teachings, making them accessible to modern readers. Here are some favorites:
+
+
+  - **[The New Saints](https://www.lamarod.com/TNS-Celebration)** – *by Lama Rod Owens*  
+    Lama Rod offers a clarion call for becoming a spiritual warrior—a human refreshed, serving a vision of a world shaped by love. Rooted in Buddhist teachings, social justice, and radical love, this book is a guide for those seeking to embody compassion and courage in turbulent times.
 
   - **[Radical Acceptance](https://www.tarabrach.com/books/radical-acceptance/)** – *by Tara Brach*  
     Blends Buddhist teachings with trauma-sensitive psychology. Offers tools for self-compassion and present-moment awareness—especially valuable for those in recovery or healing work.
