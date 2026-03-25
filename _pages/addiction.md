@@ -50,7 +50,7 @@ Addiction is a conditioned loop born from the brain’s effort to survive overwh
   - The precepts cultivate safety and trust, reducing the chaos and suffering that fuel craving.
   - Loving‑kindness practice softens shame and nurtures the capacity to love ourselves exactly as we are, even in our struggles.
 
-  Importantly, Buddhist practice helps us decondition the automatic loops of craving and clinging, gradually waking us up to our Buddha nature — the awakened, compassionate, and wise capacity that lies within all of us. This approach invites curiosity and patience, encouraging us to hold our inner experience with open-hearted acceptance and small, repeatable steps toward freedom.
+  Importantly, Buddhist practice helps us decondition the automatic loops of craving and clinging, gradually waking us up to our Buddha nature; the awakened, compassionate, and wise capacity that lies within all of us. This approach invites curiosity and patience, encouraging us to hold our inner experience with open-hearted acceptance and small, repeatable steps toward freedom.
   </div>
 </details>
 
@@ -69,7 +69,7 @@ Addiction is a conditioned loop born from the brain’s effort to survive overwh
 
   **Honesty, Open-Mindedness, and Willingness (HOW)** form a foundational triad in the AA approach. Honesty allows us to see our situation clearly; open-mindedness helps us remain receptive to new ideas and perspectives; willingness empowers us to take action and make changes. Together, HOW creates a fertile ground for growth and transformation, supporting us as we move through the challenges of recovery.
 
-  AA teaches that “the fundamental idea of God is within every man, woman, and child.” This aligns closely with the Buddhist concept of Buddha nature — the awakened capacity within each of us. Both traditions recognize an inner source of wisdom, strength, and compassion that can guide us beyond addiction toward healing and freedom.
+  AA teaches that “the fundamental idea of God is within every man, woman, and child.” This aligns closely with the Buddhist concept of Buddha nature; the awakened capacity within each of us. Both traditions recognize an inner source of wisdom, strength, and compassion that can guide us beyond addiction toward healing and freedom.
   </div>
 </details>
 

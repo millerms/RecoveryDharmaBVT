@@ -18,7 +18,7 @@ Showing up to a meeting can feel like a big step, so it’s worth saying: everyo
 ### What to Expect
 {: .reveal .reveal--up }
 - A brief meditation to settle the mind.
-- Optional sharing — you never have to speak.
+- Optional sharing - you never have to speak.
 - Confidentiality and respect for everyone in the room.
 
 Meetings are always free, and you are welcome to just listen.

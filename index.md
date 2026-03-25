@@ -41,7 +41,7 @@ Our practices are rooted in the Four Noble Truths and the Eightfold Path. This s
 {: .reveal .reveal--up }
 
 > “This program leads to recovery from addiction to substances like alcohol and drugs and from process addictions like sex, gambling, pornography, technology, work, codependence, shopping, eating, media, self-harm, lying, stealing, and obsessive worrying.”  
-> — *Recovery Dharma, p. X*
+> - *Recovery Dharma, p. X*
 {: .reveal .reveal--up }
 
 
@@ -89,7 +89,7 @@ Below you’ll find descriptions of the pages:
   <div class="zen-link-row">
     <div class="zen-link-text reveal reveal--up">
       <strong>What Is Addiction?</strong><br>
-      A compassionate look through Buddhist, AA, and neuroscience lenses—reducing shame by explaining habit loops and how they change.
+      A compassionate look through Buddhist, AA, and neuroscience lenses; reducing shame by explaining habit loops and how they change.
     </div>
     <a href="{{ site.baseurl }}/addiction/" class="zen-nav-button btn-modern btn-modern--ghost reveal reveal--up" aria-label="Learn what addiction is">
       <i class="fas fa-brain btn-modern__icon btn-modern__icon--left" aria-hidden="true"></i>
