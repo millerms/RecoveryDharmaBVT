@@ -21,6 +21,7 @@ excerpt: "This page lists upcoming meditation events, workshops, and retreats re
 <p class="reveal reveal--up" style="max-width: 640px; margin: 1rem auto; text-align: left;">Upcoming events are listed below with dates, locations, descriptions, and links for more information.</p>
 <hr class="zen-divider">
 
+
   <div id="events-table"></div>
 
   <p class="zen-check-back reveal reveal--up" style="text-align: left;">More events will be added here as they are scheduled. You are welcome to check back or <a href="/contact/">get in touch</a> if you have questions or would like to help organize.</p>
