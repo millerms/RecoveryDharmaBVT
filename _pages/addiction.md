@@ -15,7 +15,7 @@ excerpt: "A compassionate, evidence-based overview of addiction through Buddhist
 
 ## What Is Addiction?
 {: .reveal .reveal--up }
-Addiction is not a character flaw or moral failing. It is a deeply human survival strategy learned under stress, shaped by pain and isolation. When the mind misreads discomfort as danger or emptiness as evidence of lack, it predicts relief in whatever has helped before and chases it with urgency. Over time this learning becomes a powerful habit loop that can feel impossible to escape. Seeing addiction as a conditioned response born from suffering opens the door to compassion and real change.
+Addiction is not a character flaw or moral failing. It can be understood as a learned survival strategy shaped under stress, pain, and isolation. When the mind interprets discomfort as something that must be escaped or solved, it predicts relief in whatever has helped before and moves toward it with urgency. Over time, this learning can become a powerful habit loop that feels difficult to interrupt. Seeing addiction as a conditioned pattern, rather than a fixed identity, opens the door to compassion and meaningful change.
 {: .reveal .reveal--up }
 
 ### On This Page
@@ -33,7 +33,7 @@ Addiction is not a character flaw or moral failing. It is a deeply human surviva
 
 ## A Compassionate Definition
 {: .reveal .reveal--up }
-Addiction is a conditioned loop born from the brain’s effort to survive overwhelming stress, pain, or emptiness. When craving or discomfort arises, a behavior or substance promises relief. The brain stamps in this association, strengthening the loop. The cycle feeds itself without true satisfaction because the relief is temporary and the underlying wound remains misunderstood. Stress, trauma, isolation, and easy access all accelerate this learning. Modern research highlights addiction as an accelerated learning of maladaptive survival loops, shaped by neuroplasticity and contextual vulnerability <span class="citation">[<a href="#ref-5">5</a>]</span>. This is not your fault. It is a survival pattern learned under difficult circumstances, and it is fully workable with kindness, patience, and skillful practice.
+Addiction can be understood as a learned loop shaped by the brain’s effort to deal with overwhelming stress, pain, or emptiness. When craving or discomfort arises, a behavior or substance promises relief. The brain reinforces this association, strengthening the loop. The cycle can feed itself because the relief is temporary and the underlying drivers are not yet fully understood. Stress, trauma, isolation, and easy access all accelerate this learning. Modern research highlights addiction as an accelerated learning of maladaptive survival loops, shaped by neuroplasticity and contextual vulnerability <span class="citation">[<a href="#ref-5">5</a>]</span>. This is not your fault. It is a survival pattern learned under difficult circumstances, and it can be worked with through kindness, patience, and skillful practice.
 {: .reveal .reveal--up }
 
 <div class="zen-divider"></div>
@@ -42,15 +42,15 @@ Addiction is a conditioned loop born from the brain’s effort to survive overwh
 <details class="accordion reveal reveal--up">
   <summary>A Buddhist Lens: Craving, Clinging, and Suffering</summary>
   <div class="accordion__content" markdown="1">
-  In Buddhism, craving (*tanhā*) and clinging (*upādāna*) are understood as the root causes of suffering (*dukkha*). This suffering arises when the mind misinterprets reality, resisting what is already here and seeking completion elsewhere. Addiction can be seen as a loop of seeking relief based on a mistaken prediction that something outside us will finally settle the mind. The mind believes that a substance or behavior will finally end discomfort or bring lasting joy.
+  In Buddhism, craving (*tanhā*) and clinging (*upādāna*) are understood as the root causes of suffering (*dukkha*). This suffering can arise when the mind resists what is already here and looks elsewhere for relief or completion. Addiction can be seen as a loop of seeking relief, where the mind expects something outside us will finally settle things. The mind believes that a substance or behavior will finally end discomfort or bring lasting joy.
 
   Buddhist practice offers a path of compassionate awareness and unconditional love toward what’s inside:
   - Mindfulness gently exposes the habit loop in real time: trigger → urge → behavior → result, revealing its impermanence.
-  - Wise view helps us see urges as passing body–mind states, not who we truly are.
+  - Wise view helps us see urges as passing experiences, not who we are.
   - The precepts cultivate safety and trust, reducing the chaos and suffering that fuel craving.
   - Loving‑kindness practice softens shame and nurtures the capacity to love ourselves exactly as we are, even in our struggles.
 
-  Importantly, Buddhist practice helps us decondition the automatic loops of craving and clinging, gradually waking us up to our Buddha nature; the awakened, compassionate, and wise capacity that lies within all of us. This approach invites curiosity and patience, encouraging us to hold our inner experience with open-hearted acceptance and small, repeatable steps toward freedom.
+  Over time, Buddhist practice helps loosen these automatic loops of craving and clinging. It points toward a more steady, compassionate, and wise way of relating to ourselves that is already available within us. This approach invites curiosity and patience, encouraging us to hold our inner experience with open-hearted acceptance and small, repeatable steps toward freedom.
   </div>
 </details>
 
@@ -60,14 +60,14 @@ Addiction is a conditioned loop born from the brain’s effort to survive overwh
 <details class="accordion reveal reveal--up">
   <summary>An AA Lens: Honesty, Community, and Action</summary>
   <div class="accordion__content" markdown="1">
-  AA’s gifts of honesty, accountability, and community are powerful medicines for healing addiction. Honesty brings clarity: seeing the truth of our experience without judgment. Community offers connection and belonging, reminding us we are not alone in our struggles; some people find that this interconnectedness functions like what AA calls a “Higher Power,” something larger than individual will.
+  AA’s gifts of honesty, accountability, and community are powerful medicines for healing addiction. Honesty brings clarity by helping us see our experience more clearly, without adding extra judgment. Community offers connection and belonging, reminding us we are not alone in our struggles. For some, this sense of connection can feel like what AA calls a “Higher Power,” something larger than individual will.
 
   “Powerless” can be reframed as recognizing the strength and grip of the habit loop, not a personal defect. “Turning it over” means widening our circle of support, values, and spiritual connection. Tools like inventories, making amends, and daily practices help reduce secrecy and stress, interrupting the cycle that keeps addiction alive.
 
   Through these steps, healing becomes a shared journey grounded in honesty, compassion, and mutual support.
   This path does not require adopting any particular beliefs; it emphasizes staying honest, open, and connected as we learn new ways to live.
 
-  **Honesty, Open-Mindedness, and Willingness (HOW)** form a foundational triad in the AA approach. Honesty allows us to see our situation clearly; open-mindedness helps us remain receptive to new ideas and perspectives; willingness empowers us to take action and make changes. Together, HOW creates a fertile ground for growth and transformation, supporting us as we move through the challenges of recovery.
+  **Honesty, Open-Mindedness, and Willingness (HOW)** form a foundational triad in the AA approach. Honesty allows us to see our situation clearly; open-mindedness helps us remain receptive to new ideas and perspectives; willingness empowers us to take action and make changes. Together, these qualities support growth and change as we move through the challenges of recovery.
 
   AA teaches that “the fundamental idea of God is within every man, woman, and child.” This aligns closely with the Buddhist concept of Buddha nature; the awakened capacity within each of us. Both traditions recognize an inner source of wisdom, strength, and compassion that can guide us beyond addiction toward healing and freedom.
   </div>
@@ -79,7 +79,7 @@ Addiction is a conditioned loop born from the brain’s effort to survive overwh
 <details class="accordion reveal reveal--up">
   <summary>A Neuroscience Lens: Dopamine and Survival Learning</summary>
   <div class="accordion__content" markdown="1">
-  The brain’s reward system uses dopamine as a teaching signal, marking what the mind should remember and repeat for survival. In addiction, this survival learning goes awry, like a survival system updating on the wrong signals, because substances and certain behaviors produce fast, large dopamine surges stronger than most natural rewards. The brain mistakenly treats these as urgent survival priorities <span class="citation">[<a href="#ref-4">4</a>, <a href="#ref-1">1</a>, <a href="#ref-2">2</a>]</span>.
+  The brain’s reward system uses dopamine as a teaching signal, marking what the mind should remember and repeat for survival. In addiction, this survival learning can become misaligned, as substances and certain behaviors produce fast, large dopamine signals that the brain may prioritize over other rewards. The brain mistakenly treats these as urgent survival priorities <span class="citation">[<a href="#ref-4">4</a>, <a href="#ref-1">1</a>, <a href="#ref-2">2</a>]</span>.
 
   Over time:
   - Environmental cues become powerful “wanting” triggers (incentive salience), even when the behavior no longer brings pleasure.
@@ -95,9 +95,9 @@ Addiction is a conditioned loop born from the brain’s effort to survive overwh
 ## Why This Reduces Shame
 {: .reveal .reveal--up }
 - The brain learned certain signals meant relief. It is working as designed, just trained on associations that no longer serve.
-- It restores agency: loops can be seen, interrupted, and relearned, often with help.
+- It restores a sense of agency: patterns can be noticed, interrupted, and gradually reshaped, often with support.
 - It centers connection over willpower: people heal with people.
-- Craving does not mean brokenness; it reveals the brain’s incredible capacity to adapt, and that same capacity can be harnessed to heal and grow.
+- Craving does not mean something is broken. It shows how strongly the brain can learn, and that same capacity can support healing and change.
 - The latest research underscores addiction as maladaptive learning, not a fixed identity or purely a disease. This framing reduces stigma and supports seeing addiction as a workable pattern rather than a permanent label <span class="citation">[<a href="#ref-5">5</a>]</span>.
 {: .reveal .reveal--up }
 
@@ -122,7 +122,7 @@ Knowing this is one thing. Living it is another. These practices help bridge tha
 
 ## Keep Going
 {: .reveal .reveal--up }
-You are not your habits. Healing is possible through curiosity, community, and compassionate practice. Like the Buddha’s reminder to “begin again,” each moment offers a fresh start. Forgive yourself quickly, hold your journey with kindness, and keep walking alongside others who understand. Transformation unfolds one small step at a time.
+You are not your habits. Change is possible through curiosity, community, and compassionate practice. Each moment offers an opportunity to begin again. You can meet your experience with honesty and kindness, and continue walking alongside others who understand. Over time, small shifts can open into meaningful change.
 {: .reveal .reveal--up }
 
 <div class="zen-divider"></div>

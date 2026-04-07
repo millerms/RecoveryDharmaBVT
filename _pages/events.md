@@ -9,17 +9,18 @@ header:
   overlay_color: rgba(16, 61, 45, 0.8)
   overlay_filter: "0.05"
   overlay_image: "/assets/images/vt/mountain-sunset.webp"
-excerpt: "This page lists upcoming meditation events, workshops, and retreats related to Recovery Dharma and Buddhist practices in Vermont. Joining a retreat or workshop can feel like stepping into a gentle current, let it carry you toward deeper practice and connection."
+excerpt: "This page lists upcoming meditation events, workshops, and retreats related to Recovery Dharma and Buddhist practice in Vermont. Retreats and workshops can offer more space for practice, reflection, and connection."
 ---
 <div class="zen-events-wrapper">
   <p class="reveal reveal--up" style="max-width: 640px; margin: 0 auto 1.5rem auto; text-align: left;">
-    Retreats, workshops, and special meditation events can offer a deeper dive than a weekly meeting. They give us time to slow down, listen to our bodies, and practice in community without rushing back to daily life. You do not need any prior experience to attend. You are welcome to show up as you are, participate at your own pace, and take what is helpful for your recovery.
+    Retreats, workshops, and special meditation events can offer more space than a weekly meeting. They give us time to slow down, practice in community, and step out of the usual pace of daily life for a while. You do not need prior experience to attend. You are welcome to show up as you are, participate at your own pace, and take what is helpful.
   </p>
 <hr class="zen-divider">
+<p class="reveal reveal--up" style="max-width: 640px; margin: 1rem auto; text-align: left;">Upcoming events are listed below with dates, locations, descriptions, and links for more information.</p>
 
   <div id="events-table"></div>
 
-  <p class="zen-check-back reveal reveal--up" style="text-align: left;">More events coming soon. Check back often or <a href="/contact/">get in touch</a> if you'd like to help organize!</p>
+  <p class="zen-check-back reveal reveal--up" style="text-align: left;">More events will be added here as they are scheduled. You are welcome to check back or <a href="/contact/">get in touch</a> if you have questions or would like to help organize.</p>
 </div>
 <div class="reveal reveal--up">
 <script>
@@ -97,7 +98,7 @@ excerpt: "This page lists upcoming meditation events, workshops, and retreats re
       }
 
       const [header, ...rawData] = rows;
-      const dateIndex = header.findIndex(h => h.toLowerCase() === 'date');
+      const dateIndex = header.findIndex(h => h.trim().toLowerCase() === 'date');
       if (dateIndex === -1) {
         throw new Error("Missing 'Date' column in the sheet.");
       }
@@ -133,7 +134,7 @@ excerpt: "This page lists upcoming meditation events, workshops, and retreats re
         const card = document.createElement('div');
         card.className = 'zen-event-card fade-in';
         header.forEach((h, j) => {
-          if (h === 'Link' && row[j]) {
+          if (h.trim().toLowerCase() === 'link' && row[j]) {
             const p = document.createElement('p');
             const a = document.createElement('a');
             a.href = row[j];
@@ -178,12 +179,12 @@ excerpt: "This page lists upcoming meditation events, workshops, and retreats re
           }
         });
 
-        const divider = document.createElement('hr');
-        divider.className = 'zen-divider';
         container.appendChild(card);
         setTimeout(() => {
           card.style.animationDelay = `${i * 100}ms`;
         }, 0);
+        const divider = document.createElement('hr');
+        divider.className = 'zen-divider';
         container.appendChild(divider);
       });
 

@@ -15,15 +15,15 @@ image: /assets/images/banner.webp
 </div>
 
 <div class="flex flex--center flex--column align--center">
-    <h2 class="subtitle reveal reveal--up">Welcome to Burlington, Vermont's Page for All Things Recovery Dharma</h2>
+    <h2 class="subtitle reveal reveal--up">Welcome to Recovery Dharma in Burlington, Vermont</h2>
   <p style="max-width: 500px; margin-top: 0;">
   </p>
 </div>
 
 <div class="flex flex--center flex--column align--center">
-<p class="intro-text reveal reveal--up">This site is a resource for anyone curious about Recovery Dharma. Many of us arrive here after trying to manage addiction and suffering on our own, often feeling stuck or alone. What makes this path different is that it doesn’t ask you to believe anything. It simply invites you to look closely at your experience and discover what supports healing.
+<p class="intro-text reveal reveal--up">This site is a resource for anyone curious about Recovery Dharma. Many of us arrive here after trying to manage addiction and suffering on our own, often feeling stuck or alone. This path does not require belief. It invites you to look at your experience and begin to notice what helps you feel a little more steady, clear, and at home in yourself.
 
-Our mission is to support recovery through Buddhist teachings, meditation, and a community that understands what it’s like to struggle. Whether this is your first time exploring recovery or part of your ongoing journey, this space is here to help you build a relationship with yourself that is grounded, compassionate, and real.
+Our mission is to support recovery through Buddhist teachings, meditation, and community. Whether this is your first time exploring recovery or part of your ongoing path, this space is here to support a way of relating to yourself that is steady, compassionate, and honest.
 
 <br><br>
 <i>Please note: The perspectives shared here reflect lived experience within our local community and are not official statements from Recovery Dharma Global. Each sangha is autonomous, and the content on this site represents the author’s understanding of the Dharma in recovery.</i>
@@ -34,10 +34,10 @@ Our mission is to support recovery through Buddhist teachings, meditation, and a
 
 ### What is Recovery Dharma?
 {: .reveal .reveal--up }
-Recovery Dharma is a peer-led, non-theistic approach to recovery that uses Buddhist principles as a practical framework for healing from addiction and the suffering that drives it. We explore mindfulness, ethical living, compassion, and supportive community. There’s no doctrine or required beliefs, only an invitation to get curious about the patterns that cause harm and to walk a path toward freedom together.
+Recovery Dharma is a peer-led, non-theistic approach to recovery that uses Buddhist principles as a practical way of working with addiction and the suffering that often comes with it. We explore mindfulness, ethical living, compassion, and supportive community. There are no required beliefs. The invitation is to get curious about patterns that cause harm and to take steps in recovery together. Many people experience this as a gradual sense of freedom, homecoming, or remembering, though each person’s path unfolds in their own way.
 {: .reveal .reveal--up }
 
-Our practices are rooted in the Four Noble Truths and the Eightfold Path. This site offers Vermont-based meetings, meditation opportunities, and resources to help you find connection and support as you grow in recovery.
+Our practices are rooted in the Four Noble Truths and the Eightfold Path. This site offers Vermont-based meetings, meditation opportunities, and resources to help you connect, explore, and keep going in your recovery.
 {: .reveal .reveal--up }
 
 > “This program leads to recovery from addiction to substances like alcohol and drugs and from process addictions like sex, gambling, pornography, technology, work, codependence, shopping, eating, media, self-harm, lying, stealing, and obsessive worrying.”  
@@ -89,7 +89,7 @@ Below you’ll find descriptions of the pages:
   <div class="zen-link-row">
     <div class="zen-link-text reveal reveal--up">
       <strong>What Is Addiction?</strong><br>
-      A compassionate look through Buddhist, AA, and neuroscience lenses; reducing shame by explaining habit loops and how they change.
+      A compassionate look through Buddhist, AA, and neuroscience lenses. We explore patterns in a way that can reduce shame and open up the possibility for change.
     </div>
     <a href="{{ site.baseurl }}/addiction/" class="zen-nav-button btn-modern btn-modern--ghost reveal reveal--up" aria-label="Learn what addiction is">
       <i class="fas fa-brain btn-modern__icon btn-modern__icon--left" aria-hidden="true"></i>
