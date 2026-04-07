@@ -19,6 +19,7 @@ excerpt: "This page lists upcoming meditation events, workshops, and retreats re
   </p>
 <hr class="zen-divider">
 <p class="reveal reveal--up" style="max-width: 640px; margin: 1rem auto; text-align: left;">Upcoming events are listed below with dates, locations, descriptions, and links for more information.</p>
+<hr class="zen-divider">
 
   <div id="events-table"></div>
 
