@@ -14,6 +14,8 @@ excerpt: "This page lists upcoming meditation events, workshops, and retreats re
 <div class="zen-events-wrapper">
   <p class="reveal reveal--up" style="max-width: 640px; margin: 0 auto 1.5rem auto; text-align: left;">
     Retreats, workshops, and special meditation events can offer more space than a weekly meeting. They give us time to slow down, practice in community, and step out of the usual pace of daily life for a while. You do not need prior experience to attend. You are welcome to show up as you are, participate at your own pace, and take what is helpful.
+
+    The list below can take a few seconds to load depending on your device.
   </p>
 <hr class="zen-divider">
 <p class="reveal reveal--up" style="max-width: 640px; margin: 1rem auto; text-align: left;">Upcoming events are listed below with dates, locations, descriptions, and links for more information.</p>
