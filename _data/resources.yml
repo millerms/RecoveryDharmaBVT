@@ -6,7 +6,7 @@ sections:
       - type: "Local Meetings"
         title: "Recovery Dharma Vermont Meetings"
         description: "Find in-person Recovery Dharma meetings throughout Vermont."
-        url: "https://recoverydharma.org/meetings/?search=Vermont"
+        url: "https://recoverydharma.org/meetings/?region=vermont"
         action: "Find Vermont meetings"
 
       - type: "Online Meetings"
