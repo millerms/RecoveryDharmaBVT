@@ -10,25 +10,11 @@
   town: "Burlington"
   address: "179 S Winooski Ave, Burlington, VT 05401"
 - name: Recovery Dharma - Awake In The Mess
-  time: "Sunday @ 6:30pm - 7:30pm"
+  time: "Sunday @ 4:00pm - 5:00pm"
   type: "In-person"
   town: "Burlington"
-  address: "Kula - 100 Dorset St suite 5, South Burlington, VT 05403"
-- name: Recovery Dharma - MRV @ Warren UCC
-  time: "Wednesday @ 7:00pm - 8:00pm"
-  type: "In-person"
-  town: "Warren"
-  address: "339 Main St, Warren, VT 05674, USA"
-- name: Recovery Dharma - Upper Valley Turning Point
-  time: "Wednesday @ 6:45pm - 7:45pm"
-  type: "In-person"
-  town: "Hartford"
-  address: "Olcott Dr, Hartford, VT 05001, USA"
-- name: Recovery Dharma - Park Place
-  time: "Friday @ 6:30pm - 7:45pm"
-  type: "In-person"
-  town: "Bellows Falls"
-  address: "44 School St Ext, Bellows Falls, VT 05101, USA"
+  directions: "Enter through the glass doors west (away from the lake) of the basement entrance (the red doors that lead to the AA groups). Go up the stairwell to the right, take a left after the door, and go to the door at the end of the hall."
+  address: "21 Buell St, Burlington, VT 05401"
 - name: Burlington Dharma Collective Weekly Sit
   time: "Friday @ 8:00am - 8:45am"
   type: "In-person"
