@@ -1,0 +1,46 @@
+{% assign meeting = include.meeting %}
+{% assign meeting_start = meeting.time | split: "-" | first | split: "–" | first %}
+<article class="zen-event-card zen-meeting-card reveal reveal--up">
+  <div class="zen-event-date zen-meeting-schedule" aria-hidden="true">
+    <span class="zen-event-date__month">Weekly</span>
+    <span class="zen-event-date__day">{{ meeting.day | slice: 0, 3 }}</span>
+    <span class="zen-event-date__year">{{ meeting_start }}</span>
+  </div>
+
+  <div class="zen-event-card__body">
+    <h3 class="zen-event-title">{{ meeting.name }}</h3>
+
+    <dl class="zen-event-details">
+      <div class="zen-event-detail zen-event-detail--single-line">
+        <dt>When</dt>
+        <dd>{{ meeting.day }}<span class="zen-event-detail__separator" aria-hidden="true"> · </span>{{ meeting.time }}</dd>
+      </div>
+
+      <div class="zen-event-detail zen-event-detail--single-line">
+        <dt>Format</dt>
+        <dd>{{ meeting.type }}</dd>
+      </div>
+
+      <div class="zen-event-detail">
+        <dt>Where</dt>
+        <dd>
+          <span class="zen-event-venue">{{ meeting.town }}</span>
+          <span>{{ meeting.address }}</span>
+        </dd>
+      </div>
+    </dl>
+
+    {% if meeting.directions %}
+    <details class="zen-meeting-directions">
+      <summary>Building directions</summary>
+      <p>{{ meeting.directions }}</p>
+    </details>
+    {% endif %}
+
+    <div class="zen-event-actions">
+      <a class="zen-event-action" href="https://www.google.com/maps/search/?api=1&amp;query={{ meeting.address | uri_escape }}" target="_blank" rel="noopener noreferrer">
+        Get directions<span class="visually-hidden"> to {{ meeting.name }} (opens in a new tab)</span>
+      </a>
+    </div>
+  </div>
+</article>

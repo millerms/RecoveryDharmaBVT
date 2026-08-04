@@ -17,7 +17,7 @@ excerpt: "Local Recovery Dharma meetings offer meditation, optional sharing, and
     <p>Showing up to a meeting can feel like a big step, so it is worth saying clearly: everyone is welcome here. Whether you are taking a first step toward recovery or returning to reconnect, these gatherings offer space to pause, listen, learn, and feel less alone.</p>
 
     <section class="zen-meeting-expect" aria-labelledby="what-to-expect-heading">
-      <h2 id="what-to-expect-heading">What to Expect</h2>
+      <h2 id="what-to-expect-heading">What to Expect at an RD Meeting</h2>
       <ul>
         <li>A brief meditation to help everyone arrive and settle.</li>
         <li>Optional sharing-you never have to speak.</li>
@@ -30,61 +30,33 @@ excerpt: "Local Recovery Dharma meetings offer meditation, optional sharing, and
   </div>
 
   {% if site.data.meetings and site.data.meetings.size > 0 %}
-  <section class="zen-event-list zen-meeting-list" aria-labelledby="weekly-meetings-heading">
-    <h2 id="weekly-meetings-heading">Weekly Meetings</h2>
+  {% assign recovery_dharma_meetings = site.data.meetings | where: "category", "recovery_dharma" %}
+  {% assign local_communities = site.data.meetings | where: "category", "local_community" %}
 
-    {% for meeting in site.data.meetings %}
-    {% assign meeting_start = meeting.time | split: "–" | first %}
-    <article class="zen-event-card zen-meeting-card reveal reveal--up">
-      <div class="zen-event-date zen-meeting-schedule" aria-hidden="true">
-        <span class="zen-event-date__month">Weekly</span>
-        <span class="zen-event-date__day">{{ meeting.day | slice: 0, 3 }}</span>
-        <span class="zen-event-date__year">{{ meeting_start }}{% if meeting.time contains "PM" %} PM{% else %} AM{% endif %}</span>
-      </div>
+  <section class="zen-event-list zen-meeting-list" aria-labelledby="rd-meetings-heading">
+    <header class="zen-meeting-list__header reveal reveal--up">
+      <h2 id="rd-meetings-heading">Recovery Dharma Meetings</h2>
+      <p>Peer-led meetings centered on Buddhist-inspired recovery, meditation, and optional sharing.</p>
+    </header>
 
-      <div class="zen-event-card__body">
-        <h3 class="zen-event-title">{{ meeting.name }}</h3>
+    {% for meeting in recovery_dharma_meetings %}
+      {% include meeting-card.html meeting=meeting %}
+    {% endfor %}
+  </section>
 
-        <dl class="zen-event-details">
-          <div class="zen-event-detail zen-event-detail--single-line">
-            <dt>When</dt>
-            <dd>{{ meeting.day }}<span class="zen-event-detail__separator" aria-hidden="true"> · </span>{{ meeting.time }}</dd>
-          </div>
+  <section class="zen-event-list zen-meeting-list" aria-labelledby="local-communities-heading">
+    <header class="zen-meeting-list__header reveal reveal--up">
+      <h2 id="local-communities-heading">Local Meditation Communities</h2>
+      <p>These are not Recovery Dharma meetings, but they offer additional opportunities to meditate and practice in community.</p>
+    </header>
 
-          <div class="zen-event-detail zen-event-detail--single-line">
-            <dt>Format</dt>
-            <dd>{{ meeting.type }}</dd>
-          </div>
-
-          <div class="zen-event-detail">
-            <dt>Where</dt>
-            <dd>
-              <span class="zen-event-venue">{{ meeting.town }}</span>
-              <span>{{ meeting.address }}</span>
-            </dd>
-          </div>
-        </dl>
-
-        {% if meeting.directions %}
-        <details class="zen-meeting-directions">
-          <summary>Building directions</summary>
-          <p>{{ meeting.directions }}</p>
-        </details>
-        {% endif %}
-
-        <div class="zen-event-actions">
-          <a class="zen-event-action" href="https://www.google.com/maps/search/?api=1&amp;query={{ meeting.address | uri_escape }}" target="_blank" rel="noopener noreferrer">
-            Get directions<span class="visually-hidden"> to {{ meeting.name }} (opens in a new tab)</span>
-          </a>
-        </div>
-      </div>
-    </article>
+    {% for meeting in local_communities %}
+      {% include meeting-card.html meeting=meeting %}
     {% endfor %}
   </section>
   {% else %}
   {% endif %}
 
-  <p class="zen-check-back reveal reveal--up">Meeting details can change. If something here needs an update, please <a href="{{ '/contact/' | relative_url }}">get in touch</a>.</p>
 </div>
 
 <figure class="vt-break reveal reveal--up">

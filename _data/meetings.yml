@@ -1,4 +1,5 @@
 - name: "Recovery Dharma - Recovery Rodeo"
+  category: "recovery_dharma"
   day: "Wednesday"
   time: "6:00-7:00 PM"
   type: "In person"
@@ -12,6 +13,7 @@
     at the end of the hall.
 
 - name: "Recovery Dharma - One Breath Sangha"
+  category: "recovery_dharma"
   day: "Thursday"
   time: "1:00-2:00 PM"
   type: "In person"
@@ -19,6 +21,7 @@
   address: "179 S Winooski Ave, Burlington, VT 05401"
 
 - name: "Burlington Dharma Collective Weekly Sit"
+  category: "local_community"
   day: "Friday"
   time: "8:00-8:45 AM"
   type: "In person"
@@ -26,6 +29,7 @@
   address: "241 N Winooski Ave, Burlington, VT 05401"
 
 - name: "Recovery Dharma - Awake in the Mess"
+  category: "recovery_dharma"
   day: "Sunday"
   time: "4:00-5:00 PM"
   type: "In person"
@@ -39,6 +43,7 @@
     at the end of the hall.
 
 - name: "New Leaf Sangha"
+  category: "local_community"
   day: "Sunday"
   time: "6:00-7:45 PM"
   type: "In person"

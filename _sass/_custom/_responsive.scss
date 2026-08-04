@@ -82,6 +82,11 @@
   .zen-event-date__year { padding:.25rem .65rem .25rem 0; }
   .zen-event-detail { grid-template-columns:3rem minmax(0,1fr); gap:.6rem; }
   .zen-meeting-expect { padding:1rem; }
+  .zen-resources-wrapper { margin:2rem auto; padding:0 .5rem; }
+  .zen-resource-jumps { margin-bottom:2.5rem; }
+  .zen-resource-grid { grid-template-columns:1fr; }
+  .zen-resource-section { margin-bottom:3rem; }
+  .zen-resource-card { padding:1.1rem; }
   :root { --footer-decor-space: 48px; }
   .page__footer .footer__inner { padding-left: calc(1rem + var(--footer-decor-space)); }
   .footer__decor { left: -18px; bottom: -6px; height: calc(75% + 12px); }
