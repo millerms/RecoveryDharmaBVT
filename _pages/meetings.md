@@ -20,7 +20,7 @@ excerpt: "Local Recovery Dharma meetings offer meditation, optional sharing, and
       <h2 id="what-to-expect-heading">What to Expect</h2>
       <ul>
         <li>A brief meditation to help everyone arrive and settle.</li>
-        <li>Optional sharing—you never have to speak.</li>
+        <li>Optional sharing-you never have to speak.</li>
         <li>Confidentiality and respect for everyone in the room.</li>
       </ul>
       <p><strong>Meetings are always free, and you are welcome to just listen.</strong></p>
@@ -82,10 +82,6 @@ excerpt: "Local Recovery Dharma meetings offer meditation, optional sharing, and
     {% endfor %}
   </section>
   {% else %}
-  <div class="zen-events-empty reveal reveal--up">
-    <h2>No meetings are listed right now</h2>
-    <p>Please <a href="{{ '/contact/' | relative_url }}">get in touch</a> if you have questions or know of a meeting we should add.</p>
-  </div>
   {% endif %}
 
   <p class="zen-check-back reveal reveal--up">Meeting details can change. If something here needs an update, please <a href="{{ '/contact/' | relative_url }}">get in touch</a>.</p>
