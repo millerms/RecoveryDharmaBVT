@@ -21,6 +21,9 @@ excerpt: "A practical collection of meetings, meditations, teachings, and local 
     {% for section in site.data.resources.sections %}
     <a href="#{{ section.id }}">{{ section.title }}</a>
     {% endfor %}
+    <a href="https://drive.google.com/file/d/1Isotp-WlUedFJlKDqjpvO7uKgVsvX3J1/view" target="_blank" rel="noopener noreferrer">
+      RD Book<span class="visually-hidden"> PDF (opens in a new tab)</span>
+    </a>
   </nav>
 
   {% for section in site.data.resources.sections %}

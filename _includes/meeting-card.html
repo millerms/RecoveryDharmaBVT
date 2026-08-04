@@ -1,10 +1,16 @@
 {% assign meeting = include.meeting %}
-{% assign meeting_start = meeting.time | split: "-" | first | split: "–" | first %}
+{% assign meeting_start = meeting.time | split: "-" | first | split: "–" | first | strip | remove: " AM" | remove: " PM" | remove: "am" | remove: "pm" %}
+{% assign meeting_period = "" %}
+{% if meeting.time contains "AM" or meeting.time contains "am" %}
+  {% assign meeting_period = "AM" %}
+{% elsif meeting.time contains "PM" or meeting.time contains "pm" %}
+  {% assign meeting_period = "PM" %}
+{% endif %}
 <article class="zen-event-card zen-meeting-card reveal reveal--up">
   <div class="zen-event-date zen-meeting-schedule" aria-hidden="true">
     <span class="zen-event-date__month">Weekly</span>
     <span class="zen-event-date__day">{{ meeting.day | slice: 0, 3 }}</span>
-    <span class="zen-event-date__year">{{ meeting_start }}</span>
+    <span class="zen-event-date__year">{{ meeting_start }}{% if meeting_period %} {{ meeting_period }}{% endif %}</span>
   </div>
 
   <div class="zen-event-card__body">
