@@ -2,13 +2,13 @@
 main:
   - title: "Meetings & Groups"
     url: /meetings/
-  - title: "Buddhist Foundations"
-    url: /buddhist-foundations/
-  - title: "What is Addiction?"
-    url: /addiction/
-  - title: "Resources"
-    url: /resources/
   - title: "Events"
     url: /events/
+  - title: "Resources"
+    url: /resources/
+  - title: "What is Addiction?"
+    url: /addiction/
+  - title: "Buddhist Foundations"
+    url: /buddhist-foundations/
   - title: "Contact Us"
     url: /contact/
