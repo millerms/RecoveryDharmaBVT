@@ -72,9 +72,16 @@
   .quote-navigation { padding: 0 .5rem; }
   .quote-navigation button { font-size: 1.25rem; }
   .section-spacer, .page-spacer { margin: calc(var(--gap) * 1.5) auto; }
-  .zen-contact-form, .zen-events-wrapper { margin:2rem auto; padding:1.5rem 1rem; }
-  .zen-events-wrapper h2 { font-size:1.75rem; margin-bottom:1rem; }
-  .zen-placeholder-event { margin-bottom:1.5rem; }
+  .zen-contact-form { margin:2rem auto; padding:1.5rem 1rem; }
+  .zen-events-wrapper, .zen-meetings-wrapper { margin:2rem auto; padding:0 .5rem; }
+  .zen-events-intro, .zen-meetings-intro { margin-bottom:2rem; }
+  .zen-event-card { grid-template-columns:1fr; gap:1rem; padding:1.15rem; }
+  .zen-event-date { display:grid; grid-template-columns:auto auto auto; justify-content:start; align-items:center; width:max-content; }
+  .zen-event-date__month { align-self:stretch; display:flex !important; align-items:center; }
+  .zen-event-date__day { padding:.25rem .5rem; font-size:1.55rem; }
+  .zen-event-date__year { padding:.25rem .65rem .25rem 0; }
+  .zen-event-detail { grid-template-columns:3rem minmax(0,1fr); gap:.6rem; }
+  .zen-meeting-expect { padding:1rem; }
   :root { --footer-decor-space: 48px; }
   .page__footer .footer__inner { padding-left: calc(1rem + var(--footer-decor-space)); }
   .footer__decor { left: -18px; bottom: -6px; height: calc(75% + 12px); }

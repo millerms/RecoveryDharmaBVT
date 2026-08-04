@@ -107,7 +107,7 @@ Knowing this is one thing. Living it is another. These practices help bridge tha
 
 ## Practices That May Help
 {: .reveal .reveal--up }
-- Short mindfulness moments (30–90 seconds): label “urge,” feel it in the body, breathe, and re‑choose. Urges peak and pass.
+- Short mindfulness moments (30-90 seconds): label “urge,” feel it in the body, breathe, and re‑choose. Urges peak and pass.
 - “Space before choice”: 3 breaths → name the next kind action (text a friend, tea, walk, meeting, journal).
 - Environment design: remove cues; keep water, nutrition, and sleep steady to lower triggers.
 - Connection reps: meetings, a buddy, or a therapist; brief daily check‑ins work.

@@ -1,6 +1,74 @@
-- name: Mindful Recovery Retreat
-  date: "2025-08-10"
-  location: "Burlington"
-- name: Open Meditation
-  date: "2025-09-05"
-  location: "Montpelier"
+- title: "Monday Night Dharma"
+  date: "2026-08-10"
+  start_time: "19:00"
+  end_time: "20:30"
+  time: "7:00-8:30 PM"
+  recurrence: "Every second Monday of the month"
+  venue: "Outright Vermont"
+  location: "241 N Winooski Ave, Burlington, VT 05401"
+  url: "https://www.burlingtondharmacollective.com/events"
+  description: >-
+    An in-person Dharma talk and meditation held every second Monday of the
+    month. No registration is needed - just show up.
+
+- title: "Medicine Buddha Practice"
+  date: "2026-08-26"
+  start_time: "19:00"
+  end_time: "20:30"
+  time: "7:00-8:30 PM"
+  recurrence: "Every fourth Wednesday of the month"
+  venue: "Choir Room"
+  location: "21 Buell Street, Burlington, VT"
+  url: "https://www.burlingtondharmacollective.com/medicine-buddha"
+  description: >-
+    In this practice, we invoke and connect to the healing power of Medicine
+    Buddha to alleviate suffering of all kinds - personal, transpersonal, and
+    collective. We experience becoming the medicine, which is to remember that
+    phenomenal reality is always pointing toward liberation - the ultimate
+    healing.
+
+- title: "Daylong Meditation Retreat"
+  date: "2026-10-03"
+  start_time: "09:30"
+  end_time: "16:00"
+  time: "9:30 AM-4:00 PM"
+  location: "173 N Prospect, Burlington, VT"
+  cost: "Suggested donation: $25-$60"
+  url: "https://docs.google.com/forms/d/e/1FAIpQLSfnNCeduDZrDvNMpU-NtrsaMEF55bimxUyiyTInEmvgqmGSxw/viewform?usp=dialog"
+  description: >-
+    Join us for a day of mindfulness and restoration. Zac Ispa-Landa and
+    Rebecca Cariati will lead a rhythmic flow of guided sitting and walking
+    meditations and other Buddhist practices.
+
+- title: "Fall Weekend Meditation Retreat"
+  date: "2026-10-09"
+  end_date: "2026-10-11"
+  location: "Goddard College"
+  url: "https://www.eventcreate.com/e/spring-2026-meditation-retr"
+  description: >-
+    A restorative weekend of meditation and community. Join us for guided
+    practice, Dharma talks, mindful movement, shared meals, and quiet reflection
+    as we explore what it means to live with greater awareness and presence.
+
+- title: "An Evening with Lama Rod Owens"
+  date: "2026-10-14"
+  venue: "The O.N.E. Community Center"
+  location: "20 Allen St, Burlington, VT"
+  url: "https://docs.google.com/forms/d/e/1FAIpQLSfaRCZBx3yMrAZGUalljvvw9lHWHYWdX4AutW0P9PLsO9Q6Cw/viewform?pli=1"
+  description: >-
+    We're delighted to welcome Lama Rod Owens back to Burlington for an evening
+    of talk and discussion. An international voice in contemporary Dharma and a
+    self-described Black Buddhist Southern Queen, Lama Rod's work bridges
+    identity, social change, and deep spiritual practice. His teachings center
+    on freedom, self-expression, and radical self-care. We'd love to have you
+    join us.
+
+- title: "From Doing to Being - Fall Weekend Retreat"
+  date: "2026-10-23"
+  end_date: "2026-10-25"
+  location: "Adamant Music School"
+  url: "https://www.eventcreate.com/e/from-doing-to-being-copy"
+  description: >-
+    A weekend retreat exploring the liberating practice of deep rest. Through
+    meditation, inquiry, and community, we'll investigate the habits of constant
+    doing and cultivate spaciousness, trust, and freedom in everyday life.

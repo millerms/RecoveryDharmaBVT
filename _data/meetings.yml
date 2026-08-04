@@ -1,27 +1,46 @@
-- name: Recovery Dharma - Recovery Rodeo
-  time: "Wednesday @ 6:00pm - 7:00pm"
-  type: "In-person"
+- name: "Recovery Dharma - Recovery Rodeo"
+  day: "Wednesday"
+  time: "6:00-7:00 PM"
+  type: "In person"
   town: "Burlington"
   address: "21 Buell St, Burlington, VT 05401"
-  directions: "Enter through the glass doors west (away from the lake) of the basement entrance (the red doors that lead to the AA groups). Go up the stairwell to the right, take a left after the door, and go to the door at the end of the hall."
-- name: Recovery Dharma - One Breath Sangha
-  time: "Thursday @ 1:00pm - 2:00pm"
-  type: "In-person"
+  directions: >-
+    Please do not use the red basement doors commonly used for AA meetings.
+    Instead, look for the Recovery Dharma signs and enter through the glass
+    doors just west of them, away from the lake. Once inside, go up the
+    stairwell on the right, turn left after the door, and continue to the room
+    at the end of the hall.
+
+- name: "Recovery Dharma - One Breath Sangha"
+  day: "Thursday"
+  time: "1:00-2:00 PM"
+  type: "In person"
   town: "Burlington"
   address: "179 S Winooski Ave, Burlington, VT 05401"
-- name: Recovery Dharma - Awake In The Mess
-  time: "Sunday @ 4:00pm - 5:00pm"
-  type: "In-person"
-  town: "Burlington"
-  directions: "Enter through the glass doors west (away from the lake) of the basement entrance (the red doors that lead to the AA groups). Go up the stairwell to the right, take a left after the door, and go to the door at the end of the hall."
-  address: "21 Buell St, Burlington, VT 05401"
-- name: Burlington Dharma Collective Weekly Sit
-  time: "Friday @ 8:00am - 8:45am"
-  type: "In-person"
+
+- name: "Burlington Dharma Collective Weekly Sit"
+  day: "Friday"
+  time: "8:00-8:45 AM"
+  type: "In person"
   town: "Burlington"
   address: "241 N Winooski Ave, Burlington, VT 05401"
-- name: New Leaf Sangha
-  time: "Sunday @ 6:00pm - 7:45pm"
-  type: "In-person"
+
+- name: "Recovery Dharma - Awake in the Mess"
+  day: "Sunday"
+  time: "4:00-5:00 PM"
+  type: "In person"
+  town: "Burlington"
+  address: "21 Buell St, Burlington, VT 05401"
+  directions: >-
+    Please do not use the red basement doors commonly used for AA meetings.
+    Instead, look for the Recovery Dharma signs and enter through the glass
+    doors just west of them, away from the lake. Once inside, go up the
+    stairwell on the right, turn left after the door, and continue to the room
+    at the end of the hall.
+
+- name: "New Leaf Sangha"
+  day: "Sunday"
+  time: "6:00-7:45 PM"
+  type: "In person"
   town: "Burlington"
   address: "294 N Winooski Ave #212A, Burlington, VT 05401"

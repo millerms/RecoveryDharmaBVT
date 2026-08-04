@@ -196,10 +196,10 @@ A mix of classic texts and accessible introductions, many available for free onl
     A deep and nuanced exploration of emptiness, perception, and liberation. Best for readers who want to go beyond the basics and explore how insight practice can transform the way experience is constructed and related to.
 
   - **[The New Saints](https://www.lamarod.com/TNS-Celebration)** - *by Lama Rod Owens*  
-    Lama Rod offers a clarion call for becoming a spiritual warrior—a human refreshed, serving a vision of a world shaped by love. Rooted in Buddhist teachings, social justice, and radical love, this book is a guide for those seeking to embody compassion and courage in turbulent times.
+    Lama Rod offers a clarion call for becoming a spiritual warrior - a human refreshed, serving a vision of a world shaped by love. Rooted in Buddhist teachings, social justice, and radical love, this book is a guide for those seeking to embody compassion and courage in turbulent times.
 
   - **[Radical Acceptance](https://www.tarabrach.com/books/radical-acceptance/)** - *by Tara Brach*  
-    Blends Buddhist teachings with trauma-sensitive psychology. Offers tools for self-compassion and present-moment awareness—especially valuable for those in recovery or healing work.
+    Blends Buddhist teachings with trauma-sensitive psychology. Offers tools for self-compassion and present-moment awareness - especially valuable for those in recovery or healing work.
 
   - **[The Miracle of Mindfulness](https://www.goodreads.com/book/show/95747.The_Miracle_of_Mindfulness)** - *by Thich Nhat Hanh*  
     A gentle and practical introduction to meditation and living mindfully. Includes stories, exercises, and deep insights made simple.
