@@ -18,10 +18,11 @@ excerpt: "Retreats, workshops, and special events offer time to slow down, pract
   </div>
 
   {% if site.data.meditation-events and site.data.meditation-events.size > 0 %}
+  {% assign events_by_date = site.data.meditation-events | sort: "date" %}
   <section class="zen-event-list" aria-labelledby="upcoming-events-heading">
     <h2 id="upcoming-events-heading">Upcoming Events</h2>
 
-    {% for event in site.data.meditation-events %}
+    {% for event in events_by_date %}
     <article class="zen-event-card reveal reveal--up">
       <div class="zen-event-date" aria-hidden="true">
         <span class="zen-event-date__month">{{ event.date | date: "%b" }}</span>

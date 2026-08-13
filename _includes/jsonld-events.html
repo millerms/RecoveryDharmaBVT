@@ -1,9 +1,10 @@
 {%- if site.data.meditation-events and site.data.meditation-events.size > 0 -%}
+{%- assign events_by_date = site.data.meditation-events | sort: "date" -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
-  {%- for e in site.data.meditation-events -%}
+  {%- for e in events_by_date -%}
     {%- capture event_start -%}{{ e.date }}{% if e.start_time %}T{{ e.start_time }}:00-04:00{% endif %}{%- endcapture -%}
     {%- if e.end_date or e.end_time -%}
       {%- capture event_end -%}{{ e.end_date | default: e.date }}{% if e.end_time %}T{{ e.end_time }}:00-04:00{% endif %}{%- endcapture -%}
