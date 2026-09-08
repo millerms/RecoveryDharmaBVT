@@ -12,14 +12,6 @@
     stairwell on the right, turn left after the door, and continue to the room
     at the end of the hall.
 
-- name: "Recovery Dharma - One Breath Sangha"
-  category: "recovery_dharma"
-  day: "Thursday"
-  time: "1:00-2:00 PM"
-  type: "In person"
-  town: "Burlington"
-  address: "179 S Winooski Ave, Burlington, VT 05401"
-
 - name: "Burlington Dharma Collective Weekly Sit"
   category: "local_community"
   day: "Friday"
