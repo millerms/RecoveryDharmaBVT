@@ -57,6 +57,13 @@ excerpt: "Retreats, workshops, and special events offer time to slow down, pract
             </dd>
           </div>
 
+          {% if event.who and event.who != empty %}
+          <div class="zen-event-detail zen-event-detail--single-line">
+            <dt>Who</dt>
+            <dd>{{ event.who | escape }}</dd>
+          </div>
+          {% endif %}
+
           {% if event.cost %}
           <div class="zen-event-detail zen-event-detail--single-line">
             <dt>Dana</dt>
