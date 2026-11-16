@@ -50,8 +50,14 @@ excerpt: "Local Recovery Dharma meetings offer meditation, optional sharing, and
       <p>These are not Recovery Dharma meetings, but they offer additional opportunities to meditate and practice in community.</p>
     </header>
 
-    {% for meeting in local_communities %}
-      {% include meeting-card.html meeting=meeting %}
+    {% assign community_groups = local_communities | group_by: "group" %}
+    {% for community_group in community_groups %}
+      {% if community_group.name != "" %}
+      <h3>{{ community_group.name }}</h3>
+      {% endif %}
+      {% for meeting in community_group.items %}
+        {% include meeting-card.html meeting=meeting %}
+      {% endfor %}
     {% endfor %}
   </section>
   {% else %}

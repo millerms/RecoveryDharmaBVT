@@ -8,7 +8,7 @@
 {% endif %}
 <article class="zen-event-card zen-meeting-card reveal reveal--up">
   <div class="zen-event-date zen-meeting-schedule" aria-hidden="true">
-    <span class="zen-event-date__month">Weekly</span>
+    <span class="zen-event-date__month">{{ meeting.frequency | default: "Weekly" }}</span>
     <span class="zen-event-date__day">{{ meeting.day | slice: 0, 3 }}</span>
     <span class="zen-event-date__year">{{ meeting_start }}{% if meeting_period %} {{ meeting_period }}{% endif %}</span>
   </div>
@@ -19,7 +19,7 @@
     <dl class="zen-event-details">
       <div class="zen-event-detail zen-event-detail--single-line">
         <dt>When</dt>
-        <dd>{{ meeting.day }}<span class="zen-event-detail__separator" aria-hidden="true"> · </span>{{ meeting.time }}</dd>
+        <dd>{{ meeting.schedule | default: meeting.day }}<span class="zen-event-detail__separator" aria-hidden="true"> · </span>{{ meeting.time }}</dd>
       </div>
 
       <div class="zen-event-detail zen-event-detail--single-line">
