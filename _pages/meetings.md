@@ -19,7 +19,8 @@ excerpt: "Local Recovery Dharma meetings offer meditation, optional sharing, and
     <section class="zen-meeting-expect" aria-labelledby="what-to-expect-heading">
       <h2 id="what-to-expect-heading">What to Expect at an RD Meeting</h2>
       <ul>
-        <li>A brief meditation to help everyone arrive and settle.</li>
+        <li>A 15-20 min meditation to support our practice.</li>
+        <li>A short reading from our literature.</li>
         <li>Optional sharing-you never have to speak.</li>
         <li>Confidentiality and respect for everyone in the room.</li>
       </ul>
